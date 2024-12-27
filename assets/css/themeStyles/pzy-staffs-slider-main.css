@@ -1,0 +1,164 @@
+/*img.pzy-staff-card-avatar, .elementor img.pzy-staff-card-avatar {*/
+/*    height: 140px;*/
+/*    object-fit: contain;*/
+/*    transform: translate(4.48px, 10.15px);*/
+/*}*/
+
+.pzy-staff-avatar-box{
+    width: 112px;
+    height: 141px;
+    border-radius: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pzy-staff-avatar-box .pzy-staff-avatar-link{
+    top: 10.15px;
+    bottom: -18.05px;
+    left: 4.48px;
+    right: -8.96px;
+    padding: 0 8.96px 18.05px 0;
+}
+
+.pzy-staff-avatar-box .pzy-staff-avatar-link img{
+    height: 100%;
+}
+
+.pzy-staff-card {
+    border-radius: 16px;
+    border: 1px solid var(--primary-200, #D6E3F1);
+    background: #FFF;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 28px;
+    position: relative;
+}
+
+.pzy-staff-card:hover {
+    border: 1px solid var(--primary-300, #A3C1E0);
+    background: var(--primary-100, #F5F8FC);
+}
+
+.pzy-staff-card .pzy-staff-special {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.pzy-staff-card .rmp-icon--ratings {
+    color: var(--secondary-300);
+}
+
+.pzy-staff-card .rmp-icon--full-highlight {
+    color: var(--secondary-500);
+}
+
+.pzy-staff-card .rmp-icon--half-highlight {
+    background: linear-gradient(to left, var(--secondary-500) 50%, var(--secondary-300) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pzy-staff-point .rmp-results-widget__avg-rating, .pzy-staff-point .rmp-results-widget__vote-count{
+    display:none;
+}
+
+.pzy-staff-card .pzy-staff-comments-count{
+    color: var(--gray-300, #A6AFB8);
+}
+
+.pzy-staff-title{
+    color: var(--primary-500);
+    margin-top: 20px;
+    overflow: hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.pzy-staff-title a{
+    color: var(--primary-500);
+}
+
+.pzy-staff-subtitle {
+    color: var(--gray-400);
+}
+
+.pzy-staff-subtitle:not(:hover){
+    overflow: hidden;
+    display: -webkit-box ;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.pzy-staff-point {
+    margin-top: 9px;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pzy-staff-comments-number-text:not(:hover){
+    overflow: hidden;
+    display: -webkit-box ;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+.pzy-staff-consultation-request {
+    margin-top: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 8px;
+    padding: 5.5px 12px;
+    border-radius: 24px;
+    background: var(--gray-100, #F5F6F7);
+    border: none;
+    color: var(--gray-300);
+}
+
+.pzy-staff-consultation-request .pzy-staff-consultation-request-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.pzy-staff-card:hover .pzy-staff-consultation-request {
+    border-radius: 24px;
+    background: var(--primary-500, #0052A8);
+    color: #fff;
+}
+
+.pzy-staff-subtitle {
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.pzy-staff-consultation-request .pzy-staff-consultation-request-title {
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 180%;
+}
+.pzy-staffs-consultation .pzy-staff-gallery .swiper{
+    padding: 0 2px;
+}
+
+.pzy-consultation-modal .pzy-modal-header{
+    margin-bottom: 45px;
+}
+.pzy-consultation-modal .pzy-modal-reserve-form{
+    gap:20px;
+}

@@ -1,0 +1,5 @@
+.woocommerce table.shop_table.pzy_reservations_table{
+    border-collapse: collapse;
+    border:none;
+    margin-top: 20px;
+}
