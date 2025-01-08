@@ -1,0 +1,464 @@
+.pzy-select-date-button {
+    display: flex;
+    padding: 8px 16px 5px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 24px;
+    background: var(--secondary-500, #00DCA7);
+    border: none;
+    color: #FFF;
+
+    text-align: center;
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+.pzy-staffs-schedule-box {
+    display: flex;
+    flex-flow: column nowrap;
+    /*padding: 32px;*/
+    /*background: var(--primary-100);*/
+    /*border-radius: 24px;*/
+    gap: 34px;
+}
+
+.pzy-staffs-schedule-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+}
+
+.pzy-staffs-schedules-title {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pzy-staffs-schedules-title-icon {
+    width: 20px;
+    height: 20px;
+    stroke: var(--primary-500);
+}
+
+.pzy-staffs-schedules-title-text {
+    color: var(--primary-500);
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+}
+
+/**/
+.pzy-staffs-schedules-categories {
+    background-color: var(--primary-500, blue);
+    color: var(--primary-100, white);
+    border-radius: 16px;
+    padding: 32px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px 25px;
+}
+
+.pzy-staffs-schedules-categories .pzy-services {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill,minmax(175px,1fr));
+    /*gap: 10px 27px;*/
+    /*display: flex;*/
+    /*flex-flow: row wrap;*/
+    /*align-items: center;*/
+    gap: 10px 0;
+}
+
+/*.pzy-staffs-schedules-categories .pzy-services{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4,1fr);*/
+/*}*/
+/*.pzy-staffs-schedules-categories .pzy-init-services{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    gap: 10px 24px;*/
+/*}*/
+
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button {
+    /*font-family: "Yekan Bakh FaNum";*/
+    color: var(--primary-100);
+    background: none;
+    border: none;
+    position: relative;
+    opacity: 0.6;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button:after {
+    content: '';
+    display: inline-block;
+    height: 40px;
+    opacity: 0.1;
+    background: #F5F8FC;
+    border: 0.5px solid #F5F8FC;
+    margin: 0 27px 0 25px;
+}
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button.no-divider:after {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button .pzy-staffs-schedules-category-button-text {
+    padding: 16px 21px 16px 23px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+}
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button.pzy-staffs-schedules-category-button-active {
+    opacity: 1;
+}
+
+.pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button-active .pzy-staffs-schedules-category-button-text {
+    display: block;
+    border-radius: 12px;
+    background-color: var(--secondary-500);
+    color: #FFF;
+}
+
+.pzy-staffs-schedules-category-buttons-divider {
+    background-color: var(--primary-100);
+    display: inline-block;
+    width: 0.5px;
+    height: 28px;
+    opacity: 0.6;
+}
+
+.pzy-show-more-categories {
+    border-radius: 18px;
+    background: rgba(245, 248, 252, 0.3);
+    padding: 14px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+}
+
+.pzy-show-more-categories .pzy-show-more-categories-icon {
+    width: 24px;
+    height: 24px;
+    transform: rotate(-90deg);
+    color: var(--primary-500);
+}
+
+.pzy-show-more-categories.pzy-show-less .pzy-show-more-categories-icon {
+    transform: rotate(90deg);
+}
+
+.pzy-show-more-categories-text {
+    color: var(--primary-200, #D6E3F1);
+}
+
+/**/
+
+.pzy-staffs-schedule-staffs-list {
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*gap: 16px 32px;*/
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 2%;
+}
+
+.pzy-staffs-schedule-staffs-list .pzy-staff-avatar-box{
+    width: 70px;
+    height: 88px;
+    border-radius: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.pzy-staffs-schedule-staffs-list .pzy-staff-avatar-box .pzy-staff-avatar-link{
+    top: 9.46px;
+    bottom: -13.79px;
+    left: 0.82px;
+    right: -0.02px;
+    padding: 0 0.02px 13.79px 0;
+}
+
+.pzy-staffs-schedule-staffs-list .pzy-staff-avatar-box .pzy-staff-avatar-link img{
+    height: 100%;
+}
+
+.pzy-staffs-schedule-staffs-list-item {
+    position: relative;
+    width: 49%;
+}
+
+.pzy-staffs-schedule-staffs-list-item .pzy-staff-point{
+    justify-content: flex-start;
+}
+
+.pzy-staffs-schedule-staffs-list-item .pzy-staffs-schedule-staffs-list-item-content {
+    border-radius: 16px;
+    background: #fff;
+    height: 100%;
+    /*box-shadow: 0 8px 8px -2px var(--primary-200);*/
+    padding: 22px 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.pzy-staffs-schedule-staffs-list-item:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 100%;
+    border-radius: 16px;
+    background: var(--primary-200, #D6E3F1);
+}
+
+
+.pzy-staffs-schedule-staffs-list-item:hover .pzy-staffs-schedule-staffs-list-item-content {
+    background: var(--primary-100);
+    border: 1px solid var(--primary-300, #A3C1E0);
+}
+
+.pzy-staff-introduction {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+}
+
+.pzy-staff-introduction .pzy-staff-point {
+    margin-top: 21px;
+}
+
+.pzy-staff-introduction .pzy-staff-title {
+    color: var(--primary-500, #0052A8);
+
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 28.8px */
+}
+
+.pzy-staff-introduction .pzy-staff-description {
+    color: #A5B7D2;
+
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; /* 25.2px */
+}
+
+.pzy-staff-time {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.pzy-staff-start-end {
+    display: flex;
+    justify-content: space-between;
+    gap: 103px;
+    color: #A5B7D2;
+
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 23.4px */
+}
+
+.pzy-staff-range {
+    height: 7px;
+    direction: ltr;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pzy-staff-range:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: #DCEDFF;
+}
+
+.pzy-staff-range-item {
+    display: inline-block;
+    position: relative;
+    flex-grow: 1;
+}
+
+.pzy-staff-range-item.pzy-half-item {
+    flex-grow: 0.5;
+}
+
+.pzy-staff-range-item.pzy-quarter-item {
+    flex-grow: 0.25;
+}
+
+.pzy-staff-range-item:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pzy-staff-range-item:not(:last-child):after {
+    border-right: 1px solid #DCEDFF;
+}
+
+.pzy-staff-range-item.start-range:before, .pzy-staff-range-item.end-range:before {
+    content: '';
+    width: 11px;
+    height: 7px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: url(./images/time-arrow.svg);
+}
+
+.pzy-staff-range-item.end-range:before {
+    transform: rotate(180deg);
+}
+
+.pzy-request-staff-button-box {
+    margin-top: 18px;
+}
+
+.pzy-request-staff-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    height: 39px;
+    width: 100%;
+    border: none;
+    border-radius: 19.5px;
+    background: var(--secondary-500, #00DCA7);
+
+    color: var(--gray-100, #F5F6F7);
+    /* P/16-bold */
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 28.8px */
+}
+
+.pzy-request-staff-button svg{
+    width: 18px;
+    height:18px;
+}
+
+.pzy-overflow-always-hidden {
+    overflow: hidden;
+}
+
+.pzy-modal-services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 24px 25px;
+}
+
+.pzy-modal-service-label {
+    color: var(--gray-400, #617081);
+    /* t/14-regular */
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.pzy-modal-service-label input[type="radio"] {
+    accent-color: var(--secondary-500);
+}
+
+@media screen and (max-width: 1024px) {
+    .pzy-staffs-schedule-staffs-list-item .pzy-staffs-schedule-staffs-list-item-content{
+        flex-wrap:wrap;
+    }
+    .pzy-staff-time {
+        width: 100%;
+        order: 1;
+        margin-top: 5px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+/*    .pzy-staffs-schedule-staffs-list {
+        grid-template-columns: 1fr;
+    }*/
+
+    .pzy-staffs-schedule-staffs-list-item {
+        /*flex-wrap: wrap;*/
+        width: 100%;
+    }
+
+    .pzy-staff-avatar{
+        order: 1;
+    }
+
+    .pzy-staffs-schedules-categories .pzy-services{
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+
+    .pzy-staffs-schedule-header{
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+    .pzy-select-date{
+        position: unset;
+    }
+
+    .pzy-select-date-box{
+        left: auto;
+        right: 0;
+        top: calc(100% + 20px);
+    }
+}

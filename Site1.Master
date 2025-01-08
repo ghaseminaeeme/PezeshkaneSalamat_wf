@@ -2,24 +2,945 @@
 
 <!DOCTYPE html>
 
-<html>
+<html dir="rtl" lang="fa-IR">
 <head runat="server">
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>پزشکان سلامت</title>
-   
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>پزشکان سلامت </title>
+
+
+    <link href="assets/css/css.css" rel="stylesheet" />
+    <link href="assets/css/custom-frontend-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/custom-widget-icon-box-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/custom-widget-icon-list-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/d4e9427278a4f4bb69cfa01739eebe49.css" rel="stylesheet" />
+    <link href="assets/css/dcd63aa4c9983c6db9f7f16fcdf93c61.css" rel="stylesheet" />
+    <link href="assets/css/e-swiper.min.css" rel="stylesheet" />
+    <link href="assets/css/e83d8ce6e6861e08c80b8d8f594938b7.css" rel="stylesheet" />
+    <link href="assets/css/f41e8f7385693749b718b4f40443b506.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/fonts.css" rel="stylesheet" />
+    <link href="assets/css/jquery.selectBox.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="assets/css/mainStyle.css" rel="stylesheet" />
+    <link href="assets/css/mapp.min.css" rel="stylesheet" />
+    <link href="assets/css/persian-datepicker.min.css" rel="stylesheet" />
+    <link href="assets/css/pezeshkyar.css" rel="stylesheet" />
+    <link href="assets/css/pezeshkyar.scss" rel="stylesheet" />
+    <link href="assets/css/popup.min.css" rel="stylesheet" />
+    <link href="assets/css/post-140.css" rel="stylesheet" />
+    <link href="assets/css/post-1404.css" rel="stylesheet" />
+    <link href="assets/css/post-142.css" rel="stylesheet" />
+    <link href="assets/css/post-1432.css" rel="stylesheet" />
+    <link href="assets/css/post-146.css" rel="stylesheet" />
+    <link href="assets/css/post-2566.css" rel="stylesheet" />
+    <link href="assets/css/prettyPhoto-rtl.css" rel="stylesheet" />
+    <link href="assets/css/pzy-services-list-main.css" rel="stylesheet" />
+    <link href="assets/css/pzy-staffs-schedule-main.css" rel="stylesheet" />
+    <link href="assets/css/pzy-staffs-slider-main.css" rel="stylesheet" />
+    <link href="assets/css/rate-my-post.min.css" rel="stylesheet" />
+    <link href="assets/css/root.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/swiper.min.css" rel="stylesheet" />
+    <link href="assets/css/wc-blocks-rtl.css" rel="stylesheet" />
+    <link href="assets/css/widget-divider-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/widget-heading-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/widget-image-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/widget-rating-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/widget-search-form-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/widget-text-editor-rtl.min.css" rel="stylesheet" />
+    <link href="assets/css/woocommerce-layout-rtl.css" rel="stylesheet" />
+    <link href="assets/css/woocommerce-notices.min.css" rel="stylesheet" />
+    <link href="assets/css/woocommerce-rtl.css" rel="stylesheet" />
+    <link href="assets/css/woocommerce-smallscreen-rtl.css" rel="stylesheet" />
+    <link href="assets/css/InlineStyle.css" rel="stylesheet" />
+    <link href="assets/css/inlineStyle2.css" rel="stylesheet" />
+    <link href="assets/css/list.css" rel="stylesheet" />
+    <link href="assets/css/custom.css" rel="stylesheet" />
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <style>
+      
+    </style>
+
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>
+
+
+
+<body class="rtl home page-template-default page page-id-2566 theme-pezeshkyar woocommerce-no-js e-wc-info-notice elementor-default elementor-kit-146 elementor-page elementor-page-2566">
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="pzy-main-layout">
+            <div class="container">
+
+
+                <!-- %%%%%%%%%% Header %%%%%%%%%% -->
+                <div data-elementor-type="header" data-elementor-id="142" class="elementor elementor-142" data-elementor-post-type="elementor_library">
+                    <div class="elementor-element elementor-element-25befacb e-flex e-con-boxed e-con e-parent" data-id="25befacb" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-f9c11b5 e-con-full pzy-position-relative e-flex e-con e-child" data-id="f9c11b5" data-element_type="container">
+                                <div class="elementor-element elementor-element-ac24082 elementor-widget elementor-widget-pzy_top_menu" data-id="ac24082" data-element_type="widget" id="el-top-menu" data-widget_type="pzy_top_menu.default">
+                                    <div class="elementor-widget-container">
+                                        <div class='pzy-d-flex pzy-flex-row-nowrap pzy-top-menu-widget'>
+                                            <div class="toggle-menu" data-target="#mobile-menu-wrapper"><i class="toggle-menu-icon" data-feather="menu"></i></div>
+                                            <div class="logo pzy-d-flex pzy-align-items-center">
+                                                <a class="pzy-d-block" href="#/">
+                                                    <img src="https://pezeshkanesalamat.ir/wp-content/uploads/2019/04/pezeshkansalamat-2-1.png"
+                                                        alt="پزشک یار" />
+                                                </a>
+                                            </div>
+                                            <div class="mobile-menu-wrapper pzy-hide" id="mobile-menu-wrapper">
+                                                <div class="mobile-menu">
+                                                    <div class="menu-header">
+                                                        <a class="pzy-d-block" href="#/">
+                                                            <img src="https://pezeshkanesalamat.ir/wp-content/uploads/2019/04/pezeshkansalamat-2-1.png"
+                                                                alt="پزشک یار" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="mobile-menu-box">
+                                                        <ul class='mobile-menu-list'>
+                                                            <li><a href='https://pezeshk-yar.ir/'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
+                                                            <li><a href='#'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
+                                                            <li><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله خبری</span></a></li>
+                                                            <%--                                                            <li><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'><i data-feather='box'></i>خدمات</span></a></li>--%>
+                                                            <li><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'><i data-feather='shopping-bag'></i>پزشکان</span></a></li>
+                                                        </ul>
+                                                        <div class='mobile-categories-list'>
+                                                            <ul>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/%d9%88%d8%b1%d9%88%d8%af-%d9%88-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85/'><span class='pzy-link-text'>ورود و ثبت نام</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'>آرشیو مقالات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/%d8%a7%d8%b2-%d8%a8%db%8c%d9%86-%d8%a8%d8%b1%d8%af%d9%86-%d9%84%da%a9%d9%87-%d9%87%d8%a7%db%8c-%d8%b5%d9%88%d8%b1%d8%aa-%d8%af%d8%b1%d8%ae%d8%a7%d9%86%d9%87-7/'><span class='pzy-link-text'>صفحه تکی مقاله</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='/404'><span class='pzy-link-text'>صفحه 404</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/'><span class='pzy-link-text'>تماس با ما</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>ووکامرس</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'>فروشگاه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/cart/'><span class='pzy-link-text'>سبد خرید</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/my-account/'><span class='pzy-link-text'>حساب کاربری من</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/checkout/'><span class='pzy-link-text'>پرداخت</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>انواع محصول</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/'><span class='pzy-link-text'>محصول ساده</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/'><span class='pzy-link-text'>محصول متغیر</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                </ul>
+                                                                </li>
+                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>نوبت دهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'>لیست متخصصین</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    <li class=''><a href='https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/'><span class='pzy-link-text'>صفحه تکی متخصص</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <p class="categories-list-title">دسته بندی کالاها</p>
+                                                        <div class='mobile-categories-list'>
+                                                            <ul>
+                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل معاینه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>ترازو</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>آبسلانگ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>افتالموسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل عمومی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>ترازو</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات شخصی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                    </ul>
+                                                                    </li>
+                                                                </ul>
+                                                                </li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>متخصصین پزشکان سلامت</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>محصولات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>مقالات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>آزمایشگاه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <nav class="main-desktop-menu">
+                                                <ul>
+                                                    <li class=''><a class='pzy-active' href='https://pezeshk-yar.ir/'><span class='pzy-link-text'><i data-feather='home'></i>صفحه اصلی</span></a></li>
+                                                    <li class=''><a class='' href='#'><span class='pzy-link-text'><i data-feather='layers'></i>صفحات قالب</span></a><ul>
+                                                        <li class=''><a href='https://pezeshk-yar.ir/%d9%88%d8%b1%d9%88%d8%af-%d9%88-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85/'><span class='pzy-link-text'>ورود و ثبت نام</span></a></li>
+                                                        <li class=''><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'>آرشیو مقالات</span></a></li>
+                                                        <li class=''><a href='https://pezeshk-yar.ir/%d8%a7%d8%b2-%d8%a8%db%8c%d9%86-%d8%a8%d8%b1%d8%af%d9%86-%d9%84%da%a9%d9%87-%d9%87%d8%a7%db%8c-%d8%b5%d9%88%d8%b1%d8%aa-%d8%af%d8%b1%d8%ae%d8%a7%d9%86%d9%87-7/'><span class='pzy-link-text'>صفحه تکی مقاله</span></a></li>
+                                                        <li class=''><a href='/404'><span class='pzy-link-text'>صفحه 404</span></a></li>
+                                                        <li class=''><a href='https://pezeshk-yar.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/'><span class='pzy-link-text'>تماس با ما</span></a></li>
+                                                        <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>ووکامرس</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'>فروشگاه</span></a></li>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/cart/'><span class='pzy-link-text'>سبد خرید</span></a></li>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/my-account/'><span class='pzy-link-text'>حساب کاربری من</span></a></li>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/checkout/'><span class='pzy-link-text'>پرداخت</span></a></li>
+                                                            <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>انواع محصول</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/'><span class='pzy-link-text'>محصول ساده</span></a></li>
+                                                                <li class=''><a href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/'><span class='pzy-link-text'>محصول متغیر</span></a></li>
+                                                            </ul>
+                                                            </li>
+                                                        </ul>
+                                                        </li>
+                                                        <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>نوبت دهی</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'>لیست متخصصین</span></a></li>
+                                                            <li class=''><a href='https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/'><span class='pzy-link-text'>صفحه تکی متخصص</span></a></li>
+                                                        </ul>
+                                                        </li>
+                                                    </ul>
+                                                    </li>
+                                                    <li class=''><a class='' href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله خبری</span></a></li>
+                                                    <li class=''><a class='' href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'><i data-feather='box'></i>خدمات</span></a></li>
+                                                    <li class='pzy-mega-menu'>
+                                                        <a class='' href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'><i data-feather='shopping-bag'></i>فروشگاه</span></a>
+                                                        <ul>
+                                                            <div class='pzy-mega-menu-items'>
+                                                                <div class='pzy-mega-menu-item' data-content='#pzy-mg-menu-21216-21'>
+                                                                    <a href='#'>
+                                                                        <div class='pzy-mega-menu-item-img-box' style='background: #BE9DFF40'>
+                                                                            <img width="30" height="28" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Group-15-1-1.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />
+                                                                        </div>
+                                                                        <span class='pzy-link-text'>وسایل پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a>
+                                                                </div>
+                                                                <div class='pzy-mega-menu-item'>
+                                                                    <a href='#'>
+                                                                        <div class='pzy-mega-menu-item-img-box' style='background: rgba(253, 124, 126, 0.20)'>
+                                                                            <img width="30" height="20" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Group-48-1-1.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />
+                                                                        </div>
+                                                                        <span class='pzy-link-text'>متخصصین پزشکان سلامت</span></a>
+                                                                </div>
+                                                                <div class='pzy-mega-menu-item'>
+                                                                    <a href='#'>
+                                                                        <div class='pzy-mega-menu-item-img-box' style='background: rgba(114, 205, 251, 0.21)'>
+                                                                            <img width="20" height="26" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/g1.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />
+                                                                        </div>
+                                                                        <span class='pzy-link-text'>محصولات</span></a>
+                                                                </div>
+                                                                <div class='pzy-mega-menu-item'>
+                                                                    <a href='#'>
+                                                                        <div class='pzy-mega-menu-item-img-box' style='background: rgba(168, 128, 255, 0.17)'>
+                                                                            <img loading="lazy" width="20" height="42" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Group-52-1.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />
+                                                                        </div>
+                                                                        <span class='pzy-link-text'>مقالات</span></a>
+                                                                </div>
+                                                                <div class='pzy-mega-menu-item'>
+                                                                    <a href='#'>
+                                                                        <div class='pzy-mega-menu-item-img-box' style='background: rgba(249, 153, 107, 0.24)'>
+                                                                            <img loading="lazy" width="30" height="30" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Group-27-1.svg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" />
+                                                                        </div>
+                                                                        <span class='pzy-link-text'>آزمایشگاه</span></a>
+                                                                </div>
+                                                            </div>
+                                                            <div class='pzy-mega-menu-contents'>
+                                                                <div class='pzy-mega-menu-content' id='pzy-mg-menu-21216-21'>
+                                                                    <div class='pzy-mega-menu-col'>
+                                                                        <div class='pzy-mega-menu-content-list' style='margin-bottom: 0px'>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>وسایل معاینه</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>اتوسکوپ</span></a></div>
+                                                                        </div>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style='margin-bottom: 8px'><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>ترازو</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>آبسلانگ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style='margin-bottom: 12px'><a href='#'><span class='pzy-link-text'>افتالموسکوپ</span></a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class='pzy-mega-menu-col'>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>وسایل عمومی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>ترازو</span></a></div>
+                                                                        </div>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>تجهیزات شخصی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class='pzy-mega-menu-col'>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                        </div>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span></a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class='pzy-mega-menu-col'>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                        </div>
+                                                                        <div class='pzy-mega-menu-content-list' style=''>
+                                                                            <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span></a></div>
+                                                                            <div class='pzy-mega-menu-content-list-item' style=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span></a></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <script>
+                                            feather.replace();
+                                        </script>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-f9b18dd e-con-full e-flex e-con e-child" data-id="f9b18dd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-element elementor-element-f791ab6 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="f791ab6" data-element_type="widget" data-widget_type="image.default">
+                                        <div class="elementor-widget-container">
+                                            <img loading="lazy" width="36" height="24" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/consultation-request.svg" class="attachment-full size-full wp-image-4008" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-e9f4bbc elementor-absolute elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="e9f4bbc" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="icon.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-icon-wrapper">
+                                                <a class="elementor-icon" href="/#reserve">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                                        <g id="check">
+                                                            <path id="Icon" d="M10 3L4.5 8.5L2 6" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g></svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-element elementor-element-14112e1 elementor-view-default elementor-widget elementor-widget-icon" data-id="14112e1" data-element_type="widget" data-widget_type="icon.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-icon-wrapper">
+                                                <a class="elementor-icon" href="/#reserve">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                        <g id="calendar">
+                                                            <path id="Icon" d="M13.3333 1.66675V5.00008M6.66667 1.66675V5.00008M2.5 8.33342H17.5M4.16667 3.33341H15.8333C16.7538 3.33341 17.5 4.07961 17.5 5.00008V16.6667C17.5 17.5872 16.7538 18.3334 15.8333 18.3334H4.16667C3.24619 18.3334 2.5 17.5872 2.5 16.6667V5.00008C2.5 4.07961 3.24619 3.33341 4.16667 3.33341Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g></svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-23f473b e-con-full elementor-hidden-mobile e-flex e-con e-child" data-id="23f473b" data-element_type="container">
+                                    <div class="elementor-element elementor-element-a9c0c0c elementor-view-default elementor-widget elementor-widget-icon" data-id="a9c0c0c" data-element_type="widget" data-widget_type="icon.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-icon-wrapper">
+                                                <a class="elementor-icon" href="#/my-account/">
+                                                    <svg aria-hidden="true" class="e-font-icon-svg e-far-user" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z"></path></svg>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <%-- <div class="elementor-element elementor-element-f3bbcbc elementor-widget elementor-widget-pzy_minicart" data-id="f3bbcbc" data-element_type="widget" data-widget_type="pzy_minicart.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="pzy-position-relative pzy-d-inline-block">
+                                            <div class="pzy-card-button">
+                                                <span class="shopping-cart">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                        <g id="shopping-cart" clip-path="url(#clip0_5983_1484)">
+                                                            <path id="Icon" d="M0.833496 0.833252H4.16683L6.40016 11.9916C6.47637 12.3752 6.68509 12.7199 6.98978 12.9652C7.29448 13.2104 7.67574 13.3407 8.06683 13.3333H16.1668C16.5579 13.3407 16.9392 13.2104 17.2439 12.9652C17.5486 12.7199 17.7573 12.3752 17.8335 11.9916L19.1668 4.99992H5.00016M8.3335 17.4999C8.3335 17.9602 7.9604 18.3333 7.50016 18.3333C7.03993 18.3333 6.66683 17.9602 6.66683 17.4999C6.66683 17.0397 7.03993 16.6666 7.50016 16.6666C7.9604 16.6666 8.3335 17.0397 8.3335 17.4999ZM17.5002 17.4999C17.5002 17.9602 17.1271 18.3333 16.6668 18.3333C16.2066 18.3333 15.8335 17.9602 15.8335 17.4999C15.8335 17.0397 16.2066 16.6666 16.6668 16.6666C17.1271 16.6666 17.5002 17.0397 17.5002 17.4999Z" stroke="#0052A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        </g><defs><clipPath id="clip0_5983_1484"><rect width="20" height="20" fill="white"></rect>
+                                                        </clipPath>
+                                                        </defs></svg></span>
+                                                <span class="card-count pzy-d-flex pzy-align-items-center pzy-justify-content-center pzy-position-absolute">0</span>
+                                            </div>
+                                            <div class="pzy-minicart pzy-hide pzy-position-absolute">
+                                                <p class="pzy-mini-cart__empty-message p-16-semibold text-gray-400">هیچ محصولی در سبد خرید نیست.</p>
+                                            </div>
+                                        </div>
+                                        <script>
+                                            feather.replace();
+                                        </script>
+                                    </div>
+                                </div>--%>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-cbdde62 e-flex e-con-boxed e-con e-parent" data-id="cbdde62" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-cac63f1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="cac63f1" data-element_type="widget" data-widget_type="divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-divider">
+                                        <span class="elementor-divider-separator"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <main>
+                    <div data-elementor-type="wp-page" data-elementor-id="2566" class="elementor elementor-2566" data-elementor-post-type="page">
+                        <div class="elementor-element elementor-element-5af7896 e-flex e-con-boxed e-con e-parent" data-id="5af7896" data-element_type="container">
+                            <div class="e-con-inner">
+                                <%--<div class="elementor-element elementor-element-8b70656 elementor-hidden-tablet elementor-hidden-mobile elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="8b70656" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img loading="lazy" decoding="async" width="213" height="35" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/img-4.png" class="attachment-full size-full wp-image-172" alt="" />
+                                    </div>
+                                </div>--%>
+                                <%--                                <div class="elementor-element elementor-element-955b188 elementor-widget__width-initial elementor-widget elementor-widget-pzy_links_slider" data-id="955b188" data-element_type="widget" data-settings="{&quot;space_between&quot;:0,&quot;navigation&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_links_slider.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="pzy-links-slider">
+                                            <div class="slider-wrapper" style="height: 100%">
+                                                <div class="swiper" data-settings='{"slidesPerView":"auto","spaceBetween":0,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true,"breakpoints":{"768":{"slidesPerView":"auto","spaceBetween":0,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"1024":{"slidesPerView":"auto","spaceBetween":0,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true}}}'>
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">لیزر پوست</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">ماسک صورت</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">دندان پزشکی</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">ایمپلنت دندان</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">درمان آراتروز</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">اورتوپد</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">تزریق ژل</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">پاکسازی صورت</a>
+                                                        </div>
+                                                        <div class="swiper-slide pzy-auto-width">
+                                                            <a class="pzy-service-name"
+                                                                href="#">جوان سازی پوست</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-pagination"></div>
+                                                    <div class="swiper-button-prev">
+                                                    </div>
+                                                    <div class="swiper-button-next">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>--%>
+
+
+                                <div class="elementor-element elementor-element-b0348d5 elementor-widget__width-initial elementor-hidden-mobile elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-widget elementor-widget-search-form" data-id="b0348d5" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+                                    <div class="elementor-widget-container">
+                                        <%-- <search role="search">
+                                            <div class="elementor-search-form" >
+                                                <div class="elementor-search-form__container">
+                                                    <label class="elementor-screen-only" for="elementor-search-form-b0348d5">جستجو</label>
+
+                                                    <input id="elementor-search-form-b0348d5" placeholder="جستجوی سرویس مورد نظرتان ..." class="elementor-search-form__input" type="search" name="s" value="">
+
+                                                    <button class="elementor-search-form__submit" type="submit" aria-label="جستجو">
+                                                        <div class="e-font-icon-svg-container">
+                                                            <svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+                                                        </div>
+                                                        <span class="elementor-screen-only">جستجو</span>
+                                                    </button>
+
+                                                </div>
+                                            </div>
+                                        </search>--%>
+
+
+                                        <div class="custom-search-bar">
+                                            <div class="elementor-search-form" >
+                                                <div class="search-fields">
+                                                    <!-- City Dropdown -->
+                                                    <select class="search-dropdown" name="city">
+                                                        <option value="">انتخاب شهر</option>
+                                                        <option value="tehran">تهران</option>
+                                                        <option value="mashhad">مشهد</option>
+                                                        <option value="isfahan">اصفهان</option>
+                                                        <option value="shiraz">شیراز</option>
+                                                        <!-- Add more cities as needed -->
+                                                    </select>
+
+                                                    <!-- Category Dropdown -->
+                                                    <select class="search-dropdown" name="category">
+                                                        <option value="">انتخاب دسته‌بندی</option>
+                                                        <option value="dermatology">پوست و مو</option>
+                                                        <option value="dentistry">دندان‌پزشکی</option>
+                                                        <option value="orthopedics">ارتوپدی</option>
+                                                        <option value="surgery">جراحی</option>
+                                                        <!-- Add more categories as needed -->
+                                                    </select>
+
+                                                    <!-- Doctor Name Input -->
+                                                    <input class="search-input" type="text" name="doctor" placeholder="نام پزشک را وارد کنید" />
+
+                                                    <!-- Search Button -->
+                                                    <button class="search-button" type="submit" aria-label="جستجو">
+                                                        <svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </div>
+                </main>
+
+            </div>
         </div>
+
+
+
+
+
+        <script>
+            (function () {
+                const calculateParentDistance = (child, parent) => {
+                    let count = 0;
+                    let currentElement = child;
+
+                    // Traverse up the DOM tree until we reach parent or the top of the DOM
+                    while (currentElement && currentElement !== parent) {
+                        currentElement = currentElement.parentNode;
+                        count++;
+                    }
+
+                    // If parent was not found in the hierarchy, return -1
+                    if (!currentElement) {
+                        return -1; // Indicates parent is not an ancestor of element
+                    }
+
+                    return count; // Number of layers between element and parent
+                }
+                const isMatchingClass = (linkRule, href, classes) => {
+                    return classes.includes(linkRule.value)
+                }
+                const isMatchingDomain = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return linkRule.value === url.host
+                }
+                const isMatchingExtension = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.pathname.endsWith('.' + linkRule.value)
+                }
+                const isMatchingSubdirectory = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.pathname.startsWith('/' + linkRule.value + '/')
+                }
+                const isMatchingProtocol = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.protocol === linkRule.value + ':'
+                }
+                const isMatch = (linkRule, href, classes) => {
+                    switch (linkRule.type) {
+                        case 'class':
+                            return isMatchingClass(linkRule, href, classes)
+                        case 'domain':
+                            return isMatchingDomain(linkRule, href, classes)
+                        case 'extension':
+                            return isMatchingExtension(linkRule, href, classes)
+                        case 'subdirectory':
+                            return isMatchingSubdirectory(linkRule, href, classes)
+                        case 'protocol':
+                            return isMatchingProtocol(linkRule, href, classes)
+                        default:
+                            return false;
+                    }
+                }
+                const track = (element) => {
+                    const href = element.href ?? null
+                    const classes = Array.from(element.classList)
+                    const linkRules = [{ "type": "extension", "value": "pdf" }, { "type": "extension", "value": "zip" }, { "type": "protocol", "value": "mailto" }, { "type": "protocol", "value": "tel" }]
+                    if (linkRules.length === 0) {
+                        return
+                    }
+
+                    // For link rules that target a class, we need to allow that class to appear
+                    // in any ancestor up to the 7th ancestor. This loop looks for those matches
+                    // and counts them.
+                    linkRules.forEach((linkRule) => {
+                        if (linkRule.type !== 'class') {
+                            return;
+                        }
+
+                        const matchingAncestor = element.closest('.' + linkRule.value)
+
+                        if (!matchingAncestor || matchingAncestor.matches('html, body')) {
+                            return;
+                        }
+
+                        const depth = calculateParentDistance(element, matchingAncestor)
+
+                        if (depth < 7) {
+                            classes.push(linkRule.value)
+                        }
+                    });
+
+                    const hasMatch = linkRules.some((linkRule) => {
+                        return isMatch(linkRule, href, classes)
+                    })
+
+                    if (!hasMatch) {
+                        return
+                    }
+
+                    const url = "https://pezeshk-yar.ir/wp-content/plugins/independent-analytics/iawp-click-endpoint.php";
+                    const body = {
+                        href: href,
+                        classes: classes.join(' '),
+                        ...{ "payload": { "resource": "singular", "singular_id": 131, "page": 1 }, "signature": "f43071a06a48aeeb19bd1c8f66c38420" }
+                    };
+
+                    if (navigator.sendBeacon) {
+                        let blob = new Blob([JSON.stringify(body)], {
+                            type: "application/json"
+                        });
+                        navigator.sendBeacon(url, blob);
+                    } else {
+                        const xhr = new XMLHttpRequest();
+                        xhr.open("POST", url, true);
+                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        xhr.send(JSON.stringify(body))
+                    }
+                }
+                document.addEventListener('mousedown', function (event) {
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    const element = event.target.closest('a')
+
+                    if (!element) {
+                        return
+                    }
+
+                    const isPro = false
+                    if (!isPro) {
+                        return
+                    }
+
+                    // Don't track left clicks with this event. The click event is used for that.
+                    if (event.button === 0) {
+                        return
+                    }
+
+                    track(element)
+                })
+                document.addEventListener('click', function (event) {
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    const element = event.target.closest('a, button, input[type="submit"], input[type="button"]')
+
+                    if (!element) {
+                        return
+                    }
+
+                    const isPro = false
+                    if (!isPro) {
+                        return
+                    }
+
+                    track(element)
+                })
+                document.addEventListener("DOMContentLoaded", function (e) {
+                    if (document.hasOwnProperty("visibilityState") && document.visibilityState === "prerender") {
+                        return;
+                    }
+
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    let referrer_url = null;
+
+                    if (typeof document.referrer === 'string' && document.referrer.length > 0) {
+                        referrer_url = document.referrer;
+                    }
+
+                    const params = location.search.slice(1).split('&').reduce((acc, s) => {
+                        const [k, v] = s.split('=');
+                        return Object.assign(acc, { [k]: v });
+                    }, {});
+
+                    const url = "https://pezeshk-yar.ir/wp-json/iawp/search";
+                    const body = {
+                        referrer_url,
+                        utm_source: params.utm_source,
+                        utm_medium: params.utm_medium,
+                        utm_campaign: params.utm_campaign,
+                        utm_term: params.utm_term,
+                        utm_content: params.utm_content,
+                        gclid: params.gclid,
+                        ...{ "payload": { "resource": "singular", "singular_id": 131, "page": 1 }, "signature": "f43071a06a48aeeb19bd1c8f66c38420" }
+                    };
+
+                    if (navigator.sendBeacon) {
+                        let blob = new Blob([JSON.stringify(body)], {
+                            type: "application/json"
+                        });
+                        navigator.sendBeacon(url, blob);
+                    } else {
+                        const xhr = new XMLHttpRequest();
+                        xhr.open("POST", url, true);
+                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        xhr.send(JSON.stringify(body))
+                    }
+                });
+            })();
+        </script>
+        <script type='text/javascript'>
+            const lazyloadRunObserver = () => {
+                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('e-lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { rootMargin: '200px 0px 200px 0px' });
+                lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                });
+            };
+            const events = [
+                'DOMContentLoaded',
+                'elementor/lazyload/observe',
+            ];
+            events.forEach((event) => {
+                document.addEventListener(event, lazyloadRunObserver);
+            });
+        </script>
+        <script type='text/javascript'>
+            (function () {
+                var c = document.body.className;
+                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                document.body.className = c;
+            })();
+        </script>
+        <link rel='stylesheet' id='wc-blocks-style-rtl-css' href='https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-rtl.css?ver=wc-9.5.1' type='text/css' media='all' />
+        <link rel='stylesheet' id='elementor-frontend-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-frontend-rtl.min.css?ver=1733764179' type='text/css' media='all' />
+        <link rel='stylesheet' id='elementor-post-4497-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-4497.css?ver=1735312204' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-image-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-image-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
+        <link rel='stylesheet' id='pzy-otp-button-css' href='https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-otp-button/main.css?ver=6.7.1' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-divider-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-divider-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
+        <link rel='stylesheet' id='elementor-post-1215-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-1215.css?ver=1733770366' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-heading-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-heading-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-post-info-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/css/widget-post-info-rtl.min.css?ver=3.25.4' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-icon-list-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-list-rtl.min.css?ver=1733764179' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-icon-box-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-box-rtl.min.css?ver=1733764179' type='text/css' media='all' />
+        <link rel='stylesheet' id='elementor-post-140-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-140.css?ver=1733764182' type='text/css' media='all' />
+        <link rel='stylesheet' id='widget-text-editor-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-text-editor-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
+        <link rel='stylesheet' id='swiper-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' type='text/css' media='all' />
+        <link rel='stylesheet' id='e-swiper-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.25.10' type='text/css' media='all' />
+        <link rel='stylesheet' id='elementor-post-146-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-146.css?ver=1733764183' type='text/css' media='all' />
+        <link rel='stylesheet' id='e-popup-style-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.25.4' type='text/css' media='all' />
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0" id="jquery-selectBox-js"></script>
+        <script type="text/javascript" src="//pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6" id="prettyPhoto-js" data-wp-strategy="defer"></script>
+        <script type="text/javascript" id="jquery-yith-wcwl-js-extra">
+            /* <![CDATA[ */
+            var yith_wcwl_l10n = { "ajax_url": "\/wp-admin\/admin-ajax.php", "redirect_to_cart": "no", "yith_wcwl_button_position": "shortcode", "multi_wishlist": "", "hide_add_button": "1", "enable_ajax_loading": "1", "ajax_loader_url": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg", "remove_from_wishlist_after_add_to_cart": "1", "is_wishlist_responsive": "1", "time_to_close_prettyphoto": "3000", "fragments_index_glue": ".", "reload_on_found_variation": "1", "mobile_media_query": "768", "labels": { "cookie_disabled": "\u0645\u062a\u0627\u0633\u0641\u06cc\u0645\u060c \u0644\u06cc\u0633\u062a \u0639\u0644\u0627\u0642\u0647 \u0645\u0646\u062f\u06cc \u0632\u0645\u0627\u0646\u06cc \u0622\u0645\u0627\u062f\u0647 \u0627\u0633\u062a \u06a9\u0647 \u0634\u0645\u0627 \u06a9\u0648\u06a9\u06cc \u0645\u0631\u0648\u06af\u0631\u062a\u0648\u0646 \u0631\u0627 \u0641\u0639\u0627\u0644 \u06a9\u0631\u062f\u0647 \u0628\u0627\u0634\u06cc\u062f.", "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">\u0645\u062d\u0635\u0648\u0644\u0627\u062a \u0628\u0627 \u0645\u0648\u0641\u0642\u06cc\u062a \u0628\u0647 \u0633\u0628\u062f \u062e\u0631\u06cc\u062f\u062a\u0627\u0646 \u0627\u0636\u0627\u0641\u0647 \u0634\u062f\u0646\u062f<\/div><\/div>" }, "actions": { "add_to_wishlist_action": "add_to_wishlist", "remove_from_wishlist_action": "remove_from_wishlist", "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem", "load_mobile_action": "load_mobile", "delete_item_action": "delete_item", "save_title_action": "save_title", "save_privacy_action": "save_privacy", "load_fragments": "load_fragments" }, "nonce": { "add_to_wishlist_nonce": "73594d81d6", "remove_from_wishlist_nonce": "49f48531fd", "reload_wishlist_and_adding_elem_nonce": "64098791cf", "load_mobile_nonce": "ac2683618c", "delete_item_nonce": "ab5e1257c3", "save_title_nonce": "a464bc62f9", "save_privacy_nonce": "b54117c45f", "load_fragments_nonce": "95010332b2" }, "redirect_after_ask_estimate": "", "ask_estimate_redirect_url": "https:\/\/pezeshk-yar.ir" };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=4.0.1" id="jquery-yith-wcwl-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-jquery.js" id="init-jquery-js"></script>
+        <script type="text/javascript" id="pzy_core-js-extra">
+            /* <![CDATA[ */
+            var pzy_staffs_schedule = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "cb18348ec1", "translations": { "show_more": "\u0645\u0634\u0627\u0647\u062f\u0647 \u0628\u06cc\u0634\u062a\u0631", "show_less": "\u0645\u0634\u0627\u0647\u062f\u0647 \u06a9\u0645\u062a\u0631", "days": ["\u0634\u0646\u0628\u0647", "\u06cc\u06a9\u0634\u0646\u0628\u0647", "\u062f\u0648\u0634\u0646\u0628\u0647", "\u0633\u0647 \u0634\u0646\u0628\u0647", "\u0686\u0647\u0627\u0631\u0634\u0646\u0628\u0647", "\u067e\u0646\u062c\u0634\u0646\u0628\u0647", "\u062c\u0645\u0639\u0647"] } };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//assets/js/main.js" id="pzy_core-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/swiper/swiper-bundle.min.js" id="swiper.js-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/persian-date/dist/persian-date.min.js" id="persian-date-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/persian-datepicker/dist/js/persian-datepicker.js" id="persian-datepicker-js"></script>
+        <script type="text/javascript" id="theme-script.js-js-extra">
+            /* <![CDATA[ */
+            var pgw_main_ajax_object = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "225d026c10" };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
+        <script type="text/javascript" id="rate-my-post-js-extra">
+            /* <![CDATA[ */
+            var rmp_frontend = { "admin_ajax": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "postID": "131", "noVotes": "\u0647\u0646\u0648\u0632 \u0627\u0645\u062a\u06cc\u0627\u0632\u06cc \u062b\u0628\u062a \u0646\u0634\u062f\u0647! \u0627\u0648\u0644\u06cc\u0646 \u0646\u0641\u0631\u06cc \u0628\u0627\u0634\u06cc\u062f \u06a9\u0647 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u0645\u06cc \u062f\u0647\u06cc\u062f.", "cookie": "\u0634\u0645\u0627 \u0642\u0628\u0644\u0627 \u0631\u0627\u06cc \u062f\u0627\u062f\u0647 \u0627\u06cc\u062f! \u0627\u06cc\u0646 \u0631\u0627\u06cc \u0628\u0647 \u062d\u0633\u0627\u0628 \u0646\u0645\u06cc \u0622\u06cc\u062f!", "afterVote": "\u0628\u0627\u0628\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u062f\u0627\u062f\u0646 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0645\u062a\u0634\u06a9\u0631\u06cc\u0645.", "notShowRating": "1", "social": "1", "feedback": "1", "cookieDisable": "1", "emptyFeedback": "Please insert your feedback in the box above!", "hoverTexts": "2", "preventAccidental": "1", "grecaptcha": "1", "siteKey": "", "votingPriv": "1", "loggedIn": "", "positiveThreshold": "2", "ajaxLoad": "1", "disableClearCache": "1", "nonce": "0c60ac4ea7" };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.2.5" id="rate-my-post-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-feather.js" id="init-feather-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+        <script type="text/javascript" id="pzy-newsletter-js-extra">
+            /* <![CDATA[ */
+            var pzy_newsletter_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "e3a4f789ec" };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-newsletter/main.js" id="pzy-newsletter-js"></script>
+        <script type="text/javascript" id="pzy-minicart-js-extra">
+            /* <![CDATA[ */
+            var pzy_mini_crt_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "d9aab493ec" };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-minicart/main.js" id="pzy-minicart-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.5.1" id="sourcebuster-js-js"></script>
+        <script type="text/javascript" id="wc-order-attribution-js-extra">
+            /* <![CDATA[ */
+            var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.5.1" id="wc-order-attribution-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.25.4" id="elementor-pro-webpack-runtime-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.25.10" id="elementor-webpack-runtime-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.25.10" id="elementor-frontend-modules-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+        <script type="text/javascript" id="wp-i18n-js-after">
+            /* <![CDATA[ */
+            wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['rtl'] });
+        /* ]]> */
+        </script>
+        <script type="text/javascript" id="elementor-pro-frontend-js-before">
+            /* <![CDATA[ */
+            var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "nonce": "76c808b3d3", "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/pezeshk-yar.ir\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": false }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "woocommerce": { "menu_cart": { "cart_page_url": "https:\/\/pezeshk-yar.ir\/cart\/", "checkout_page_url": "https:\/\/pezeshk-yar.ir\/checkout\/", "fragments_nonce": "5f19eb3e94" } }, "facebook_sdk": { "lang": "fa_IR", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.25.4" id="elementor-pro-frontend-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+        <script type="text/javascript" id="elementor-frontend-js-before">
+            /* <![CDATA[ */
+            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Facebook", "shareOnTwitter": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Twitter", "pinIt": "\u067e\u06cc\u0646 \u06a9\u0646\u06cc\u062f", "download": "\u062f\u0627\u0646\u0644\u0648\u062f", "downloadImage": "\u062f\u0627\u0646\u0644\u0648\u062f \u062a\u0635\u0648\u06cc\u0631", "fullscreen": "\u062a\u0645\u0627\u0645\u200c\u0635\u0641\u062d\u0647", "zoom": "\u0628\u0632\u0631\u06af\u0646\u0645\u0627\u06cc\u06cc", "share": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc", "playVideo": "\u067e\u062e\u0634 \u0648\u06cc\u062f\u06cc\u0648", "previous": "\u0642\u0628\u0644\u06cc", "next": "\u0628\u0639\u062f\u06cc", "close": "\u0628\u0633\u062a\u0646", "a11yCarouselWrapperAriaLabel": "\u0686\u0631\u062e \u0641\u0644\u06a9 | \u067e\u06cc\u0645\u0627\u06cc\u0634 \u0627\u0641\u0642\u06cc: \u0641\u0644\u0634 \u0686\u067e \u0648 \u0631\u0627\u0633\u062a", "a11yCarouselPrevSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0642\u0628\u0644\u06cc", "a11yCarouselNextSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0628\u0639\u062f\u06cc", "a11yCarouselFirstSlideMessage": "\u0627\u06cc\u0646 \u0627\u0648\u0644\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselLastSlideMessage": "\u0627\u06cc\u0646 \u0622\u062e\u0631\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselPaginationBulletMessage": "\u0631\u0641\u062a\u0646 \u0628\u0647 \u0627\u0633\u0644\u0627\u06cc\u062f" }, "is_rtl": true, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u062a\u0628\u0644\u062a", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u062a\u0628\u0644\u062a", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "\u0644\u067e \u062a\u0627\u067e", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "\u0635\u0641\u062d\u0647 \u0639\u0631\u06cc\u0636 (Widescreen)", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": true }, "version": "3.25.10", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_optimized_control_loading": true, "e_onboarding": true, "e_css_smooth_scroll": true, "theme_builder_v2": true, "home_screen": true, "nested-elements": true, "editor_v2": true, "link-in-bio": true, "floating-buttons": true, "mega-menu": true }, "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "a12b686f5f" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "woocommerce_notices_elements": ["wc_info"], "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 131, "title": "%D8%AF%DA%A9%D8%AA%D8%B1%20%D9%85%D8%A8%DB%8C%D9%86%20%D8%A7%D9%85%DB%8C%D9%86%20%E2%80%93%20%D9%BE%D8%B2%D8%B4%DA%A9%20%DB%8C%D8%A7%D8%B1", "excerpt": "", "featuredImage": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads\/2024\/07\/505bf06b8a869cce52904994307143db.png" } };
+/* ]]> */
+        </script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.25.10" id="elementor-frontend-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.25.4" id="pro-elements-handlers-js"></script>
+
+
+
+        <%--        <script type="text/javascript" src="assets/js/swiper-bundle.min.js" id="swiper.js-js"></script>--%>
     </form>
 </body>
 </html>

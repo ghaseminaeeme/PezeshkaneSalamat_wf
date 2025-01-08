@@ -1,0 +1,145 @@
+/*rtl*/
+body.rtl {
+  &.woocommerce-account {
+    .woocommerce {
+
+      .pzy-navigation-card {
+        .pzy-navigation-card-header {
+          .avatar {
+            right: 12px;
+            left: unset;
+          }
+
+          .pzy-navigation-card-header-content {
+            margin: 12px 112px 12px 10px;
+          }
+        }
+      }
+
+      .woocommerce-MyAccount-content {
+
+        table.my_account_orders{
+          thead{
+            tr{
+              &:first-child{
+                th{
+                  &:first-child{
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 16px;
+                  }
+
+                  &:last-child{
+                    border-top-right-radius:  0;
+                    border-top-left-radius:  16px;
+                  }
+                }
+              }
+
+              &:last-child{
+                th{
+                  &:first-child{
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 16px;
+                  }
+
+                  &:last-child{
+                    border-bottom-right-radius:  0;
+                    border-bottom-left-radius:  16px;
+                  }
+                }
+              }
+            }
+          }
+          tbody{
+            tr{
+              td{
+                &:first-child{
+                  border-right: 1px solid var(--primary-100, #F5F8FC);
+                  border-left: none;
+                }
+
+                &:last-child{
+                  border-left: 1px solid var(--primary-100, #F5F8FC);
+                  border-right: none;
+                }
+              }
+              &:first-child{
+                td{
+                  &:first-child{
+                    border-top-left-radius: 0;
+                    border-top-right-radius: 16px;
+                  }
+
+                  &:last-child{
+                    border-top-right-radius:  0;
+                    border-top-left-radius:  16px;
+                  }
+                }
+              }
+
+              &:last-child{
+                td{
+                  &:first-child{
+                    border-bottom-left-radius: 0;
+                    border-bottom-right-radius: 16px;
+                  }
+
+                  &:last-child{
+                    border-bottom-right-radius:  0;
+                    border-bottom-left-radius:  16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        form {
+          .woocommerce-address-fields, .edit-account-fields {
+            .button {
+              float: left;
+            }
+          }
+
+          .form-row {
+            label {
+              text-align: right;
+              margin-right: 21px;
+            }
+
+            em {
+              text-align: right;
+              margin-right: 8px;
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  &.woocommerce-order-received {
+    .woocommerce {
+      .woocommerce-verify-email {
+        .form-row {
+          label {
+            float: right;
+          }
+        }
+
+        .button {
+          float: left;
+        }
+      }
+    }
+  }
+
+  .woocommerce #order_review #place_order{
+    float: left;
+  }
+}
+
+/*rtl*/

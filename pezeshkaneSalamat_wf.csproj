@@ -43,7 +43,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ImageResizer">
+      <HintPath>..\..\..\Software\Dll\ImageResizer.dll</HintPath>
+    </Reference>
+    <Reference Include="IR.Web.UI.PersianDatePicker">
+      <HintPath>..\..\118pezeshkaan\bin\IR.Web.UI.PersianDatePicker.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SubSonic">
+      <HintPath>..\..\118pezeshkaan\bin\SubSonic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>..\..\118pezeshkaan\bin\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +79,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\calendar\aqua\active-bg.gif" />
     <Content Include="assets\css\calendar\aqua\dark-bg.gif" />
@@ -82,9 +95,44 @@
     <Content Include="assets\css\calendar\customize.css" />
     <Content Include="assets\css\calendar\menuarrow.gif" />
     <Content Include="assets\css\calendar\menuarrow2.gif" />
+    <Content Include="assets\css\css.css" />
+    <Content Include="assets\css\custom-frontend-rtl.min.css" />
+    <Content Include="assets\css\custom-widget-icon-box-rtl.min.css" />
+    <Content Include="assets\css\custom-widget-icon-list-rtl.min.css" />
+    <Content Include="assets\css\custom.css" />
+    <Content Include="assets\css\d4e9427278a4f4bb69cfa01739eebe49.css" />
+    <Content Include="assets\css\dcd63aa4c9983c6db9f7f16fcdf93c61.css" />
+    <Content Include="assets\css\e-swiper.min.css" />
+    <Content Include="assets\css\e83d8ce6e6861e08c80b8d8f594938b7.css" />
+    <Content Include="assets\css\f41e8f7385693749b718b4f40443b506.css" />
     <Content Include="assets\css\font-awesome.min.css" />
     <Content Include="assets\css\fonts.css" />
+    <Content Include="assets\css\InlineStyle.css" />
+    <Content Include="assets\css\inlineStyle2.css" />
+    <Content Include="assets\css\jquery.selectBox.css" />
+    <Content Include="assets\css\list.css" />
+    <Content Include="assets\css\main.css" />
     <Content Include="assets\css\mainStyle.css" />
+    <Content Include="assets\css\mapp.min.css" />
+    <Content Include="assets\css\persian-datepicker.min.css" />
+    <Content Include="assets\css\pezeshkyar.css" />
+    <Content Include="assets\css\popup.min.css" />
+    <Content Include="assets\css\post-140.css" />
+    <Content Include="assets\css\post-1404.css" />
+    <Content Include="assets\css\post-142.css" />
+    <Content Include="assets\css\post-1432.css" />
+    <Content Include="assets\css\post-146.css" />
+    <Content Include="assets\css\post-2566.css" />
+    <Content Include="assets\css\prettyPhoto-rtl.css" />
+    <Content Include="assets\css\pzy-services-list-main.css" />
+    <Content Include="assets\css\pzy-staffs-schedule-main.css" />
+    <Content Include="assets\css\pzy-staffs-slider-main.css" />
+    <Content Include="assets\css\rate-my-post.min.css" />
+    <Content Include="assets\css\root.css" />
+    <Content Include="assets\css\singlePost.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\swiper-bundle.min.css" />
+    <Content Include="assets\css\swiper.min.css" />
     <Content Include="assets\css\themeStyles\css.css" />
     <Content Include="assets\css\themeStyles\custom-frontend-rtl.min.css" />
     <Content Include="assets\css\themeStyles\custom-widget-icon-box-rtl.min.css" />
@@ -127,6 +175,17 @@
     <Content Include="assets\css\themeStyles\woocommerce-notices.min.css" />
     <Content Include="assets\css\themeStyles\woocommerce-rtl.css" />
     <Content Include="assets\css\themeStyles\woocommerce-smallscreen-rtl.css" />
+    <Content Include="assets\css\wc-blocks-rtl.css" />
+    <Content Include="assets\css\widget-divider-rtl.min.css" />
+    <Content Include="assets\css\widget-heading-rtl.min.css" />
+    <Content Include="assets\css\widget-image-rtl.min.css" />
+    <Content Include="assets\css\widget-rating-rtl.min.css" />
+    <Content Include="assets\css\widget-search-form-rtl.min.css" />
+    <Content Include="assets\css\widget-text-editor-rtl.min.css" />
+    <Content Include="assets\css\woocommerce-layout-rtl.css" />
+    <Content Include="assets\css\woocommerce-notices.min.css" />
+    <Content Include="assets\css\woocommerce-rtl.css" />
+    <Content Include="assets\css\woocommerce-smallscreen-rtl.css" />
     <Content Include="assets\fonts\fontawesome-free-5.15.1-web\attribution.js" />
     <Content Include="assets\fonts\fontawesome-free-5.15.1-web\css\all.css" />
     <Content Include="assets\fonts\fontawesome-free-5.15.1-web\css\all.min.css" />
@@ -1778,6 +1837,8 @@
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\icons\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\icons\glyphicons-halflings-regular.svg" />
+    <Content Include="bin\ImageResizer.dll" />
+    <Content Include="bin\IR.Web.UI.PersianDatePicker.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="bin\pezeshkaneSalamat_wf.dll" />
@@ -1821,6 +1882,10 @@
     <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
     <Content Include="bin\roslyn\vbc.exe" />
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\SubSonic.dll" />
+    <Content Include="bin\System.Runtime.Serialization.dll" />
+    <Content Include="DoctorDetail.aspx" />
+    <Content Include="Doctors.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="assets\js\add-to-cart.min.js" />
     <Content Include="assets\js\core.min.js" />
@@ -1849,6 +1914,10 @@
     <Content Include="assets\js\sourcebuster.min.js" />
     <Content Include="assets\js\swiper-bundle.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="login.html" />
+    <Content Include="index.html" />
+    <Content Include="list.html" />
+    <Content Include="singlePost.html" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
@@ -1862,6 +1931,68 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DoctorDetail.aspx.cs">
+      <DependentUpon>DoctorDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorDetail.aspx.designer.cs">
+      <DependentUpon>DoctorDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Doctors.aspx.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Doctors.aspx.designer.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generate\AllStructs.cs" />
+    <Compile Include="Generate\StoredProcedures.cs" />
+    <Compile Include="Generate\TblAbout.cs" />
+    <Compile Include="Generate\TblAboutController.cs" />
+    <Compile Include="Generate\TblAdvantage.cs" />
+    <Compile Include="Generate\TblAdvantageController.cs" />
+    <Compile Include="Generate\TblAdver.cs" />
+    <Compile Include="Generate\TblAdverController.cs" />
+    <Compile Include="Generate\TblAdvertise.cs" />
+    <Compile Include="Generate\TblAdvertiseController.cs" />
+    <Compile Include="Generate\TblAppointment.cs" />
+    <Compile Include="Generate\TblAppointmentConfig.cs" />
+    <Compile Include="Generate\TblAppointmentConfigController.cs" />
+    <Compile Include="Generate\TblAppointmentController.cs" />
+    <Compile Include="Generate\TblBanner.cs" />
+    <Compile Include="Generate\TblBannerController.cs" />
+    <Compile Include="Generate\TblBlog.cs" />
+    <Compile Include="Generate\TblBlogController.cs" />
+    <Compile Include="Generate\TblBranch.cs" />
+    <Compile Include="Generate\TblBranchController.cs" />
+    <Compile Include="Generate\TblCard.cs" />
+    <Compile Include="Generate\TblCardController.cs" />
+    <Compile Include="Generate\TblCity.cs" />
+    <Compile Include="Generate\TblCityController.cs" />
+    <Compile Include="Generate\TblComment.cs" />
+    <Compile Include="Generate\TblCommentController.cs" />
+    <Compile Include="Generate\TblDoctor.cs" />
+    <Compile Include="Generate\TblDoctorController.cs" />
+    <Compile Include="Generate\TblDoctorImage.cs" />
+    <Compile Include="Generate\TblDoctorImageController.cs" />
+    <Compile Include="Generate\TblMessage.cs" />
+    <Compile Include="Generate\TblMessageController.cs" />
+    <Compile Include="Generate\TblPage.cs" />
+    <Compile Include="Generate\TblPageController.cs" />
+    <Compile Include="Generate\TblPicture.cs" />
+    <Compile Include="Generate\TblPictureController.cs" />
+    <Compile Include="Generate\TblPlan.cs" />
+    <Compile Include="Generate\TblPlanController.cs" />
+    <Compile Include="Generate\TblReserve.cs" />
+    <Compile Include="Generate\TblReserveController.cs" />
+    <Compile Include="Generate\TblSmallBanner.cs" />
+    <Compile Include="Generate\TblSmallBannerController.cs" />
+    <Compile Include="Generate\TblState.cs" />
+    <Compile Include="Generate\TblStateController.cs" />
+    <Compile Include="Generate\TblUser.cs" />
+    <Compile Include="Generate\TblUserController.cs" />
+    <Compile Include="Generate\TblVideo.cs" />
+    <Compile Include="Generate\TblVideoController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -1977,6 +2108,26 @@
     <Content Include="bin\roslyn\vbc.exe.config" />
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="assets\sass\fonts.scss" />
+    <Content Include="assets\sass\global.scss" />
+    <Content Include="assets\sass\pezeshkyar.scss" />
+    <Content Include="assets\sass\rtl.scss" />
+    <Content Include="assets\sass\woocommerce.scss" />
+    <Content Include="assets\sass\_reset.scss" />
+    <Content Include="assets\sass\_typography.scss" />
+    <Content Include="assets\sass\_variables.scss" />
+    <Content Include="assets\fonts\YekanBakhFaNum\Morabba-Regular.ttf" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Black.woff2" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Bold.woff" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Bold.woff2" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-ExtraBold.woff" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-ExtraBold.woff2" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Regular.woff" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Regular.woff2" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-SemiBold.woff" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-SemiBold.woff2" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Thin.woff" />
+    <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Thin.woff2" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -1986,7 +2137,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Admin\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

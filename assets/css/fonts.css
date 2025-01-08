@@ -6,44 +6,70 @@ This set of fonts are used in this project under the license: (0PT2Z64G)
 --------------------------------------------------------------------------------------
 */
 
-@font-face {
-  font-family: "IRANYekan";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/iranyekan/IRANYekanXFaNum-Light.woff2") format("woff2");
-}
+   @font-face {
+            font-family: 'Morabba';
+            font-style: normal;
+            font-weight: normal;
+            font-display: auto;
+            src: url('https://pezeshk-yar.ir/wp-content/uploads/2024/12/Morabba-Regular.ttf') format('truetype');
+        }
 
-@font-face {
-  font-family: "IRANYekan";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/iranyekan/IRANYekanXFaNum-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "IRANYekan";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/iranyekan/IRANYekanXFaNum-Medium.woff2") format("woff2");
-}
-@font-face {
-  font-family: "IRANYekan";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/iranyekan/IRANYekanXFaNum-DemiBold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "IRANYekan";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/iranyekan/IRANYekanXFaNum-Bold.woff2") format("woff2");
-}
-/*@font-face {
-    font-family: 'FontAwesome';
-    src: url('../fonts/icons/fontawesome-webfont.eot?v=4.2.0');
-    src: url('../fonts/icons/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/icons/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/icons/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/icons/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
-    font-weight: normal;
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: 100;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Thin.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Thin.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: 300;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Light.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Light.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: normal;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Regular.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Regular.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: 600;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-SemiBold.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-SemiBold.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: bold;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Bold.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Bold.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: 800;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-ExtraBold.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-ExtraBold.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Yekan Bakh FaNum';
+            font-style: normal;
+            font-weight: 900;
+            font-display: auto;
+            src: url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Black.woff2') format('woff2'), url('/assets/fonts/YekanBakhFaNumYekanBakhFaNum-Black.woff') format('woff');
+        }
+body, input, textarea, button, select, .datepicker-plot-area {
+    font-family: "Yekan Bakh FaNum";
     font-style: normal;
-}*/
-body {
-  font-family: "IRANYekan";
 }

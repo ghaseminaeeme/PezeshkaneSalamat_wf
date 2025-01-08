@@ -1,0 +1,111 @@
+.pzy-services-list-slider .pzy-services-item {
+    border-radius: 16px;
+    border: 1px solid var(--gray-200, #D7DBDF);
+    background: #FFF;
+    padding: 24px;
+    position: relative;
+}
+
+.pzy-services-list-slider .pzy-services-item-header {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    gap: 9px;
+}
+
+.pzy-services-list-slider .pzy-services-item-header.pzy-services-item-image {
+    width: 48px;
+    height: 48px;
+}
+
+.pzy-services-list-slider .pzy-services-item-header .pzy-services-item-title-description {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+.pzy-services-list-slider .pzy-services-item-header .pzy-services-item-title {
+    color: var(--primary-500, #0052A8);
+    text-align: right;
+    /* P/16-bold */
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 28.8px */
+}
+
+.pzy-services-list-slider .pzy-services-item-header .pzy-services-item-description {
+    color: var(--gray-300, #A6AFB8);
+    text-align: right;
+    /* t/14-semibold */
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; /* 25.2px */
+}
+
+.pzy-services-list-slider .pzy-services-item-body {
+    color: var(--gray-400, #617081);
+    text-align: justify;
+    /* t/14-regular */
+    /*    font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    margin-top: 14px;
+    margin-bottom: 66px;
+}
+
+.pzy-services-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 11px;
+}
+
+.rtl .pzy-services-item-footer {
+    right: unset;
+    left: 11px;
+}
+
+.pzy-show-service-detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 3px;
+
+}
+
+.pzy-show-service-detail-text {
+    color: var(--primary-500, #0052A8);
+    /* t/14-bold */
+    /*font-family: "Yekan Bakh FaNum";*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%; /* 25.2px */
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.pzy-show-service-detail-icon-box {
+    padding: 20px 20px 23px 23px;
+    background: linear-gradient(214deg, #F6F8FB 12.49%, rgba(245, 248, 252, 0.00) 60.16%);
+    border-radius: 50%;
+}
+
+.pzy-show-service-detail-icon {
+    stroke: var(--primary-500, #0052A8);
+    width: 18px;
+    height: 18px;
+}
+
+.pzy-services-list-slider .swiper-button-next:after, .pzy-services-list-slider .swiper-button-prev:after {
+    font-size: 16px;
+    background-color: var(--primary-300);
+    color: var(--primary-500);
+    padding: 9px;
+    border-radius: 50%;
+}
