@@ -80,6 +80,375 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Admin\about.aspx" />
+    <Content Include="Admin\addDoctor.aspx" />
+    <Content Include="Admin\Admin\tiny_mce\Full.js" />
+    <Content Include="Admin\Admin\tiny_mce\langs\en.js" />
+    <Content Include="Admin\Admin\tiny_mce\license.txt" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\css\advhr.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\js\rule.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advhr\rule.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\css\advimage.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\image.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\img\sample.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\js\image.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advimage\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\css\advlink.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\js\advlink.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlink\link.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlist\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\advlist\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\autoresize\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\autoresize\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\autosave\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\autosave\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\autosave\langs\en.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\bbcode\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\bbcode\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\contextmenu\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\contextmenu\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\directionality\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\directionality\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\emotions.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-cool.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-cry.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-embarassed.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-frown.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-innocent.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-kiss.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-laughing.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-money-mouth.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-sealed.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-smile.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-surprised.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-tongue-out.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-undecided.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-wink.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\img\smiley-yell.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\js\emotions.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\emotions\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\dialog.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\img\example.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\js\dialog.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\langs\en.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\example\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\css\fullpage.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\fullpage.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\js\fullpage.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullpage\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullscreen\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullscreen\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\fullscreen\fullscreen.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\iespell\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\iespell\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\alert.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\button.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\buttons.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\confirm.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\corners.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\horizontal.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\img\vertical.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\skins\clearlooks2\window.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\inlinepopups\template.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\insertdatetime\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\insertdatetime\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\layer\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\layer\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\legacyoutput\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\legacyoutput\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\css\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\css\media.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\flash.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\flv_player.swf" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\quicktime.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\realmedia.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\shockwave.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\trans.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\img\windowsmedia.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\js\embed.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\js\media.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\media\media.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\nonbreaking\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\nonbreaking\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\noneditable\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\noneditable\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\pagebreak\css\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\pagebreak\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\pagebreak\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\pagebreak\img\pagebreak.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\pagebreak\img\trans.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\js\pastetext.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\js\pasteword.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\pastetext.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\paste\pasteword.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\preview\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\preview\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\preview\example.html" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\preview\jscripts\embed.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\preview\preview.html" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\print\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\print\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\save\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\save\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\css\searchreplace.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\js\searchreplace.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\searchreplace\searchreplace.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\spellchecker\css\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\spellchecker\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\spellchecker\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\spellchecker\img\wline.gif" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\css\props.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\js\props.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\style\props.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\tabfocus\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\tabfocus\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\cell.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\css\cell.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\css\row.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\css\table.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\js\cell.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\js\merge_cells.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\js\row.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\js\table.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\merge_cells.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\row.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\table\table.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\blank.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\css\template.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\js\template.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\template\template.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\visualchars\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\visualchars\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\wordcount\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\wordcount\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\abbr.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\acronym.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\attributes.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\cite.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\css\attributes.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\css\popup.css" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\del.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\editor_plugin.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\editor_plugin_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\ins.htm" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\abbr.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\acronym.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\attributes.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\cite.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\del.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\element_common.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\js\ins.js" />
+    <Content Include="Admin\Admin\tiny_mce\plugins\xhtmlxtras\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\Simple.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\about.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\anchor.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\charmap.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\color_picker.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\editor_template.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\editor_template_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\image.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\img\colorpicker.jpg" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\img\icons.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\about.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\anchor.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\charmap.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\color_picker.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\image.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\link.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\js\source_editor.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\langs\en.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\langs\en_dlg.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\link.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\dialog.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\buttons.png" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\items.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\menu_arrow.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\menu_check.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\progress.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\img\tabs.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\default\ui.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\dialog.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\img\button_bg.png" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_black.png" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\img\button_bg_silver.png" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\ui.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\ui_black.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\skins\o2k7\ui_silver.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\advanced\source_editor.htm" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\editor_template.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\editor_template_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\img\icons.gif" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\langs\en.js" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\skins\default\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\skins\default\ui.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\skins\o2k7\content.css" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\skins\o2k7\img\button_bg.png" />
+    <Content Include="Admin\Admin\tiny_mce\themes\simple\skins\o2k7\ui.css" />
+    <Content Include="Admin\Admin\tiny_mce\tiny_mce.js" />
+    <Content Include="Admin\Admin\tiny_mce\tiny_mce_popup.js" />
+    <Content Include="Admin\Admin\tiny_mce\tiny_mce_src.js" />
+    <Content Include="Admin\Admin\tiny_mce\utils\editable_selects.js" />
+    <Content Include="Admin\Admin\tiny_mce\utils\form_utils.js" />
+    <Content Include="Admin\Admin\tiny_mce\utils\mctabs.js" />
+    <Content Include="Admin\Admin\tiny_mce\utils\validate.js" />
+    <Content Include="Admin\appointment.aspx" />
+    <Content Include="Admin\appointmentConfig.aspx" />
+    <Content Include="Admin\assets\css\basic.css" />
+    <Content Include="Admin\assets\css\bootstrap-fileupload.min.css" />
+    <Content Include="Admin\assets\css\bootstrap-social.css" />
+    <Content Include="Admin\assets\css\bootstrap.css" />
+    <Content Include="Admin\assets\css\custom.css" />
+    <Content Include="Admin\assets\css\error.css" />
+    <Content Include="Admin\assets\css\font-awesome.css" />
+    <Content Include="Admin\assets\css\invoice.css" />
+    <Content Include="Admin\assets\css\login.css" />
+    <Content Include="Admin\assets\css\persian.css" />
+    <Content Include="Admin\assets\css\PersianDatePicker.css" />
+    <Content Include="Admin\assets\css\prettyPhoto.css" />
+    <Content Include="Admin\assets\css\pricing.css" />
+    <Content Include="Admin\assets\css\wizard\jquery.steps.css" />
+    <Content Include="Admin\assets\css\wizard\normalize.css" />
+    <Content Include="Admin\assets\css\wizard\wizardMain.css" />
+    <Content Include="Admin\assets\DateTimePicker\bootstrap.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\calendar-setup.js" />
+    <Content Include="Admin\assets\DateTimePicker\calendar.js" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\active-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\dark-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\hover-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\menuarrow.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\normal-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\rowhover-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\status-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\theme.css" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\title-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\aqua\today-bg.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\calendar-blue.css" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\menuarrow.gif" />
+    <Content Include="Admin\assets\DateTimePicker\calendar\menuarrow2.gif" />
+    <Content Include="Admin\assets\DateTimePicker\jalali.js" />
+    <Content Include="Admin\assets\DateTimePicker\jquery-3.3.1.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\jquery.magnific-popup.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\jquery.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\main.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\swiper-bundle.min.js" />
+    <Content Include="Admin\assets\DateTimePicker\swiper.min.css" />
+    <Content Include="Admin\assets\DateTimePicker\webfont.js" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Admin\assets\img\demoUpload.jpg" />
+    <Content Include="Admin\assets\img\logo-invoice.png" />
+    <Content Include="Admin\assets\img\portfolio\b.jpg" />
+    <Content Include="Admin\assets\img\portfolio\c.png" />
+    <Content Include="Admin\assets\img\portfolio\d.jpg" />
+    <Content Include="Admin\assets\img\portfolio\e.jpg" />
+    <Content Include="Admin\assets\img\portfolio\g.jpg" />
+    <Content Include="Admin\assets\img\portfolio\h.jpg" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\default_thumb.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\sprite.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\sprite_next.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\sprite_x.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\default\sprite_y.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\facebook\sprite.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_square\loader.gif" />
+    <Content Include="Admin\assets\img\prettyPhoto\light_square\sprite.png" />
+    <Content Include="Admin\assets\img\slideshow\1.jpg" />
+    <Content Include="Admin\assets\img\slideshow\2.jpg" />
+    <Content Include="Admin\assets\img\slideshow\3.jpg" />
+    <Content Include="Admin\assets\img\user.gif" />
+    <Content Include="Admin\assets\img\user.png" />
+    <Content Include="Admin\assets\js\bootstrap-fileupload.js" />
+    <Content Include="Admin\assets\js\bootstrap.js" />
+    <Content Include="Admin\assets\js\custom.js" />
+    <Content Include="Admin\assets\js\galleryCustom.js" />
+    <Content Include="Admin\assets\js\jquery-1.10.2.js" />
+    <Content Include="Admin\assets\js\jquery.metisMenu.js" />
+    <Content Include="Admin\assets\js\jquery.mixitup.min.js" />
+    <Content Include="Admin\assets\js\jquery.prettyPhoto.js" />
+    <Content Include="Admin\assets\js\PersianDatePicker.js" />
+    <Content Include="Admin\assets\js\wizard\jquery.cookie-1.3.1.js" />
+    <Content Include="Admin\assets\js\wizard\jquery.steps.js" />
+    <Content Include="Admin\assets\js\wizard\modernizr-2.6.2.min.js" />
+    <Content Include="Admin\assets\tutorial\addDoctor.mp4" />
+    <Content Include="Admin\assets\tutorial\imageInsideText.mp4" />
+    <Content Include="Admin\assets\tutorial\map.mp4" />
+    <Content Include="Admin\banner.aspx" />
+    <Content Include="Admin\branch.aspx" />
+    <Content Include="Admin\city.aspx" />
+    <Content Include="Admin\dashboard.aspx" />
+    <Content Include="Admin\default.aspx" />
+    <Content Include="Admin\doctorImage.aspx" />
+    <Content Include="Admin\doctors.aspx" />
+    <Content Include="Admin\editDoctor.aspx" />
+    <Content Include="Admin\images.aspx" />
+    <Content Include="Admin\password.aspx" />
+    <Content Include="Admin\smallBanner.aspx" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\calendar\aqua\active-bg.gif" />
     <Content Include="assets\css\calendar\aqua\dark-bg.gif" />
@@ -1837,6 +2206,9 @@
     <Content Include="assets\fonts\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\icons\fontawesome-webfont.svg" />
     <Content Include="assets\fonts\icons\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\img\icons\license-svgrepo-com.svg" />
+    <Content Include="assets\img\icons\tag-svgrepo-com.svg" />
+    <Content Include="assets\img\logo.png" />
     <Content Include="bin\ImageResizer.dll" />
     <Content Include="bin\IR.Web.UI.PersianDatePicker.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -1884,6 +2256,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="bin\SubSonic.dll" />
     <Content Include="bin\System.Runtime.Serialization.dll" />
+    <Content Include="contact.aspx" />
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="HtmlPage1.html" />
@@ -1915,15 +2288,138 @@
     <Content Include="assets\js\swiper-bundle.min.js" />
     <Content Include="Default.aspx" />
     <Content Include="login.html" />
-    <Content Include="index.html" />
+    <Content Include="homeTheme.html" />
     <Content Include="list.html" />
     <Content Include="singlePost.html" />
+    <Content Include="temp.html" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
     <Content Include="WebForm3.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\addDoctor.aspx.cs">
+      <DependentUpon>addDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\addDoctor.aspx.designer.cs">
+      <DependentUpon>addDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminSite1.Master.cs">
+      <DependentUpon>AdminSite1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminSite1.Master.designer.cs">
+      <DependentUpon>AdminSite1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\appointment.aspx.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\appointment.aspx.designer.cs">
+      <DependentUpon>appointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\appointmentConfig.aspx.cs">
+      <DependentUpon>appointmentConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\appointmentConfig.aspx.designer.cs">
+      <DependentUpon>appointmentConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\banner.aspx.cs">
+      <DependentUpon>banner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\banner.aspx.designer.cs">
+      <DependentUpon>banner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\branch.aspx.cs">
+      <DependentUpon>branch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\branch.aspx.designer.cs">
+      <DependentUpon>branch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\city.aspx.cs">
+      <DependentUpon>city.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\city.aspx.designer.cs">
+      <DependentUpon>city.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\doctorImage.aspx.cs">
+      <DependentUpon>doctorImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\doctorImage.aspx.designer.cs">
+      <DependentUpon>doctorImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\doctors.aspx.cs">
+      <DependentUpon>doctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\doctors.aspx.designer.cs">
+      <DependentUpon>doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\editDoctor.aspx.cs">
+      <DependentUpon>editDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\editDoctor.aspx.designer.cs">
+      <DependentUpon>editDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\images.aspx.cs">
+      <DependentUpon>images.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\images.aspx.designer.cs">
+      <DependentUpon>images.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\password.aspx.cs">
+      <DependentUpon>password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\password.aspx.designer.cs">
+      <DependentUpon>password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\smallBanner.aspx.cs">
+      <DependentUpon>smallBanner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\smallBanner.aspx.designer.cs">
+      <DependentUpon>smallBanner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClassControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1946,6 +2442,16 @@
       <DependentUpon>Doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generate\AllStructs.cs" />
+    <Compile Include="Generate\PsDoctorsDate.cs" />
+    <Compile Include="Generate\PsDoctorsDateController.cs" />
+    <Compile Include="Generate\PsDoctorsDe.cs" />
+    <Compile Include="Generate\PsDoctorsDeController.cs" />
+    <Compile Include="Generate\PsDoctorsUtf8.cs" />
+    <Compile Include="Generate\PsDoctorsUtf8Controller.cs" />
+    <Compile Include="Generate\PsDoctorsUtf8Mb4.cs" />
+    <Compile Include="Generate\PsDoctorsUtf8Mb4Controller.cs" />
+    <Compile Include="Generate\PsSlider.cs" />
+    <Compile Include="Generate\PsSliderController.cs" />
     <Compile Include="Generate\StoredProcedures.cs" />
     <Compile Include="Generate\TblAbout.cs" />
     <Compile Include="Generate\TblAboutController.cs" />
@@ -1969,8 +2475,6 @@
     <Compile Include="Generate\TblCardController.cs" />
     <Compile Include="Generate\TblCity.cs" />
     <Compile Include="Generate\TblCityController.cs" />
-    <Compile Include="Generate\TblComment.cs" />
-    <Compile Include="Generate\TblCommentController.cs" />
     <Compile Include="Generate\TblDoctor.cs" />
     <Compile Include="Generate\TblDoctorController.cs" />
     <Compile Include="Generate\TblDoctorImage.cs" />
@@ -1993,6 +2497,8 @@
     <Compile Include="Generate\TblUserController.cs" />
     <Compile Include="Generate\TblVideo.cs" />
     <Compile Include="Generate\TblVideoController.cs" />
+    <Compile Include="Generate\TempDoctor.cs" />
+    <Compile Include="Generate\TempDoctorController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -2128,6 +2634,34 @@
     <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-SemiBold.woff2" />
     <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Thin.woff" />
     <Content Include="assets\fonts\YekanBakhFaNum\YekanBakhFaNum-Thin.woff2" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\assets\fonts\FontAwesome.otf" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\assets\fonts\IRANSans\eot\IRANSansWeb.eot" />
+    <Content Include="Admin\assets\fonts\IRANSans\eot\IRANSansWeb_Bold.eot" />
+    <Content Include="Admin\assets\fonts\IRANSans\eot\IRANSansWeb_Light.eot" />
+    <Content Include="Admin\assets\fonts\IRANSans\eot\IRANSansWeb_Medium.eot" />
+    <Content Include="Admin\assets\fonts\IRANSans\eot\IRANSansWeb_UltraLight.eot" />
+    <Content Include="Admin\assets\fonts\IRANSans\ttf\IRANSansWeb.ttf" />
+    <Content Include="Admin\assets\fonts\IRANSans\ttf\IRANSansWeb_Bold.ttf" />
+    <Content Include="Admin\assets\fonts\IRANSans\ttf\IRANSansWeb_Light.ttf" />
+    <Content Include="Admin\assets\fonts\IRANSans\ttf\IRANSansWeb_Medium.ttf" />
+    <Content Include="Admin\assets\fonts\IRANSans\ttf\IRANSansWeb_UltraLight.ttf" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff2\IRANSansWeb.woff2" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff2\IRANSansWeb_Bold.woff2" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff2\IRANSansWeb_Light.woff2" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff2\IRANSansWeb_Medium.woff2" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff2\IRANSansWeb_UltraLight.woff2" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff\IRANSansWeb.woff" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff\IRANSansWeb_Bold.woff" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff\IRANSansWeb_Light.woff" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff\IRANSansWeb_Medium.woff" />
+    <Content Include="Admin\assets\fonts\IRANSans\woff\IRANSansWeb_UltraLight.woff" />
+    <Content Include="Admin\AdminSite1.Master" />
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
@@ -2138,7 +2672,65 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Admin\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeALMAnchorService2-mul-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeALMAnchorService2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeAMP-fr_FR\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeAUM6.0All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeBridge3All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCameraRaw5.0All-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCameraRaw5.0All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCMaps2-mul-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCMaps2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorCommonSetCMYK2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorCommonSetRGB2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorEU_ExtraSettings2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorEU_Recommended2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorJA_ExtraSettings2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorJA_Recommended2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorNA_ExtraSettings2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorNA_Recommended2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeColorPhotoshop2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeConnect-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCSIAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeCSIx64All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeDefaultLanguage2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeDeviceCentral2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeDriveAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeDrivex64All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeExtendScriptToolkit3.0.0All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeExtensionManager2All\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeFontsAllx64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeFontsAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeLinguisticsAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeLinguisticsAll_x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeOutputModuleAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePDFL9-mul-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePDFL9-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePDFSettings9-ja_JP\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePDFSettings9-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePhotoshop11-Core\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePhotoshop11-Core_x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePhotoshop11-Driver\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobePhotoshop11-Support\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeSearchforHelp-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeServiceManager-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeSuiteSharedConfiguration-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeTypeSupport9-mul-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeTypeSupport9-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeVideoProfilesCS2-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeWinSoftLinguisticsPluginAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeWinSoftLinguisticsPluginAll_x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\AdobeXMPPanelsAll\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\kuler2.0-mul\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\WinSoftME-x64\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\autosave\langs\WinSoftME\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\bbcode\Versions\1.0\Resources\" />
+    <Folder Include="Admin\Admin\tiny_mce\plugins\contextmenu\Versions\1.0\Resources\" />
+    <Folder Include="upload\Ad\" />
+    <Folder Include="upload\banner\" />
+    <Folder Include="upload\blog\" />
+    <Folder Include="upload\doctors\" />
+    <Folder Include="upload\picture\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

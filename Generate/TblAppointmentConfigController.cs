@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(int? AShift,string ADate,string AStartTime,int? ATime,int? ANum,int? ADoctorId,DateTime? ADateTime)
+	    public void Insert(int? AShift,string ADate,string AStartTime,int? ATime,int? ANum,int? ADoctorId,DateTime? ADateTime,byte? AActive)
 	    {
 		    TblAppointmentConfig item = new TblAppointmentConfig();
 		    
@@ -99,6 +99,8 @@ namespace DalWebSite
             
             item.ADateTime = ADateTime;
             
+            item.AActive = AActive;
+            
 	    
 		    item.Save(UserName);
 	    }
@@ -107,7 +109,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,int? AShift,string ADate,string AStartTime,int? ATime,int? ANum,int? ADoctorId,DateTime? ADateTime)
+	    public void Update(int Id,int? AShift,string ADate,string AStartTime,int? ATime,int? ANum,int? ADoctorId,DateTime? ADateTime,byte? AActive)
 	    {
 		    TblAppointmentConfig item = new TblAppointmentConfig();
 	        item.MarkOld();
@@ -128,6 +130,8 @@ namespace DalWebSite
 			item.ADoctorId = ADoctorId;
 				
 			item.ADateTime = ADateTime;
+				
+			item.AActive = AActive;
 				
 	        item.Save(UserName);
 	    }

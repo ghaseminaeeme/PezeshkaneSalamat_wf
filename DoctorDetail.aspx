@@ -182,7 +182,7 @@
                                                 <div class="pzy-staff-template-information-card-content pzy-d-flex pzy-flex-column-wrap">
                                                     <div class="pzy-staff-template-information-card-title">شهر</div>
                                                     <div class="pzy-staff-template-information-card-description">
-                                                        <%#Eval("cName") %>
+                                                        <%-- <%#Eval("cName") %>--%> تهران
                                                     </div>
                                                 </div>
                                                 <div class="pzy-staff-template-information-card-icon">
@@ -405,7 +405,7 @@
                                 <div class="elementor-icon-box-wrapper">
 
                                     <div class="elementor-icon-box-icon">
-                                        <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/" class="elementor-icon elementor-animation-" tabindex="-1">
+                                        <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                 <g id="chevron-left">
                                                     <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -416,7 +416,7 @@
                                     <div class="elementor-icon-box-content">
 
                                         <span class="elementor-icon-box-title">
-                                            <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/">مشاهده همه
+                                            <a href="#">مشاهده همه
                                             </a>
                                         </span>
 
@@ -429,7 +429,7 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
+            <%--            <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
                         <div class="elementor-widget-container">
@@ -442,7 +442,7 @@
                                                     <article class="pzy-staff-card">
 
                                                         <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #eed7d7">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1/"
+                                                            <a href="#"
                                                                 class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                                                 <img class="pzy-staff-card-avatar"
                                                                     src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
@@ -452,7 +452,7 @@
 
 
                                                         <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1/">دکتر مژگان حاجی‌پور</a>
+                                                            <a href="#">دکتر مژگان حاجی‌پور</a>
                                                         </h3>
                                                         <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
 
@@ -888,7 +888,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent" data-id="fc524b8" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">

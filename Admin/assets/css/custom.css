@@ -247,3 +247,15 @@ ul#filters {
 .mceLayout iframe {
     min-height:500px;
 }
+
+
+.calendar {
+    right: 270px;
+    left: auto;
+}
+@media(max-width: 768px) {
+    .calendar {
+        right: 10%;
+        left: auto;
+    }
+}

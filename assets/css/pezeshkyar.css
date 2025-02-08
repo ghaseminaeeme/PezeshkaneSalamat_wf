@@ -4040,7 +4040,7 @@ body.error404 {
   background: var(--primary-100, #F5F8FC);
 }
 .main-desktop-menu > ul > li.pzy-mega-menu > ul .pzy-mega-menu-content {
-  display: none;
+  /*display: none;*/
   grid-template-columns: repeat(4, 1fr);
   flex: 1;
   padding: 31px 50px;

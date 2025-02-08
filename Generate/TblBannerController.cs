@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,byte? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
+	    public void Insert(string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,bool? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
 	    {
 		    TblBanner item = new TblBanner();
 		    
@@ -117,7 +117,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,byte? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
+	    public void Update(int Id,string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,bool? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
 	    {
 		    TblBanner item = new TblBanner();
 	        item.MarkOld();

@@ -148,7 +148,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarDName = new TableSchema.TableColumn(schema);
 				colvarDName.ColumnName = "dName";
 				colvarDName.DataType = DbType.String;
-				colvarDName.MaxLength = 200;
+				colvarDName.MaxLength = 2000;
 				colvarDName.AutoIncrement = false;
 				colvarDName.IsNullable = true;
 				colvarDName.IsPrimaryKey = false;
@@ -187,7 +187,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarDImg = new TableSchema.TableColumn(schema);
 				colvarDImg.ColumnName = "dImg";
 				colvarDImg.DataType = DbType.String;
-				colvarDImg.MaxLength = 250;
+				colvarDImg.MaxLength = 1000;
 				colvarDImg.AutoIncrement = false;
 				colvarDImg.IsNullable = true;
 				colvarDImg.IsPrimaryKey = false;
@@ -200,7 +200,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarDDes = new TableSchema.TableColumn(schema);
 				colvarDDes.ColumnName = "dDes";
 				colvarDDes.DataType = DbType.String;
-				colvarDDes.MaxLength = 1073741823;
+				colvarDDes.MaxLength = -1;
 				colvarDDes.AutoIncrement = false;
 				colvarDDes.IsNullable = true;
 				colvarDDes.IsPrimaryKey = false;
@@ -535,136 +535,6 @@ namespace DalWebSite
 				colvarDSpecialAd.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarDSpecialAd);
 				
-				TableSchema.TableColumn colvarDEnName = new TableSchema.TableColumn(schema);
-				colvarDEnName.ColumnName = "dEnName";
-				colvarDEnName.DataType = DbType.String;
-				colvarDEnName.MaxLength = 50;
-				colvarDEnName.AutoIncrement = false;
-				colvarDEnName.IsNullable = true;
-				colvarDEnName.IsPrimaryKey = false;
-				colvarDEnName.IsForeignKey = false;
-				colvarDEnName.IsReadOnly = false;
-				colvarDEnName.DefaultSetting = @"";
-				colvarDEnName.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDEnName);
-				
-				TableSchema.TableColumn colvarDEnDes = new TableSchema.TableColumn(schema);
-				colvarDEnDes.ColumnName = "dEnDes";
-				colvarDEnDes.DataType = DbType.String;
-				colvarDEnDes.MaxLength = 1073741823;
-				colvarDEnDes.AutoIncrement = false;
-				colvarDEnDes.IsNullable = true;
-				colvarDEnDes.IsPrimaryKey = false;
-				colvarDEnDes.IsForeignKey = false;
-				colvarDEnDes.IsReadOnly = false;
-				colvarDEnDes.DefaultSetting = @"";
-				colvarDEnDes.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDEnDes);
-				
-				TableSchema.TableColumn colvarDArDes = new TableSchema.TableColumn(schema);
-				colvarDArDes.ColumnName = "dArDes";
-				colvarDArDes.DataType = DbType.String;
-				colvarDArDes.MaxLength = 1073741823;
-				colvarDArDes.AutoIncrement = false;
-				colvarDArDes.IsNullable = true;
-				colvarDArDes.IsPrimaryKey = false;
-				colvarDArDes.IsForeignKey = false;
-				colvarDArDes.IsReadOnly = false;
-				colvarDArDes.DefaultSetting = @"";
-				colvarDArDes.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDArDes);
-				
-				TableSchema.TableColumn colvarDEnSpecialty = new TableSchema.TableColumn(schema);
-				colvarDEnSpecialty.ColumnName = "dEnSpecialty";
-				colvarDEnSpecialty.DataType = DbType.String;
-				colvarDEnSpecialty.MaxLength = 200;
-				colvarDEnSpecialty.AutoIncrement = false;
-				colvarDEnSpecialty.IsNullable = true;
-				colvarDEnSpecialty.IsPrimaryKey = false;
-				colvarDEnSpecialty.IsForeignKey = false;
-				colvarDEnSpecialty.IsReadOnly = false;
-				colvarDEnSpecialty.DefaultSetting = @"";
-				colvarDEnSpecialty.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDEnSpecialty);
-				
-				TableSchema.TableColumn colvarDArSpecialty = new TableSchema.TableColumn(schema);
-				colvarDArSpecialty.ColumnName = "dArSpecialty";
-				colvarDArSpecialty.DataType = DbType.String;
-				colvarDArSpecialty.MaxLength = 200;
-				colvarDArSpecialty.AutoIncrement = false;
-				colvarDArSpecialty.IsNullable = true;
-				colvarDArSpecialty.IsPrimaryKey = false;
-				colvarDArSpecialty.IsForeignKey = false;
-				colvarDArSpecialty.IsReadOnly = false;
-				colvarDArSpecialty.DefaultSetting = @"";
-				colvarDArSpecialty.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDArSpecialty);
-				
-				TableSchema.TableColumn colvarDEnAddress = new TableSchema.TableColumn(schema);
-				colvarDEnAddress.ColumnName = "dEnAddress";
-				colvarDEnAddress.DataType = DbType.String;
-				colvarDEnAddress.MaxLength = 250;
-				colvarDEnAddress.AutoIncrement = false;
-				colvarDEnAddress.IsNullable = true;
-				colvarDEnAddress.IsPrimaryKey = false;
-				colvarDEnAddress.IsForeignKey = false;
-				colvarDEnAddress.IsReadOnly = false;
-				colvarDEnAddress.DefaultSetting = @"";
-				colvarDEnAddress.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDEnAddress);
-				
-				TableSchema.TableColumn colvarDArAddress = new TableSchema.TableColumn(schema);
-				colvarDArAddress.ColumnName = "dArAddress";
-				colvarDArAddress.DataType = DbType.String;
-				colvarDArAddress.MaxLength = 250;
-				colvarDArAddress.AutoIncrement = false;
-				colvarDArAddress.IsNullable = true;
-				colvarDArAddress.IsPrimaryKey = false;
-				colvarDArAddress.IsForeignKey = false;
-				colvarDArAddress.IsReadOnly = false;
-				colvarDArAddress.DefaultSetting = @"";
-				colvarDArAddress.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDArAddress);
-				
-				TableSchema.TableColumn colvarDEnWorkTime = new TableSchema.TableColumn(schema);
-				colvarDEnWorkTime.ColumnName = "dEnWorkTime";
-				colvarDEnWorkTime.DataType = DbType.String;
-				colvarDEnWorkTime.MaxLength = 100;
-				colvarDEnWorkTime.AutoIncrement = false;
-				colvarDEnWorkTime.IsNullable = true;
-				colvarDEnWorkTime.IsPrimaryKey = false;
-				colvarDEnWorkTime.IsForeignKey = false;
-				colvarDEnWorkTime.IsReadOnly = false;
-				colvarDEnWorkTime.DefaultSetting = @"";
-				colvarDEnWorkTime.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDEnWorkTime);
-				
-				TableSchema.TableColumn colvarDArWorkTime = new TableSchema.TableColumn(schema);
-				colvarDArWorkTime.ColumnName = "dArWorkTime";
-				colvarDArWorkTime.DataType = DbType.String;
-				colvarDArWorkTime.MaxLength = 100;
-				colvarDArWorkTime.AutoIncrement = false;
-				colvarDArWorkTime.IsNullable = true;
-				colvarDArWorkTime.IsPrimaryKey = false;
-				colvarDArWorkTime.IsForeignKey = false;
-				colvarDArWorkTime.IsReadOnly = false;
-				colvarDArWorkTime.DefaultSetting = @"";
-				colvarDArWorkTime.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDArWorkTime);
-				
-				TableSchema.TableColumn colvarDArName = new TableSchema.TableColumn(schema);
-				colvarDArName.ColumnName = "dArName";
-				colvarDArName.DataType = DbType.String;
-				colvarDArName.MaxLength = 200;
-				colvarDArName.AutoIncrement = false;
-				colvarDArName.IsNullable = true;
-				colvarDArName.IsPrimaryKey = false;
-				colvarDArName.IsForeignKey = false;
-				colvarDArName.IsReadOnly = false;
-				colvarDArName.DefaultSetting = @"";
-				colvarDArName.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDArName);
-				
 				TableSchema.TableColumn colvarDWhatsapp = new TableSchema.TableColumn(schema);
 				colvarDWhatsapp.ColumnName = "dWhatsapp";
 				colvarDWhatsapp.DataType = DbType.String;
@@ -704,18 +574,44 @@ namespace DalWebSite
 				colvarDVideo3.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarDVideo3);
 				
-				TableSchema.TableColumn colvarDLocation = new TableSchema.TableColumn(schema);
-				colvarDLocation.ColumnName = "DLocation";
-				colvarDLocation.DataType = DbType.AnsiString;
-				colvarDLocation.MaxLength = -1;
-				colvarDLocation.AutoIncrement = false;
-				colvarDLocation.IsNullable = true;
-				colvarDLocation.IsPrimaryKey = false;
-				colvarDLocation.IsForeignKey = false;
-				colvarDLocation.IsReadOnly = false;
-				colvarDLocation.DefaultSetting = @"";
-				colvarDLocation.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarDLocation);
+				TableSchema.TableColumn colvarDOldId = new TableSchema.TableColumn(schema);
+				colvarDOldId.ColumnName = "dOld_id";
+				colvarDOldId.DataType = DbType.Int32;
+				colvarDOldId.MaxLength = 0;
+				colvarDOldId.AutoIncrement = false;
+				colvarDOldId.IsNullable = true;
+				colvarDOldId.IsPrimaryKey = false;
+				colvarDOldId.IsForeignKey = false;
+				colvarDOldId.IsReadOnly = false;
+				colvarDOldId.DefaultSetting = @"";
+				colvarDOldId.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarDOldId);
+				
+				TableSchema.TableColumn colvarDDescription = new TableSchema.TableColumn(schema);
+				colvarDDescription.ColumnName = "dDescription";
+				colvarDDescription.DataType = DbType.String;
+				colvarDDescription.MaxLength = -1;
+				colvarDDescription.AutoIncrement = false;
+				colvarDDescription.IsNullable = true;
+				colvarDDescription.IsPrimaryKey = false;
+				colvarDDescription.IsForeignKey = false;
+				colvarDDescription.IsReadOnly = false;
+				colvarDDescription.DefaultSetting = @"";
+				colvarDDescription.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarDDescription);
+				
+				TableSchema.TableColumn colvarDUrl = new TableSchema.TableColumn(schema);
+				colvarDUrl.ColumnName = "dUrl";
+				colvarDUrl.DataType = DbType.String;
+				colvarDUrl.MaxLength = 1000;
+				colvarDUrl.AutoIncrement = false;
+				colvarDUrl.IsNullable = true;
+				colvarDUrl.IsPrimaryKey = false;
+				colvarDUrl.IsForeignKey = false;
+				colvarDUrl.IsReadOnly = false;
+				colvarDUrl.DefaultSetting = @"";
+				colvarDUrl.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarDUrl);
 				
 				BaseSchema = schema;
 				//add this schema to the provider
@@ -1006,96 +902,6 @@ namespace DalWebSite
 			set { SetColumnValue(Columns.DSpecialAd, value); }
 		}
 		  
-		[XmlAttribute("DEnName")]
-		[Bindable(true)]
-        [DataMember]
-		public string DEnName 
-		{
-			get { return GetColumnValue<string>(Columns.DEnName); }
-			set { SetColumnValue(Columns.DEnName, value); }
-		}
-		  
-		[XmlAttribute("DEnDes")]
-		[Bindable(true)]
-        [DataMember]
-		public string DEnDes 
-		{
-			get { return GetColumnValue<string>(Columns.DEnDes); }
-			set { SetColumnValue(Columns.DEnDes, value); }
-		}
-		  
-		[XmlAttribute("DArDes")]
-		[Bindable(true)]
-        [DataMember]
-		public string DArDes 
-		{
-			get { return GetColumnValue<string>(Columns.DArDes); }
-			set { SetColumnValue(Columns.DArDes, value); }
-		}
-		  
-		[XmlAttribute("DEnSpecialty")]
-		[Bindable(true)]
-        [DataMember]
-		public string DEnSpecialty 
-		{
-			get { return GetColumnValue<string>(Columns.DEnSpecialty); }
-			set { SetColumnValue(Columns.DEnSpecialty, value); }
-		}
-		  
-		[XmlAttribute("DArSpecialty")]
-		[Bindable(true)]
-        [DataMember]
-		public string DArSpecialty 
-		{
-			get { return GetColumnValue<string>(Columns.DArSpecialty); }
-			set { SetColumnValue(Columns.DArSpecialty, value); }
-		}
-		  
-		[XmlAttribute("DEnAddress")]
-		[Bindable(true)]
-        [DataMember]
-		public string DEnAddress 
-		{
-			get { return GetColumnValue<string>(Columns.DEnAddress); }
-			set { SetColumnValue(Columns.DEnAddress, value); }
-		}
-		  
-		[XmlAttribute("DArAddress")]
-		[Bindable(true)]
-        [DataMember]
-		public string DArAddress 
-		{
-			get { return GetColumnValue<string>(Columns.DArAddress); }
-			set { SetColumnValue(Columns.DArAddress, value); }
-		}
-		  
-		[XmlAttribute("DEnWorkTime")]
-		[Bindable(true)]
-        [DataMember]
-		public string DEnWorkTime 
-		{
-			get { return GetColumnValue<string>(Columns.DEnWorkTime); }
-			set { SetColumnValue(Columns.DEnWorkTime, value); }
-		}
-		  
-		[XmlAttribute("DArWorkTime")]
-		[Bindable(true)]
-        [DataMember]
-		public string DArWorkTime 
-		{
-			get { return GetColumnValue<string>(Columns.DArWorkTime); }
-			set { SetColumnValue(Columns.DArWorkTime, value); }
-		}
-		  
-		[XmlAttribute("DArName")]
-		[Bindable(true)]
-        [DataMember]
-		public string DArName 
-		{
-			get { return GetColumnValue<string>(Columns.DArName); }
-			set { SetColumnValue(Columns.DArName, value); }
-		}
-		  
 		[XmlAttribute("DWhatsapp")]
 		[Bindable(true)]
         [DataMember]
@@ -1123,13 +929,31 @@ namespace DalWebSite
 			set { SetColumnValue(Columns.DVideo3, value); }
 		}
 		  
-		[XmlAttribute("DLocation")]
+		[XmlAttribute("DOldId")]
 		[Bindable(true)]
         [DataMember]
-		public string DLocation 
+		public int? DOldId 
 		{
-			get { return GetColumnValue<string>(Columns.DLocation); }
-			set { SetColumnValue(Columns.DLocation, value); }
+			get { return GetColumnValue<int?>(Columns.DOldId); }
+			set { SetColumnValue(Columns.DOldId, value); }
+		}
+		  
+		[XmlAttribute("DDescription")]
+		[Bindable(true)]
+        [DataMember]
+		public string DDescription 
+		{
+			get { return GetColumnValue<string>(Columns.DDescription); }
+			set { SetColumnValue(Columns.DDescription, value); }
+		}
+		  
+		[XmlAttribute("DUrl")]
+		[Bindable(true)]
+        [DataMember]
+		public string DUrl 
+		{
+			get { return GetColumnValue<string>(Columns.DUrl); }
+			set { SetColumnValue(Columns.DUrl, value); }
 		}
 		
 		#endregion
@@ -1151,7 +975,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDEnName,string varDEnDes,string varDArDes,string varDEnSpecialty,string varDArSpecialty,string varDEnAddress,string varDArAddress,string varDEnWorkTime,string varDArWorkTime,string varDArName,string varDWhatsapp,string varDVideo2,string varDVideo3,string varDLocation)
+		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl)
 		{
 			TblDoctor item = new TblDoctor();
 			
@@ -1215,33 +1039,17 @@ namespace DalWebSite
 			
 			item.DSpecialAd = varDSpecialAd;
 			
-			item.DEnName = varDEnName;
-			
-			item.DEnDes = varDEnDes;
-			
-			item.DArDes = varDArDes;
-			
-			item.DEnSpecialty = varDEnSpecialty;
-			
-			item.DArSpecialty = varDArSpecialty;
-			
-			item.DEnAddress = varDEnAddress;
-			
-			item.DArAddress = varDArAddress;
-			
-			item.DEnWorkTime = varDEnWorkTime;
-			
-			item.DArWorkTime = varDArWorkTime;
-			
-			item.DArName = varDArName;
-			
 			item.DWhatsapp = varDWhatsapp;
 			
 			item.DVideo2 = varDVideo2;
 			
 			item.DVideo3 = varDVideo3;
 			
-			item.DLocation = varDLocation;
+			item.DOldId = varDOldId;
+			
+			item.DDescription = varDDescription;
+			
+			item.DUrl = varDUrl;
 			
 		
 			if (System.Web.HttpContext.Current != null)
@@ -1253,7 +1061,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDEnName,string varDEnDes,string varDArDes,string varDEnSpecialty,string varDArSpecialty,string varDEnAddress,string varDArAddress,string varDEnWorkTime,string varDArWorkTime,string varDArName,string varDWhatsapp,string varDVideo2,string varDVideo3,string varDLocation)
+		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl)
 		{
 			TblDoctor item = new TblDoctor();
 			
@@ -1319,33 +1127,17 @@ namespace DalWebSite
 			
 				item.DSpecialAd = varDSpecialAd;
 			
-				item.DEnName = varDEnName;
-			
-				item.DEnDes = varDEnDes;
-			
-				item.DArDes = varDArDes;
-			
-				item.DEnSpecialty = varDEnSpecialty;
-			
-				item.DArSpecialty = varDArSpecialty;
-			
-				item.DEnAddress = varDEnAddress;
-			
-				item.DArAddress = varDArAddress;
-			
-				item.DEnWorkTime = varDEnWorkTime;
-			
-				item.DArWorkTime = varDArWorkTime;
-			
-				item.DArName = varDArName;
-			
 				item.DWhatsapp = varDWhatsapp;
 			
 				item.DVideo2 = varDVideo2;
 			
 				item.DVideo3 = varDVideo3;
 			
-				item.DLocation = varDLocation;
+				item.DOldId = varDOldId;
+			
+				item.DDescription = varDDescription;
+			
+				item.DUrl = varDUrl;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -1577,100 +1369,44 @@ namespace DalWebSite
         
         
         
-        public static TableSchema.TableColumn DEnNameColumn
+        public static TableSchema.TableColumn DWhatsappColumn
         {
             get { return Schema.Columns[31]; }
         }
         
         
         
-        public static TableSchema.TableColumn DEnDesColumn
+        public static TableSchema.TableColumn DVideo2Column
         {
             get { return Schema.Columns[32]; }
         }
         
         
         
-        public static TableSchema.TableColumn DArDesColumn
+        public static TableSchema.TableColumn DVideo3Column
         {
             get { return Schema.Columns[33]; }
         }
         
         
         
-        public static TableSchema.TableColumn DEnSpecialtyColumn
+        public static TableSchema.TableColumn DOldIdColumn
         {
             get { return Schema.Columns[34]; }
         }
         
         
         
-        public static TableSchema.TableColumn DArSpecialtyColumn
+        public static TableSchema.TableColumn DDescriptionColumn
         {
             get { return Schema.Columns[35]; }
         }
         
         
         
-        public static TableSchema.TableColumn DEnAddressColumn
+        public static TableSchema.TableColumn DUrlColumn
         {
             get { return Schema.Columns[36]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DArAddressColumn
-        {
-            get { return Schema.Columns[37]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DEnWorkTimeColumn
-        {
-            get { return Schema.Columns[38]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DArWorkTimeColumn
-        {
-            get { return Schema.Columns[39]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DArNameColumn
-        {
-            get { return Schema.Columns[40]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DWhatsappColumn
-        {
-            get { return Schema.Columns[41]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DVideo2Column
-        {
-            get { return Schema.Columns[42]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DVideo3Column
-        {
-            get { return Schema.Columns[43]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn DLocationColumn
-        {
-            get { return Schema.Columns[44]; }
         }
         
         
@@ -1710,20 +1446,12 @@ namespace DalWebSite
 			 public static string DUsername = @"dUsername";
 			 public static string DDes2 = @"dDes2";
 			 public static string DSpecialAd = @"dSpecialAd";
-			 public static string DEnName = @"dEnName";
-			 public static string DEnDes = @"dEnDes";
-			 public static string DArDes = @"dArDes";
-			 public static string DEnSpecialty = @"dEnSpecialty";
-			 public static string DArSpecialty = @"dArSpecialty";
-			 public static string DEnAddress = @"dEnAddress";
-			 public static string DArAddress = @"dArAddress";
-			 public static string DEnWorkTime = @"dEnWorkTime";
-			 public static string DArWorkTime = @"dArWorkTime";
-			 public static string DArName = @"dArName";
 			 public static string DWhatsapp = @"dWhatsapp";
 			 public static string DVideo2 = @"dVideo2";
 			 public static string DVideo3 = @"dVideo3";
-			 public static string DLocation = @"DLocation";
+			 public static string DOldId = @"dOld_id";
+			 public static string DDescription = @"dDescription";
+			 public static string DUrl = @"dUrl";
 						
 		}
 		#endregion

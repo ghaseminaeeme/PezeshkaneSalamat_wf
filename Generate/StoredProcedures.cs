@@ -135,33 +135,21 @@ namespace DalWebSite{
         }
         
         /// <summary>
-        /// Creates an object wrapper for the selectArabicDoctorBreadcrumb Procedure
+        /// Creates an object wrapper for the selectArBanners Procedure
         /// </summary>
-        public static StoredProcedure SelectArabicDoctorBreadcrumb(int? city, int? branch, string name)
+        public static StoredProcedure SelectArBanners()
         {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectArabicDoctorBreadcrumb", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
-        	
-            sp.Command.AddParameter("@city", city, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@branch", branch, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@name", name, DbType.String, null, null);
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectArBanners", DataService.GetInstance("DbWebSiteConnectionString"), "");
         	
             return sp;
         }
         
         /// <summary>
-        /// Creates an object wrapper for the selectArabicDoctors Procedure
+        /// Creates an object wrapper for the selectArTopBanner Procedure
         /// </summary>
-        public static StoredProcedure SelectArabicDoctors(int? city, int? branch, string name)
+        public static StoredProcedure SelectArTopBanner()
         {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectArabicDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
-        	
-            sp.Command.AddParameter("@city", city, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@branch", branch, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@name", name, DbType.String, null, null);
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectArTopBanner", DataService.GetInstance("DbWebSiteConnectionString"), "");
         	
             return sp;
         }
@@ -253,16 +241,6 @@ namespace DalWebSite{
         }
         
         /// <summary>
-        /// Creates an object wrapper for the selectDoctorsHome Procedure
-        /// </summary>
-        public static StoredProcedure SelectDoctorsHome()
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectDoctorsHome", DataService.GetInstance("DbWebSiteConnectionString"), "");
-        	
-            return sp;
-        }
-        
-        /// <summary>
         /// Creates an object wrapper for the selectEnBanners Procedure
         /// </summary>
         public static StoredProcedure SelectEnBanners()
@@ -289,37 +267,11 @@ namespace DalWebSite{
         }
         
         /// <summary>
-        /// Creates an object wrapper for the selectEnglishDoctors Procedure
-        /// </summary>
-        public static StoredProcedure SelectEnglishDoctors(int? city, int? branch, string name)
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectEnglishDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
-        	
-            sp.Command.AddParameter("@city", city, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@branch", branch, DbType.Int32, 0, 10);
-        	
-            sp.Command.AddParameter("@name", name, DbType.String, null, null);
-        	
-            return sp;
-        }
-        
-        /// <summary>
         /// Creates an object wrapper for the selectEnTopBanner Procedure
         /// </summary>
         public static StoredProcedure SelectEnTopBanner()
         {
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectEnTopBanner", DataService.GetInstance("DbWebSiteConnectionString"), "");
-        	
-            return sp;
-        }
-        
-        /// <summary>
-        /// Creates an object wrapper for the selectLastArabicSpecialDoctors Procedure
-        /// </summary>
-        public static StoredProcedure SelectLastArabicSpecialDoctors()
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectLastArabicSpecialDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "");
         	
             return sp;
         }
@@ -342,16 +294,6 @@ namespace DalWebSite{
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectLastDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "bartar_user");
         	
             sp.Command.AddParameter("@city", city, DbType.Int32, 0, 10);
-        	
-            return sp;
-        }
-        
-        /// <summary>
-        /// Creates an object wrapper for the selectLastEnglishSpecialDoctors Procedure
-        /// </summary>
-        public static StoredProcedure SelectLastEnglishSpecialDoctors()
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectLastEnglishSpecialDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "");
         	
             return sp;
         }
@@ -391,7 +333,7 @@ namespace DalWebSite{
         /// </summary>
         public static StoredProcedure SelectSpecialDoctors(int? city, int? branch, string name)
         {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectSpecialDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "pezeshk4_dbuser");
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectSpecialDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
         	
             sp.Command.AddParameter("@city", city, DbType.Int32, 0, 10);
         	

@@ -236,6 +236,19 @@ namespace DalWebSite
 				colvarADateTime.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarADateTime);
 				
+				TableSchema.TableColumn colvarAActive = new TableSchema.TableColumn(schema);
+				colvarAActive.ColumnName = "aActive";
+				colvarAActive.DataType = DbType.Byte;
+				colvarAActive.MaxLength = 0;
+				colvarAActive.AutoIncrement = false;
+				colvarAActive.IsNullable = true;
+				colvarAActive.IsPrimaryKey = false;
+				colvarAActive.IsForeignKey = false;
+				colvarAActive.IsReadOnly = false;
+				colvarAActive.DefaultSetting = @"";
+				colvarAActive.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarAActive);
+				
 				BaseSchema = schema;
 				//add this schema to the provider
 				//so we can query it later
@@ -317,6 +330,15 @@ namespace DalWebSite
 			get { return GetColumnValue<DateTime?>(Columns.ADateTime); }
 			set { SetColumnValue(Columns.ADateTime, value); }
 		}
+		  
+		[XmlAttribute("AActive")]
+		[Bindable(true)]
+        [DataMember]
+		public byte? AActive 
+		{
+			get { return GetColumnValue<byte?>(Columns.AActive); }
+			set { SetColumnValue(Columns.AActive, value); }
+		}
 		
 		#endregion
 		
@@ -337,7 +359,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(int? varAShift,string varADate,string varAStartTime,int? varATime,int? varANum,int? varADoctorId,DateTime? varADateTime)
+		public static void Insert(int? varAShift,string varADate,string varAStartTime,int? varATime,int? varANum,int? varADoctorId,DateTime? varADateTime,byte? varAActive)
 		{
 			TblAppointmentConfig item = new TblAppointmentConfig();
 			
@@ -355,6 +377,8 @@ namespace DalWebSite
 			
 			item.ADateTime = varADateTime;
 			
+			item.AActive = varAActive;
+			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -365,7 +389,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,int? varAShift,string varADate,string varAStartTime,int? varATime,int? varANum,int? varADoctorId,DateTime? varADateTime)
+		public static void Update(int varId,int? varAShift,string varADate,string varAStartTime,int? varATime,int? varANum,int? varADoctorId,DateTime? varADateTime,byte? varAActive)
 		{
 			TblAppointmentConfig item = new TblAppointmentConfig();
 			
@@ -384,6 +408,8 @@ namespace DalWebSite
 				item.ADoctorId = varADoctorId;
 			
 				item.ADateTime = varADateTime;
+			
+				item.AActive = varAActive;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -454,6 +480,13 @@ namespace DalWebSite
         
         
         
+        public static TableSchema.TableColumn AActiveColumn
+        {
+            get { return Schema.Columns[8]; }
+        }
+        
+        
+        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -466,6 +499,7 @@ namespace DalWebSite
 			 public static string ANum = @"aNum";
 			 public static string ADoctorId = @"aDoctorId";
 			 public static string ADateTime = @"aDateTime";
+			 public static string AActive = @"aActive";
 						
 		}
 		#endregion

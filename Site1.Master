@@ -89,125 +89,35 @@
                                         <div class='pzy-d-flex pzy-flex-row-nowrap pzy-top-menu-widget'>
                                             <div class="toggle-menu" data-target="#mobile-menu-wrapper"><i class="toggle-menu-icon" data-feather="menu"></i></div>
                                             <div class="logo pzy-d-flex pzy-align-items-center">
-                                                <a class="pzy-d-block" href="#/">
-                                                    <img src="https://pezeshkanesalamat.ir/wp-content/uploads/2019/04/pezeshkansalamat-2-1.png"
-                                                        alt="پزشک یار" />
+                                                <a class="pzy-d-block" href="/default.aspx">
+                                                    <img src="/assets/img/logo.png"
+                                                        alt="پزشکان سلامت" />
                                                 </a>
                                             </div>
                                             <div class="mobile-menu-wrapper pzy-hide" id="mobile-menu-wrapper">
                                                 <div class="mobile-menu">
                                                     <div class="menu-header">
-                                                        <a class="pzy-d-block" href="#/">
-                                                            <img src="https://pezeshkanesalamat.ir/wp-content/uploads/2019/04/pezeshkansalamat-2-1.png"
-                                                                alt="پزشک یار" />
+                                                        <a class="pzy-d-block" href="default.aspx">
+                                                            <img src="/assets/img/logo.png"
+                                                                alt="پزشکان سلامت" />
                                                         </a>
                                                     </div>
                                                     <div class="mobile-menu-box">
                                                         <ul class='mobile-menu-list'>
-                                                            <li><a href='https://pezeshk-yar.ir/'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
+                                                            <li><a href='/default.aspx'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
+                                                            <li><a href='/default.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>ورود به پروفایل  </span></a></li>
                                                             <li><a href='#'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
-                                                            <li><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله خبری</span></a></li>
-                                                            <%--                                                            <li><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'><i data-feather='box'></i>خدمات</span></a></li>--%>
-                                                            <li><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'><i data-feather='shopping-bag'></i>پزشکان</span></a></li>
+                                                            <li><a href='#'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت </span></a></li>
+                                                            <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='phone'></i>تماس با ما  </span></a></li>
                                                         </ul>
+
+                                                        <p class="categories-list-title"><a href='Doctors.aspx?city=0&branch=0'>متخصصین پزشکان سلامت </a></p>
                                                         <div class='mobile-categories-list'>
                                                             <ul>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/%d9%88%d8%b1%d9%88%d8%af-%d9%88-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85/'><span class='pzy-link-text'>ورود و ثبت نام</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'>آرشیو مقالات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/%d8%a7%d8%b2-%d8%a8%db%8c%d9%86-%d8%a8%d8%b1%d8%af%d9%86-%d9%84%da%a9%d9%87-%d9%87%d8%a7%db%8c-%d8%b5%d9%88%d8%b1%d8%aa-%d8%af%d8%b1%d8%ae%d8%a7%d9%86%d9%87-7/'><span class='pzy-link-text'>صفحه تکی مقاله</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='/404'><span class='pzy-link-text'>صفحه 404</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/'><span class='pzy-link-text'>تماس با ما</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>ووکامرس</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'>فروشگاه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/cart/'><span class='pzy-link-text'>سبد خرید</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/my-account/'><span class='pzy-link-text'>حساب کاربری من</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/checkout/'><span class='pzy-link-text'>پرداخت</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>انواع محصول</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/'><span class='pzy-link-text'>محصول ساده</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/'><span class='pzy-link-text'>محصول متغیر</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                </ul>
-                                                                </li>
-                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>نوبت دهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'>لیست متخصصین</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    <li class=''><a href='https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/'><span class='pzy-link-text'>صفحه تکی متخصص</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                </ul>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <p class="categories-list-title">دسته بندی کالاها</p>
-                                                        <div class='mobile-categories-list'>
-                                                            <ul>
-                                                                <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل معاینه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>ترازو</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>آبسلانگ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>افتالموسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>وسایل عمومی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>ترازو</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات شخصی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات درمانی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                    <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>تجهیزات آزمایشگاهی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a><ul>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دستگاه فشار سنج</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>دماسنج طبی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>گوشی پزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>اتوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                        <li class=''><a href='#'><span class='pzy-link-text'>رتینوسکوپ</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                    </ul>
-                                                                    </li>
-                                                                </ul>
-                                                                </li>
-                                                                <li class=''><a href='#'><span class='pzy-link-text'>متخصصین پزشکان سلامت</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='#'><span class='pzy-link-text'>محصولات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
-                                                                <li class=''><a href='#'><span class='pzy-link-text'>مقالات</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>دندانپزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>قلب و عروق </span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>مغز و اعصاب</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
+                                                                <li class=''><a href='#'><span class='pzy-link-text'>زنان و زایمان</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
                                                                 <li class=''><a href='#'><span class='pzy-link-text'>آزمایشگاه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
                                                             </ul>
                                                         </div>
@@ -216,36 +126,14 @@
                                             </div>
                                             <nav class="main-desktop-menu">
                                                 <ul>
-                                                    <li class=''><a class='pzy-active' href='https://pezeshk-yar.ir/'><span class='pzy-link-text'><i data-feather='home'></i>صفحه اصلی</span></a></li>
-                                                    <li class=''><a class='' href='#'><span class='pzy-link-text'><i data-feather='layers'></i>صفحات قالب</span></a><ul>
-                                                        <li class=''><a href='https://pezeshk-yar.ir/%d9%88%d8%b1%d9%88%d8%af-%d9%88-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85/'><span class='pzy-link-text'>ورود و ثبت نام</span></a></li>
-                                                        <li class=''><a href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'>آرشیو مقالات</span></a></li>
-                                                        <li class=''><a href='https://pezeshk-yar.ir/%d8%a7%d8%b2-%d8%a8%db%8c%d9%86-%d8%a8%d8%b1%d8%af%d9%86-%d9%84%da%a9%d9%87-%d9%87%d8%a7%db%8c-%d8%b5%d9%88%d8%b1%d8%aa-%d8%af%d8%b1%d8%ae%d8%a7%d9%86%d9%87-7/'><span class='pzy-link-text'>صفحه تکی مقاله</span></a></li>
-                                                        <li class=''><a href='/404'><span class='pzy-link-text'>صفحه 404</span></a></li>
-                                                        <li class=''><a href='https://pezeshk-yar.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/'><span class='pzy-link-text'>تماس با ما</span></a></li>
-                                                        <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>ووکامرس</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'>فروشگاه</span></a></li>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/cart/'><span class='pzy-link-text'>سبد خرید</span></a></li>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/my-account/'><span class='pzy-link-text'>حساب کاربری من</span></a></li>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/checkout/'><span class='pzy-link-text'>پرداخت</span></a></li>
-                                                            <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>انواع محصول</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/'><span class='pzy-link-text'>محصول ساده</span></a></li>
-                                                                <li class=''><a href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/'><span class='pzy-link-text'>محصول متغیر</span></a></li>
-                                                            </ul>
-                                                            </li>
-                                                        </ul>
-                                                        </li>
-                                                        <li class='menu-item-has-children'><a href='#'><span class='pzy-link-text'>نوبت دهی</span><i data-feather='chevron-left' class='toggle-menu-item'></i></a><ul>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'>لیست متخصصین</span></a></li>
-                                                            <li class=''><a href='https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/'><span class='pzy-link-text'>صفحه تکی متخصص</span></a></li>
-                                                        </ul>
-                                                        </li>
-                                                    </ul>
-                                                    </li>
-                                                    <li class=''><a class='' href='https://pezeshk-yar.ir/%d9%85%d8%ac%d9%84%d9%87-%d8%ae%d8%a8%d8%b1%db%8c/'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله خبری</span></a></li>
-                                                    <li class=''><a class='' href='https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/'><span class='pzy-link-text'><i data-feather='box'></i>خدمات</span></a></li>
-                                                    <li class='pzy-mega-menu'>
-                                                        <a class='' href='https://pezeshk-yar.ir/shop/'><span class='pzy-link-text'><i data-feather='shopping-bag'></i>فروشگاه</span></a>
+                                                    <li class=''><a class='pzy-active' href='/default.aspx'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
+
+                                                    <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت</span></a></li>
+                                                    <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='box'></i>تماس با ما </span></a></li>
+                                                    <li class=''><a class='' href='/doctors.aspx?city=0&branch=0'><span class='pzy-link-text'><i data-feather='box'></i> لیست متخصصین </span></a></li>
+
+                                                    <%-- <li class='pzy-mega-menu'>
+                                                        <a class='' href='#'><span class='pzy-link-text'><i data-feather='shopping-bag'></i> لیست متخصصین </span></a>
                                                         <ul>
                                                             <div class='pzy-mega-menu-items'>
                                                                 <div class='pzy-mega-menu-item' data-content='#pzy-mg-menu-21216-21'>
@@ -285,7 +173,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class='pzy-mega-menu-contents'>
-                                                                <div class='pzy-mega-menu-content' id='pzy-mg-menu-21216-21'>
+                                                                <div class='pzy-mega-menu-content pzy-active-mega-content'>
                                                                     <div class='pzy-mega-menu-col'>
                                                                         <div class='pzy-mega-menu-content-list' style='margin-bottom: 0px'>
                                                                             <div class='pzy-mega-menu-content-list-item pzy-mega-menu-content-head-list-item' style=''><a href='#'><span class='pzy-link-text'>وسایل معاینه</span></a></div>
@@ -360,22 +248,22 @@
                                                                 </div>
                                                             </div>
                                                         </ul>
-                                                    </li>
+                                                    </li>--%>
                                                 </ul>
                                             </nav>
                                         </div>
-                                        <script>
-                                            feather.replace();
-                                        </script>
+
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-f9b18dd e-con-full e-flex e-con e-child" data-id="f9b18dd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-element elementor-element-f9b18dd e-con-full e-flex e-con e-child ad-reg" data-id="f9b18dd" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-element elementor-element-f791ab6 elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-image" data-id="f791ab6" data-element_type="widget" data-widget_type="image.default">
                                         <div class="elementor-widget-container">
-                                            <img loading="lazy" width="36" height="24" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/consultation-request.svg" class="attachment-full size-full wp-image-4008" alt="" />
+                                            <%--<img loading="lazy" width="36" height="24" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/consultation-request.svg" class="attachment-full size-full wp-image-4008" alt="" />--%>
+
+                                            <h3>ثبت آگهی</h3>
                                         </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-e9f4bbc elementor-absolute elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="e9f4bbc" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="icon.default">
+                                    <%-- <div class="elementor-element elementor-element-e9f4bbc elementor-absolute elementor-view-stacked elementor-shape-circle elementor-widget elementor-widget-icon" data-id="e9f4bbc" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="icon.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-icon-wrapper">
                                                 <a class="elementor-icon" href="/#reserve">
@@ -386,7 +274,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>--%>
                                     <div class="elementor-element elementor-element-14112e1 elementor-view-default elementor-widget elementor-widget-icon" data-id="14112e1" data-element_type="widget" data-widget_type="icon.default">
                                         <div class="elementor-widget-container">
                                             <div class="elementor-icon-wrapper">
@@ -517,8 +405,8 @@
                                 </div>--%>
 
 
-                                <div class="elementor-element elementor-element-b0348d5 elementor-widget__width-initial elementor-hidden-mobile elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-widget elementor-widget-search-form" data-id="b0348d5" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
-                                    <div class="elementor-widget-container">
+                                <div class="w-100 elementor-element elementor-element-b0348d5 elementor-widget__width-initial elementor-hidden-mobile elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-widget elementor-widget-search-form" data-id="b0348d5" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
+                                    <div class="elementor-widget-container w-100 ">
                                         <%-- <search role="search">
                                             <div class="elementor-search-form" >
                                                 <div class="elementor-search-form__container">
@@ -540,37 +428,40 @@
 
 
                                         <div class="custom-search-bar">
-                                            <div class="elementor-search-form" >
+                                            <div class="elementor-search-form">
                                                 <div class="search-fields">
+                                                    <%-- <asp:Panel ID="Panel1" runat="server" DefaultButton="btnSearch" CssClass="w-100">--%>
                                                     <!-- City Dropdown -->
-                                                    <select class="search-dropdown" name="city">
-                                                        <option value="">انتخاب شهر</option>
-                                                        <option value="tehran">تهران</option>
-                                                        <option value="mashhad">مشهد</option>
-                                                        <option value="isfahan">اصفهان</option>
-                                                        <option value="shiraz">شیراز</option>
-                                                        <!-- Add more cities as needed -->
-                                                    </select>
+                                                    <asp:DropDownList ID="drdCity" runat="server" class="search-dropdown" AppendDataBoundItems="true" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id">
+                                                        <asp:ListItem Value="0" Text="شهر"></asp:ListItem>
+                                                    </asp:DropDownList>
+                                                    <asp:SqlDataSource ID="SqlCity" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [cName] FROM [TblCity] WHERE ([cIsDeleted] &lt;&gt; @cIsDeleted) ORDER BY [cName]">
+                                                        <SelectParameters>
+                                                            <asp:Parameter DefaultValue="true" Name="cIsDeleted" Type="Boolean" />
+                                                        </SelectParameters>
+                                                    </asp:SqlDataSource>
 
                                                     <!-- Category Dropdown -->
-                                                    <select class="search-dropdown" name="category">
-                                                        <option value="">انتخاب دسته‌بندی</option>
-                                                        <option value="dermatology">پوست و مو</option>
-                                                        <option value="dentistry">دندان‌پزشکی</option>
-                                                        <option value="orthopedics">ارتوپدی</option>
-                                                        <option value="surgery">جراحی</option>
-                                                        <!-- Add more categories as needed -->
-                                                    </select>
+
+                                                    <asp:DropDownList ID="drdBranch" runat="server" AppendDataBoundItems="True" DataSourceID="SqlBranch" DataTextField="bSubject" DataValueField="id" CssClass="search-dropdown">
+                                                        <asp:ListItem Value="0" Text="انتخاب تخصص"></asp:ListItem>
+                                                    </asp:DropDownList>
+                                                    <asp:SqlDataSource ID="SqlBranch" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [bSubject] FROM [TblBranch] WHERE ([bIsDeleted] &lt;&gt; @bIsDeleted) ORDER BY [bSubject]">
+                                                        <SelectParameters>
+                                                            <asp:Parameter DefaultValue="true" Name="bIsDeleted" Type="Boolean" />
+                                                        </SelectParameters>
+                                                    </asp:SqlDataSource>
 
                                                     <!-- Doctor Name Input -->
-                                                    <input class="search-input" type="text" name="doctor" placeholder="نام پزشک را وارد کنید" />
+                                                    <asp:TextBox ID="txtSearch" runat="server" class="search-input" placeholder="نام پزشک را وارد کنید"></asp:TextBox>
 
                                                     <!-- Search Button -->
-                                                    <button class="search-button" type="submit" aria-label="جستجو">
+                                                    <asp:LinkButton ID="btnSearch" runat="server" class="header-search-button" aria-label="جستجو" OnClick="btnSearch_Click">
                                                         <svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
                                                         </svg>
-                                                    </button>
+                                                    </asp:LinkButton>
+                                                    <%--</asp:Panel>--%>
                                                 </div>
                                             </div>
                                         </div>
@@ -594,7 +485,7 @@
 
 
 
-        <script>
+        <%--          <script>
             (function () {
                 const calculateParentDistance = (child, parent) => {
                     let count = 0;
@@ -843,7 +734,10 @@
                 c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
                 document.body.className = c;
             })();
-        </script>
+        </script>--%>
+
+
+
         <link rel='stylesheet' id='wc-blocks-style-rtl-css' href='https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-rtl.css?ver=wc-9.5.1' type='text/css' media='all' />
         <link rel='stylesheet' id='elementor-frontend-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-frontend-rtl.min.css?ver=1733764179' type='text/css' media='all' />
         <link rel='stylesheet' id='elementor-post-4497-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-4497.css?ver=1735312204' type='text/css' media='all' />
@@ -899,7 +793,11 @@
             var pzy_newsletter_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "e3a4f789ec" };
         /* ]]> */
         </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-newsletter/main.js" id="pzy-newsletter-js"></script>
+
+
+
+
+        <%--        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-newsletter/main.js" id="pzy-newsletter-js"></script>
         <script type="text/javascript" id="pzy-minicart-js-extra">
             /* <![CDATA[ */
             var pzy_mini_crt_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "d9aab493ec" };
@@ -936,7 +834,7 @@
 /* ]]> */
         </script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.25.10" id="elementor-frontend-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.25.4" id="pro-elements-handlers-js"></script>
+        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.25.4" id="pro-elements-handlers-js"></script>--%>
 
 
 

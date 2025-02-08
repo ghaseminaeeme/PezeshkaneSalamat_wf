@@ -291,7 +291,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarAFooterText = new TableSchema.TableColumn(schema);
 				colvarAFooterText.ColumnName = "aFooterText";
 				colvarAFooterText.DataType = DbType.String;
-				colvarAFooterText.MaxLength = 700;
+				colvarAFooterText.MaxLength = 500;
 				colvarAFooterText.AutoIncrement = false;
 				colvarAFooterText.IsNullable = true;
 				colvarAFooterText.IsPrimaryKey = false;

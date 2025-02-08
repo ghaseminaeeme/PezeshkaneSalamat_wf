@@ -225,7 +225,7 @@ namespace DalWebSite
 				
 				TableSchema.TableColumn colvarBStatus = new TableSchema.TableColumn(schema);
 				colvarBStatus.ColumnName = "bStatus";
-				colvarBStatus.DataType = DbType.Byte;
+				colvarBStatus.DataType = DbType.Boolean;
 				colvarBStatus.MaxLength = 0;
 				colvarBStatus.AutoIncrement = false;
 				colvarBStatus.IsNullable = true;
@@ -377,9 +377,9 @@ namespace DalWebSite
 		[XmlAttribute("BStatus")]
 		[Bindable(true)]
         [DataMember]
-		public byte? BStatus 
+		public bool? BStatus 
 		{
-			get { return GetColumnValue<byte?>(Columns.BStatus); }
+			get { return GetColumnValue<bool?>(Columns.BStatus); }
 			set { SetColumnValue(Columns.BStatus, value); }
 		}
 		  
@@ -447,7 +447,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varBSubject,string varBSubTitle,string varBText1,int? varBPriority,string varBImage,string varBLink,byte? varBStatus,int? varBStateFk,byte? varBLanguage,string varBContentPosition,string varBSubjectColor,string varBSubjectColor1)
+		public static void Insert(string varBSubject,string varBSubTitle,string varBText1,int? varBPriority,string varBImage,string varBLink,bool? varBStatus,int? varBStateFk,byte? varBLanguage,string varBContentPosition,string varBSubjectColor,string varBSubjectColor1)
 		{
 			TblBanner item = new TblBanner();
 			
@@ -485,7 +485,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varBSubject,string varBSubTitle,string varBText1,int? varBPriority,string varBImage,string varBLink,byte? varBStatus,int? varBStateFk,byte? varBLanguage,string varBContentPosition,string varBSubjectColor,string varBSubjectColor1)
+		public static void Update(int varId,string varBSubject,string varBSubTitle,string varBText1,int? varBPriority,string varBImage,string varBLink,bool? varBStatus,int? varBStateFk,byte? varBLanguage,string varBContentPosition,string varBSubjectColor,string varBSubjectColor1)
 		{
 			TblBanner item = new TblBanner();
 			

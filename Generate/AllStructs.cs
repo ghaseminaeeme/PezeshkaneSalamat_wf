@@ -19,6 +19,18 @@ namespace DalWebSite
 	public partial struct Tables
 	{
 		
+		public static readonly string PsDoctorUrl = @"ps_doctor_url";
+        
+		public static readonly string PsDoctorsDate = @"ps_doctors_date";
+        
+		public static readonly string PsDoctorsDe = @"ps_doctors_des";
+        
+		public static readonly string PsDoctorsUtf8 = @"ps_doctors_utf8#";
+        
+		public static readonly string PsDoctorsUtf8Mb4 = @"ps_doctors_utf8_mb4";
+        
+		public static readonly string PsSlider = @"ps_sliders";
+        
 		public static readonly string TblAbout = @"TblAbout";
         
 		public static readonly string TblAdvantage = @"TblAdvantage";
@@ -40,8 +52,6 @@ namespace DalWebSite
 		public static readonly string TblCard = @"TblCard";
         
 		public static readonly string TblCity = @"TblCity";
-        
-		public static readonly string TblComment = @"TblComment";
         
 		public static readonly string TblDoctorImage = @"TblDoctorImage";
         
@@ -65,11 +75,43 @@ namespace DalWebSite
         
 		public static readonly string TblVideo = @"TblVideo";
         
+		public static readonly string TempDoctor = @"Temp_doctor";
+        
 	}
 	#endregion
     #region Schemas
     public partial class Schemas {
 		
+		public static TableSchema.Table PsDoctorUrl
+		{
+            get { return DataService.GetSchema("ps_doctor_url", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsDoctorsDate
+		{
+            get { return DataService.GetSchema("ps_doctors_date", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsDoctorsDe
+		{
+            get { return DataService.GetSchema("ps_doctors_des", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsDoctorsUtf8
+		{
+            get { return DataService.GetSchema("ps_doctors_utf8#", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsDoctorsUtf8Mb4
+		{
+            get { return DataService.GetSchema("ps_doctors_utf8_mb4", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsSlider
+		{
+            get { return DataService.GetSchema("ps_sliders", "DbWebSiteConnectionString"); }
+		}
+        
 		public static TableSchema.Table TblAbout
 		{
             get { return DataService.GetSchema("TblAbout", "DbWebSiteConnectionString"); }
@@ -125,11 +167,6 @@ namespace DalWebSite
             get { return DataService.GetSchema("TblCity", "DbWebSiteConnectionString"); }
 		}
         
-		public static TableSchema.Table TblComment
-		{
-            get { return DataService.GetSchema("TblComment", "DbWebSiteConnectionString"); }
-		}
-        
 		public static TableSchema.Table TblDoctorImage
 		{
             get { return DataService.GetSchema("TblDoctorImage", "DbWebSiteConnectionString"); }
@@ -183,6 +220,11 @@ namespace DalWebSite
 		public static TableSchema.Table TblVideo
 		{
             get { return DataService.GetSchema("TblVideo", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table TempDoctor
+		{
+            get { return DataService.GetSchema("Temp_doctor", "DbWebSiteConnectionString"); }
 		}
         
 	

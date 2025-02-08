@@ -1,0 +1,781 @@
+﻿body {
+    font-family: IRANSans;
+}
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/IRANSans/eot/IRANSansWeb_Bold.eot');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/IRANSans/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/IRANSans/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/IRANSans/eot/IRANSansWeb_Medium.eot');
+    src: url('../fonts/IRANSans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('../fonts/IRANSans/woff2/IRANSansWeb_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('../fonts/IRANSans/woff/IRANSansWeb_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+.elementor-304 .elementor-element.elementor-element-f959313 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    --background-transition: 0.3s;
+}
+body .e-con {
+    --padding-inline-start: var(--padding-right);
+    --padding-inline-end: var(--padding-left);
+    --margin-inline-start: var(--margin-right);
+    --margin-inline-end: var(--margin-left);
+    --border-inline-start-width: var(--border-right-width);
+    --border-inline-end-width: var(--border-left-width);
+}
+.e-con.e-flex > .e-con-inner {
+    flex-wrap: var(--flex-wrap);
+    justify-content: var(--justify-content);
+    align-items: var(--align-items);
+    align-content: var(--align-content);
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: auto;
+}
+.e-con {
+    --border-radius: 0;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    --border-style: initial;
+    --border-color: initial;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --content-width: min(100%, var(--container-max-width, 1140px));
+    --width: 100%;
+    --min-height: initial;
+    --height: auto;
+    --text-align: initial;
+    --margin-top: 0px;
+    --margin-right: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --padding-top: var(--container-default-padding-top, 10px);
+    --padding-right: var(--container-default-padding-right, 10px);
+    --padding-bottom: var(--container-default-padding-bottom, 10px);
+    --padding-left: var(--container-default-padding-left, 10px);
+    --position: relative;
+    --z-index: revert;
+    --overflow: visible;
+    --gap: var(--widgets-spacing, 20px);
+    --overlay-mix-blend-mode: initial;
+    --overlay-opacity: 1;
+    --overlay-transition: 0.3s;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    position: var(--position);
+    width: var(--width);
+    min-width: 0;
+    min-height: var(--min-height);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    z-index: var(--z-index);
+    overflow: var(--overflow);
+    transition: background var(--background-transition, .3s), border var(--border-transition, .3s), box-shadow var(--border-transition, .3s), transform var(--e-con-transform-transition-duration, .4s);
+    --flex-wrap-mobile: wrap;
+    margin-block-start: var(--margin-block-start);
+    margin-inline-end: var(--margin-inline-end);
+    margin-block-end: var(--margin-block-end);
+    margin-inline-start: var(--margin-inline-start);
+    padding-inline-start: var(--padding-inline-start);
+    padding-inline-end: var(--padding-inline-end);
+    --margin-block-start: var(--margin-top);
+    Show all properties (11 more)
+}
+.e-con-full.e-flex, .e-con.e-flex > .e-con-inner {
+    flex-direction: var(--flex-direction);
+}
+
+.elementor-default .e-con > .e-con-inner {
+    width: var(--theme-container-with);
+}
+
+.e-con > .e-con-inner {
+    gap: var(--gap);
+    width: 100%;
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    height: 100%;
+}
+
+.e-con, .e-con > .e-con-inner {
+    display: var(--display);
+}
+
+    .e-con-full, .e-con > .e-con-inner {
+        text-align: var(--text-align);
+        padding-block-start: var(--padding-block-start);
+        padding-block-end: var(--padding-block-end);
+    }
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .elementor-304 .elementor-element.elementor-element-14722ac {
+        --width: 72%;
+    }
+}
+
+.elementor-304 .elementor-element.elementor-element-14722ac {
+    --display: flex;
+    --align-items: stretch;
+    --container-widget-width: calc((1 - var(--container-widget-flex-grow))* 100%);
+    --background-transition: 0.3s;
+    --margin-top: 134px;
+    --margin-bottom: 126px;
+    --margin-left: 0px;
+    --margin-right: 0px;
+    --padding-top: 23px;
+    --padding-bottom: 23px;
+    --padding-left: 0px;
+    --padding-right: 0px;
+}
+
+body .e-con {
+    --padding-inline-start: var(--padding-right);
+    --padding-inline-end: var(--padding-left);
+    --margin-inline-start: var(--margin-right);
+    --margin-inline-end: var(--margin-left);
+    --border-inline-start-width: var(--border-right-width);
+    --border-inline-end-width: var(--border-left-width);
+}
+
+.e-con-full.e-flex, .e-con.e-flex > .e-con-inner {
+    flex-direction: var(--flex-direction);
+}
+
+.e-con.e-flex {
+    --flex-direction: column;
+    --flex-basis: auto;
+    --flex-grow: 0;
+    --flex-shrink: 1;
+    flex: var(--flex-grow) var(--flex-shrink) var(--flex-basis);
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.e-con {
+    --container-max-width: 1216px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.e-con, .e-con > .e-con-inner {
+    display: var(--display);
+}
+
+    .e-con-full, .e-con > .e-con-inner {
+        text-align: var(--text-align);
+        padding-block-start: var(--padding-block-start);
+        padding-block-end: var(--padding-block-end);
+    }
+
+.e-con {
+    --border-radius: 0;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    --border-style: initial;
+    --border-color: initial;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --content-width: min(100%, var(--container-max-width, 1140px));
+    --width: 100%;
+    --min-height: initial;
+    --height: auto;
+    --text-align: initial;
+    --margin-top: 0px;
+    --margin-right: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --padding-top: var(--container-default-padding-top, 10px);
+    --padding-right: var(--container-default-padding-right, 10px);
+    --padding-bottom: var(--container-default-padding-bottom, 10px);
+    --padding-left: var(--container-default-padding-left, 10px);
+    --position: relative;
+    --z-index: revert;
+    --overflow: visible;
+    --gap: var(--widgets-spacing, 20px);
+    --overlay-mix-blend-mode: initial;
+    --overlay-opacity: 1;
+    --overlay-transition: 0.3s;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    position: var(--position);
+    width: var(--width);
+    min-width: 0;
+    min-height: var(--min-height);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    z-index: var(--z-index);
+    overflow: var(--overflow);
+    transition: background var(--background-transition, .3s), border var(--border-transition, .3s), box-shadow var(--border-transition, .3s), transform var(--e-con-transform-transition-duration, .4s);
+    --flex-wrap-mobile: wrap;
+    margin-block-start: var(--margin-block-start);
+    margin-inline-end: var(--margin-inline-end);
+    margin-block-end: var(--margin-block-end);
+    margin-inline-start: var(--margin-inline-start);
+    padding-inline-start: var(--padding-inline-start);
+    padding-inline-end: var(--padding-inline-end);
+    --margin-block-start: var(--margin-top);
+    Show all properties (11 more)
+}
+
+.elementor-element:where(.e-con-full,.elementor-widget) {
+    flex-direction: var(--flex-direction);
+    flex-wrap: var(--flex-wrap);
+    justify-content: var(--justify-content);
+    align-items: var(--align-items);
+    align-content: var(--align-content);
+    gap: var(--gap);
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.elementor-304 .elementor-element.elementor-element-2d7ce53 {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+body.rtl .e-con {
+    --padding-inline-start: var(--padding-right);
+    --padding-inline-end: var(--padding-left);
+    --margin-inline-start: var(--margin-right);
+    --margin-inline-end: var(--margin-left);
+    --border-inline-start-width: var(--border-right-width);
+    --border-inline-end-width: var(--border-left-width);
+}
+
+.e-con-full.e-flex, .e-con.e-flex > .e-con-inner {
+    flex-direction: var(--flex-direction);
+}
+
+.e-con.e-flex {
+    --flex-direction: column;
+    --flex-basis: auto;
+    --flex-grow: 0;
+    --flex-shrink: 1;
+    flex: var(--flex-grow) var(--flex-shrink) var(--flex-basis);
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.e-con {
+    --container-max-width: 1216px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.e-con, .e-con > .e-con-inner {
+    display: var(--display);
+}
+
+    .e-con-full, .e-con > .e-con-inner {
+        text-align: var(--text-align);
+        padding-block-start: var(--padding-block-start);
+        padding-block-end: var(--padding-block-end);
+    }
+
+.e-con {
+    --border-radius: 0;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 0px;
+    --border-left-width: 0px;
+    --border-style: initial;
+    --border-color: initial;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --content-width: min(100%, var(--container-max-width, 1140px));
+    --width: 100%;
+    --min-height: initial;
+    --height: auto;
+    --text-align: initial;
+    --margin-top: 0px;
+    --margin-right: 0px;
+    --margin-bottom: 0px;
+    --margin-left: 0px;
+    --padding-top: var(--container-default-padding-top, 10px);
+    --padding-right: var(--container-default-padding-right, 10px);
+    --padding-bottom: var(--container-default-padding-bottom, 10px);
+    --padding-left: var(--container-default-padding-left, 10px);
+    --position: relative;
+    --z-index: revert;
+    --overflow: visible;
+    --gap: var(--widgets-spacing, 20px);
+    --overlay-mix-blend-mode: initial;
+    --overlay-opacity: 1;
+    --overlay-transition: 0.3s;
+    --e-con-grid-template-columns: repeat(3, 1fr);
+    --e-con-grid-template-rows: repeat(2, 1fr);
+    position: var(--position);
+    width: var(--width);
+    min-width: 0;
+    min-height: var(--min-height);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    z-index: var(--z-index);
+    overflow: var(--overflow);
+    transition: background var(--background-transition, .3s), border var(--border-transition, .3s), box-shadow var(--border-transition, .3s), transform var(--e-con-transform-transition-duration, .4s);
+    --flex-wrap-mobile: wrap;
+    margin-block-start: var(--margin-block-start);
+    margin-inline-end: var(--margin-inline-end);
+    margin-block-end: var(--margin-block-end);
+    margin-inline-start: var(--margin-inline-start);
+    padding-inline-start: var(--padding-inline-start);
+    padding-inline-end: var(--padding-inline-end);
+    --margin-block-start: var(--margin-top);
+    Show all properties (11 more)
+}
+
+.elementor-element:where(.e-con-full,.elementor-widget) {
+    flex-direction: var(--flex-direction);
+    flex-wrap: var(--flex-wrap);
+    justify-content: var(--justify-content);
+    align-items: var(--align-items);
+    align-content: var(--align-content);
+    gap: var(--gap);
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.e-con.e-con > .e-con-inner > .elementor-widget, .elementor.elementor .e-con > .elementor-widget {
+    max-width: 100%;
+}
+
+.elementor-304 .elementor-element.elementor-element-e53412e {
+    width: var(--container-widget-width, 472px);
+    max-width: 472px;
+    --container-widget-width: 472px;
+    --container-widget-flex-grow: 0;
+    z-index: 5;
+}
+
+.e-con .elementor-widget.elementor-widget {
+    margin-block-end: 0;
+}
+
+.e-con .elementor-widget {
+    min-width: 0;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+.elementor-element, .elementor-lightbox {
+    --swiper-theme-color: #000;
+    --swiper-navigation-size: 44px;
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+}
+
+.elementor-widget {
+    position: relative;
+}
+
+.elementor-element:where(.e-con-full,.elementor-widget) {
+    flex-direction: var(--flex-direction);
+    flex-wrap: var(--flex-wrap);
+    justify-content: var(--justify-content);
+    align-items: var(--align-items);
+    align-content: var(--align-content);
+    gap: var(--gap);
+}
+
+.elementor-element {
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+.e-con > .e-con-inner > .elementor-widget > .elementor-widget-container, .e-con > .elementor-widget > .elementor-widget-container {
+    height: 100%;
+}
+
+.elementor-element .elementor-widget-container {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);
+}
+.pzy-account-form-box-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+}
+.pzy-account-forms {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 32px;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+    width: 472px;
+    max-width: 100%;
+}
+    .pzy-account-forms .pzy-account-form {
+        border-radius: 25px;
+        background: var(--gray-100, #F5F6F7);
+        padding: 38px 36px 39px;
+    }
+
+        .pzy-account-forms .pzy-account-form h2 {
+            color: var(--primary-500, #0052A8);
+        }
+
+        .h3-20-bold, .pzy-account-forms .pzy-account-form h2, .woocommerce .woocommerce-thankyou-order-received, .product .product_title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 180%;
+        }
+        .pzy-account-forms .pzy-account-form h5 {
+            color: var(--gray-400, #617081);
+        }
+
+        .pzy-account-forms .pzy-account-form .form {
+            margin-top: 24px;
+        }
+
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.form {
+    margin: 0;
+}
+.pzy-account-forms .pzy-account-form .form .form-row {
+    position: relative;
+    margin-bottom: 26px;
+}
+    .pzy-account-forms .pzy-account-form .form .form-row.pzy-row__remember {
+        margin-top: 15px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.pzy-account-forms .pzy-account-form .form .form-row {
+    position: relative;
+    margin-bottom: 26px;
+}
+    .pzy-account-forms .pzy-account-form .form .form-row .input-text {
+        border-radius: 30px;
+        border: 1px solid var(--gray-200, #D7DBDF);
+        background: var(--primary-100, #F5F8FC);
+        box-shadow: 0 0 20px 0px rgba(76, 86, 134, 0.07);
+        height: 50px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 13px 20px;
+    }
+    .pzy-account-forms .pzy-account-form .form .form-row svg {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        stroke: var(--gray-300, #A6AFB8);
+        top: 13px;
+        left: 16px;
+    }
+.show-password-input {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background: url(../images/eye.svg) no-repeat center center;
+    background-size: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: all 0.5s;
+}
+.pzy-account-forms .pzy-account-form .form .form-row.pzy-row__remember {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.pzy-account-forms .pzy-account-form .form .pzy-havent-account {
+    margin-top: 42px;
+}
+.pzy-account-forms .pzy-account-form .form .pzy-start-buttons {
+    margin-top: 7px;
+}
+.pzy-account-forms .pzy-account-form .form .button {
+    height: 47px;
+    border: none;
+    border-radius: 24px;
+    background: var(--secondary-500, #00DCA7);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 64px;
+    color: var(--gray-100, #F5F6F7);
+}
+.pzy-account-forms .pzy-account-form .pzy-buttons {
+    position: absolute;
+    bottom: -7px;
+    right: 24px;
+    transform: translate(0, 100%);
+}
+body.rtl .elementor-304 .elementor-element.elementor-element-84c05af {
+    left: 0px;
+}
+
+.elementor-304 .elementor-element.elementor-element-84c05af.e-con {
+    --align-self: stretch;
+}
+
+.elementor-304 .elementor-element.elementor-element-84c05af:not(.elementor-motion-effects-element-type-background), 
+.elementor-304 .elementor-element.elementor-element-84c05af > .elementor-motion-effects-container > .elementor-motion-effects-layer
+{
+    background-image: url(/Admin/assets/img/form-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .elementor-304 .elementor-element.elementor-element-84c05af {
+        --width: 60%;
+    }
+}
+
+.elementor-304 .elementor-element.elementor-element-84c05af, .elementor-304 .elementor-element.elementor-element-84c05af::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-304 .elementor-element.elementor-element-84c05af {
+    --display: flex;
+    --position: absolute;
+    --min-height: 100%;
+    --background-transition: 0.3s;
+    --border-radius: 25px 25px 25px 25px;
+    top: 0px;
+}
+
+body.rtl .e-con {
+    --padding-inline-start: var(--padding-right);
+    --padding-inline-end: var(--padding-left);
+    --margin-inline-start: var(--margin-right);
+    --margin-inline-end: var(--margin-left);
+    --border-inline-start-width: var(--border-right-width);
+    --border-inline-end-width: var(--border-left-width);
+}
+
+.e-con-full.e-flex, .e-con.e-flex > .e-con-inner {
+    flex-direction: var(--flex-direction);
+}
+
+.e-con.e-flex {
+    --flex-direction: column;
+    --flex-basis: auto;
+    --flex-grow: 0;
+    --flex-shrink: 1;
+    flex: var(--flex-grow) var(--flex-shrink) var(--flex-basis);
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+body.rtl .elementor-304 .elementor-element.elementor-element-1bf1b2d {
+    right: 0px;
+}
+
+.elementor-304 .elementor-element.elementor-element-1bf1b2d:not(.elementor-motion-effects-element-type-background), .elementor-304 .elementor-element.elementor-element-1bf1b2d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #0052A8D9;
+}
+
+@media (min-width: 768px) {
+    .elementor-304 .elementor-element.elementor-element-1bf1b2d {
+        --width: 100%;
+    }
+}
+
+.elementor-304 .elementor-element.elementor-element-1bf1b2d, .elementor-304 .elementor-element.elementor-element-1bf1b2d::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-304 .elementor-element.elementor-element-1bf1b2d {
+    --display: flex;
+    --position: absolute;
+    --min-height: 100%;
+    --background-transition: 0.3s;
+    --border-radius: 25px 25px 25px 25px;
+    top: 0px;
+}
+.elementor-304 .elementor-element.elementor-element-84c05af:not(.elementor-motion-effects-element-type-background), .elementor-304 .elementor-element.elementor-element-84c05af > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://pezeshk-yar.ir/wp-content/uploads/2024/08/form-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .elementor-304 .elementor-element.elementor-element-84c05af {
+        --width: 60%;
+    }
+}
+.woocommerce-form-login__submit {
+    font-size:15px;
+    font-weight:bold;
+}
+.woocommerce-error {
+    border-top-color: #b81c23;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    padding: 1em 3.5em 1em 2em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #f6f5f8;
+    color: #515151;
+    border-top: 3px solid #7f54b3;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+}
+    .woocommerce-error::before {
+        content: "\e016";
+        color: #b81c23;
+    }
+
+    .woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+        font-family: WooCommerce;
+        content: "\e028";
+        content: "\e028" / "";
+        display: inline-block;
+        position: absolute;
+        top: 1em;
+        right: 1.5em;
+    }
+.elementor *, .elementor :after, .elementor :before {
+    box-sizing: border-box;
+}
+
+.woocommerce-error::after, .woocommerce-info::after, .woocommerce-message::after {
+    clear: both;
+}
+
+.woocommerce-error::after, .woocommerce-error::before, .woocommerce-info::after, .woocommerce-info::before, .woocommerce-message::after, .woocommerce-message::before {
+    content: " ";
+    display: table;
+}
+.woocommerce-error li, .woocommerce-info li, .woocommerce-message li {
+    list-style: none outside !important;
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}

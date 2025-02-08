@@ -442,9 +442,9 @@
                                                 </div>
                                                 <div class="pzy-product-card-col" style="flex: 1">
                                                     <h3 class="pzy-product-title">
-                                                        <a href="#/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d8%a7%d9%85%d8%b3%db%8c%da%af/">دستگاه بخور سرد امسیگ</a>
+                                                        <a href="#">دستگاه بخور سرد امسیگ</a>
                                                     </h3>
-                                                    <div class="pzy-product-category"><a href="#/product-category/%d9%85%d8%ad%d8%b5%d9%88%d9%84%d8%a7%d8%aa-%d9%be%d9%88%d8%b3%d8%aa%db%8c/" rel="tag">محصولات پوستی</a></div>
+                                                    <div class="pzy-product-category"><a href="#" rel="tag">محصولات پوستی</a></div>
                                                     <div class="pzy-card-bottom">
                                                         <div class='pzy-product-price'>
                                                             <div class="sale-price-row"><span class="sale-price">2,500,000</span></div>
@@ -505,7 +505,7 @@
                             <div class="elementor-icon-box-content">
 
                                 <h2 class="elementor-icon-box-title">
-                                    <span>محصولات ما </span>
+                                    <span>متخصصین پزشکان سلامت </span>
                                 </h2>
 
                             </div>
@@ -528,7 +528,7 @@
                         <div class="elementor-icon-box-wrapper">
 
                             <div class="elementor-icon-box-icon">
-                                <a href="#/shop/" class="elementor-icon elementor-animation-" tabindex="-1">
+                                <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                         <g id="chevron-left">
                                             <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -539,7 +539,7 @@
                             <div class="elementor-icon-box-content">
 
                                 <span class="elementor-icon-box-title">
-                                    <a href="#/shop/">مشاهده همه
+                                    <a href="/Doctors.aspx?city=0&branch=0">مشاهده همه
                                     </a>
                                 </span>
 
@@ -554,6 +554,7 @@
     </div>
 
 
+
     <section class="pzy-archive-content pzy-staffs-archive">
         <div class="pzy-staffs-consultation">
             <div class="pzy-services-loop">
@@ -563,6 +564,7 @@
                     <ItemTemplate>
                         <article class="pzy-staff-card">
                             <div class="pzy-staff-special">
+
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="Icon" clip-path="url(#clip0_2884_3321)">
@@ -571,9 +573,9 @@
                                             fill="#1D9BF0" />
                                     </g>
                                     <defs>
-                                        <clipPath id="clip0_2884_3321">
-                                            <rect width="16" height="16" fill="white" />
-                                        </clipPath>
+                                        <clippath id="clip0_2884_3321">
+                                        </clippath>
+                                        <rect width="16" height="16" fill="white" />
                                     </defs>
                                 </svg>
                             </div>
@@ -583,7 +585,7 @@
                                 <a href="'DoctorDetail.aspx?did=<%#Eval("id") %>'"
                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                     <img class="pzy-staff-card-avatar"
-                                        src='https://faraapezeshk.ir/<%#Eval("dImg") %>' alt="<%#Eval("dName") %>" />
+                                        src='<%#Eval("dImg") %>' alt="<%#Eval("dName") %>" />
                                 </a>
                             </div>
 
@@ -591,11 +593,13 @@
                             <h3 class="pzy-staff-title p-16-bold">
                                 <a href='DoctorDetail.aspx?did=<%#Eval("id") %>'><%#Eval("dName") %> </a>
                             </h3>
-                            <h4 class="pzy-staff-subtitle"><%#Eval("cName") %> </h4>
+                            <h4 class="pzy-staff-subtitle">شهر</h4>
 
+                            <h4 class="pzy-staff-subtitle">تخصص</h4>
+                            <%-- <%#Eval("cName") %>  --%>
                             <div class="pzy-staff-point">
                                 <!-- FeedbackWP Plugin - Results Widget -->
-                                <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--131 "
+                                <%-- <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--131 "
                                     data-post-id="131">
                                     <div class="rmp-results-widget__visual-rating">
                                         <i
@@ -614,10 +618,10 @@
                                             class="js-rmp-vote-count">1</span>)
                                     </div>
                                 </div>
-                                <span class="t-13-regular text-gray-300">1 نظر</span>
+                                <span class="t-13-regular text-gray-300">1 نظر</span>--%>
                             </div>
 
-                          <%--      <button class="pzy-staff-consultation-request"
+                            <%--      <button class="pzy-staff-consultation-request"
                                 data-staff-name="دکتر مبین امین" data-staff="131">
                                 <i class="pzy-staff-consultation-request-icon"
                                     data-feather="message-square"></i>
@@ -652,15 +656,7 @@
 
             </div>
 
-            <div class="pzy-pagination-links">
-                <span aria-label="برگه 1" aria-current="page"
-                    class="page-numbers current">1</span>
-                <a aria-label="برگه 2" class="page-numbers"
-                    href="#/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/page/2/">2</a>
-                <a class="next page-numbers"
-                    href="#/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/page/2/">بعدی
-                                                &raquo;</a>
-            </div>
+
             <div class="pzy-consultation-modal pzy-modal-wrapper pzy-hide">
                 <div class="pzy-modal-content">
                     <div class="pzy-modal pzy-staffs-schedule-categories-modal">
@@ -684,88 +680,7 @@
                                 </svg>
                             </button>
                         </div>
-                        <div class="pzy-modal-body">
-                            <form class="pzy-consultation-form">
-                                <div
-                                    class="pzy-modal-reserve-form pzy-d-flex pzy-flex-column-nowrap">
-                                    <label class="pzy-input-label">
-                                        <p class="pzy-input-title">
-                                            نام و نام خانوادگی <span
-                                                class="pzy-required">*</span>
-                                        </p>
-                                        <div class="pzy-input-append-icon">
-                                            <input type="text" name="full_name">
-                                            <i class="pzy-input-icon"
-                                                data-feather="user"></i>
-                                        </div>
-                                    </label>
-                                    <label class="pzy-input-label">
-                                        <p class="pzy-input-title">
-                                            شماره تماس <span class="pzy-required">*</span>
-                                        </p>
-                                        <div class="pzy-input-append-icon">
-                                            <input type="text" name="contact_phone">
-                                            <i class="pzy-input-icon"
-                                                data-feather="smartphone"></i>
-                                        </div>
-                                    </label>
-                                    <label class="pzy-input-label">
-                                        <p class="pzy-input-title">
-                                            نوع بیمه درمانی <span
-                                                class="pzy-required">*</span>
-                                        </p>
-                                        <div class="pzy-input-append-icon">
-                                            <input type="text" name="insurance_type">
-                                            <i class="pzy-input-icon"
-                                                data-feather="clipboard"></i>
-                                        </div>
-                                    </label>
 
-                                    <input type="hidden" class="pzy-form-staff-id"
-                                        name="staff">
-
-
-                                    <div
-                                        class="pzy-input-append-icon pzy-position-relative">
-                                        <input class="pzy-form-service-human-date"
-                                            type="text" placeholder="انتخاب تاریخ" disabled>
-                                        <input class="pzy-form-service-date" type="hidden"
-                                            name="service_date">
-                                        <i class="pzy-input-icon pzy-consultation-show-date"
-                                            data-feather="plus-circle"></i>
-                                        <div class="pzy-select-date-box pzy-consultation-select-date-box pzy-hide"
-                                            data-alt="#pzy-consultation-datepicker-alt">
-                                            <span class="pzy-select-date-box-title">انتخاب
-                                                                            تاریخ</span>
-                                            <input type="text"
-                                                class="pzy-datepicker-display"
-                                                id="pzy-consultation-datepicker-alt"
-                                                readonly />
-                                        </div>
-
-                                    </div>
-                                    <div class="pzy-input-append-icon">
-                                        <input class="pzy-form-staff-name" type="text"
-                                            value="نام متخصص" disabled>
-                                        <i class="pzy-input-icon" data-feather="user"></i>
-                                    </div>
-
-                                    <p class="pzy-radio-group-label">
-                                        انتخاب زمان مراجعه به
-                                                                    دکتر :
-                                    </p>
-
-                                    <div class="pzy-time-slots pzy-radio-group"></div>
-
-                                    <button
-                                        class="pzy-modal-reserve-submit pzy-button pzy-button-primary pzy-mt-55">
-                                        <i data-feather="message-square"></i>
-                                        ثبت نوبت شما
-                                    </button>
-                                </div>
-                            </form>
-
-                        </div>
                     </div>
                 </div>
             </div>
