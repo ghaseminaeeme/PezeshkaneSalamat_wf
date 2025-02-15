@@ -1,10 +1,8 @@
-﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="DoctorDetail.aspx.cs" Inherits="pezeshkaneSalamat_wf.DoctorDetail" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="job.aspx.cs" Inherits="pezeshkaneSalamat_wf.job" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <main>
+        <main>
 
 
         <div data-elementor-type="single-post" data-elementor-id="1215" class="elementor elementor-1215 pzy-loop-item post-131 pzy_staff type-pzy_staff status-publish has-post-thumbnail hentry pzy_service-31 pzy_service-25 pzy_service-24 pzy_service-22 pzy_service-28" data-elementor-post-type="elementor_library">
@@ -29,6 +27,7 @@
                                 </SelectParameters>
                             </asp:SqlDataSource>
 
+
                         </div>
                     </div>
 
@@ -45,8 +44,8 @@
                                                     <div class="swiper-slide dr-img-list">
                                                         <div class="pzy-slide-content">
 
-                                                            <%# Eval("dType").ToString() == "1" ? "<img src='" + Eval("pic") + "' alt=''  loading='lazy' />" : "" %>
-                                                            <%# Eval("dType").ToString() == "2" ? "<video  style='' ><source src='" + Eval("pic") + "' type='video/mp4' loading='lazy'>مرورگر شما از این فایل پشتیبانی نمی کند</video>" : "" %>
+                                                            <%# Eval("dType").ToString() == "1" ? "<img src='https://faraapezeshk.ir/" + Eval("pic") + "' alt=''  loading='lazy' />" : "" %>
+                                                            <%# Eval("dType").ToString() == "2" ? "<video  style='' ><source src='https://faraapezeshk.ir/" + Eval("pic") + "' type='video/mp4' loading='lazy'>مرورگر شما از این فایل پشتیبانی نمی کند</video>" : "" %>
 
                                                             <%--<img src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Bg-1-150x150.png" />--%>
                                                         </div>
@@ -67,14 +66,13 @@
                                     <div class='swiper custom-init'
                                         data-settings='{&quot;rtl&quot;:true,&quot;autoHeight&quot;:false,&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.swiper-button-prev&quot;,&quot;enabled&quot;:false},&quot;slidesPerView&quot;:1,&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;breakpoints&quot;:{&quot;768&quot;:{&quot;navigation&quot;:{&quot;nextEl&quot;:&quot;.swiper-button-next&quot;,&quot;prevEl&quot;:&quot;.swiper-button-prev&quot;,&quot;enabled&quot;:true}}}}'>
                                         <div class='swiper-wrapper'>
-
                                             <asp:Repeater ID="Repeater2" runat="server" DataSourceID="SqlImages">
                                                 <ItemTemplate>
                                                     <div class="swiper-slide pzy-auto-height">
                                                         <div class="pzy-slide-content pzy-full-height">
 
-                                                            <%# Eval("dType").ToString() == "1" ? "<img src='" + Eval("pic") + "' alt=''  loading='lazy' />" : "" %>
-                                                            <%# Eval("dType").ToString() == "2" ? "<video  style='' ><source src='" + Eval("pic") + "' type='video/mp4' loading='lazy'>مرورگر شما از این فایل پشتیبانی نمی کند</video>" : "" %>
+                                                            <%# Eval("dType").ToString() == "1" ? "<img src='https://faraapezeshk.ir/" + Eval("pic") + "' alt=''  loading='lazy' />" : "" %>
+                                                            <%# Eval("dType").ToString() == "2" ? "<video  style='' ><source src='https://faraapezeshk.ir/" + Eval("pic") + "' type='video/mp4' loading='lazy'>مرورگر شما از این فایل پشتیبانی نمی کند</video>" : "" %>
 
                                                             <%--<img src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Bg-1.png" />--%>
                                                         </div>
@@ -150,9 +148,9 @@
                                             </div>
                                             <div class="py-staff-template-information-card pzy-d-flex pzy-justify-content-between pzy-align-items-center pzy-position-relative">
                                                 <div class="pzy-staff-template-information-card-content pzy-d-flex pzy-flex-column-wrap">
-                                                    <div class="pzy-staff-template-information-card-title">تخصص</div>
+                                                    <div class="pzy-staff-template-information-card-title">رزرو آنلاین</div>
                                                     <div class="pzy-staff-template-information-card-description">
-                                                        <%#Eval("bSubject") %>
+                                                        دارد
                                                     </div>
                                                 </div>
                                                 <div class="pzy-staff-template-information-card-icon">
@@ -182,7 +180,7 @@
                                                 <div class="pzy-staff-template-information-card-content pzy-d-flex pzy-flex-column-wrap">
                                                     <div class="pzy-staff-template-information-card-title">شهر</div>
                                                     <div class="pzy-staff-template-information-card-description">
-                                                        <%#Eval("cName") %>
+                                                        <%-- <%#Eval("cName") %>--%> تهران
                                                     </div>
                                                 </div>
                                                 <div class="pzy-staff-template-information-card-icon">
@@ -192,14 +190,6 @@
                                                         </g></svg>
                                                 </div>
                                                 <div class="pzy-staff-template-information-card-shadow pzy-position-absolute"></div>
-                                            </div>
-
-                                            <div class="py-staff-template-information-card pzy-d-flex pzy-justify-content-between pzy-align-items-center pzy-position-relative">
-                                               
-                                                <div class="doctor-map">
-                                                        <%# Eval("dLocation").ToString() != "" ? Eval("dLocation")  :  
-                                                                "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6477.8791369933215!2d51.0939571452297!3d35.72770472393541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8ded0ab06bfd8b%3A0x5e01d33197dbe3af!2z2K_Yp9ix2YjYrtin2YbZhyDYr9mD2KrYsSDZhdmH2K_ZiiDZhti42LHZig!5e0!3m2!1sen!2sfr!4v1705747127499!5m2!1sen!2sfr' width='100%' height='300' style='border: 0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>" %>
-                                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -932,7 +922,7 @@
                                         <div class="comment-form-submit-box">
                                             <div class="pzy-rate-box">
                                                 <span class="pzy-rate-title">امتیاز شما</span><!-- FeedbackWP Plugin --><div class="rmp-widgets-container rmp-wp-plugin rmp-main-container js-rmp-widgets-container js-rmp-widgets-container--131 " data-post-id="131">
-                                                    <%--  <!-- Rating widget -->
+                                                  <%--  <!-- Rating widget -->
                                                     <div class="rmp-rating-widget js-rmp-rating-widget">
                                                         <p class="rmp-heading rmp-heading--title">چقدر این پست مفید بود؟      </p>
                                                         <p class="rmp-heading rmp-heading--subtitle">با کلیک روی ستاره ها به این نوشته امتیاز دهید      </p>
@@ -974,7 +964,5 @@
 
 
     </main>
-
-
 
 </asp:Content>

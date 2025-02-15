@@ -11,43 +11,61 @@ namespace pezeshkaneSalamat_wf
 {
 
 
-    public partial class Default
+    public partial class job
     {
 
         /// <summary>
-        /// RepeaterBanner control.
+        /// FormView2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterBanner;
+        protected global::System.Web.UI.WebControls.FormView FormView2;
 
         /// <summary>
-        /// SqlBanner control.
+        /// SqlDoctor control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlBanner;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDoctor;
 
         /// <summary>
-        /// ListSpecialDoctors control.
+        /// Repeater1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListSpecialDoctors;
+        protected global::System.Web.UI.WebControls.Repeater Repeater1;
 
         /// <summary>
-        /// SqlSpecialDoctors control.
+        /// Repeater2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlSpecialDoctors;
+        protected global::System.Web.UI.WebControls.Repeater Repeater2;
+
+        /// <summary>
+        /// SqlImages control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlImages;
+
+        /// <summary>
+        /// FormView1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FormView FormView1;
     }
 }

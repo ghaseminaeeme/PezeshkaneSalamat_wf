@@ -105,13 +105,13 @@
                                                     <div class="mobile-menu-box">
                                                         <ul class='mobile-menu-list'>
                                                             <li><a href='/default.aspx'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
-                                                            <li><a href='/default.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>ورود به پروفایل  </span></a></li>
-                                                            <li><a href='#'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
-                                                            <li><a href='#'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت </span></a></li>
+                                                            <li><a href='/doctors.aspx?city=0&branch=0'><span class='pzy-link-text'><i data-feather='book-open'></i> لیست متخصصین  </span></a></li>
+                                                            <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
+                                                            <li><a href='/blog.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت </span></a></li>
                                                             <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='phone'></i>تماس با ما  </span></a></li>
                                                         </ul>
 
-                                                        <p class="categories-list-title"><a href='Doctors.aspx?city=0&branch=0'>متخصصین پزشکان سلامت </a></p>
+                                                      <%--  <p class="categories-list-title"><a href='Doctors.aspx?city=0&branch=0'>متخصصین پزشکان سلامت </a></p>
                                                         <div class='mobile-categories-list'>
                                                             <ul>
                                                                 <li class=''><a href='#'><span class='pzy-link-text'>دندانپزشکی</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
@@ -120,7 +120,7 @@
                                                                 <li class=''><a href='#'><span class='pzy-link-text'>زنان و زایمان</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
                                                                 <li class=''><a href='#'><span class='pzy-link-text'>آزمایشگاه</span><i class="toggle-menu-item" data-feather="chevron-left"></i></a></li>
                                                             </ul>
-                                                        </div>
+                                                        </div>--%>
                                                     </div>
                                                 </div>
                                             </div>

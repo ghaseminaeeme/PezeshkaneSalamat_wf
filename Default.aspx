@@ -8,8 +8,244 @@
     <div class="elementor-element elementor-element-d903ab8 mobile-full-container e-flex e-con-boxed e-con e-parent" data-id="d903ab8" data-element_type="container">
         <div class="e-con-inner">
 
+            <div class="elementor-element elementor-element-d903ab8 mobile-full-container e-flex e-con-boxed e-con e-parent" data-id="d903ab8" data-element_type="container">
+                <div class="e-con-inner">
+                    <!--  $$$$$$$$$$$$   Big slider   $$$$$$$$$$$$$ -->
+
+                    <div class="elementor-element elementor-element-0d66dc4 elementor-widget__width-initial home-top-slider elementor-widget elementor-widget-pzy_elementor_slider" data-id="0d66dc4" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_elementor_slider.default">
+                        <div class="elementor-widget-container">
+                            <div class="pzy-templates-slider" style="height: 100%">
+                                <div class="slider-wrapper" style="height: 100%">
+                                    <div class="swiper" data-settings='{"slidesPerView":1,"spaceBetween":16,"loop":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":false},"pagination":{"el":".swiper-pagination","type":"bullets","enabled":true},"autoplay":{"delay":8000},"rtl":true,"breakpoints":{"768":{"slidesPerView":1,"spaceBetween":16,"loop":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":false},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"autoplay":{"delay":8000},"rtl":true},"1024":{"slidesPerView":1,"spaceBetween":16,"loop":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true}}}'>
+                                        <div class="swiper-wrapper">
+
+
+
+
+
+                                            <!-- Start Slider Item  -->
+                                            <asp:Repeater ID="RepeaterBanner" runat="server" DataSourceID="SqlBanner">
+                                                <ItemTemplate>
+
+                                                    <div class="swiper-slide">
+                                                        <div class="pzy-templates-slide" style="height: 100%">
+                                                            <div data-elementor-type="container" data-elementor-id="1404" class="elementor elementor-1404" data-elementor-post-type="elementor_library">
+                                                                <div class="elementor-element elementor-element-4e39a3d e-flex e-con-boxed e-con e-parent" data-id="4e39a3d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                    <div class="e-con-inner">
+                                                                      <%--    <div class="elementor-element elementor-element-c43b1c9 e-con-full e-flex e-con e-child" data-id="c43b1c9" data-element_type="container">
+                                                                           
+                                                                           
+                                                                        </div>--%>
+
+                                                                      <div class="elementor-element elementor-element-1bc5ab2 e-con-full e-flex e-con e-child" data-id="1bc5ab2" data-element_type="container">
+                                                                            <div class="elementor-element elementor-element-6ae606d elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image" data-id="6ae606d" data-element_type="widget" data-widget_type="image.default">
+                                                                                <div class="elementor-widget-container">
+                                                                                    <img loading="lazy" decoding="async"  src='<%#Eval("bImage") %>' 
+                                                                                        class="attachment-full size-full wp-image-1420" alt="" width="256" height="324"  sizes="(max-width: 256px) 100vw, 256px" srcset='<%#Eval("bImage") %>'  />
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </ItemTemplate>
+                                            </asp:Repeater>
+                                            <!-- End Slider Item  -->
+                                            <asp:SqlDataSource ID="SqlBanner" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
+                                                SelectCommand="selectBanners" SelectCommandType="StoredProcedure"></asp:SqlDataSource>
+
+
+
+
+
+
+
+
+
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="92" viewBox="0 0 32 92" fill="none">
+                                                <path id="Curve" d="M0 92L-4.02145e-06 0L-4.01833e-06 0.0714264L-3.99596e-06 0.583168C-3.55658e-06 10.635 5.97355 19.7254 15.2 23.7143L19.0176 25.4672C26.9292 29.1001 32 37.0085 32 45.7143C32 54.3985 26.877 62.2653 18.9346 65.7772L15.2 67.4286C5.94779 71.6025 -4.89099e-07 80.8107 -4.54226e-08 90.9609L0 92Z" fill="white"></path></svg>
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="92" viewBox="0 0 32 92" fill="none">
+                                                <path id="Curve" d="M0 92L-4.02145e-06 0L-4.01833e-06 0.0714264L-3.99596e-06 0.583168C-3.55658e-06 10.635 5.97355 19.7254 15.2 23.7143L19.0176 25.4672C26.9292 29.1001 32 37.0085 32 45.7143C32 54.3985 26.877 62.2653 18.9346 65.7772L15.2 67.4286C5.94779 71.6025 -4.89099e-07 80.8107 -4.54226e-08 90.9609L0 92Z" fill="white"></path></svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  $$$$$$$$$$$$   Small Slider    $$$$$$$$$$$$$ -->
+                    <div class="elementor-element elementor-element-9d5618a sale-products-slider elementor-widget-tablet__width-initial elementor-widget__width-initial elementor-widget elementor-widget-pzy_products_slider" data-id="9d5618a" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;hide_prev_button&quot;:&quot;yes&quot;,&quot;only_sale&quot;:&quot;yes&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16}" data-widget_type="pzy_products_slider.default">
+                        <div class="elementor-widget-container">
+                            <div class="pzy-products-slider" style="height: 100%">
+                                <div class="slider-wrapper" style="height: 100%">
+                                    <div class="swiper" data-settings='{"slidesPerView":1,"spaceBetween":16,"loop":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":false},"pagination":{"el":".swiper-pagination","type":"progressbar","enabled":true},"autoplay":{"delay":8000},"rtl":true,"breakpoints":{"768":{"slidesPerView":1,"spaceBetween":16,"loop":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":"progressbar","enabled":true},"rtl":true}}}'>
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <article class="pzy-product-card" style="height: 100%">
+                                                    <div class="pzy-product-row" style="height: 100%">
+                                                        <div class="pzy-product-card-col">
+                                                            <div class="pzy-product-img pzy-position-relative">
+                                                                <a class="pzy-d-block pzy-text-center"
+                                                                    href="https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/">
+                                                                    <img loading="lazy" decoding="async" width="300" height="300" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-300x300.png 300w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-150x150.png 150w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-100x100.png 100w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min.png 500w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pzy-product-card-col" style="flex: 1">
+                                                            <h3 class="pzy-product-title">
+                                                                <a href="https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/">برس پاک ‌سازی میوتو</a>
+                                                            </h3>
+                                                            <div class="pzy-product-category"><a href="https://pezeshk-yar.ir/product-category/%d8%af%d9%85%d8%a7%d8%b3%d9%86%d8%ac/" rel="tag">دماسنج</a> | <a href="https://pezeshk-yar.ir/product-category/%d8%aa%d8%a8-%d8%b3%d9%86%d8%ac/" rel="tag">تب سنج</a></div>
+                                                            <div class="pzy-card-bottom">
+                                                                <div class='pzy-product-price'>
+                                                                    <div class="custom-price-row"><span class='pzy-product-discount'>% 14</span><span class="regular-price">700,000</span></div>
+                                                                    <div class="sale-price-row"><span class="sale-price">600,000</span></div>
+                                                                </div>
+                                                                <a class="pzy-add-to-cart" href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88/'>
+                                                                    <svg class="pzy-cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                                        viewBox="0 0 18 18" fill="none">
+                                                                        <path d="M2.25 4.5L4.5 1.5H13.5L15.75 4.5M2.25 4.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V4.5M2.25 4.5H15.75M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                                                                            stroke="#F5F6F7" stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <article class="pzy-product-card" style="height: 100%">
+                                                    <div class="pzy-product-row" style="height: 100%">
+                                                        <div class="pzy-product-card-col">
+                                                            <div class="pzy-product-img pzy-position-relative">
+                                                                <a class="pzy-d-block pzy-text-center"
+                                                                    href="https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d9%88-%d8%b1%d8%b7%d9%88%d8%a8%d8%aa-%d8%b3%d8%a7%d8%b2/">
+                                                                    <img loading="lazy" decoding="async" width="300" height="300" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-300x300.png 300w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-150x150.png 150w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-100x100.png 100w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f.png 448w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pzy-product-card-col" style="flex: 1">
+                                                            <h3 class="pzy-product-title">
+                                                                <a href="https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d9%88-%d8%b1%d8%b7%d9%88%d8%a8%d8%aa-%d8%b3%d8%a7%d8%b2/">دستگاه بخور و رطوبت ساز</a>
+                                                            </h3>
+                                                            <div class="pzy-product-category"><a href="https://pezeshk-yar.ir/product-category/%d8%aa%d8%a8-%d8%b3%d9%86%d8%ac/" rel="tag">تب سنج</a> | <a href="https://pezeshk-yar.ir/product-category/%d9%85%d8%ad%d8%b5%d9%88%d9%84%d8%a7%d8%aa-%d9%be%d9%88%d8%b3%d8%aa%db%8c/" rel="tag">محصولات پوستی</a></div>
+                                                            <div class="pzy-card-bottom">
+                                                                <div class='pzy-product-price'>
+                                                                    <div class="custom-price-row"><span class='pzy-product-discount'>% 4</span><span class="regular-price"><span class="woocommerce-Price-amount amount"><bdi>2,700,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x062A;&#x0648;&#x0645;&#x0627;&#x0646;</span></bdi></span></span></div>
+                                                                    <div class="sale-price-row"><span class="sale-price">2,600,000</span></div>
+                                                                </div>
+                                                                <a class="pzy-add-to-cart" href='?add-to-cart=253'>
+                                                                    <svg class="pzy-cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                                        viewBox="0 0 18 18" fill="none">
+                                                                        <path d="M2.25 4.5L4.5 1.5H13.5L15.75 4.5M2.25 4.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V4.5M2.25 4.5H15.75M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                                                                            stroke="#F5F6F7" stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <article class="pzy-product-card" style="height: 100%">
+                                                    <div class="pzy-product-row" style="height: 100%">
+                                                        <div class="pzy-product-card-col">
+                                                            <div class="pzy-product-img pzy-position-relative">
+                                                                <a class="pzy-d-block pzy-text-center"
+                                                                    href="https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/">
+                                                                    <img loading="lazy" decoding="async" width="300" height="300" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-300x300.png 300w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-150x150.png 150w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f-100x100.png 100w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/4a5ae112f4ddd519d0157b503322fa9f.png 448w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pzy-product-card-col" style="flex: 1">
+                                                            <h3 class="pzy-product-title">
+                                                                <a href="https://pezeshk-yar.ir/product/%d8%af%d8%b3%d8%aa%da%af%d8%a7%d9%87-%d8%a8%d8%ae%d9%88%d8%b1-%d8%b3%d8%b1%d8%af-%d9%88-%da%af%d8%b1%d9%85-%d8%af%d8%b1%d9%85%d8%a7/">دستگاه بخور سرد و گرم درما</a>
+                                                            </h3>
+                                                            <div class="pzy-product-category"><a href="https://pezeshk-yar.ir/product-category/%d8%aa%d8%a8-%d8%b3%d9%86%d8%ac/" rel="tag">تب سنج</a></div>
+                                                            <div class="pzy-card-bottom">
+                                                                <div class='pzy-product-price'>
+                                                                    <div class="custom-price-row"><span class='pzy-product-discount'>% 33</span><span class="regular-price"><span class="woocommerce-Price-amount amount"><bdi>9,000,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#x062A;&#x0648;&#x0645;&#x0627;&#x0646;</span></bdi></span></span></div>
+                                                                    <div class="sale-price-row"><span class="sale-price">6,000,000</span></div>
+                                                                </div>
+                                                                <a class="pzy-add-to-cart" href='?add-to-cart=262'>
+                                                                    <svg class="pzy-cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                                        viewBox="0 0 18 18" fill="none">
+                                                                        <path d="M2.25 4.5L4.5 1.5H13.5L15.75 4.5M2.25 4.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V4.5M2.25 4.5H15.75M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                                                                            stroke="#F5F6F7" stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <article class="pzy-product-card" style="height: 100%">
+                                                    <div class="pzy-product-row" style="height: 100%">
+                                                        <div class="pzy-product-card-col">
+                                                            <div class="pzy-product-img pzy-position-relative">
+                                                                <a class="pzy-d-block pzy-text-center"
+                                                                    href="https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88-2/">
+                                                                    <img loading="lazy" decoding="async" width="300" height="300" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-300x300.png 300w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-150x150.png 150w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min-100x100.png 100w, https://pezeshk-yar.ir/wp-content/uploads/2024/07/868bbdb2506b282c3b4fb9d15298fc1b-removebg-preview-min.png 500w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="pzy-product-card-col" style="flex: 1">
+                                                            <h3 class="pzy-product-title">
+                                                                <a href="https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88-2/">برس پاک ‌سازی میوتو</a>
+                                                            </h3>
+                                                            <div class="pzy-product-category"><a href="https://pezeshk-yar.ir/product-category/%d8%af%d9%85%d8%a7%d8%b3%d9%86%d8%ac/" rel="tag">دماسنج</a> | <a href="https://pezeshk-yar.ir/product-category/%d8%aa%d8%a8-%d8%b3%d9%86%d8%ac/" rel="tag">تب سنج</a></div>
+                                                            <div class="pzy-card-bottom">
+                                                                <div class='pzy-product-price'>
+                                                                    <div class="custom-price-row"><span class='pzy-product-discount'>% 14</span><span class="regular-price">700,000</span></div>
+                                                                    <div class="sale-price-row"><span class="sale-price">600,000</span></div>
+                                                                </div>
+                                                                <a class="pzy-add-to-cart" href='https://pezeshk-yar.ir/product/%d8%a8%d8%b1%d8%b3-%d9%be%d8%a7%da%a9-%d8%b3%d8%a7%d8%b2%db%8c-%d9%85%db%8c%d9%88%d8%aa%d9%88-2/'>
+                                                                    <svg class="pzy-cart-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                                        viewBox="0 0 18 18" fill="none">
+                                                                        <path d="M2.25 4.5L4.5 1.5H13.5L15.75 4.5M2.25 4.5V15C2.25 15.3978 2.40804 15.7794 2.68934 16.0607C2.97064 16.342 3.35218 16.5 3.75 16.5H14.25C14.6478 16.5 15.0294 16.342 15.3107 16.0607C15.592 15.7794 15.75 15.3978 15.75 15V4.5M2.25 4.5H15.75M12 7.5C12 8.29565 11.6839 9.05871 11.1213 9.62132C10.5587 10.1839 9.79565 10.5 9 10.5C8.20435 10.5 7.44129 10.1839 6.87868 9.62132C6.31607 9.05871 6 8.29565 6 7.5"
+                                                                            stroke="#F5F6F7" stroke-width="1.5" stroke-linecap="round"
+                                                                            stroke-linejoin="round" />
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                        <div class="swiper-button-prev" style='display: none;'>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="92" viewBox="0 0 32 92" fill="none">
+                                                <path id="Curve" d="M0 92L-4.02145e-06 0L-4.01833e-06 0.0714264L-3.99596e-06 0.583168C-3.55658e-06 10.635 5.97355 19.7254 15.2 23.7143L19.0176 25.4672C26.9292 29.1001 32 37.0085 32 45.7143C32 54.3985 26.877 62.2653 18.9346 65.7772L15.2 67.4286C5.94779 71.6025 -4.89099e-07 80.8107 -4.54226e-08 90.9609L0 92Z" fill="white"></path></svg>
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="92" viewBox="0 0 32 92" fill="none">
+                                                <path id="Curve" d="M0 92L-4.02145e-06 0L-4.01833e-06 0.0714264L-3.99596e-06 0.583168C-3.55658e-06 10.635 5.97355 19.7254 15.2 23.7143L19.0176 25.4672C26.9292 29.1001 32 37.0085 32 45.7143C32 54.3985 26.877 62.2653 18.9346 65.7772L15.2 67.4286C5.94779 71.6025 -4.89099e-07 80.8107 -4.54226e-08 90.9609L0 92Z" fill="white"></path></svg>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
             <!--  $$$$$$$$$$$$   Big slider   $$$$$$$$$$$$$ -->
-            <div class="elementor-element elementor-element-0d66dc4 elementor-widget__width-initial home-top-slider elementor-widget elementor-widget-pzy_elementor_slider" data-id="0d66dc4" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_elementor_slider.default">
+            <%--            <div class="elementor-element elementor-element-0d66dc4 elementor-widget__width-initial home-top-slider elementor-widget elementor-widget-pzy_elementor_slider" data-id="0d66dc4" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_elementor_slider.default">
                 <div class="elementor-widget-container">
                     <div class="pzy-templates-slider" style="height: 100%">
                         <div class="slider-wrapper" style="height: 100%">
@@ -323,10 +559,10 @@
 
                     </div>
                 </div>
-            </div>
+            </div>--%>
 
             <!--  $$$$$$$$$$$$   Small Slider    $$$$$$$$$$$$$ -->
-            <div class="elementor-element elementor-element-9d5618a sale-products-slider elementor-widget-tablet__width-initial elementor-widget__width-initial elementor-widget elementor-widget-pzy_products_slider" data-id="9d5618a" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;hide_prev_button&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16}" data-widget_type="pzy_products_slider.default">
+            <%--            <div class="elementor-element elementor-element-9d5618a sale-products-slider elementor-widget-tablet__width-initial elementor-widget__width-initial elementor-widget elementor-widget-pzy_products_slider" data-id="9d5618a" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1,&quot;pagination&quot;:&quot;yes&quot;,&quot;loop_slider&quot;:&quot;yes&quot;,&quot;hide_prev_button&quot;:&quot;yes&quot;,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;space_between&quot;:16}" data-widget_type="pzy_products_slider.default">
                 <div class="elementor-widget-container">
                     <div class="pzy-products-slider" style="height: 100%">
                         <div class="slider-wrapper" style="height: 100%">
@@ -477,7 +713,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <!--  $$$$$$$$$$$$   End small slider   $$$$$$$$$$$$$ -->
 
         </div>
@@ -582,7 +818,7 @@
 
                             <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
                                 style="background: #77df9b">
-                                <a href="'DoctorDetail.aspx?did=<%#Eval("id") %>'"
+                                <a href='/job/<%#Eval("dUrl") %>'
                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                     <img class="pzy-staff-card-avatar"
                                         src='<%#Eval("dImg") %>' alt="<%#Eval("dName") %>" />
@@ -591,9 +827,9 @@
 
 
                             <h3 class="pzy-staff-title p-16-bold">
-                                <a href='DoctorDetail.aspx?did=<%#Eval("id") %>'><%#Eval("dName") %> </a>
+                                <a href='/job/<%#Eval("dUrl") %>'><%#Eval("dName") %> </a>
                             </h3>
-                            <h4 class="pzy-staff-subtitle">شهر</h4>
+                            <h4 class="pzy-staff-subtitle"><%#Eval("cName") %></h4>
 
                             <h4 class="pzy-staff-subtitle">تخصص</h4>
                             <%-- <%#Eval("cName") %>  --%>
@@ -629,7 +865,7 @@
                             </button>--%>
 
                             <div class="pzy-request-staff-button-box">
-                                <a class="pzy-request-staff-button" data-staff="131" href='DoctorDetail.aspx?did=<%#Eval("id") %>'>
+                                <a class="pzy-request-staff-button" data-staff="131" href='/job/<%#Eval("dUrl") %>'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                                     ثبت نوبت                           
@@ -686,5 +922,51 @@
             </div>
     </section>
 
+
+
+    <script data-optimized="1" type="text/javascript" src="assets/js/slider1.js" id="elementor-webpack-runtime-js"></script>
+    <script data-optimized="1" type="text/javascript" src="assets/js/slider2.js" id="elementor-frontend-modules-js"></script>
+    <script data-optimized="1" type="text/javascript" id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": { "edit": !1, "wpPreview": !1, "isScriptDebug": !1 },
+            "i18n": {
+                "shareOnFacebook": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Facebook",
+                "shareOnTwitter": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Twitter",
+                "pinIt": "\u067e\u06cc\u0646 \u06a9\u0646\u06cc\u062f", "download": "\u062f\u0627\u0646\u0644\u0648\u062f",
+                "downloadImage": "\u062f\u0627\u0646\u0644\u0648\u062f \u062a\u0635\u0648\u06cc\u0631", "fullscreen": "\u062a\u0645\u0627\u0645\u200c\u0635\u0641\u062d\u0647",
+                "zoom": "\u0628\u0632\u0631\u06af\u0646\u0645\u0627\u06cc\u06cc", "share": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc",
+                "playVideo": "\u067e\u062e\u0634 \u0648\u06cc\u062f\u06cc\u0648",
+                "previous": "\u0642\u0628\u0644\u06cc",
+                "next": "\u0628\u0639\u062f\u06cc", "close": "\u0628\u0633\u062a\u0646",
+                "a11yCarouselPrevSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0642\u0628\u0644\u06cc",
+                "a11yCarouselNextSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0628\u0639\u062f\u06cc",
+                "a11yCarouselFirstSlideMessage": "\u0627\u06cc\u0646 \u0627\u0648\u0644\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a",
+                "a11yCarouselLastSlideMessage": "\u0627\u06cc\u0646 \u0622\u062e\u0631\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a",
+                "a11yCarouselPaginationBulletMessage": "\u0631\u0641\u062a\u0646 \u0628\u0647 \u0627\u0633\u0644\u0627\u06cc\u062f"
+            }, "is_rtl": !0, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 767, "default_value": 767, "direction": "max", "is_enabled": !0 }, "mobile_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 880, "default_value": 880, "direction": "max", "is_enabled": !0 },
+                    "tablet": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u062a\u0628\u0644\u062a", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": !0 },
+                    "tablet_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u062a\u0628\u0644\u062a", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": !1 },
+                    "laptop": { "label": "\u0644\u067e \u062a\u0627\u067e", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": !1 },
+                    "widescreen": { "label": "\u0635\u0641\u062d\u0647 \u0639\u0631\u06cc\u0636 (Widescreen)", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": !1 }
+                }, "hasCustomBreakpoints": !0
+            }, "version": "3.27.3", "is_static": !1, "experimentalFeatures": {
+                "e_font_icon_svg": !0, "additional_custom_breakpoints": !0, "container": !0, "e_swiper_latest": !0,
+                "e_onboarding": !0, "theme_builder_v2": !0, "home_screen": !0, "nested-elements": !0, "editor_v2": !0, "link-in-bio": !0, "floating-buttons": !0, "mega-menu": !0
+            },
+            "urls": {
+                "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php",
+                "uploadUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads"
+            }, "nonces": { "floatingButtonsClickTracking": "708ecca0ee" },
+            "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": {
+                "woocommerce_notices_elements": ["wc_info"], "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet"],
+                "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description"
+            },
+            "post": { "id": 2566, "title": "%D9%BE%D8%B2%D8%B4%DA%A9%20%DB%8C%D8%A7%D8%B1", "excerpt": "", "featuredImage": !1 }
+        }</script>
+    <script data-optimized="1" type="text/javascript" src="assets/js/slider3.js" id="elementor-frontend-js"></script>
 
 </asp:Content>

@@ -16,13 +16,13 @@ using SubSonic.Utilities;
 namespace DalWebSite
 {
     /// <summary>
-    /// Controller class for TblBanner
+    /// Controller class for TblComment
     /// </summary>
     [System.ComponentModel.DataObject]
-    public partial class TblBannerController
+    public partial class TblCommentController
     {
         // Preload our schema..
-        TblBanner thisSchemaLoad = new TblBanner();
+        TblComment thisSchemaLoad = new TblComment();
         private string userName = String.Empty;
         protected string UserName
         {
@@ -43,36 +43,36 @@ namespace DalWebSite
             }
         }
         [DataObjectMethod(DataObjectMethodType.Select, true)]
-        public TblBannerCollection FetchAll()
+        public TblCommentCollection FetchAll()
         {
-            TblBannerCollection coll = new TblBannerCollection();
-            Query qry = new Query(TblBanner.Schema);
+            TblCommentCollection coll = new TblCommentCollection();
+            Query qry = new Query(TblComment.Schema);
             coll.LoadAndCloseReader(qry.ExecuteReader());
             return coll;
         }
         [DataObjectMethod(DataObjectMethodType.Select, false)]
-        public TblBannerCollection FetchByID(object Id)
+        public TblCommentCollection FetchByID(object Id)
         {
-            TblBannerCollection coll = new TblBannerCollection().Where("id", Id).Load();
+            TblCommentCollection coll = new TblCommentCollection().Where("id", Id).Load();
             return coll;
         }
 		
 		[DataObjectMethod(DataObjectMethodType.Select, false)]
-        public TblBannerCollection FetchByQuery(Query qry)
+        public TblCommentCollection FetchByQuery(Query qry)
         {
-            TblBannerCollection coll = new TblBannerCollection();
+            TblCommentCollection coll = new TblCommentCollection();
             coll.LoadAndCloseReader(qry.ExecuteReader()); 
             return coll;
         }
         [DataObjectMethod(DataObjectMethodType.Delete, true)]
         public bool Delete(object Id)
         {
-            return (TblBanner.Delete(Id) == 1);
+            return (TblComment.Delete(Id) == 1);
         }
         [DataObjectMethod(DataObjectMethodType.Delete, false)]
         public bool Destroy(object Id)
         {
-            return (TblBanner.Destroy(Id) == 1);
+            return (TblComment.Destroy(Id) == 1);
         }
         
         
@@ -81,33 +81,19 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,byte? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
+	    public void Insert(string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status)
 	    {
-		    TblBanner item = new TblBanner();
+		    TblComment item = new TblComment();
 		    
-            item.BSubject = BSubject;
+            item.Name = Name;
             
-            item.BSubTitle = BSubTitle;
+            item.SaveDate = SaveDate;
             
-            item.BText1 = BText1;
+            item.DoctorId = DoctorId;
             
-            item.BPriority = BPriority;
+            item.DisplayStatus = DisplayStatus;
             
-            item.BImage = BImage;
-            
-            item.BLink = BLink;
-            
-            item.BStatus = BStatus;
-            
-            item.BStateFk = BStateFk;
-            
-            item.BLanguage = BLanguage;
-            
-            item.BContentPosition = BContentPosition;
-            
-            item.BSubjectColor = BSubjectColor;
-            
-            item.BSubjectColor1 = BSubjectColor1;
+            item.Status = Status;
             
 	    
 		    item.Save(UserName);
@@ -117,37 +103,23 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string BSubject,string BSubTitle,string BText1,int? BPriority,string BImage,string BLink,byte? BStatus,int? BStateFk,byte? BLanguage,string BContentPosition,string BSubjectColor,string BSubjectColor1)
+	    public void Update(int Id,string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status)
 	    {
-		    TblBanner item = new TblBanner();
+		    TblComment item = new TblComment();
 	        item.MarkOld();
 	        item.IsLoaded = true;
 		    
 			item.Id = Id;
 				
-			item.BSubject = BSubject;
+			item.Name = Name;
 				
-			item.BSubTitle = BSubTitle;
+			item.SaveDate = SaveDate;
 				
-			item.BText1 = BText1;
+			item.DoctorId = DoctorId;
 				
-			item.BPriority = BPriority;
+			item.DisplayStatus = DisplayStatus;
 				
-			item.BImage = BImage;
-				
-			item.BLink = BLink;
-				
-			item.BStatus = BStatus;
-				
-			item.BStateFk = BStateFk;
-				
-			item.BLanguage = BLanguage;
-				
-			item.BContentPosition = BContentPosition;
-				
-			item.BSubjectColor = BSubjectColor;
-				
-			item.BSubjectColor1 = BSubjectColor1;
+			item.Status = Status;
 				
 	        item.Save(UserName);
 	    }

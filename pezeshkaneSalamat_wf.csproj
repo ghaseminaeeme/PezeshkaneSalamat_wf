@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="404.aspx" />
     <Content Include="Admin\about.aspx" />
     <Content Include="Admin\addDoctor.aspx" />
     <Content Include="Admin\Admin\tiny_mce\Full.js" />
@@ -2209,6 +2210,9 @@
     <Content Include="assets\img\icons\license-svgrepo-com.svg" />
     <Content Include="assets\img\icons\tag-svgrepo-com.svg" />
     <Content Include="assets\img\logo.png" />
+    <Content Include="assets\js\slider1.js" />
+    <Content Include="assets\js\slider2.js" />
+    <Content Include="assets\js\slider3.js" />
     <Content Include="bin\ImageResizer.dll" />
     <Content Include="bin\IR.Web.UI.PersianDatePicker.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
@@ -2256,9 +2260,12 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="bin\SubSonic.dll" />
     <Content Include="bin\System.Runtime.Serialization.dll" />
+    <Content Include="blog.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="home.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="assets\js\add-to-cart.min.js" />
     <Content Include="assets\js\core.min.js" />
@@ -2287,10 +2294,12 @@
     <Content Include="assets\js\sourcebuster.min.js" />
     <Content Include="assets\js\swiper-bundle.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="job.aspx" />
     <Content Include="login.html" />
     <Content Include="homeTheme.html" />
     <Content Include="list.html" />
     <Content Include="singlePost.html" />
+    <Content Include="slider.aspx" />
     <Content Include="temp.html" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -2298,6 +2307,13 @@
     <Content Include="WebForm3.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2410,6 +2426,13 @@
     <Compile Include="Admin\smallBanner.aspx.designer.cs">
       <DependentUpon>smallBanner.aspx</DependentUpon>
     </Compile>
+    <Compile Include="blog.aspx.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog.aspx.designer.cs">
+      <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ClassControl.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -2499,6 +2522,16 @@
     <Compile Include="Generate\TblVideoController.cs" />
     <Compile Include="Generate\TempDoctor.cs" />
     <Compile Include="Generate\TempDoctorController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="job.aspx.cs">
+      <DependentUpon>job.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="job.aspx.designer.cs">
+      <DependentUpon>job.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -2506,6 +2539,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="slider.aspx.cs">
+      <DependentUpon>slider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="slider.aspx.designer.cs">
+      <DependentUpon>slider.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

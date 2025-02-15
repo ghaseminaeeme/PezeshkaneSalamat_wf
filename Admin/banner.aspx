@@ -43,7 +43,7 @@
                     <label>تصویر</label>
                     <asp:FileUpload ID="Fu1" runat="server" accept="image/*" onchange="loadFile(event)" />
                     <img id="output" style="width: 100px; height: 60px; margin-top: 5px;" /><asp:Image ID="Image1" runat="server" Style="width: 100px; height: 60px; margin-top: 5px;" />
-                    <span class="help-block">سایز مناسب عکس 500*825 پیکسل و با رزولوشن 72  می باشد</span>
+                    <span class="help-block">سایز مناسب عکس 390*880 پیکسل و با رزولوشن 72  می باشد</span>
                 </div>
                 <div class="form-group col-md-12">
                     <asp:Button ID="btnSave" runat="server" Text="ذخـــیره" class="btn btn-info pull-right" OnClick="btnSave_Click" />

@@ -33,11 +33,11 @@ namespace pezeshkaneSalamat_wf.Admin
                     TblBanner _TblBanner = new TblBanner();
                     _TblBanner.BLink = TxtLink.Text;
                     if (TxtPri.Text != "") _TblBanner.BPriority = int.Parse(TxtPri.Text); else _TblBanner.BPriority = 0;
-                    _TblBanner.BStatus = Convert.ToBoolean(int.Parse(DrdActive.SelectedValue));
+                    _TblBanner.BStatus = byte.Parse(DrdActive.SelectedValue);
                     //_TblBanner.BStateFk = int.Parse(DrdState.SelectedValue);
                     if (Fu1.FileName != "")
                     {
-                        _TblBanner.BImage = UploadFiles("825", "500", "../Upload/Banner/b-" + Id.ToString() + ".jpg", 0);
+                        _TblBanner.BImage = UploadFiles("880", "390", "/upload/banner/b-" + Id.ToString() + ".jpg", 0);
                     }
 
                     _TblBanner.Save();
@@ -51,11 +51,11 @@ namespace pezeshkaneSalamat_wf.Admin
                     _TblBanner.BLink = TxtLink.Text;
                     _TblBanner.BLanguage = 1;
                     if (TxtPri.Text != "") _TblBanner.BPriority = int.Parse(TxtPri.Text); else _TblBanner.BPriority = 0;
-                    _TblBanner.BStatus = Convert.ToBoolean(int.Parse(DrdActive.SelectedValue));
+                    _TblBanner.BStatus = byte.Parse(DrdActive.SelectedValue);
                     //_TblBanner.BStateFk = int.Parse(DrdState.SelectedValue);
                     if (Fu1.FileName != "")
                     {
-                        _TblBanner.BImage = UploadFiles("825", "500", "../Upload/Banner/b-" + Request.Cookies["Editid"].Value + ".jpg", 0);
+                        _TblBanner.BImage = UploadFiles("880", "390", "/upload/banner/b-" + Request.Cookies["Editid"].Value + ".jpg", 0);
                     }
 
                     _TblBanner.Save();

@@ -53,6 +53,8 @@ namespace DalWebSite
         
 		public static readonly string TblCity = @"TblCity";
         
+		public static readonly string TblComment = @"TblComment";
+        
 		public static readonly string TblDoctorImage = @"TblDoctorImage";
         
 		public static readonly string TblDoctor = @"TblDoctors";
@@ -165,6 +167,11 @@ namespace DalWebSite
 		public static TableSchema.Table TblCity
 		{
             get { return DataService.GetSchema("TblCity", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table TblComment
+		{
+            get { return DataService.GetSchema("TblComment", "DbWebSiteConnectionString"); }
 		}
         
 		public static TableSchema.Table TblDoctorImage

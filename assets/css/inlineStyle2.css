@@ -341,7 +341,7 @@
     --container-widget-align-self: initial;
     --flex-wrap-mobile: wrap;
     --justify-content: center;
-    --align-items: flex-end;
+    /*--align-items: flex-end;*/
     --gap: 0px 0px;
     --flex-wrap: nowrap;
     --background-transition: 0.3s;
@@ -355,9 +355,9 @@
     --padding-right: 0px;
 }
 
-    .elementor-1404 .elementor-element.elementor-element-1bc5ab2.e-con {
+   /* .elementor-1404 .elementor-element.elementor-element-1bc5ab2.e-con {
         --align-self: flex-end;
-    }
+    }*/
 
 .elementor-widget-image .widget-image-caption {
     color: var( --e-global-color-text );
@@ -420,12 +420,12 @@ body.rtl .elementor-1404 .elementor-element.elementor-element-0d9b4df {
     }
 }
 
-@media(max-width:880px) and (min-width:768px) {
+/*@media(max-width:880px) and (min-width:768px) {
     .elementor-1404 .elementor-element.elementor-element-1bc5ab2 {
         --width: 200px;
     }
 }
-
+*/
 @media(max-width:1024px) {
     .elementor-1404 .elementor-element.elementor-element-4e39a3d {
         --padding-top: 0px;
@@ -455,7 +455,7 @@ body.rtl .elementor-1404 .elementor-element.elementor-element-0d9b4df {
     }
 
     .elementor-1404 .elementor-element.elementor-element-1bc5ab2 {
-        --justify-content: flex-end;
+        /*--justify-content: flex-end;*/
         --align-items: center;
         --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
     }
@@ -504,14 +504,14 @@ body.rtl .elementor-1404 .elementor-element.elementor-element-0d9b4df {
     }
 
     .elementor-1404 .elementor-element.elementor-element-1bc5ab2 {
-        --width: 133px;
+        --width: 100%;
         --flex-direction: column;
         --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
         --container-widget-height: initial;
         --container-widget-flex-grow: 0;
         --container-widget-align-self: initial;
         --flex-wrap-mobile: wrap;
-        --justify-content: flex-end;
+        /*--justify-content: flex-end;*/
         --align-items: center;
     }
 
@@ -520,8 +520,9 @@ body.rtl .elementor-1404 .elementor-element.elementor-element-0d9b4df {
         max-width: 100%;
     }
 
-        .elementor-1404 .elementor-element.elementor-element-6ae606d img {
-            width: 133px;
+        
+    .elementor-1404 .elementor-element.elementor-element-6ae606d img {
+            width: 100%;
         }
 }
 /* Start custom CSS for container, class: .elementor-element-c43b1c9 */

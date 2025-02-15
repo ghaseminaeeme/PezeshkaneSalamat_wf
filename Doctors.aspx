@@ -8,7 +8,7 @@
         <ul id="breadcrumbs" class="pzy-breadcrumb-list">
             <li class="pzy-breadcrumb-list-item"><a href="/default.aspx">صفحه اصلی</a></li>
             <li class='pzy-breadcrumb-separator'><i data-feather="chevron-left"></i></li>
-            <li class="pzy-breadcrumb-list-item item-current item-105"><span class="pzy-breadcrumb-current-item">خدمات</span></li>
+            <li class="pzy-breadcrumb-list-item item-current item-105"><span class="pzy-breadcrumb-current-item">پزشکان</span></li>
         </ul>
         <div class="pzy-section ">
             <header>

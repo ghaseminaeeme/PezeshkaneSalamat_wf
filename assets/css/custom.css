@@ -282,3 +282,11 @@
         display:none !important;
     }
 }
+.elementor-widget-image img {
+    width:100%;
+}
+@media (max-width: 767px) {
+    .elementor .elementor-hidden-mobile, .elementor .elementor-hidden-phone {
+        display: block !important;
+    }
+}
