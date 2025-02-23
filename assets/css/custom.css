@@ -10,6 +10,10 @@
     width: 224px;
     margin-left: 13px;
 }
+.pzy-staff-card {
+    border: solid 1px rgb(0 220 167);
+    box-shadow: 5px 5px 5px rgb(201 225 219 / 72%);
+}
 .pzy-staff-consultation-request {
     margin-top: 12px;
     display: flex;
@@ -21,7 +25,7 @@
     background: #00dca7;
     border: none;
     color: #fff;
-    text-align:center;
+    text-align: center;
 }
 
 .pzy-blog-sidebar .widget {
@@ -35,6 +39,7 @@
 }
 .w-100 {
     width:100%;
+    max-width:100% !important;
 }
 .e-con.e-con > .e-con-inner > .elementor-widget, .elementor.elementor .e-con > .elementor-widget {
     max-width: 100%;

@@ -1,10 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Doctors.aspx.cs" Inherits="pezeshkaneSalamat_wf.Doctors" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="pezeshkaneSalamat_wf.jobs._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <div class="container">
+        <div class="container">
         <ul id="breadcrumbs" class="pzy-breadcrumb-list">
             <li class="pzy-breadcrumb-list-item"><a href="/default.aspx">صفحه اصلی</a></li>
             <li class='pzy-breadcrumb-separator'><i data-feather="chevron-left"></i></li>
@@ -36,12 +34,14 @@
                             </div>
 
                             <div id="pzy_services_block-5" class="widget widget_pzy_services_block">
-                                <h3 class="widget-title"><a class="filter-all" href="Doctors.aspx?city=0&branch=0">همه تخصص ها </a></h3>
+                                <h3 class="widget-title"><a class="filter-all" href="/jobs?filter-title=&filter-location=0&filter-category=0">همه تخصص ها </a></h3>
                                 <ul class="pzy_categories_block">
                                     <asp:Repeater ID="Repeater2" runat="server" DataSourceID="SqlBranch">
                                         <ItemTemplate>
                                             <li class="cat-item cat-item-31">
-                                                <a href='Doctors.aspx?city=0&branch=<%#Eval("id") %>'><%#Eval("bSubject") %></a>
+                                                <a href='/jobs?filter-title=&filter-location=0&filter-category=<%#Eval("id") %>'><%#Eval("bSubject") %></a>
+
+                                                <!-- 'Doctors.aspx?city=0&branch=<%#Eval("id") %>' -->
                                             </li>
                                         </ItemTemplate>
                                     </asp:Repeater>
@@ -51,12 +51,12 @@
 
 
                             <div id="pzy_latest_staffs_block-4" class="widget widget_pzy_latest_staffs_block">
-                                <h3 class="widget-title"><a class="filter-all" href="Doctors.aspx?city=0&branch=0">همه شهرها  </a></h3>
+                                <h3 class="widget-title"><a class="filter-all" href="Doctors.aspx?filter-title=&filter-location=0&filter-category=0">همه شهرها  </a></h3>
                                 <ul class="pzy_categories_block">
                                     <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlCity">
                                         <ItemTemplate>
                                             <li class="cat-item cat-item-31">
-                                                <a href='Doctors.aspx?city=<%#Eval("id") %>&branch=0'><%#Eval("cName") %></a>
+                                                <a href='/jobs?filter-title=&filter-location=<%#Eval("id") %>&filter-category=0'><%#Eval("cName") %></a>
                                             </li>
                                         </ItemTemplate>
                                     </asp:Repeater>
@@ -107,7 +107,7 @@
                                             </div>
 
                                             <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative" style="background: #77df9b">
-                                                <a href='DoctorDetail.aspx?did=<%#Eval("id") %>'
+                                                <a href='/job/<%#Eval("dUrl") %>'
                                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                                     <img class="pzy-staff-card-avatar"
                                                         src='<%#Eval("dImg") %>'
@@ -117,17 +117,17 @@
 
 
                                             <h3 class="pzy-staff-title p-16-bold">
-                                                <a href='DoctorDetail.aspx?did=<%#Eval("id") %>'><%#Eval("dName") %></a>
+                                                <a href='/job/<%#Eval("dUrl") %>'><%#Eval("dName") %></a>
                                             </h3>
-                                            <h4 class="pzy-staff-subtitle">شهر</h4>
-
+                                            <h4 class="pzy-staff-subtitle"><%#Eval("cName") %></h4>
+                                            <h4 class="pzy-staff-subtitle"><%#Eval("bSubject") %></h4>
                                             <div class="pzy-staff-point">
 
                                                 <span class="t-16-regular text-gray-600"><%#Eval("dTel") %> </span>
                                             </div>
 
                                             <div class="pzy-request-staff-button-box">
-                                                <a class="pzy-request-staff-button" data-staff="131" href='DoctorDetail.aspx?did=<%#Eval("id") %>'>
+                                                <a class="pzy-request-staff-button" data-staff="131" href='/job/<%#Eval("dUrl") %>'>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
                                                         <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                                                     ثبت نوبت                           
@@ -149,19 +149,20 @@
                                 <asp:SqlDataSource ID="SqlSpecialDoctors" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                                     SelectCommand="selectSpecialDoctors" SelectCommandType="StoredProcedure">
                                     <SelectParameters>
-                                        <asp:QueryStringParameter DefaultValue="0" Name="city" QueryStringField="city" Type="Int32" />
-                                        <asp:QueryStringParameter DefaultValue="0" Name="branch" QueryStringField="branch" Type="Int32" />
-                                        <asp:CookieParameter DefaultValue=" " Name="name" CookieName="name" Type="String" />
+                                        <asp:QueryStringParameter DefaultValue="0" Name="city" QueryStringField="filter-location" Type="Int32" />
+                                        <asp:QueryStringParameter DefaultValue="0" Name="branch" QueryStringField="filter-category" Type="Int32" />
+                                        <asp:QueryStringParameter DefaultValue=" " Name="name" QueryStringField="filter-title" Type="String" />                                        
+                                        <%--<asp:CookieParameter DefaultValue=" " Name="name" CookieName="name" Type="String" />--%>
                                     </SelectParameters>
                                 </asp:SqlDataSource>
 
                                 <asp:SqlDataSource ID="SqlDoctors" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                                     SelectCommand="selectDoctors" SelectCommandType="StoredProcedure">
                                     <SelectParameters>
-                                        <asp:QueryStringParameter DefaultValue="0" Name="city" QueryStringField="city" Type="Int32" />
-                                        <asp:QueryStringParameter DefaultValue="0" Name="branch" QueryStringField="branch" Type="Int32" />
-                                        <%--<asp:QueryStringParameter DefaultValue=" " Name="name" QueryStringField="name" Type="String" />--%>
-                                        <asp:CookieParameter DefaultValue=" " Name="name" CookieName="name" Type="String" />
+                                        <asp:QueryStringParameter DefaultValue="0" Name="city" QueryStringField="filter-location" Type="Int32" />
+                                        <asp:QueryStringParameter DefaultValue="0" Name="branch" QueryStringField="filter-category" Type="Int32" />
+                                        <asp:QueryStringParameter DefaultValue=" " Name="name" QueryStringField="filter-title" Type="String" />                                        
+                                        <%--<asp:CookieParameter DefaultValue=" " Name="name" CookieName="name" Type="String" />--%>
                                     </SelectParameters>
                                 </asp:SqlDataSource>
                             </div>
@@ -271,4 +272,5 @@
 
 
     </div>
+
 </asp:Content>

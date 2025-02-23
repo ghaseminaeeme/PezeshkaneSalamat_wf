@@ -34,7 +34,7 @@
     <link href="assets/css/post-142.css" rel="stylesheet" />
     <link href="assets/css/post-1432.css" rel="stylesheet" />
     <link href="assets/css/post-146.css" rel="stylesheet" />
-    <link href="assets/css/post-2566.css" rel="stylesheet" />
+    <link href="assets/css/post-2566.css?786543" rel="stylesheet" />
     <link href="assets/css/prettyPhoto-rtl.css" rel="stylesheet" />
     <link href="assets/css/pzy-services-list-main.css" rel="stylesheet" />
     <link href="assets/css/pzy-staffs-schedule-main.css" rel="stylesheet" />
@@ -58,7 +58,7 @@
     <link href="assets/css/InlineStyle.css" rel="stylesheet" />
     <link href="assets/css/inlineStyle2.css" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
-    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/custom.css?5476546" rel="stylesheet" />
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -105,7 +105,7 @@
                                                     <div class="mobile-menu-box">
                                                         <ul class='mobile-menu-list'>
                                                             <li><a href='/default.aspx'><span class='pzy-link-text'><i data-feather='home'></i>خانه </span></a></li>
-                                                            <li><a href='/doctors.aspx?city=0&branch=0'><span class='pzy-link-text'><i data-feather='book-open'></i> لیست متخصصین  </span></a></li>
+                                                            <li><a href='/jobs?filter-title=&filter-location=0&filter-category=0'><span class='pzy-link-text'><i data-feather='book-open'></i> لیست متخصصین  </span></a></li>
                                                             <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
                                                             <li><a href='/blog.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت </span></a></li>
                                                             <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='phone'></i>تماس با ما  </span></a></li>
@@ -130,7 +130,7 @@
 
                                                     <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت</span></a></li>
                                                     <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='box'></i>تماس با ما </span></a></li>
-                                                    <li class=''><a class='' href='/doctors.aspx?city=0&branch=0'><span class='pzy-link-text'><i data-feather='box'></i> لیست متخصصین </span></a></li>
+                                                    <li class=''><a class='' href='/jobs?filter-title=&filter-location=0&filter-category=0'><span class='pzy-link-text'><i data-feather='box'></i> لیست متخصصین </span></a></li>
 
                                                     <%-- <li class='pzy-mega-menu'>
                                                         <a class='' href='#'><span class='pzy-link-text'><i data-feather='shopping-bag'></i> لیست متخصصین </span></a>
@@ -404,72 +404,7 @@
                                     </div>
                                 </div>--%>
 
-
-                                <div class="w-100 elementor-element elementor-element-b0348d5 elementor-widget__width-initial elementor-hidden-mobile elementor-search-form--skin-classic elementor-search-form--button-type-icon elementor-widget elementor-widget-search-form" data-id="b0348d5" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;classic&quot;}" data-widget_type="search-form.default">
-                                    <div class="elementor-widget-container w-100 ">
-                                        <%-- <search role="search">
-                                            <div class="elementor-search-form" >
-                                                <div class="elementor-search-form__container">
-                                                    <label class="elementor-screen-only" for="elementor-search-form-b0348d5">جستجو</label>
-
-                                                    <input id="elementor-search-form-b0348d5" placeholder="جستجوی سرویس مورد نظرتان ..." class="elementor-search-form__input" type="search" name="s" value="">
-
-                                                    <button class="elementor-search-form__submit" type="submit" aria-label="جستجو">
-                                                        <div class="e-font-icon-svg-container">
-                                                            <svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
-                                                        </div>
-                                                        <span class="elementor-screen-only">جستجو</span>
-                                                    </button>
-
-                                                </div>
-                                            </div>
-                                        </search>--%>
-
-
-                                        <div class="custom-search-bar">
-                                            <div class="elementor-search-form">
-                                                <div class="search-fields">
-                                                    <%-- <asp:Panel ID="Panel1" runat="server" DefaultButton="btnSearch" CssClass="w-100">--%>
-                                                    <!-- City Dropdown -->
-                                                    <asp:DropDownList ID="drdCity" runat="server" class="search-dropdown" AppendDataBoundItems="true" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id">
-                                                        <asp:ListItem Value="0" Text="شهر"></asp:ListItem>
-                                                    </asp:DropDownList>
-                                                    <asp:SqlDataSource ID="SqlCity" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [cName] FROM [TblCity] WHERE ([cIsDeleted] &lt;&gt; @cIsDeleted) ORDER BY [cName]">
-                                                        <SelectParameters>
-                                                            <asp:Parameter DefaultValue="true" Name="cIsDeleted" Type="Boolean" />
-                                                        </SelectParameters>
-                                                    </asp:SqlDataSource>
-
-                                                    <!-- Category Dropdown -->
-
-                                                    <asp:DropDownList ID="drdBranch" runat="server" AppendDataBoundItems="True" DataSourceID="SqlBranch" DataTextField="bSubject" DataValueField="id" CssClass="search-dropdown">
-                                                        <asp:ListItem Value="0" Text="انتخاب تخصص"></asp:ListItem>
-                                                    </asp:DropDownList>
-                                                    <asp:SqlDataSource ID="SqlBranch" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [bSubject] FROM [TblBranch] WHERE ([bIsDeleted] &lt;&gt; @bIsDeleted) ORDER BY [bSubject]">
-                                                        <SelectParameters>
-                                                            <asp:Parameter DefaultValue="true" Name="bIsDeleted" Type="Boolean" />
-                                                        </SelectParameters>
-                                                    </asp:SqlDataSource>
-
-                                                    <!-- Doctor Name Input -->
-                                                    <asp:TextBox ID="txtSearch" runat="server" class="search-input" placeholder="نام پزشک را وارد کنید"></asp:TextBox>
-
-                                                    <!-- Search Button -->
-                                                    <asp:LinkButton ID="btnSearch" runat="server" class="header-search-button" aria-label="جستجو" OnClick="btnSearch_Click">
-                                                        <svg class="fa fa-search e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
-                                                        </svg>
-                                                    </asp:LinkButton>
-                                                    <%--</asp:Panel>--%>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-                                    </div>
-                                </div>
+                                <!-- ########## search ####### -->
                             </div>
                         </div>
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

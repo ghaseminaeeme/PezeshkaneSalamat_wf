@@ -7,57 +7,30 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace pezeshkaneSalamat_wf
+namespace pezeshkaneSalamat_wf.jobs
 {
 
 
-    public partial class Default
+    public partial class _default
     {
 
         /// <summary>
-        /// RepeaterBanner control.
+        /// Repeater2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RepeaterBanner;
+        protected global::System.Web.UI.WebControls.Repeater Repeater2;
 
         /// <summary>
-        /// SqlBanner control.
+        /// Repeater1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlBanner;
-
-        /// <summary>
-        /// drdCity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList drdCity;
-
-        /// <summary>
-        /// SqlCity control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlCity;
-
-        /// <summary>
-        /// drdBranch control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList drdBranch;
+        protected global::System.Web.UI.WebControls.Repeater Repeater1;
 
         /// <summary>
         /// SqlBranch control.
@@ -69,22 +42,13 @@ namespace pezeshkaneSalamat_wf
         protected global::System.Web.UI.WebControls.SqlDataSource SqlBranch;
 
         /// <summary>
-        /// txtSearch control.
+        /// SqlCity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSearch;
-
-        /// <summary>
-        /// btnSearch control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnSearch;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlCity;
 
         /// <summary>
         /// ListSpecialDoctors control.
@@ -103,5 +67,23 @@ namespace pezeshkaneSalamat_wf
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlSpecialDoctors;
+
+        /// <summary>
+        /// SqlDoctors control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDoctors;
+
+        /// <summary>
+        /// DataPager1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataPager DataPager1;
     }
 }

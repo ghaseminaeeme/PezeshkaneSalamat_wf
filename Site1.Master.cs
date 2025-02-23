@@ -14,10 +14,10 @@ namespace pezeshkaneSalamat_wf
 
         }
 
-        protected void btnSearch_Click(object sender, EventArgs e)
-        {
-            Response.Cookies["name"].Value = txtSearch.Text;
-            Response.Redirect("Doctors.aspx?city=" + drdCity.SelectedValue + "&branch=" + drdBranch.SelectedValue);
-        }
+        //protected void btnSearch_Click(object sender, EventArgs e)
+        //{
+        //    Response.Cookies["name"].Value = txtSearch.Text;
+        //    Response.Redirect("Doctors.aspx?city=" + drdCity.SelectedValue + "&branch=" + drdBranch.SelectedValue);
+        //}
     }
 }

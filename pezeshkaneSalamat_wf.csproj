@@ -2295,6 +2295,7 @@
     <Content Include="assets\js\swiper-bundle.min.js" />
     <Content Include="Default.aspx" />
     <Content Include="job.aspx" />
+    <Content Include="jobs\default.aspx" />
     <Content Include="login.html" />
     <Content Include="homeTheme.html" />
     <Content Include="list.html" />
@@ -2531,6 +2532,13 @@
     </Compile>
     <Compile Include="job.aspx.designer.cs">
       <DependentUpon>job.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jobs\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jobs\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

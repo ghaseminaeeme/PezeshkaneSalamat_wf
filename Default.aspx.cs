@@ -14,6 +14,14 @@ namespace pezeshkaneSalamat_wf
 
         }
 
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            // Response.Cookies["name"].Value = txtSearch.Text;
+            // Response.Redirect("Doctors.aspx?city=" + drdCity.SelectedValue + "&branch=" + drdBranch.SelectedValue + "&");
 
+            Response.Redirect("/jobs?filter-title=" + txtSearch.Text + "&filter-location=" + drdCity.SelectedValue + "&filter-category=" + drdBranch.SelectedValue + "&");
+
+            // jobs/?filter-title=&filter-location=132&filter-category=249
+        }
     }
 }
