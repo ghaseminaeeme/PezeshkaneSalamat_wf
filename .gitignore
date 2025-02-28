@@ -167,6 +167,7 @@ AutoTest.Net/
 
 # Installshield output folder
 [Ee]xpress/
+upload/
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/

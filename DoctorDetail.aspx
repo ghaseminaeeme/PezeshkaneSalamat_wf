@@ -369,534 +369,516 @@
 
 
 
-            <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
-                <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-ac1f44a e-con-full e-flex e-con e-child" data-id="ac1f44a" data-element_type="container">
-                        <div class="elementor-element elementor-element-b426d4c elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="b426d4c" data-element_type="widget" data-widget_type="icon-box.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-icon-box-wrapper">
+                    <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-ac1f44a e-con-full e-flex e-con e-child" data-id="ac1f44a" data-element_type="container">
+                                <div class="elementor-element elementor-element-b426d4c elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="b426d4c" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
 
-                                    <div class="elementor-icon-box-icon">
-                                        <span class="elementor-icon elementor-animation-">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                <g id="user">
-                                                    <path id="Icon" d="M16.6668 17.5V15.8333C16.6668 14.9493 16.3156 14.1014 15.6905 13.4763C15.0654 12.8512 14.2176 12.5 13.3335 12.5H6.66683C5.78277 12.5 4.93493 12.8512 4.30981 13.4763C3.68469 14.1014 3.3335 14.9493 3.3335 15.8333V17.5M13.3335 5.83333C13.3335 7.67428 11.8411 9.16667 10.0002 9.16667C8.15921 9.16667 6.66683 7.67428 6.66683 5.83333C6.66683 3.99238 8.15921 2.5 10.0002 2.5C11.8411 2.5 13.3335 3.99238 13.3335 5.83333Z" stroke="#0052A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g></svg>
-                                        </span>
+                                            <div class="elementor-icon-box-icon">
+                                                <span class="elementor-icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><g id="user"><path id="Icon" d="M16.6668 17.5V15.8333C16.6668 14.9493 16.3156 14.1014 15.6905 13.4763C15.0654 12.8512 14.2176 12.5 13.3335 12.5H6.66683C5.78277 12.5 4.93493 12.8512 4.30981 13.4763C3.68469 14.1014 3.3335 14.9493 3.3335 15.8333V17.5M13.3335 5.83333C13.3335 7.67428 11.8411 9.16667 10.0002 9.16667C8.15921 9.16667 6.66683 7.67428 6.66683 5.83333C6.66683 3.99238 8.15921 2.5 10.0002 2.5C11.8411 2.5 13.3335 3.99238 13.3335 5.83333Z" stroke="#0052A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+                                                </span>
+                                            </div>
+
+                                            <div class="elementor-icon-box-content">
+
+                                                <h2 class="elementor-icon-box-title">
+                                                    <span>
+                                                        متخصصین مشابه
+                                                    </span>
+                                                </h2>
+
+
+                                            </div>
+
+                                        </div>
                                     </div>
-
-                                    <div class="elementor-icon-box-content">
-
-                                        <h2 class="elementor-icon-box-title">
-                                            <span>متخصصین مشابه
-                                            </span>
-                                        </h2>
-
-
-                                    </div>
-
                                 </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-1540d61 elementor-hidden-mobile elementor-widget elementor-widget-pzy_divider" data-id="1540d61" data-element_type="widget" data-widget_type="pzy_divider.default">
-                            <div class="elementor-widget-container">
-                                <div class="pzy-divider-widget-layout pzy-d-flex pzy-justify-content-center pzy-align-items-center">
-                                    <div class="pzy-divider-widget-before"></div>
-                                    <div class="pzy-divider-widget pzy-flex-1"></div>
-                                    <div class="pzy-divider-widget-after"></div>
+                                <div class="elementor-element elementor-element-1540d61 elementor-hidden-mobile elementor-widget elementor-widget-pzy_divider" data-id="1540d61" data-element_type="widget" data-widget_type="pzy_divider.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="pzy-divider-widget-layout pzy-d-flex pzy-justify-content-center pzy-align-items-center">
+                                            <div class="pzy-divider-widget-before"></div>
+                                            <div class="pzy-divider-widget pzy-flex-1"></div>
+                                            <div class="pzy-divider-widget-after"></div>
 
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-457f6dc elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="457f6dc" data-element_type="widget" data-widget_type="icon-box.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-icon-box-wrapper">
+                                <div class="elementor-element elementor-element-457f6dc elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="457f6dc" data-element_type="widget" data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
 
-                                    <div class="elementor-icon-box-icon">
-                                        <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                <g id="chevron-left">
-                                                    <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g></svg>
-                                        </a>
+                                            <div class="elementor-icon-box-icon">
+                                                <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/" class="elementor-icon" tabindex="-1" aria-label="مشاهده همه">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none"><g id="chevron-left"><path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>
+                                                </a>
+                                            </div>
+
+                                            <div class="elementor-icon-box-content">
+
+                                                <span class="elementor-icon-box-title">
+                                                    <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/">
+                                                        مشاهده همه
+                                                    </a>
+                                                </span>
+
+
+                                            </div>
+
+                                        </div>
                                     </div>
-
-                                    <div class="elementor-icon-box-content">
-
-                                        <span class="elementor-icon-box-title">
-                                            <a href="#">مشاهده همه
-                                            </a>
-                                        </span>
-
-
-                                    </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <%--            <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
-                <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
-                        <div class="elementor-widget-container">
-                            <div class="pzy-staffs-consultation">
-                                <div class="pzy-staffs-slider">
-                                    <div class="slider-wrapper" style="height: 100%">
-                                        <div class="swiper" data-settings='{"slidesPerView":1.5,"spaceBetween":24,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":false},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true,"breakpoints":{"620":{"slidesPerView":2.2,"spaceBetween":24,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"810":{"slidesPerView":3,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"880":{"slidesPerView":4,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"1024":{"slidesPerView":4.5,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"1200":{"slidesPerView":5.3,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true}}}'>
-                                            <div class="swiper-wrapper">
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
+                    <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;autoplay&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="pzy-staffs-consultation">
+                                        <div class="pzy-staffs-slider">
+                                            <div class="slider-wrapper" style="height:100%">
+                                                <div class="swiper" data-settings='{"slidesPerView":1.5,"spaceBetween":24,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":false},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"autoplay":false,"rtl":true,"breakpoints":{"620":{"slidesPerView":2.2,"spaceBetween":24,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"810":{"slidesPerView":3,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"880":{"slidesPerView":4,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"1024":{"slidesPerView":4.5,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true},"1200":{"slidesPerView":5.3,"spaceBetween":13,"loop":false,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev","enabled":true},"pagination":{"el":".swiper-pagination","type":null,"enabled":false},"rtl":true}}}'>
+                                                    <div class="swiper-wrapper">
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
 
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #eed7d7">
-                                                            <a href="#"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
-                                                                    alt="دکتر مژگان حاجی‌پور" />
-                                                            </a>
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#eed7d7>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
+                                                                             alt="دکتر مژگان حاجی‌پور" />
+                                                                    </a>
+                                                                </div>
+
+
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1/">دکتر مژگان حاجی‌پور</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
+
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--107 " data-post-id="107">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--half-highlight js-rmp-replace-half-star"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      3.5    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">4</span>)  </div></div>                                                                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">
+                                                                        4 نظر
+                                                                    </span>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر مژگان حاجی‌پور"
+                                                                        data-staff="107">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
+
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#e1a8a8>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
+                                                                             alt="دکتر دلارام نیک انیش" />
+                                                                    </a>
+                                                                </div>
 
 
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="#">دکتر مژگان حاجی‌پور</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4/">دکتر دلارام نیک انیش</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
 
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--107 " data-post-id="107">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--half-highlight js-rmp-remove-half-star"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">3.3    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">3</span>)  </div>
-                                                            </div>
-                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">3 نظر</span>
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--112 rmp-results-widget--not-rated" data-post-id="112">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر دلارام نیک انیش"
+                                                                        data-staff="112">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
 
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر مژگان حاجی‌پور"
-                                                            data-staff="107">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#a9eaaa>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/505bf06b8a869cce52904994307143db.png"
+                                                                             alt="دکتر مبین امین" />
+                                                                    </a>
+                                                                </div>
 
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #e1a8a8">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
-                                                                    alt="دکتر دلارام نیک انیش" />
-                                                            </a>
+
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/">دکتر مبین امین</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">متخصص گوارش</h4>
+
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--117 " data-post-id="117">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--half-highlight js-rmp-remove-half-star"></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      4.3    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">3</span>)  </div></div>                                                                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">
+                                                                        3 نظر
+                                                                    </span>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر مبین امین"
+                                                                        data-staff="117">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
+
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#e2cfcf>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic-2.png"
+                                                                             alt="خانم فریما منوچهری" />
+                                                                    </a>
+                                                                </div>
 
 
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4/">دکتر دلارام نیک انیش</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c/">خانم فریما منوچهری</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
 
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--112 rmp-results-widget--not-rated" data-post-id="112">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--120 rmp-results-widget--not-rated" data-post-id="120">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="خانم فریما منوچهری"
+                                                                        data-staff="120">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
 
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر دلارام نیک انیش"
-                                                            data-staff="112">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#aeeac0>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c-2/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic-2.png"
+                                                                             alt="خانم فریما منوچهری" />
+                                                                    </a>
+                                                                </div>
 
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #a9eaaa">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/505bf06b8a869cce52904994307143db.png"
-                                                                    alt="دکتر مبین امین" />
-                                                            </a>
+
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c-2/">خانم فریما منوچهری</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
+
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--123 rmp-results-widget--not-rated" data-post-id="123">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="خانم فریما منوچهری"
+                                                                        data-staff="123">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
+
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#b7a8ff>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86-2/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/505bf06b8a869cce52904994307143db.png"
+                                                                             alt="دکتر مبین امین" />
+                                                                    </a>
+                                                                </div>
 
 
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86/">دکتر مبین امین</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">متخصص گوارش</h4>
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86-2/">دکتر مبین امین</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">متخصص گوارش</h4>
 
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--117 " data-post-id="117">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">5    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">2</span>)  </div>
-                                                            </div>
-                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">2 نظر</span>
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--124 " data-post-id="124">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      5    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">1</span>)  </div></div>                                                                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">
+                                                                        1 نظر
+                                                                    </span>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر مبین امین"
+                                                                        data-staff="124">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
 
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر مبین امین"
-                                                            data-staff="117">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#8ceec3>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-2/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
+                                                                             alt="دکتر دلارام نیک انیش" />
+                                                                    </a>
+                                                                </div>
 
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #e2cfcf">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic-2.png"
-                                                                    alt="خانم فریما منوچهری" />
-                                                            </a>
+
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-2/">دکتر دلارام نیک انیش</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
+
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--125 " data-post-id="125">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--half-highlight js-rmp-replace-half-star"></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      4.5    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">2</span>)  </div></div>                                                                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">
+                                                                        2 نظر
+                                                                    </span>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر دلارام نیک انیش"
+                                                                        data-staff="125">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
+
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#f0a8a8>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-2/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
+                                                                             alt="دکتر مژگان حاجی‌پور" />
+                                                                    </a>
+                                                                </div>
 
 
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c/">خانم فریما منوچهری</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-2/">دکتر مژگان حاجی‌پور</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">متخصص دندانپزشکی</h4>
 
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--120 rmp-results-widget--not-rated" data-post-id="120">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--126 rmp-results-widget--not-rated" data-post-id="126">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر مژگان حاجی‌پور"
+                                                                        data-staff="126">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
 
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="خانم فریما منوچهری"
-                                                            data-staff="120">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#b5dee8>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-3/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
+                                                                             alt="دکتر دلارام نیک انیش" />
+                                                                    </a>
+                                                                </div>
 
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #aeeac0">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c-2/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic-2.png"
-                                                                    alt="خانم فریما منوچهری" />
-                                                            </a>
+
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-3/">دکتر دلارام نیک انیش</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
+
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--132 rmp-results-widget--not-rated" data-post-id="132">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر دلارام نیک انیش"
+                                                                        data-staff="132">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
+                                                        <div class="swiper-slide">
+                                                            <article class="pzy-staff-card">
+
+                                                                <div class="pzy-staff-avatar-box pzy-position-relative" style=background:#ee9b9b>
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-3/"
+                                                                       class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                                        <img class="pzy-staff-card-avatar"
+                                                                             src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
+                                                                             alt="دکتر مژگان حاجی‌پور" />
+                                                                    </a>
+                                                                </div>
 
 
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%ae%d8%a7%d9%86%d9%85-%d9%81%d8%b1%db%8c%d9%85%d8%a7-%d9%85%d9%86%d9%88%da%86%d9%87%d8%b1%db%8c-2/">خانم فریما منوچهری</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">کارشناس مراقبت های پوستی</h4>
+                                                                <h3 class="pzy-staff-title p-16-bold">
+                                                                    <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-3/">دکتر مژگان حاجی‌پور</a>
+                                                                </h3>
+                                                                <h4 class="pzy-staff-subtitle">متخصص دندانپزشکی</h4>
 
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--123 rmp-results-widget--not-rated" data-post-id="123">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
+                                                                <div class="pzy-staff-point">
+                                                                    <!-- FeedbackWP Plugin - Results Widget --><div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--133 rmp-results-widget--not-rated" data-post-id="133">  <div class="rmp-results-widget__visual-rating">    <i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i>  </div>  <div class="rmp-results-widget__avg-rating">    <span class="js-rmp-avg-rating">      0    </span>  </div>  <div class="rmp-results-widget__vote-count">    (<span class="js-rmp-vote-count">0</span>)  </div></div>
+                                                                </div>
+
+                                                                <button class="pzy-staff-consultation-request"
+                                                                        data-staff-name="دکتر مژگان حاجی‌پور"
+                                                                        data-staff="133">
+                                                                    <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
+                                                                    <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
+                                                                </button>
+                                                            </article>
                                                         </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="خانم فریما منوچهری"
-                                                            data-staff="123">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
-
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #b7a8ff">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86-2/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/505bf06b8a869cce52904994307143db.png"
-                                                                    alt="دکتر مبین امین" />
-                                                            </a>
-                                                        </div>
-
-
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%d8%a8%db%8c%d9%86-%d8%a7%d9%85%db%8c%d9%86-2/">دکتر مبین امین</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">متخصص گوارش</h4>
-
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--124 " data-post-id="124">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">5    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">1</span>)  </div>
-                                                            </div>
-                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">1 نظر</span>
-                                                        </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر مبین امین"
-                                                            data-staff="124">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
-
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #8ceec3">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-2/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
-                                                                    alt="دکتر دلارام نیک انیش" />
-                                                            </a>
-                                                        </div>
-
-
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-2/">دکتر دلارام نیک انیش</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
-
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--125 " data-post-id="125">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--full-highlight"></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star rmp-icon--half-highlight js-rmp-replace-half-star"></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">4.5    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">2</span>)  </div>
-                                                            </div>
-                                                            <span class="pzy-staff-comments-number-text pzy-el-staff-point-comments-count">2 نظر</span>
-                                                        </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر دلارام نیک انیش"
-                                                            data-staff="125">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
-
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #f0a8a8">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-2/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
-                                                                    alt="دکتر مژگان حاجی‌پور" />
-                                                            </a>
-                                                        </div>
-
-
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-2/">دکتر مژگان حاجی‌پور</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">متخصص دندانپزشکی</h4>
-
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--126 rmp-results-widget--not-rated" data-post-id="126">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر مژگان حاجی‌پور"
-                                                            data-staff="126">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
-
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #b5dee8">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-3/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/fce5068b226e4a0227f2146827a81306.png"
-                                                                    alt="دکتر دلارام نیک انیش" />
-                                                            </a>
-                                                        </div>
-
-
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d8%af%d9%84%d8%a7%d8%b1%d8%a7%d9%85-%d9%86%db%8c%da%a9-%d8%a7%d9%86%db%8c%d8%b4-3/">دکتر دلارام نیک انیش</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">تراپیست , نروتراپیست</h4>
-
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--132 rmp-results-widget--not-rated" data-post-id="132">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر دلارام نیک انیش"
-                                                            data-staff="132">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <article class="pzy-staff-card">
-
-                                                        <div class="pzy-staff-avatar-box pzy-position-relative" style="background: #ee9b9b">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-3/"
-                                                                class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                                <img class="pzy-staff-card-avatar"
-                                                                    src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Pic.png"
-                                                                    alt="دکتر مژگان حاجی‌پور" />
-                                                            </a>
-                                                        </div>
-
-
-                                                        <h3 class="pzy-staff-title p-16-bold">
-                                                            <a href="https://pezeshk-yar.ir/staff/%d8%af%da%a9%d8%aa%d8%b1-%d9%85%da%98%da%af%d8%a7%d9%86-%d8%ad%d8%a7%d8%ac%db%8c%d9%be%d9%88%d8%b1-3/">دکتر مژگان حاجی‌پور</a>
-                                                        </h3>
-                                                        <h4 class="pzy-staff-subtitle">متخصص دندانپزشکی</h4>
-
-                                                        <div class="pzy-staff-point">
-                                                            <!-- FeedbackWP Plugin - Results Widget -->
-                                                            <div class="rmp-results-widget js-rmp-results-widget js-rmp-results-widget--133 rmp-results-widget--not-rated" data-post-id="133">
-                                                                <div class="rmp-results-widget__visual-rating"><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i><i class="js-rmp-results-icon rmp-icon rmp-icon--ratings rmp-icon--star "></i></div>
-                                                                <div class="rmp-results-widget__avg-rating"><span class="js-rmp-avg-rating">0    </span></div>
-                                                                <div class="rmp-results-widget__vote-count">(<span class="js-rmp-vote-count">0</span>)  </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <button class="pzy-staff-consultation-request"
-                                                            data-staff-name="دکتر مژگان حاجی‌پور"
-                                                            data-staff="133">
-                                                            <i class="pzy-staff-consultation-request-icon" data-feather="message-square"></i>
-                                                            <span class="pzy-staff-consultation-request-title">درخواست مشاوره</span>
-                                                        </button>
-                                                    </article>
+                                                    </div>
+                                                    <div class="swiper-pagination"></div>
+                                                    <div class="swiper-button-prev">
+                                                    </div>
+                                                    <div class="swiper-button-next">
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="swiper-pagination"></div>
-                                            <div class="swiper-button-prev">
-                                            </div>
-                                            <div class="swiper-button-next">
-                                            </div>
+
                                         </div>
-                                    </div>
 
-                                </div>
-
-                                <div class="pzy-consultation-modal pzy-modal-wrapper pzy-hide">
-                                    <div class="pzy-modal-content">
-                                        <div class="pzy-modal pzy-staffs-schedule-categories-modal">
-                                            <div class="pzy-modal-header">
-                                                <p class="pzy-modal-title">
-                                                    درخواست مشاوره
-                                                </p>
-                                                <button class="pzy-modal-close-button">
-                                                    <svg class="pzy-input-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <path d="M9.16986 15.5801C8.97986 15.5801 8.78986 15.5101 8.63986 15.3601C8.34986 15.0701 8.34986 14.5901 8.63986 14.3001L14.2999 8.64011C14.5899 8.35011 15.0699 8.35011 15.3599 8.64011C15.6499 8.93011 15.6499 9.41011 15.3599 9.70011L9.69986 15.3601C9.55986 15.5101 9.35986 15.5801 9.16986 15.5801Z" fill="#A6AFB8" />
-                                                        <path d="M14.8299 15.5801C14.6399 15.5801 14.4499 15.5101 14.2999 15.3601L8.63986 9.70011C8.34986 9.41011 8.34986 8.93011 8.63986 8.64011C8.92986 8.35011 9.40986 8.35011 9.69986 8.64011L15.3599 14.3001C15.6499 14.5901 15.6499 15.0701 15.3599 15.3601C15.2099 15.5101 15.0199 15.5801 14.8299 15.5801Z" fill="#A6AFB8" />
-                                                        <path d="M15 22.75H9C3.57 22.75 1.25 20.43 1.25 15V9C1.25 3.57 3.57 1.25 9 1.25H15C20.43 1.25 22.75 3.57 22.75 9V15C22.75 20.43 20.43 22.75 15 22.75ZM9 2.75C4.39 2.75 2.75 4.39 2.75 9V15C2.75 19.61 4.39 21.25 9 21.25H15C19.61 21.25 21.25 19.61 21.25 15V9C21.25 4.39 19.61 2.75 15 2.75H9Z" fill="#A6AFB8" />
-                                                    </svg>
-                                                </button>
-                                            </div>
-                                            <div class="pzy-modal-body">
-                                                <form class="pzy-consultation-form">
-                                                    <div class="pzy-modal-reserve-form pzy-d-flex pzy-flex-column-nowrap">
-                                                        <label class="pzy-input-label">
-                                                            <p class="pzy-input-title">
-                                                                نام و نام خانوادگی                                <span class="pzy-required">*</span>
-                                                            </p>
-                                                            <div class="pzy-input-append-icon">
-                                                                <input type="text" name="full_name">
-                                                                <i class="pzy-input-icon" data-feather="user"></i>
-                                                            </div>
-                                                        </label>
-                                                        <label class="pzy-input-label">
-                                                            <p class="pzy-input-title">
-                                                                شماره تماس                                <span class="pzy-required">*</span>
-                                                            </p>
-                                                            <div class="pzy-input-append-icon">
-                                                                <input type="text" name="contact_phone">
-                                                                <i class="pzy-input-icon" data-feather="smartphone"></i>
-                                                            </div>
-                                                        </label>
-                                                        <label class="pzy-input-label">
-                                                            <p class="pzy-input-title">
-                                                                نوع بیمه درمانی                                <span class="pzy-required">*</span>
-                                                            </p>
-                                                            <div class="pzy-input-append-icon">
-                                                                <input type="text" name="insurance_type">
-                                                                <i class="pzy-input-icon" data-feather="clipboard"></i>
-                                                            </div>
-                                                        </label>
-
-                                                        <input type="hidden" class="pzy-form-staff-id" name="staff">
-
-
-                                                        <div class="pzy-input-append-icon pzy-position-relative">
-                                                            <input class="pzy-form-service-human-date" type="text" placeholder="انتخاب تاریخ" disabled>
-                                                            <input class="pzy-form-service-date" type="hidden" name="service_date">
-                                                            <i class="pzy-input-icon pzy-consultation-show-date" data-feather="plus-circle"></i>
-                                                            <div class="pzy-select-date-box pzy-consultation-select-date-box pzy-hide"
-                                                                data-alt="#pzy-consultation-datepicker-alte5ab0e3">
-                                                                <span class="pzy-select-date-box-title">انتخاب تاریخ</span>
-                                                                <input type="text" class="pzy-datepicker-display" id="pzy-consultation-datepicker-alte5ab0e3" readonly />
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="pzy-input-append-icon">
-                                                            <input class="pzy-form-staff-name" type="text" value="نام متخصص" disabled>
-                                                            <i class="pzy-input-icon" data-feather="user"></i>
-                                                        </div>
-
-                                                        <p class="pzy-radio-group-label">انتخاب زمان مراجعه به دکتر :</p>
-
-                                                        <div class="pzy-time-slots pzy-radio-group"></div>
-
-                                                        <button class="pzy-modal-reserve-submit pzy-button pzy-button-primary pzy-mt-55">
-                                                            <i data-feather="message-square"></i>
-                                                            ثبت نوبت شما
+                                        <div class="pzy-consultation-modal pzy-modal-wrapper pzy-hide">
+                                            <div class="pzy-modal-content">
+                                                <div class="pzy-modal pzy-staffs-schedule-categories-modal">
+                                                    <div class="pzy-modal-header">
+                                                        <p class="pzy-modal-title">
+                                                            درخواست مشاوره
+                                                        </p>
+                                                        <button class="pzy-modal-close-button">
+                                                            <svg class="pzy-input-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M9.16986 15.5801C8.97986 15.5801 8.78986 15.5101 8.63986 15.3601C8.34986 15.0701 8.34986 14.5901 8.63986 14.3001L14.2999 8.64011C14.5899 8.35011 15.0699 8.35011 15.3599 8.64011C15.6499 8.93011 15.6499 9.41011 15.3599 9.70011L9.69986 15.3601C9.55986 15.5101 9.35986 15.5801 9.16986 15.5801Z" fill="#A6AFB8" />
+                                                                <path d="M14.8299 15.5801C14.6399 15.5801 14.4499 15.5101 14.2999 15.3601L8.63986 9.70011C8.34986 9.41011 8.34986 8.93011 8.63986 8.64011C8.92986 8.35011 9.40986 8.35011 9.69986 8.64011L15.3599 14.3001C15.6499 14.5901 15.6499 15.0701 15.3599 15.3601C15.2099 15.5101 15.0199 15.5801 14.8299 15.5801Z" fill="#A6AFB8" />
+                                                                <path d="M15 22.75H9C3.57 22.75 1.25 20.43 1.25 15V9C1.25 3.57 3.57 1.25 9 1.25H15C20.43 1.25 22.75 3.57 22.75 9V15C22.75 20.43 20.43 22.75 15 22.75ZM9 2.75C4.39 2.75 2.75 4.39 2.75 9V15C2.75 19.61 4.39 21.25 9 21.25H15C19.61 21.25 21.25 19.61 21.25 15V9C21.25 4.39 19.61 2.75 15 2.75H9Z" fill="#A6AFB8" />
+                                                            </svg>
                                                         </button>
                                                     </div>
-                                                </form>
+                                                    <div class="pzy-modal-body">
+                                                        <form class="pzy-consultation-form">
+                                                            <div class="pzy-modal-reserve-form pzy-d-flex pzy-flex-column-nowrap">
+                                                                <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        نام و نام خانوادگی                        <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="full_name">
+                                                                        <i class="pzy-input-icon" data-feather="user"></i>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        شماره تماس                        <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="contact_phone">
+                                                                        <i class="pzy-input-icon" data-feather="smartphone"></i>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        نوع بیمه درمانی                        <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="insurance_type">
+                                                                        <i class="pzy-input-icon" data-feather="clipboard"></i>
+                                                                    </div>
+                                                                </label>
+                                                                <!-- <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        نام و نام خانوادگی                                <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="full_name">
+                                                                        <i class="pzy-input-icon" data-feather="user"></i>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        شماره تماس                                <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="contact_phone">
+                                                                        <i class="pzy-input-icon" data-feather="smartphone"></i>
+                                                                    </div>
+                                                                </label>
+                                                                <label class="pzy-input-label">
+                                                                    <p class="pzy-input-title">
+                                                                        نوع بیمه درمانی                                <span class="pzy-required">*</span>
+                                                                    </p>
+                                                                    <div class="pzy-input-append-icon">
+                                                                        <input type="text" name="insurance_type">
+                                                                        <i class="pzy-input-icon" data-feather="clipboard"></i>
+                                                                    </div>
+                                                                </label> -->
 
+                                                                <input type="hidden" class="pzy-form-staff-id" name="staff">
+
+
+                                                                <div class="pzy-input-append-icon pzy-position-relative">
+                                                                    <input class="pzy-form-service-human-date" type="text" placeholder="انتخاب تاریخ" disabled>
+                                                                    <input class="pzy-form-service-date" type="hidden" name="service_date">
+                                                                    <i class="pzy-input-icon pzy-consultation-show-date" data-feather="plus-circle"></i>
+                                                                    <div class="pzy-select-date-box pzy-consultation-select-date-box pzy-hide"
+                                                                         data-alt="#pzy-consultation-datepicker-alte5ab0e3">
+                                                                        <span class="pzy-select-date-box-title">انتخاب تاریخ</span>
+                                                                        <input type="text" class="pzy-datepicker-display" id="pzy-consultation-datepicker-alte5ab0e3" readonly />
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="pzy-input-append-icon">
+                                                                    <input class="pzy-form-staff-name" type="text" value="نام متخصص" disabled>
+                                                                    <i class="pzy-input-icon" data-feather="user"></i>
+                                                                </div>
+
+                                                                <p class="pzy-radio-group-label">انتخاب زمان مراجعه به دکتر :</p>
+
+                                                                <div class="pzy-time-slots pzy-radio-group"></div>
+
+                                                                <button class="pzy-modal-reserve-submit pzy-button pzy-button-primary pzy-mt-55">
+                                                                    <i data-feather="message-square"></i>
+                                                                    ثبت نوبت شما
+                                                                </button>
+                                                            </div>
+                                                        </form>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+                                    <script>
+                                        feather.replace();
+                                    </script>
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                </div>
-            </div>--%>
+
+
+
             <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent" data-id="fc524b8" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">
@@ -932,7 +914,7 @@
                                         <div class="comment-form-submit-box">
                                             <div class="pzy-rate-box">
                                                 <span class="pzy-rate-title">امتیاز شما</span><!-- FeedbackWP Plugin --><div class="rmp-widgets-container rmp-wp-plugin rmp-main-container js-rmp-widgets-container js-rmp-widgets-container--131 " data-post-id="131">
-                                                    <%--  <!-- Rating widget -->
+                                                      <!-- Rating widget -->
                                                     <div class="rmp-rating-widget js-rmp-rating-widget">
                                                         <p class="rmp-heading rmp-heading--title">چقدر این پست مفید بود؟      </p>
                                                         <p class="rmp-heading rmp-heading--subtitle">با کلیک روی ستاره ها به این نوشته امتیاز دهید      </p>
@@ -950,7 +932,7 @@
                                                         <p class="rmp-rating-widget__results js-rmp-results ">امتیاز میانگین <span class="rmp-rating-widget__results__rating js-rmp-avg-rating">3</span> / 5. تعداد امتیازات: <span class="rmp-rating-widget__results__votes js-rmp-vote-count">1</span>    </p>
                                                         <p class="rmp-rating-widget__not-rated js-rmp-not-rated rmp-rating-widget__not-rated--hidden">هنوز امتیازی ثبت نشده! اولین نفری باشید که به این پست امتیاز می دهید.    </p>
                                                         <p class="rmp-rating-widget__msg js-rmp-msg"></p>
-                                                    </div>--%>
+                                                    </div>
                                                     <!--Structured data -->
                                                 </div>
                                             </div>
@@ -976,5 +958,2194 @@
     </main>
 
 
+
+            <style>
+            .elementor-140 .elementor-element.elementor-element-7044a92a {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 0px 0px;
+                --row-gap: 0px;
+                --column-gap: 0px;
+                --padding-top: 73px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-7044a92a:not(.elementor-motion-effects-element-type-background), .elementor-140 .elementor-element.elementor-element-7044a92a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+                    background-color: var( --e-global-color-46c853a );
+                }
+
+            .elementor-140 .elementor-element.elementor-element-4b112bec {
+                --display: flex;
+                --position: absolute;
+                --flex-direction: row;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: flex-start;
+                --align-items: flex-start;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+                top: 0px;
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-4b112bec {
+                left: 0px;
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-4b112bec {
+                right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f864aa9 {
+                --display: flex;
+                --min-height: 50px;
+                --flex-direction: row;
+                --container-widget-width: initial;
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: center;
+                --overlay-opacity: 1;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-4f864aa9::before, .elementor-140 .elementor-element.elementor-element-4f864aa9 > .elementor-background-video-container::before, .elementor-140 .elementor-element.elementor-element-4f864aa9 > .e-con-inner > .elementor-background-video-container::before, .elementor-140 .elementor-element.elementor-element-4f864aa9 > .elementor-background-slideshow::before, .elementor-140 .elementor-element.elementor-element-4f864aa9 > .e-con-inner > .elementor-background-slideshow::before, .elementor-140 .elementor-element.elementor-element-4f864aa9 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before {
+                    background-image: url("https://pezeshk-yar.ir/wp-content/uploads/2024/07/Curve.svg");
+                    --background-overlay: '';
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+
+            .elementor-widget-image .widget-image-caption {
+                color: var( --e-global-color-text );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1aba4b1d {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --align-items: flex-start;
+                --gap: 0px 0px;
+                --row-gap: 0px;
+                --column-gap: 0px;
+                --flex-wrap: nowrap;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-69ecef7c {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 0px 0px;
+                --row-gap: 0px;
+                --column-gap: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-69ecef7c.e-con {
+                    --flex-grow: 0;
+                    --flex-shrink: 0;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-5b10eac4 {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: space-between;
+                --align-items: center;
+                --gap: 3px 3px;
+                --row-gap: 3px;
+                --column-gap: 3px;
+                --flex-wrap: wrap;
+                --margin-top: 0px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-widget-heading .elementor-heading-title {
+                color: var( --e-global-color-primary );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-52b2ac44 .elementor-heading-title {
+                font-size: var( --e-global-typography-c40b55f-font-size );
+                font-weight: var( --e-global-typography-c40b55f-font-weight );
+                font-style: var( --e-global-typography-c40b55f-font-style );
+                line-height: var( --e-global-typography-c40b55f-line-height );
+                color: var( --e-global-color-b1ab2af );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1a7258b1.elementor-element {
+                --flex-grow: 1;
+                --flex-shrink: 0;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1a7258b1 .elementor-heading-title {
+                font-size: var( --e-global-typography-509bb16-font-size );
+                font-weight: var( --e-global-typography-509bb16-font-weight );
+                font-style: var( --e-global-typography-509bb16-font-style );
+                line-height: var( --e-global-typography-509bb16-line-height );
+                color: var( --e-global-color-b1ab2af );
+            }
+
+            .elementor-widget-icon-box.elementor-view-stacked .elementor-icon {
+                background-color: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon {
+                fill: var( --e-global-color-primary );
+                color: var( --e-global-color-primary );
+                border-color: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon-box .elementor-icon-box-title {
+                color: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon-box .elementor-icon-box-description {
+                color: var( --e-global-color-text );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-3f027a92 {
+                --icon-box-icon-margin: 3px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title {
+                    color: var( --e-global-color-1bebc8f );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-6401247-font-size );
+                        font-weight: var( --e-global-typography-6401247-font-weight );
+                        font-style: var( --e-global-typography-6401247-font-style );
+                        line-height: var( --e-global-typography-6401247-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-57919728 {
+                --display: flex;
+                --flex-wrap: wrap;
+                --align-content: center;
+                --margin-top: 15px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-widget-text-editor {
+                color: var( --e-global-color-text );
+            }
+
+                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                    background-color: var( --e-global-color-primary );
+                }
+
+                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {
+                    color: var( --e-global-color-primary );
+                    border-color: var( --e-global-color-primary );
+                }
+
+            .elementor-140 .elementor-element.elementor-element-2e00a09f > .elementor-widget-container {
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-2e00a09f {
+                text-align: justify;
+                color: var( --e-global-color-1bebc8f );
+                font-size: 14px;
+                font-weight: 400;
+                font-style: normal;
+                line-height: 24px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-5f66c71f {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: initial;
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: space-between;
+                --flex-wrap: nowrap;
+                --margin-top: 25px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-53be2ec3 img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-6a5ca68c img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-684c6319 img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-7950cb45 img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-2bcbddcf img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-734713c5 img {
+                height: 50px;
+                object-fit: contain;
+                object-position: center center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-a8f5c8d {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: space-between;
+                --align-items: center;
+                --margin-top: 33px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-be5bb6c {
+                width: var( --container-widget-width, 74.244% );
+                max-width: 74.244%;
+                --container-widget-width: 74.244%;
+                --container-widget-flex-grow: 0;
+                --icon-box-icon-margin: 10px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c.elementor-element {
+                    --flex-grow: 1;
+                    --flex-shrink: 0;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-wrapper {
+                    text-align: right;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon {
+                    font-size: 18px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title {
+                    color: var( --e-global-color-1bebc8f );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-509bb16-font-size );
+                        font-weight: var( --e-global-typography-509bb16-font-weight );
+                        font-style: var( --e-global-typography-509bb16-font-style );
+                        line-height: var( --e-global-typography-509bb16-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-77007af {
+                --icon-box-icon-margin: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-77007af .elementor-icon {
+                    font-size: 20px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-516903d > .elementor-widget-container {
+                margin: 24px 0px 0px 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d .pzy-content-area {
+                gap: 24px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d input {
+                font-size: var( --e-global-typography-8efc932-font-size );
+                font-weight: var( --e-global-typography-8efc932-font-weight );
+                font-style: var( --e-global-typography-8efc932-font-style );
+                line-height: var( --e-global-typography-8efc932-line-height );
+                color: var( --e-global-color-96ac8f1 );
+                background-color: var( --e-global-color-26db0c3 );
+                border-style: none;
+                border-radius: 19px;
+                padding: 9px 17px 7px 17px;
+                height: 39px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d button {
+                font-size: var( --e-global-typography-2397996-font-size );
+                font-weight: var( --e-global-typography-2397996-font-weight );
+                font-style: var( --e-global-typography-2397996-font-style );
+                line-height: var( --e-global-typography-2397996-line-height );
+                color: var( --e-global-color-a000609 );
+                background-color: var( --e-global-color-accent );
+                border-style: none;
+                border-radius: 19px;
+                padding: 3px 25px 2px 25px;
+                height: 39px;
+                gap: 8px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d .pzy-newsletter-message {
+                padding: 18px 0px 0px 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d .pzy-success-message {
+                color: var( --e-global-color-58ed6e3 );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-516903d .pzy-error-message {
+                color: var( --e-global-color-4791e6c );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f6dc316 {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --align-items: flex-start;
+                --gap: 42px 0px;
+                --row-gap: 42px;
+                --column-gap: 0px;
+                --flex-wrap: wrap;
+                --margin-top: 0%;
+                --margin-bottom: 0%;
+                --margin-left: 0%;
+                --margin-right: 0%;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 65px;
+                --padding-right: 80px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-4f6dc316.e-con {
+                    --flex-grow: 0;
+                    --flex-shrink: 0;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-22efbd37 {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --justify-content: flex-start;
+                --align-items: flex-start;
+                --gap: 8.5px 8.5px;
+                --row-gap: 8.5px;
+                --column-gap: 8.5px;
+                --margin-top: 0px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {
+                border-color: var( --e-global-color-text );
+            }
+
+            .elementor-widget-icon-list .elementor-icon-list-icon i {
+                color: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon-list .elementor-icon-list-icon svg {
+                fill: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon-list .elementor-icon-list-text {
+                color: var( --e-global-color-secondary );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4e20b030 {
+                --e-icon-list-icon-size: 6px;
+                --icon-vertical-align: center;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-icon {
+                    padding-left: 8px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    font-weight: var( --e-global-typography-509bb16-font-weight );
+                    font-style: var( --e-global-typography-509bb16-font-style );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-text {
+                    color: #FFFFFF;
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa > .elementor-widget-container {
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-512088aa {
+                --e-icon-list-icon-size: 14px;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    font-weight: var( --e-global-typography-8efc932-font-weight );
+                    font-style: var( --e-global-typography-8efc932-font-style );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-text {
+                    color: var( --e-global-color-1bebc8f );
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-28cc5177 {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 8.5px 8.5px;
+                --row-gap: 8.5px;
+                --column-gap: 8.5px;
+                --margin-top: 0px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-72d23f0f {
+                --e-icon-list-icon-size: 6px;
+                --icon-vertical-align: center;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-icon {
+                    padding-left: 8px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    font-weight: var( --e-global-typography-509bb16-font-weight );
+                    font-style: var( --e-global-typography-509bb16-font-style );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-text {
+                    color: #FFFFFF;
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1cb7faaa {
+                --e-icon-list-icon-size: 14px;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    font-weight: var( --e-global-typography-8efc932-font-weight );
+                    font-style: var( --e-global-typography-8efc932-font-style );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-text {
+                    color: var( --e-global-color-1bebc8f );
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-2ec2c408 {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 8.5px 8.5px;
+                --row-gap: 8.5px;
+                --column-gap: 8.5px;
+                --margin-top: 0px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-4f1ae289 {
+                --e-icon-list-icon-size: 6px;
+                --icon-vertical-align: center;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-icon {
+                    padding-left: 8px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    font-weight: var( --e-global-typography-509bb16-font-weight );
+                    font-style: var( --e-global-typography-509bb16-font-style );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-text {
+                    color: #FFFFFF;
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-33c23b60 {
+                --e-icon-list-icon-size: 14px;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    font-weight: var( --e-global-typography-8efc932-font-weight );
+                    font-style: var( --e-global-typography-8efc932-font-style );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-text {
+                    color: var( --e-global-color-1bebc8f );
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-1bdb3e90 {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 8.5px 8.5px;
+                --row-gap: 8.5px;
+                --column-gap: 8.5px;
+                --margin-top: 0px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-c10a16a {
+                --e-icon-list-icon-size: 6px;
+                --icon-vertical-align: center;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-icon {
+                    padding-left: 8px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    font-weight: var( --e-global-typography-509bb16-font-weight );
+                    font-style: var( --e-global-typography-509bb16-font-style );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-text {
+                    color: #FFFFFF;
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+                padding-bottom: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:first-child) {
+                margin-top: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+                margin-right: calc(8px/2);
+                margin-left: calc(8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items.elementor-inline-items {
+                margin-right: calc(-8px/2);
+                margin-left: calc(-8px/2);
+            }
+
+            body.rtl .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                left: calc(-8px/2);
+            }
+
+            body:not(.rtl) .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item:after {
+                right: calc(-8px/2);
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-icon i {
+                transition: color 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-icon svg {
+                transition: fill 0.3s;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-10b3a503 {
+                --e-icon-list-icon-size: 14px;
+                --icon-vertical-offset: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    font-weight: var( --e-global-typography-8efc932-font-weight );
+                    font-style: var( --e-global-typography-8efc932-font-style );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-text {
+                    color: var( --e-global-color-1bebc8f );
+                    transition: color 0.3s;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-374f805c {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --justify-content: center;
+                --gap: 0px 0px;
+                --row-gap: 0px;
+                --column-gap: 0px;
+                --border-radius: 24px 24px 24px 24px;
+                --padding-top: 32px;
+                --padding-bottom: 24px;
+                --padding-left: 24px;
+                --padding-right: 24px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-374f805c:not(.elementor-motion-effects-element-type-background), .elementor-140 .elementor-element.elementor-element-374f805c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+                    background-color: var( --e-global-color-1bebc8f );
+                }
+
+            .elementor-140 .elementor-element.elementor-element-60b9ad7 {
+                --display: flex;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-2edbd950 .elementor-heading-title {
+                font-size: var( --e-global-typography-2397996-font-size );
+                font-weight: var( --e-global-typography-2397996-font-weight );
+                font-style: var( --e-global-typography-2397996-font-style );
+                line-height: var( --e-global-typography-2397996-line-height );
+                color: var( --e-global-color-46c853a );
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1a007652 {
+                --display: flex;
+                --flex-direction: column;
+                --container-widget-width: 100%;
+                --container-widget-height: initial;
+                --container-widget-flex-grow: 0;
+                --container-widget-align-self: initial;
+                --flex-wrap-mobile: wrap;
+                --gap: 0px 0px;
+                --row-gap: 0px;
+                --column-gap: 0px;
+                --margin-top: 17px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-wrapper {
+                text-align: right;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-75942c28 {
+                --icon-box-icon-margin: 3px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title {
+                    color: var( --e-global-color-96ac8f1 );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-509bb16-font-size );
+                        font-weight: var( --e-global-typography-509bb16-font-weight );
+                        font-style: var( --e-global-typography-509bb16-font-style );
+                        line-height: var( --e-global-typography-509bb16-line-height );
+                    }
+
+            .elementor-widget-divider {
+                --divider-color: var( --e-global-color-secondary );
+            }
+
+                .elementor-widget-divider .elementor-divider__text {
+                    color: var( --e-global-color-secondary );
+                }
+
+                .elementor-widget-divider.elementor-view-stacked .elementor-icon {
+                    background-color: var( --e-global-color-secondary );
+                }
+
+                .elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon {
+                    color: var( --e-global-color-secondary );
+                    border-color: var( --e-global-color-secondary );
+                }
+
+                    .elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg {
+                        fill: var( --e-global-color-secondary );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-c442131 {
+                --divider-border-style: solid;
+                --divider-color: var( --e-global-color-a000609 );
+                --divider-border-width: 0.5px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-c442131 > .elementor-widget-container {
+                    margin: 19px 0px 21px 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c442131 .elementor-divider-separator {
+                    width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c442131 .elementor-divider {
+                    padding-block-start: 0px;
+                    padding-block-end: 0px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-wrapper {
+                text-align: right;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-58f6d159 {
+                --icon-box-icon-margin: 0px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title {
+                    color: var( --e-global-color-96ac8f1 );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-509bb16-font-size );
+                        font-weight: var( --e-global-typography-509bb16-font-weight );
+                        font-style: var( --e-global-typography-509bb16-font-style );
+                        line-height: var( --e-global-typography-509bb16-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-3cfa46c {
+                --divider-border-style: solid;
+                --divider-color: var( --e-global-color-a000609 );
+                --divider-border-width: 0.5px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-3cfa46c > .elementor-widget-container {
+                    margin: 16px 0px 12px 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-3cfa46c .elementor-divider-separator {
+                    width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-3cfa46c .elementor-divider {
+                    padding-block-start: 0px;
+                    padding-block-end: 0px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-wrapper {
+                text-align: right;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-1ba84632 {
+                --icon-box-icon-margin: 25px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title {
+                    color: var( --e-global-color-96ac8f1 );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-509bb16-font-size );
+                        font-weight: var( --e-global-typography-509bb16-font-weight );
+                        font-style: var( --e-global-typography-509bb16-font-style );
+                        line-height: var( --e-global-typography-509bb16-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-bd247ec {
+                --divider-border-style: solid;
+                --divider-color: var( --e-global-color-a000609 );
+                --divider-border-width: 0.5px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-bd247ec > .elementor-widget-container {
+                    margin: 16px 0px 19px 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-bd247ec .elementor-divider-separator {
+                    width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-bd247ec .elementor-divider {
+                    padding-block-start: 0px;
+                    padding-block-end: 0px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-wrapper {
+                text-align: right;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-52ef9d79 {
+                --icon-box-icon-margin: 60px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title {
+                    color: var( --e-global-color-96ac8f1 );
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-509bb16-font-size );
+                        font-weight: var( --e-global-typography-509bb16-font-weight );
+                        font-style: var( --e-global-typography-509bb16-font-style );
+                        line-height: var( --e-global-typography-509bb16-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-3e734981 {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: initial;
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: center;
+                --gap: 20px 20px;
+                --row-gap: 20px;
+                --column-gap: 20px;
+                --border-radius: 9px 9px 9px 9px;
+                --margin-top: 8px;
+                --margin-bottom: 0px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 16px;
+                --padding-bottom: 16px;
+                --padding-left: 36px;
+                --padding-right: 36px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-3e734981:not(.elementor-motion-effects-element-type-background), .elementor-140 .elementor-element.elementor-element-3e734981 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+                    background-color: var( --e-global-color-b1ab2af );
+                }
+
+            .elementor-widget-icon.elementor-view-stacked .elementor-icon {
+                background-color: var( --e-global-color-primary );
+            }
+
+            .elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon {
+                color: var( --e-global-color-primary );
+                border-color: var( --e-global-color-primary );
+            }
+
+                .elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon svg {
+                    fill: var( --e-global-color-primary );
+                }
+
+            .elementor-140 .elementor-element.elementor-element-6ea577aa .elementor-icon-wrapper {
+                text-align: center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-6ea577aa.elementor-view-stacked .elementor-icon {
+                background-color: #FFFFFF;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-6ea577aa.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-6ea577aa.elementor-view-default .elementor-icon {
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-6ea577aa.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-6ea577aa.elementor-view-default .elementor-icon svg {
+                    fill: #FFFFFF;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-6ea577aa .elementor-icon {
+                font-size: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-6ea577aa .elementor-icon svg {
+                    height: 16px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-3b23054e .elementor-icon-wrapper {
+                text-align: center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-3b23054e.elementor-view-stacked .elementor-icon {
+                background-color: #FFFFFF;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-3b23054e.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-3b23054e.elementor-view-default .elementor-icon {
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-3b23054e.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-3b23054e.elementor-view-default .elementor-icon svg {
+                    fill: #FFFFFF;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-3b23054e .elementor-icon {
+                font-size: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-3b23054e .elementor-icon svg {
+                    height: 16px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-14bef5dd .elementor-icon-wrapper {
+                text-align: center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-14bef5dd.elementor-view-stacked .elementor-icon {
+                background-color: #FFFFFF;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-14bef5dd.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-14bef5dd.elementor-view-default .elementor-icon {
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-14bef5dd.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-14bef5dd.elementor-view-default .elementor-icon svg {
+                    fill: #FFFFFF;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-14bef5dd .elementor-icon {
+                font-size: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-14bef5dd .elementor-icon svg {
+                    height: 16px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-449488e6 .elementor-icon-wrapper {
+                text-align: center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-449488e6.elementor-view-stacked .elementor-icon {
+                background-color: #FFFFFF;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-449488e6.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-449488e6.elementor-view-default .elementor-icon {
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-449488e6.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-449488e6.elementor-view-default .elementor-icon svg {
+                    fill: #FFFFFF;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-449488e6 .elementor-icon {
+                font-size: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-449488e6 .elementor-icon svg {
+                    height: 16px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-183eb402 .elementor-icon-wrapper {
+                text-align: center;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-183eb402.elementor-view-stacked .elementor-icon {
+                background-color: #FFFFFF;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-183eb402.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-183eb402.elementor-view-default .elementor-icon {
+                color: #FFFFFF;
+                border-color: #FFFFFF;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-183eb402.elementor-view-framed .elementor-icon, .elementor-140 .elementor-element.elementor-element-183eb402.elementor-view-default .elementor-icon svg {
+                    fill: #FFFFFF;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-183eb402 .elementor-icon {
+                font-size: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-183eb402 .elementor-icon svg {
+                    height: 16px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-7060e693 {
+                --divider-border-style: solid;
+                --divider-color: #A3C1E0;
+                --divider-border-width: 1px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 > .elementor-widget-container {
+                    margin: 38px 0px 29px 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 .elementor-divider-separator {
+                    width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 .elementor-divider {
+                    padding-block-start: 0px;
+                    padding-block-end: 0px;
+                }
+
+            .elementor-140 .elementor-element.elementor-element-36225f2f {
+                --display: flex;
+                --flex-direction: row;
+                --container-widget-width: initial;
+                --container-widget-height: 100%;
+                --container-widget-flex-grow: 1;
+                --container-widget-align-self: stretch;
+                --flex-wrap-mobile: wrap;
+                --justify-content: space-between;
+                --flex-wrap: wrap;
+                --margin-top: 0px;
+                --margin-bottom: 52px;
+                --margin-left: 0px;
+                --margin-right: 0px;
+                --padding-top: 0px;
+                --padding-bottom: 0px;
+                --padding-left: 0px;
+                --padding-right: 0px;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-wrapper {
+                text-align: right;
+            }
+
+            .elementor-140 .elementor-element.elementor-element-47446f75 {
+                --icon-box-icon-margin: 16px;
+            }
+
+                .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon {
+                    font-size: 16px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title {
+                    color: #FFFFFF;
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title a {
+                        font-size: var( --e-global-typography-8efc932-font-size );
+                        font-weight: var( --e-global-typography-8efc932-font-weight );
+                        font-style: var( --e-global-typography-8efc932-font-style );
+                        line-height: var( --e-global-typography-8efc932-line-height );
+                    }
+
+            .elementor-140 .elementor-element.elementor-element-17f5c29a {
+                color: #F5F8FC;
+                font-size: var( --e-global-typography-8efc932-font-size );
+                font-weight: var( --e-global-typography-8efc932-font-weight );
+                font-style: var( --e-global-typography-8efc932-font-style );
+                line-height: var( --e-global-typography-8efc932-line-height );
+            }
+
+            .elementor-theme-builder-content-area {
+                height: 400px;
+            }
+
+            .elementor-location-header:before, .elementor-location-footer:before {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            @media(min-width:768px) {
+                .elementor-140 .elementor-element.elementor-element-4f864aa9 {
+                    --width: 162px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-69ecef7c {
+                    --width: 40%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f6dc316 {
+                    --width: 36%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-22efbd37 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-28cc5177 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-2ec2c408 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1bdb3e90 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-374f805c {
+                    --width: 24%;
+                }
+            }
+
+            @media(max-width:1024px) and (min-width:768px) {
+                .elementor-140 .elementor-element.elementor-element-1aba4b1d {
+                    --content-width: 95%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-69ecef7c {
+                    --width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f6dc316 {
+                    --width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-22efbd37 {
+                    --width: 25%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-28cc5177 {
+                    --width: 25%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-2ec2c408 {
+                    --width: 25%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1bdb3e90 {
+                    --width: 25%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-374f805c {
+                    --width: 100%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-36225f2f {
+                    --content-width: 95%;
+                }
+            }
+
+            @media(max-width:1024px) {
+                .elementor-140 .elementor-element.elementor-element-4b112bec {
+                    --justify-content: center;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1aba4b1d {
+                    --justify-content: center;
+                    --flex-wrap: wrap;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-52b2ac44 .elementor-heading-title {
+                    font-size: var( --e-global-typography-c40b55f-font-size );
+                    line-height: var( --e-global-typography-c40b55f-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1a7258b1 .elementor-heading-title {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-6401247-font-size );
+                    line-height: var( --e-global-typography-6401247-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-516903d input {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-516903d button {
+                    font-size: var( --e-global-typography-2397996-font-size );
+                    line-height: var( --e-global-typography-2397996-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f6dc316 {
+                    --flex-wrap: wrap;
+                    --margin-top: 043px;
+                    --margin-bottom: 0px;
+                    --margin-left: 0px;
+                    --margin-right: 0px;
+                    --padding-top: 0px;
+                    --padding-bottom: 0px;
+                    --padding-left: 0px;
+                    --padding-right: 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-374f805c {
+                    --justify-content: center;
+                    --margin-top: 40px;
+                    --margin-bottom: 0px;
+                    --margin-left: 0px;
+                    --margin-right: 0px;
+                }
+
+                    .elementor-140 .elementor-element.elementor-element-374f805c.e-con {
+                        --flex-grow: 1;
+                        --flex-shrink: 0;
+                    }
+
+                .elementor-140 .elementor-element.elementor-element-2edbd950 .elementor-heading-title {
+                    font-size: var( --e-global-typography-2397996-font-size );
+                    line-height: var( --e-global-typography-2397996-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 > .elementor-widget-container {
+                    margin: 32px 0px 16px 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 .elementor-divider-separator {
+                    width: 95%;
+                    margin: 0 auto;
+                    margin-center: 0;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-7060e693 .elementor-divider {
+                    text-align: center;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-36225f2f {
+                    --justify-content: center;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-17f5c29a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+            }
+
+            @media(max-width:767px) {
+                .elementor-140 .elementor-element.elementor-element-1aba4b1d {
+                    --content-width: 95%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-52b2ac44 .elementor-heading-title {
+                    font-size: var( --e-global-typography-c40b55f-font-size );
+                    line-height: var( --e-global-typography-c40b55f-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1a7258b1 .elementor-heading-title {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-3f027a92 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-6401247-font-size );
+                    line-height: var( --e-global-typography-6401247-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-be5bb6c .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-516903d input {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-516903d button {
+                    font-size: var( --e-global-typography-2397996-font-size );
+                    line-height: var( --e-global-typography-2397996-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-22efbd37 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4e20b030 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-512088aa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-28cc5177 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-72d23f0f .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-1cb7faaa .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-2ec2c408 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-4f1ae289 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-33c23b60 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1bdb3e90 {
+                    --width: 50%;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-c10a16a .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-140 .elementor-element.elementor-element-10b3a503 .elementor-icon-list-item > a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-2edbd950 .elementor-heading-title {
+                    font-size: var( --e-global-typography-2397996-font-size );
+                    line-height: var( --e-global-typography-2397996-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-75942c28 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-58f6d159 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-1ba84632 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-52ef9d79 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-509bb16-font-size );
+                    line-height: var( --e-global-typography-509bb16-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-36225f2f {
+                    --content-width: 95%;
+                    --margin-top: 0px;
+                    --margin-bottom: 32px;
+                    --margin-left: 0px;
+                    --margin-right: 0px;
+                }
+
+                .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title, .elementor-140 .elementor-element.elementor-element-47446f75 .elementor-icon-box-title a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+
+                .elementor-140 .elementor-element.elementor-element-17f5c29a {
+                    font-size: var( --e-global-typography-8efc932-font-size );
+                    line-height: var( --e-global-typography-8efc932-line-height );
+                }
+            }
+        </style>	
+
+
+
+        <script>
+            (function () {
+                const calculateParentDistance = (child, parent) => {
+                    let count = 0;
+                    let currentElement = child;
+
+                    // Traverse up the DOM tree until we reach parent or the top of the DOM
+                    while (currentElement && currentElement !== parent) {
+                        currentElement = currentElement.parentNode;
+                        count++;
+                    }
+
+                    // If parent was not found in the hierarchy, return -1
+                    if (!currentElement) {
+                        return -1; // Indicates parent is not an ancestor of element
+                    }
+
+                    return count; // Number of layers between element and parent
+                }
+                const isMatchingClass = (linkRule, href, classes) => {
+                    return classes.includes(linkRule.value)
+                }
+                const isMatchingDomain = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return linkRule.value === url.host
+                }
+                const isMatchingExtension = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.pathname.endsWith('.' + linkRule.value)
+                }
+                const isMatchingSubdirectory = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.pathname.startsWith('/' + linkRule.value + '/')
+                }
+                const isMatchingProtocol = (linkRule, href, classes) => {
+                    if (!URL.canParse(href)) {
+                        return false
+                    }
+
+                    const url = new URL(href)
+
+                    return url.protocol === linkRule.value + ':'
+                }
+                const isMatchingExternal = (linkRule, href, classes) => {
+                    if (!URL.canParse(href) || !URL.canParse(document.location.href)) {
+                        return false
+                    }
+
+                    const matchingProtocols = ['http:', 'https:']
+                    const siteUrl = new URL(document.location.href)
+                    const linkUrl = new URL(href)
+
+                    // Links to subdomains will appear to be external matches according to JavaScript,
+                    // but the PHP rules will filter those events out.
+                    return matchingProtocols.includes(linkUrl.protocol) && siteUrl.host !== linkUrl.host
+                }
+                const isMatch = (linkRule, href, classes) => {
+                    switch (linkRule.type) {
+                        case 'class':
+                            return isMatchingClass(linkRule, href, classes)
+                        case 'domain':
+                            return isMatchingDomain(linkRule, href, classes)
+                        case 'extension':
+                            return isMatchingExtension(linkRule, href, classes)
+                        case 'subdirectory':
+                            return isMatchingSubdirectory(linkRule, href, classes)
+                        case 'protocol':
+                            return isMatchingProtocol(linkRule, href, classes)
+                        case 'external':
+                            return isMatchingExternal(linkRule, href, classes)
+                        default:
+                            return false;
+                    }
+                }
+                const track = (element) => {
+                    const href = element.href ?? null
+                    const classes = Array.from(element.classList)
+                    const linkRules = [{ "type": "extension", "value": "pdf" }, { "type": "extension", "value": "zip" }, { "type": "protocol", "value": "mailto" }, { "type": "protocol", "value": "tel" }]
+                    if (linkRules.length === 0) {
+                        return
+                    }
+
+                    // For link rules that target a class, we need to allow that class to appear
+                    // in any ancestor up to the 7th ancestor. This loop looks for those matches
+                    // and counts them.
+                    linkRules.forEach((linkRule) => {
+                        if (linkRule.type !== 'class') {
+                            return;
+                        }
+
+                        const matchingAncestor = element.closest('.' + linkRule.value)
+
+                        if (!matchingAncestor || matchingAncestor.matches('html, body')) {
+                            return;
+                        }
+
+                        const depth = calculateParentDistance(element, matchingAncestor)
+
+                        if (depth < 7) {
+                            classes.push(linkRule.value)
+                        }
+                    });
+
+                    const hasMatch = linkRules.some((linkRule) => {
+                        return isMatch(linkRule, href, classes)
+                    })
+
+                    if (!hasMatch) {
+                        return
+                    }
+
+                    const url = "https://pezeshk-yar.ir/wp-content/plugins/independent-analytics/iawp-click-endpoint.php";
+                    const body = {
+                        href: href,
+                        classes: classes.join(' '),
+                        ...{ "payload": { "resource": "singular", "singular_id": 107, "page": 1 }, "signature": "21487c6d6c462c5f9dce3db140ab8d58" }
+                    };
+
+                    if (navigator.sendBeacon) {
+                        let blob = new Blob([JSON.stringify(body)], {
+                            type: "application/json"
+                        });
+                        navigator.sendBeacon(url, blob);
+                    } else {
+                        const xhr = new XMLHttpRequest();
+                        xhr.open("POST", url, true);
+                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        xhr.send(JSON.stringify(body))
+                    }
+                }
+                document.addEventListener('mousedown', function (event) {
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    const element = event.target.closest('a')
+
+                    if (!element) {
+                        return
+                    }
+
+                    const isPro = false
+                    if (!isPro) {
+                        return
+                    }
+
+                    // Don't track left clicks with this event. The click event is used for that.
+                    if (event.button === 0) {
+                        return
+                    }
+
+                    track(element)
+                })
+                document.addEventListener('click', function (event) {
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    const element = event.target.closest('a, button, input[type="submit"], input[type="button"]')
+
+                    if (!element) {
+                        return
+                    }
+
+                    const isPro = false
+                    if (!isPro) {
+                        return
+                    }
+
+                    track(element)
+                })
+                document.addEventListener('play', function (event) {
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    const element = event.target.closest('audio, video')
+
+                    if (!element) {
+                        return
+                    }
+
+                    const isPro = false
+                    if (!isPro) {
+                        return
+                    }
+
+                    track(element)
+                }, true)
+                document.addEventListener("DOMContentLoaded", function (e) {
+                    if (document.hasOwnProperty("visibilityState") && document.visibilityState === "prerender") {
+                        return;
+                    }
+
+                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
+                        return;
+                    }
+
+                    let referrer_url = null;
+
+                    if (typeof document.referrer === 'string' && document.referrer.length > 0) {
+                        referrer_url = document.referrer;
+                    }
+
+                    const params = location.search.slice(1).split('&').reduce((acc, s) => {
+                        const [k, v] = s.split('=');
+                        return Object.assign(acc, { [k]: v });
+                    }, {});
+
+                    const url = "https://pezeshk-yar.ir/wp-json/iawp/search";
+                    const body = {
+                        referrer_url,
+                        utm_source: params.utm_source,
+                        utm_medium: params.utm_medium,
+                        utm_campaign: params.utm_campaign,
+                        utm_term: params.utm_term,
+                        utm_content: params.utm_content,
+                        gclid: params.gclid,
+                        ...{ "payload": { "resource": "singular", "singular_id": 107, "page": 1 }, "signature": "21487c6d6c462c5f9dce3db140ab8d58" }
+                    };
+
+                    if (navigator.sendBeacon) {
+                        let blob = new Blob([JSON.stringify(body)], {
+                            type: "application/json"
+                        });
+                        navigator.sendBeacon(url, blob);
+                    } else {
+                        const xhr = new XMLHttpRequest();
+                        xhr.open("POST", url, true);
+                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+                        xhr.send(JSON.stringify(body))
+                    }
+                });
+            })();
+        </script>
+
+        <script>
+            const lazyloadRunObserver = () => {
+                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+                const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            let lazyloadBackground = entry.target;
+                            if (lazyloadBackground) {
+                                lazyloadBackground.classList.add('e-lazyloaded');
+                            }
+                            lazyloadBackgroundObserver.unobserve(entry.target);
+                        }
+                    });
+                }, { rootMargin: '200px 0px 200px 0px' });
+                lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                    lazyloadBackgroundObserver.observe(lazyloadBackground);
+                });
+            };
+            const events = [
+                'DOMContentLoaded',
+                'elementor/lazyload/observe',
+            ];
+            events.forEach((event) => {
+                document.addEventListener(event, lazyloadRunObserver);
+            });
+        </script>
+    <script type='text/javascript'>
+        (function () {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <link rel='stylesheet' id='wc-blocks-style-rtl-css' href='https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-rtl.css?ver=wc-9.6.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-4497-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-4497.css?ver=1739652657' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-image-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-image-rtl.min.css?ver=3.27.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='pzy-otp-button-css' href='https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-otp-button/main.css?ver=6.7.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-divider-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-divider-rtl.min.css?ver=3.27.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-1215-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-1215.css?ver=1738898921' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-heading-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-heading-rtl.min.css?ver=3.27.3' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-post-info-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/css/widget-post-info-rtl.min.css?ver=3.25.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-icon-list-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-list-rtl.min.css?ver=1738867529' type='text/css' media='all' />
+    <link rel='stylesheet' id='widget-icon-box-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-box-rtl.min.css?ver=1738867529' type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-post-140-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-140.css?ver=1738867534' type='text/css' media='all' />
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0" id="jquery-selectBox-js"></script>
+    <script type="text/javascript" src="//pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6" id="prettyPhoto-js" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="jquery-yith-wcwl-js-extra">
+        /* <![CDATA[ */
+        var yith_wcwl_l10n = { "ajax_url": "\/wp-admin\/admin-ajax.php", "redirect_to_cart": "no", "yith_wcwl_button_position": "shortcode", "multi_wishlist": "", "hide_add_button": "1", "enable_ajax_loading": "1", "ajax_loader_url": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg", "remove_from_wishlist_after_add_to_cart": "1", "is_wishlist_responsive": "1", "time_to_close_prettyphoto": "3000", "fragments_index_glue": ".", "reload_on_found_variation": "1", "mobile_media_query": "768", "labels": { "cookie_disabled": "\u0645\u062a\u0627\u0633\u0641\u06cc\u0645\u060c \u0644\u06cc\u0633\u062a \u0639\u0644\u0627\u0642\u0647 \u0645\u0646\u062f\u06cc \u0632\u0645\u0627\u0646\u06cc \u0622\u0645\u0627\u062f\u0647 \u0627\u0633\u062a \u06a9\u0647 \u0634\u0645\u0627 \u06a9\u0648\u06a9\u06cc \u0645\u0631\u0648\u06af\u0631\u062a\u0648\u0646 \u0631\u0627 \u0641\u0639\u0627\u0644 \u06a9\u0631\u062f\u0647 \u0628\u0627\u0634\u06cc\u062f.", "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">\u0645\u062d\u0635\u0648\u0644\u0627\u062a \u0628\u0627 \u0645\u0648\u0641\u0642\u06cc\u062a \u0628\u0647 \u0633\u0628\u062f \u062e\u0631\u06cc\u062f\u062a\u0627\u0646 \u0627\u0636\u0627\u0641\u0647 \u0634\u062f\u0646\u062f<\/div><\/div>" }, "actions": { "add_to_wishlist_action": "add_to_wishlist", "remove_from_wishlist_action": "remove_from_wishlist", "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem", "load_mobile_action": "load_mobile", "delete_item_action": "delete_item", "save_title_action": "save_title", "save_privacy_action": "save_privacy", "load_fragments": "load_fragments" }, "nonce": { "add_to_wishlist_nonce": "c52f57fbb0", "remove_from_wishlist_nonce": "64b8a5a155", "reload_wishlist_and_adding_elem_nonce": "bdad670a1a", "load_mobile_nonce": "0e72a44acc", "delete_item_nonce": "c02fac7138", "save_title_nonce": "06f2c6b9a9", "save_privacy_nonce": "c4722da6be", "load_fragments_nonce": "839b82370f" }, "redirect_after_ask_estimate": "", "ask_estimate_redirect_url": "https:\/\/pezeshk-yar.ir" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.min.js?ver=4.2.0" id="jquery-yith-wcwl-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-jquery.js" id="init-jquery-js"></script>
+    <script type="text/javascript" id="pzy_core-js-extra">
+        /* <![CDATA[ */
+        var pzy_staffs_schedule = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "637ce3fbfb", "translations": { "show_more": "\u0645\u0634\u0627\u0647\u062f\u0647 \u0628\u06cc\u0634\u062a\u0631", "show_less": "\u0645\u0634\u0627\u0647\u062f\u0647 \u06a9\u0645\u062a\u0631", "days": ["\u0634\u0646\u0628\u0647", "\u06cc\u06a9\u0634\u0646\u0628\u0647", "\u062f\u0648\u0634\u0646\u0628\u0647", "\u0633\u0647 \u0634\u0646\u0628\u0647", "\u0686\u0647\u0627\u0631\u0634\u0646\u0628\u0647", "\u067e\u0646\u062c\u0634\u0646\u0628\u0647", "\u062c\u0645\u0639\u0647"] } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//assets/js/main.js" id="pzy_core-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/swiper/swiper-bundle.min.js" id="swiper.js-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/persian-date/dist/persian-date.min.js" id="persian-date-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/lib/persian-datepicker/dist/js/persian-datepicker.js" id="persian-datepicker-js"></script>
+    <script type="text/javascript" id="theme-script.js-js-extra">
+        /* <![CDATA[ */
+        var pgw_main_ajax_object = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "8f4b3823f5", "post_type": "pzy_staff" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
+    <script type="text/javascript" id="rate-my-post-js-extra">
+        /* <![CDATA[ */
+        var rmp_frontend = { "admin_ajax": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "postID": "107", "noVotes": "\u0647\u0646\u0648\u0632 \u0627\u0645\u062a\u06cc\u0627\u0632\u06cc \u062b\u0628\u062a \u0646\u0634\u062f\u0647! \u0627\u0648\u0644\u06cc\u0646 \u0646\u0641\u0631\u06cc \u0628\u0627\u0634\u06cc\u062f \u06a9\u0647 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u0645\u06cc \u062f\u0647\u06cc\u062f.", "cookie": "\u0634\u0645\u0627 \u0642\u0628\u0644\u0627 \u0631\u0627\u06cc \u062f\u0627\u062f\u0647 \u0627\u06cc\u062f! \u0627\u06cc\u0646 \u0631\u0627\u06cc \u0628\u0647 \u062d\u0633\u0627\u0628 \u0646\u0645\u06cc \u0622\u06cc\u062f!", "afterVote": "\u0628\u0627\u0628\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u062f\u0627\u062f\u0646 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0645\u062a\u0634\u06a9\u0631\u06cc\u0645.", "notShowRating": "1", "social": "1", "feedback": "1", "cookieDisable": "1", "emptyFeedback": "Please insert your feedback in the box above!", "hoverTexts": "2", "preventAccidental": "1", "grecaptcha": "1", "siteKey": "", "votingPriv": "1", "loggedIn": "", "positiveThreshold": "2", "ajaxLoad": "1", "disableClearCache": "1", "nonce": "75ec57efad", "is_not_votable": "false" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.3.0" id="rate-my-post-js"></script>
+    <script type="text/javascript" id="rtlsbenv.js-js-extra">
+        /* <![CDATA[ */
+        var rtlsbenv_args = { "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "actionCreate": "rtlsbenv_create_sandbox", "errorMsg": "\u062f\u0631 \u062d\u06cc\u0646 \u0627\u06cc\u062c\u0627\u062f \u0645\u062d\u06cc\u0637 \u062a\u0633\u062a \u062e\u0637\u0627\u06cc\u06cc \u0631\u062e \u062f\u0627\u062f\u0647 \u0627\u0633\u062a. \u0644\u0637\u0641\u0627 \u0645\u062c\u062f\u062f\u0627 \u062a\u0644\u0627\u0634 \u06a9\u0646\u06cc\u062f." };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rtl-sandbox/assets/js/rtlsb-front.min.js?ver=1.3.1" id="rtlsbenv.js-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rtl-sandbox/public/js/rtl-sandbox-public.js?ver=1.3.1" id="rtl-sandbox-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-feather.js" id="init-feather-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/comment-reply.min.js?ver=6.7.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+    <script type="text/javascript" id="pzy-newsletter-js-extra">
+        /* <![CDATA[ */
+        var pzy_newsletter_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "4bad6a04e2" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-newsletter/main.js" id="pzy-newsletter-js"></script>
+    <script type="text/javascript" id="pzy-minicart-js-extra">
+        /* <![CDATA[ */
+        var pzy_mini_crt_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "7f0091b409" };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-minicart/main.js" id="pzy-minicart-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.6.2" id="sourcebuster-js-js"></script>
+    <script type="text/javascript" id="wc-order-attribution-js-extra">
+        /* <![CDATA[ */
+        var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.6.2" id="wc-order-attribution-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.25.4" id="elementor-pro-webpack-runtime-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.3" id="elementor-webpack-runtime-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.3" id="elementor-frontend-modules-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script type="text/javascript" id="wp-i18n-js-after">
+        /* <![CDATA[ */
+        wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['rtl'] });
+        /* ]]> */
+    </script>
+    <script type="text/javascript" id="elementor-pro-frontend-js-before">
+        /* <![CDATA[ */
+        var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "nonce": "efab5dbe5a", "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/pezeshk-yar.ir\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": false }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "woocommerce": { "menu_cart": { "cart_page_url": "https:\/\/pezeshk-yar.ir\/cart\/", "checkout_page_url": "https:\/\/pezeshk-yar.ir\/checkout\/", "fragments_nonce": "8d5d924f9f" } }, "facebook_sdk": { "lang": "fa_IR", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.25.4" id="elementor-pro-frontend-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+        /* <![CDATA[ */
+        var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Facebook", "shareOnTwitter": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Twitter", "pinIt": "\u067e\u06cc\u0646 \u06a9\u0646\u06cc\u062f", "download": "\u062f\u0627\u0646\u0644\u0648\u062f", "downloadImage": "\u062f\u0627\u0646\u0644\u0648\u062f \u062a\u0635\u0648\u06cc\u0631", "fullscreen": "\u062a\u0645\u0627\u0645\u200c\u0635\u0641\u062d\u0647", "zoom": "\u0628\u0632\u0631\u06af\u0646\u0645\u0627\u06cc\u06cc", "share": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc", "playVideo": "\u067e\u062e\u0634 \u0648\u06cc\u062f\u06cc\u0648", "previous": "\u0642\u0628\u0644\u06cc", "next": "\u0628\u0639\u062f\u06cc", "close": "\u0628\u0633\u062a\u0646", "a11yCarouselPrevSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0642\u0628\u0644\u06cc", "a11yCarouselNextSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0628\u0639\u062f\u06cc", "a11yCarouselFirstSlideMessage": "\u0627\u06cc\u0646 \u0627\u0648\u0644\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselLastSlideMessage": "\u0627\u06cc\u0646 \u0622\u062e\u0631\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselPaginationBulletMessage": "\u0631\u0641\u062a\u0646 \u0628\u0647 \u0627\u0633\u0644\u0627\u06cc\u062f" }, "is_rtl": true, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u062a\u0628\u0644\u062a", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u062a\u0628\u0644\u062a", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "\u0644\u067e \u062a\u0627\u067e", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "\u0635\u0641\u062d\u0647 \u0639\u0631\u06cc\u0636 (Widescreen)", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": true }, "version": "3.27.3", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "e_onboarding": true, "theme_builder_v2": true, "home_screen": true, "nested-elements": true, "editor_v2": true, "link-in-bio": true, "floating-buttons": true, "mega-menu": true }, "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "13da59ed5d" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "woocommerce_notices_elements": ["wc_info"], "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 107, "title": "%D8%AF%DA%A9%D8%AA%D8%B1%20%D9%85%DA%98%DA%AF%D8%A7%D9%86%20%D8%AD%D8%A7%D8%AC%DB%8C%E2%80%8C%D9%BE%D9%88%D8%B1%20%E2%80%93%20%D9%BE%D8%B2%D8%B4%DA%A9%20%DB%8C%D8%A7%D8%B1", "excerpt": "", "featuredImage": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads\/2024\/07\/Pic.png" } };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.3" id="elementor-frontend-js"></script>
+    <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.25.4" id="pro-elements-handlers-js"></script>
 
 </asp:Content>
