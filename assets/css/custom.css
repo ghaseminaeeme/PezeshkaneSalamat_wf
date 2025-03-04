@@ -301,3 +301,12 @@
 .elementor-1215 .elementor-element.elementor-element-9c7195c > .elementor-widget-container {
     margin: 25px 0px 15px 0px;
 }
+.pzy-staff-card {
+    text-align:center;
+}
+.txt-center {
+    text-align: center !important;
+}
+.home-slider img {
+    max-height:200px;
+}

@@ -119,13 +119,46 @@
                 </div>
             </div>
 
-                <div class="contact-info">
+            <%--<div class="contact-info">
         <p class="rmp-heading rmp-heading--title"> برای ثبت در سامانه پزشکان سلامت با شماره <a href="tel:+989106340472">  09106340472 </a> تماس بگیرید.</p>
-    </div>
-
+    </div>--%>
         </div>
     </div>
 
+
+    <div class="elementor-element elementor-element-952f120 e-flex e-con-boxed e-con e-parent e-lazyloaded txt-center" data-id="952f120" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-bc38e5a e-con-full e-flex e-con e-child" data-id="bc38e5a" data-element_type="container">
+                <div class="elementor-element elementor-element-f6e7b9b e-con-full pzy-position-relative e-flex e-con e-child" data-id="f6e7b9b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-element elementor-element-6ac79a4 elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="6ac79a4" data-element_type="widget" data-widget_type="icon-box.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-icon-box-wrapper">
+
+                                <div class="elementor-icon-box-icon">
+                                    <span class="elementor-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <g id="shopping-bag">
+                                                <path id="Icon" d="M2.5 5.00001L5 1.66667H15L17.5 5.00001M2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001M2.5 5.00001H17.5M13.3333 8.33334C13.3333 9.21739 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11594 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21739 6.66667 8.33334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g></svg>
+                                    </span>
+                                </div>
+
+                                <div class="elementor-icon-box-content">
+
+                                    <h3 class="elementor-icon-box-title">
+                                        <span> برای ثبت در سامانه پزشکان سلامت با شماره <a href="tel:+989106340472">  09106340472 </a> تماس بگیرید </span>
+                                    </h3>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--  $$$$$$$$$$$$   LIST   $$$$$$$$$$$$$ -->
     <div class="elementor-element elementor-element-e695999 e-flex e-con-boxed e-con e-parent" data-id="e695999" data-element_type="container">
@@ -326,7 +359,7 @@
                 </div>
             </div>
 
-            </div>
+        </div>
     </section>
 
 
