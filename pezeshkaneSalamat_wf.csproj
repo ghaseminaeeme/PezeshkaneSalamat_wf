@@ -485,7 +485,7 @@
     <Content Include="assets\css\mainStyle.css" />
     <Content Include="assets\css\mapp.min.css" />
     <Content Include="assets\css\persian-datepicker.min.css" />
-    <Content Include="assets\css\pezeshkyar.css" />
+    <Content Include="assets\css\pezeshkan.css" />
     <Content Include="assets\css\popup.min.css" />
     <Content Include="assets\css\post-140.css" />
     <Content Include="assets\css\post-1404.css" />
@@ -2265,8 +2265,8 @@
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="home.html" />
-    <Content Include="HtmlPage1.html" />
+    <Content Include="TempFiles\home.html" />
+    <Content Include="TempFiles\HtmlPage1.html" />
     <Content Include="assets\js\add-to-cart.min.js" />
     <Content Include="assets\js\core.min.js" />
     <Content Include="assets\js\elements-handlers.min.js" />
@@ -2296,13 +2296,14 @@
     <Content Include="Default.aspx" />
     <Content Include="job.aspx" />
     <Content Include="jobs\default.aspx" />
-    <Content Include="login.html" />
-    <Content Include="homeTheme.html" />
-    <Content Include="list.html" />
-    <Content Include="pezeshkyar_frame.html" />
-    <Content Include="singlePost.html" />
-    <Content Include="slider.aspx" />
-    <Content Include="temp.html" />
+    <Content Include="TempFiles\login.html" />
+    <Content Include="TempFiles\homeTheme.html" />
+    <Content Include="TempFiles\list.html" />
+    <Content Include="TempFiles\pezeshkyar_frame.html" />
+    <Content Include="TempFiles\singlePost.html" />
+    <Content Include="TempFiles\slider.aspx" />
+    <Content Include="TempFiles\temp.html" />
+    <Content Include="TempFiles\deoctorDetail_back.aspx" />
     <Content Include="upload\slider\99.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -2550,12 +2551,19 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="slider.aspx.cs">
+    <Compile Include="TempFiles\slider.aspx.cs">
       <DependentUpon>slider.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="slider.aspx.designer.cs">
+    <Compile Include="TempFiles\slider.aspx.designer.cs">
       <DependentUpon>slider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TempFiles\deoctorDetail_back.aspx.cs">
+      <DependentUpon>deoctorDetail_back.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TempFiles\deoctorDetail_back.aspx.designer.cs">
+      <DependentUpon>deoctorDetail_back.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

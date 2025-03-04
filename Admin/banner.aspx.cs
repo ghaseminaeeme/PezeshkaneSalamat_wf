@@ -37,7 +37,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     //_TblBanner.BStateFk = int.Parse(DrdState.SelectedValue);
                     if (Fu1.FileName != "")
                     {
-                        _TblBanner.BImage = UploadFiles("880", "390", "/upload/banner/b-" + Id.ToString() + ".jpg", 0);
+                        _TblBanner.BImage = UploadFiles("", "", "/upload/banner/b-" + Id.ToString() + ".jpg", 0);
                     }
 
                     _TblBanner.Save();
@@ -55,7 +55,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     //_TblBanner.BStateFk = int.Parse(DrdState.SelectedValue);
                     if (Fu1.FileName != "")
                     {
-                        _TblBanner.BImage = UploadFiles("880", "390", "/upload/banner/b-" + Request.Cookies["Editid"].Value + ".jpg", 0);
+                        _TblBanner.BImage = UploadFiles("", "", "/upload/banner/b-" + Request.Cookies["Editid"].Value + ".jpg", 0);
                     }
 
                     _TblBanner.Save();

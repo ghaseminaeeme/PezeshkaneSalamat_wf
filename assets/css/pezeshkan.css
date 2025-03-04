@@ -1322,10 +1322,10 @@ body.error404 {
 
 /* 404 */
 /* staff single */
-.pzy-thumbnail-gallery .swiper-slide:not(.swiper-slide-thumb-active) .pzy-slide-content img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
+/*.pzy-thumbnail-gallery .swiper-slide:not(.swiper-slide-thumb-active) .pzy-slide-content img {
+  -webkit-filter: grayscale(100%);*/ /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(100%);
+}*/
 
 .pzy-staff-gallery {
   border-radius: 16px;
@@ -6676,4 +6676,4 @@ body.rtl .main-desktop-menu > ul > li > ul > li ul li {
   object-position: top center;
 }
 
-/*# sourceMappingURL=pezeshkyar.css.map */
+

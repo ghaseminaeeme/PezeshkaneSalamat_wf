@@ -26,7 +26,7 @@
     <link href="assets/css/mainStyle.css" rel="stylesheet" />
     <link href="assets/css/mapp.min.css" rel="stylesheet" />
     <link href="assets/css/persian-datepicker.min.css" rel="stylesheet" />
-    <link href="assets/css/pezeshkyar.css" rel="stylesheet" />
+    <link href="assets/css/pezeshkan.css" rel="stylesheet" />
     <link href="assets/css/pezeshkyar.scss" rel="stylesheet" />
     <link href="assets/css/popup.min.css" rel="stylesheet" />
     <link href="assets/css/post-140.css" rel="stylesheet" />
@@ -35,6 +35,7 @@
     <link href="assets/css/post-1432.css" rel="stylesheet" />
     <link href="assets/css/post-146.css" rel="stylesheet" />
     <link href="assets/css/post-2566.css?786543" rel="stylesheet" />
+    <link href="assets/css/post-1215.css?060030" rel="stylesheet" />
     <link href="assets/css/prettyPhoto-rtl.css" rel="stylesheet" />
     <link href="assets/css/pzy-services-list-main.css" rel="stylesheet" />
     <link href="assets/css/pzy-staffs-schedule-main.css" rel="stylesheet" />
@@ -55,8 +56,8 @@
     <link href="assets/css/woocommerce-notices.min.css" rel="stylesheet" />
     <link href="assets/css/woocommerce-rtl.css" rel="stylesheet" />
     <link href="assets/css/woocommerce-smallscreen-rtl.css" rel="stylesheet" />
-    <link href="assets/css/InlineStyle.css" rel="stylesheet" />
-    <link href="assets/css/inlineStyle2.css" rel="stylesheet" />
+    <link href="assets/css/InlineStyle.css?876545" rel="stylesheet" />
+    <link href="assets/css/inlineStyle2.css?645654" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
     <link href="assets/css/custom.css?5476546" rel="stylesheet" />
 
@@ -679,7 +680,7 @@
         <link rel='stylesheet' id='widget-image-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-image-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
         <link rel='stylesheet' id='pzy-otp-button-css' href='https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-otp-button/main.css?ver=6.7.1' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-divider-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-divider-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
-        <link rel='stylesheet' id='elementor-post-1215-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-1215.css?ver=1733770366' type='text/css' media='all' />
+<%--        <link rel='stylesheet' id='elementor-post-1215-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-1215.css?ver=1733770366' type='text/css' media='all' />--%>
         <link rel='stylesheet' id='widget-heading-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-heading-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-post-info-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/css/widget-post-info-rtl.min.css?ver=3.25.4' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-icon-list-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-list-rtl.min.css?ver=1733764179' type='text/css' media='all' />

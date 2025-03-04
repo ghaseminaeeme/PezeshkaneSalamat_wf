@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace pezeshkaneSalamat_wf
+namespace pezeshkaneSalamat_wf.TempFiles
 {
 
 
-    public partial class DoctorDetail
+    public partial class deoctorDetail_back
     {
 
         /// <summary>
@@ -33,6 +33,24 @@ namespace pezeshkaneSalamat_wf
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDoctor;
 
         /// <summary>
+        /// Repeater1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Repeater1;
+
+        /// <summary>
+        /// Repeater2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Repeater2;
+
+        /// <summary>
         /// SqlImages control.
         /// </summary>
         /// <remarks>
@@ -49,23 +67,5 @@ namespace pezeshkaneSalamat_wf
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FormView FormView1;
-
-        /// <summary>
-        /// ListRelatedDoctors control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListRelatedDoctors;
-
-        /// <summary>
-        /// SqlRelatedDoctors control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlRelatedDoctors;
     }
 }

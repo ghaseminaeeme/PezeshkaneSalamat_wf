@@ -35,8 +35,12 @@ namespace pezeshkaneSalamat_wf
                         SqlDoctor.SelectParameters["id"].DefaultValue = doctorID.ToString();
                         SqlDoctor.DataBind();
 
-                        SqlImages.SelectParameters["dDoctorFk"].DefaultValue = doctorID.ToString();
+                        SqlImages.SelectParameters["doctorId"].DefaultValue = doctorID.ToString();
                         SqlImages.DataBind();
+
+                        SqlRelatedDoctors.SelectParameters["doctorId"].DefaultValue = doctorID.ToString();
+                        SqlRelatedDoctors.DataBind();
+
                     }
                     else
                     {
