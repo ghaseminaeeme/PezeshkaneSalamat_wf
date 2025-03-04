@@ -60,14 +60,14 @@ namespace pezeshkaneSalamat_wf.Admin
             try
             {
                 TblDoctor _TblDoctor = new TblDoctor(Convert.ToInt32(Request.QueryString["did"]));
-                TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
-                if (checkUser.IsLoaded && checkUser.Id != _TblDoctor.Id)
-                {
-                    err.InnerText = "نام کاربری تکراری است";
-                    err.Visible = true;
-                }
-                else
-                {
+                //TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
+                //if (checkUser.IsLoaded && checkUser.Id != _TblDoctor.Id)
+                //{
+                //    err.InnerText = "نام کاربری تکراری است";
+                //    err.Visible = true;
+                //}
+                //else
+                //{
                     _TblDoctor.DName = TxtName.Text;
                     _TblDoctor.DBranchFk = int.Parse(DrdGrp.SelectedValue);
                     _TblDoctor.DTel = TxtTel.Text;
@@ -79,7 +79,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     _TblDoctor.DEmail = TxtEmail.Text;
                     _TblDoctor.DAparat = TxtAparat.Text;
                     _TblDoctor.DInstagram = TxtIns.Text;
-                    _TblDoctor.DEndDate = _ClassControl.convertPersianDateToGregorian(TxtDate.Text);
+                   // _TblDoctor.DEndDate = _ClassControl.convertPersianDateToGregorian(TxtDate.Text);
                     _TblDoctor.DStatus = Byte.Parse(DrdStatus.SelectedValue);
                     _TblDoctor.DWebsite = TxtWeb.Text;
                     _TblDoctor.DMobile = TxtMobile.Text;
@@ -110,10 +110,11 @@ namespace pezeshkaneSalamat_wf.Admin
                     //}
                     _TblDoctor.Save();
                     suc.Visible = true;
-                }
+              //  }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                string errMsg = ex.Message;
                 err.InnerText = "متاسفانه خطایی رخ داده است! لطفا مجددا سعی نمایید.";
                 err.Visible = true;
             }

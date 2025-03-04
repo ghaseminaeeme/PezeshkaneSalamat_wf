@@ -65,7 +65,6 @@
                         <Columns>
                             <asp:BoundField DataField="Row" HeaderText="ردیف" SortExpression="Row"></asp:BoundField>
                             <asp:BoundField DataField="cName" HeaderText="نام شهر" SortExpression="cName"></asp:BoundField>
-                            <asp:BoundField DataField="cEnName" HeaderText="نام شهر انگلیسی" SortExpression="cEnName"></asp:BoundField>
                             <asp:CommandField ShowSelectButton="True" HeaderText="ویرایش" ControlStyle-CssClass="btn btn-danger btn-xs fa fa-trash-o" SelectText="">
                                 <ControlStyle CssClass="btn btn-success btn-xs fa fa-pencil"></ControlStyle>
                             </asp:CommandField>
@@ -88,7 +87,7 @@
                     </asp:GridView>
 
                     <asp:SqlDataSource ID="SqlAll" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
-                        SelectCommand="SELECT dbo.TblCity.id, ROW_NUMBER() OVER (ORDER BY dbo.TblCity.id DESC) Row, dbo.TblCity.cName, dbo.TblCity.cEnName, 
+                        SelectCommand="SELECT dbo.TblCity.id, ROW_NUMBER() OVER (ORDER BY dbo.TblCity.id DESC) Row, dbo.TblCity.cName, 
                          dbo.TblCity.cIsDeleted  FROM dbo.TblCity  WHERE (dbo.TblCity.cIsDeleted &lt;&gt; 1)">
                     </asp:SqlDataSource>
 

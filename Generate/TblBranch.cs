@@ -148,7 +148,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarBSubject = new TableSchema.TableColumn(schema);
 				colvarBSubject.ColumnName = "bSubject";
 				colvarBSubject.DataType = DbType.String;
-				colvarBSubject.MaxLength = 50;
+				colvarBSubject.MaxLength = 250;
 				colvarBSubject.AutoIncrement = false;
 				colvarBSubject.IsNullable = true;
 				colvarBSubject.IsPrimaryKey = false;
@@ -196,32 +196,6 @@ namespace DalWebSite
 				colvarBIsDeleted.DefaultSetting = @"";
 				colvarBIsDeleted.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarBIsDeleted);
-				
-				TableSchema.TableColumn colvarBArSubject = new TableSchema.TableColumn(schema);
-				colvarBArSubject.ColumnName = "bArSubject";
-				colvarBArSubject.DataType = DbType.String;
-				colvarBArSubject.MaxLength = 50;
-				colvarBArSubject.AutoIncrement = false;
-				colvarBArSubject.IsNullable = true;
-				colvarBArSubject.IsPrimaryKey = false;
-				colvarBArSubject.IsForeignKey = false;
-				colvarBArSubject.IsReadOnly = false;
-				colvarBArSubject.DefaultSetting = @"";
-				colvarBArSubject.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarBArSubject);
-				
-				TableSchema.TableColumn colvarBEnSubject = new TableSchema.TableColumn(schema);
-				colvarBEnSubject.ColumnName = "bEnSubject";
-				colvarBEnSubject.DataType = DbType.String;
-				colvarBEnSubject.MaxLength = 50;
-				colvarBEnSubject.AutoIncrement = false;
-				colvarBEnSubject.IsNullable = true;
-				colvarBEnSubject.IsPrimaryKey = false;
-				colvarBEnSubject.IsForeignKey = false;
-				colvarBEnSubject.IsReadOnly = false;
-				colvarBEnSubject.DefaultSetting = @"";
-				colvarBEnSubject.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarBEnSubject);
 				
 				BaseSchema = schema;
 				//add this schema to the provider
@@ -277,24 +251,6 @@ namespace DalWebSite
 			get { return GetColumnValue<bool?>(Columns.BIsDeleted); }
 			set { SetColumnValue(Columns.BIsDeleted, value); }
 		}
-		  
-		[XmlAttribute("BArSubject")]
-		[Bindable(true)]
-        [DataMember]
-		public string BArSubject 
-		{
-			get { return GetColumnValue<string>(Columns.BArSubject); }
-			set { SetColumnValue(Columns.BArSubject, value); }
-		}
-		  
-		[XmlAttribute("BEnSubject")]
-		[Bindable(true)]
-        [DataMember]
-		public string BEnSubject 
-		{
-			get { return GetColumnValue<string>(Columns.BEnSubject); }
-			set { SetColumnValue(Columns.BEnSubject, value); }
-		}
 		
 		#endregion
 		
@@ -315,7 +271,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varBSubject,string varBIcon,string varBKeyword,bool? varBIsDeleted,string varBArSubject,string varBEnSubject)
+		public static void Insert(string varBSubject,string varBIcon,string varBKeyword,bool? varBIsDeleted)
 		{
 			TblBranch item = new TblBranch();
 			
@@ -327,10 +283,6 @@ namespace DalWebSite
 			
 			item.BIsDeleted = varBIsDeleted;
 			
-			item.BArSubject = varBArSubject;
-			
-			item.BEnSubject = varBEnSubject;
-			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -341,7 +293,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varBSubject,string varBIcon,string varBKeyword,bool? varBIsDeleted,string varBArSubject,string varBEnSubject)
+		public static void Update(int varId,string varBSubject,string varBIcon,string varBKeyword,bool? varBIsDeleted)
 		{
 			TblBranch item = new TblBranch();
 			
@@ -354,10 +306,6 @@ namespace DalWebSite
 				item.BKeyword = varBKeyword;
 			
 				item.BIsDeleted = varBIsDeleted;
-			
-				item.BArSubject = varBArSubject;
-			
-				item.BEnSubject = varBEnSubject;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -407,20 +355,6 @@ namespace DalWebSite
         
         
         
-        public static TableSchema.TableColumn BArSubjectColumn
-        {
-            get { return Schema.Columns[5]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn BEnSubjectColumn
-        {
-            get { return Schema.Columns[6]; }
-        }
-        
-        
-        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -430,8 +364,6 @@ namespace DalWebSite
 			 public static string BIcon = @"bIcon";
 			 public static string BKeyword = @"bKeyword";
 			 public static string BIsDeleted = @"bIsDeleted";
-			 public static string BArSubject = @"bArSubject";
-			 public static string BEnSubject = @"bEnSubject";
 						
 		}
 		#endregion

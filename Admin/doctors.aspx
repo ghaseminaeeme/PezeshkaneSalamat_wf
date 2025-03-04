@@ -65,7 +65,7 @@
                             <asp:HyperLinkField DataNavigateUrlFields="id" HeaderText="ویرایش" DataNavigateUrlFormatString="editDoctor.aspx?did={0}">
                                 <ControlStyle CssClass="btn btn-success btn-xs fa fa-pencil"></ControlStyle>
                             </asp:HyperLinkField>
-                            <asp:HyperLinkField Text="تصاویر بیشتر" DataNavigateUrlFields="id" HeaderText="تصاویر بیشتر" DataNavigateUrlFormatString="doctorImages.aspx?did={0}"></asp:HyperLinkField>
+                            <asp:HyperLinkField Text="تصاویر بیشتر" DataNavigateUrlFields="id" HeaderText="تصاویر بیشتر" DataNavigateUrlFormatString="doctorImage.aspx?did={0}"></asp:HyperLinkField>
                             <asp:HyperLinkField Text="نوبت دهی" DataNavigateUrlFields="id" HeaderText="نوبت دهی" DataNavigateUrlFormatString="appointmentConfig.aspx?did={0}"></asp:HyperLinkField>
                             <asp:TemplateField>
                                 <HeaderTemplate>

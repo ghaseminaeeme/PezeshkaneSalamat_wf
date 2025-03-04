@@ -610,6 +610,22 @@ namespace website
             PersianCalendar pc = new PersianCalendar();
             return (string.Format("{0}/{1}/{2} {3}:{4}", pc.GetYear(d), pc.GetMonth(d), pc.GetDayOfMonth(d), pc.GetHour(d), pc.GetMinute(d)));
         }
+
+
+        public  DateTime convertPersianDateToGregorian2(string dateVal)
+        {
+            // Convert Persian digits to English digits
+            string date2 = Regex.Replace(dateVal, "[۰-۹]", x => ((char)(x.Value[0] - '۰' + '0')).ToString());
+
+            // Parse the date with hours and minutes
+            DateTime dt = DateTime.ParseExact(date2, "yyyy/M/d H:m", CultureInfo.InvariantCulture);
+
+            // Convert to Gregorian using PersianCalendar
+            PersianCalendar pc = new PersianCalendar();
+            DateTime dt2 = pc.ToDateTime(dt.Year, dt.Month, dt.Day, dt.Hour, dt.Minute, 0, 0);
+
+            return dt2;
+        }
     }
 
 }

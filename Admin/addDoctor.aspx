@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group col-md-6 col-xs-12 pull-right">
                      <label>تاریخ انقضا</label>
-                    <asp:RequiredFieldValidator ID="v2" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtDate" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>
+                    <%--<asp:RequiredFieldValidator ID="v2" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtDate" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
                    <%-- <ir:PDatePicker ID="TxtDate" FormatDate="YYYY/MM/DD" class="datepicker form-control" runat="server" Theme="dark"></ir:PDatePicker>--%>
                     <asp:TextBox runat="server" ID="TxtDate" onclick="PersianDatePicker.Show(this);" class="form-control"></asp:TextBox>                   
                 </div>

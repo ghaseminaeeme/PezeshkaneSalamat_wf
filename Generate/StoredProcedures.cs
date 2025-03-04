@@ -135,16 +135,6 @@ namespace DalWebSite{
         }
         
         /// <summary>
-        /// Creates an object wrapper for the selectArBanners Procedure
-        /// </summary>
-        public static StoredProcedure SelectArBanners()
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectArBanners", DataService.GetInstance("DbWebSiteConnectionString"), "");
-        	
-            return sp;
-        }
-        
-        /// <summary>
         /// Creates an object wrapper for the selectArTopBanner Procedure
         /// </summary>
         public static StoredProcedure SelectArTopBanner()
@@ -304,6 +294,18 @@ namespace DalWebSite{
         public static StoredProcedure SelectLastSpecialDoctors()
         {
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectLastSpecialDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "");
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the selectRelatedDoctors Procedure
+        /// </summary>
+        public static StoredProcedure SelectRelatedDoctors(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectRelatedDoctors", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
         	
             return sp;
         }

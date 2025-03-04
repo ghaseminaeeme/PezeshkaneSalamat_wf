@@ -77,7 +77,7 @@
 
 
                         <li>
-                            <a class="active-menu" href="home.aspx"><i class="fa fa-home "></i>داشبورد</a>
+                            <a class="active-menu" href="dashboard.aspx"><i class="fa fa-home "></i>داشبورد</a>
                         </li>
                          <li>
                             <a href="doctors.aspx"><i class="fa fa-stethoscope"></i>پزشکان</a>

@@ -124,7 +124,9 @@
         </div>
     </div>
 
-
+    <div class="contact-info">
+        <p> برای ثبت در سامانه پزشکان سلامت با شماره <a href="tel:+989106340472">  09106340472 </a> تماس بگیرید.</p>
+    </div>
     <!--  $$$$$$$$$$$$   LIST   $$$$$$$$$$$$$ -->
     <div class="elementor-element elementor-element-e695999 e-flex e-con-boxed e-con e-parent" data-id="e695999" data-element_type="container">
         <div class="e-con-inner">

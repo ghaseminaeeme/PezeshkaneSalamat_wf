@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string BSubject,string BIcon,string BKeyword,bool? BIsDeleted,string BArSubject,string BEnSubject)
+	    public void Insert(string BSubject,string BIcon,string BKeyword,bool? BIsDeleted)
 	    {
 		    TblBranch item = new TblBranch();
 		    
@@ -93,10 +93,6 @@ namespace DalWebSite
             
             item.BIsDeleted = BIsDeleted;
             
-            item.BArSubject = BArSubject;
-            
-            item.BEnSubject = BEnSubject;
-            
 	    
 		    item.Save(UserName);
 	    }
@@ -105,7 +101,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string BSubject,string BIcon,string BKeyword,bool? BIsDeleted,string BArSubject,string BEnSubject)
+	    public void Update(int Id,string BSubject,string BIcon,string BKeyword,bool? BIsDeleted)
 	    {
 		    TblBranch item = new TblBranch();
 	        item.MarkOld();
@@ -120,10 +116,6 @@ namespace DalWebSite
 			item.BKeyword = BKeyword;
 				
 			item.BIsDeleted = BIsDeleted;
-				
-			item.BArSubject = BArSubject;
-				
-			item.BEnSubject = BEnSubject;
 				
 	        item.Save(UserName);
 	    }

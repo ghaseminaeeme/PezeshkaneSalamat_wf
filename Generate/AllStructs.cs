@@ -19,6 +19,10 @@ namespace DalWebSite
 	public partial struct Tables
 	{
 		
+		public static readonly string PsCategory = @"ps_category";
+        
+		public static readonly string PsCity = @"ps_city";
+        
 		public static readonly string PsDoctorUrl = @"ps_doctor_url";
         
 		public static readonly string PsDoctorsDate = @"ps_doctors_date";
@@ -30,6 +34,10 @@ namespace DalWebSite
 		public static readonly string PsDoctorsUtf8Mb4 = @"ps_doctors_utf8_mb4";
         
 		public static readonly string PsSlider = @"ps_sliders";
+        
+		public static readonly string RelationshipsCategory = @"relationships_category";
+        
+		public static readonly string RelationshipsCity = @"relationships_city";
         
 		public static readonly string TblAbout = @"TblAbout";
         
@@ -59,6 +67,8 @@ namespace DalWebSite
         
 		public static readonly string TblDoctor = @"TblDoctors";
         
+		public static readonly string TblDoctorsBackup = @"TblDoctors_Backup";
+        
 		public static readonly string TblMessage = @"TblMessage";
         
 		public static readonly string TblPage = @"TblPage";
@@ -84,6 +94,16 @@ namespace DalWebSite
     #region Schemas
     public partial class Schemas {
 		
+		public static TableSchema.Table PsCategory
+		{
+            get { return DataService.GetSchema("ps_category", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table PsCity
+		{
+            get { return DataService.GetSchema("ps_city", "DbWebSiteConnectionString"); }
+		}
+        
 		public static TableSchema.Table PsDoctorUrl
 		{
             get { return DataService.GetSchema("ps_doctor_url", "DbWebSiteConnectionString"); }
@@ -112,6 +132,16 @@ namespace DalWebSite
 		public static TableSchema.Table PsSlider
 		{
             get { return DataService.GetSchema("ps_sliders", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table RelationshipsCategory
+		{
+            get { return DataService.GetSchema("relationships_category", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table RelationshipsCity
+		{
+            get { return DataService.GetSchema("relationships_city", "DbWebSiteConnectionString"); }
 		}
         
 		public static TableSchema.Table TblAbout
@@ -182,6 +212,11 @@ namespace DalWebSite
 		public static TableSchema.Table TblDoctor
 		{
             get { return DataService.GetSchema("TblDoctors", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table TblDoctorsBackup
+		{
+            get { return DataService.GetSchema("TblDoctors_Backup", "DbWebSiteConnectionString"); }
 		}
         
 		public static TableSchema.Table TblMessage

@@ -23,12 +23,10 @@ namespace pezeshkaneSalamat_wf.Admin
 
         public static string GenerateSlug(string title)
         {
-            // Convert to lowercase
             string slug = title.ToLower();
-            // Replace spaces with hyphens
             slug = slug.Replace(" ", "-");
-            // Remove special characters
-            slug = System.Text.RegularExpressions.Regex.Replace(slug, @"[^a-z0-9\-]", "");
+            slug = System.Text.RegularExpressions.Regex.Replace(slug, @"[^a-z0-9\u0600-\u06FF\-]", "");
+            slug = HttpUtility.UrlEncode(slug);
             return slug;
         }
         protected void btnSave_Click(object sender, EventArgs e)
@@ -38,19 +36,19 @@ namespace pezeshkaneSalamat_wf.Admin
             int Id = _ClassControl.New("TblDoctors");
             try
             {
-                TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
+                //TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
 
-                if (!checkUser.IsLoaded)
-                {
+                //if (!checkUser.IsLoaded)
+                //{
                     string slug = GenerateSlug(TxtName.Text);
                     TblDoctor checkUrl = new TblDoctor(TblDoctor.Columns.DUrl, slug);
-                    if (checkUser.IsLoaded)
-                    {
-                        err.InnerText = "نام تکراری است";
-                        err.Visible = true;
-                    }
-                    else
-                    {
+                    //if (checkUser.IsLoaded)
+                    //{
+                    //    err.InnerText = "نام تکراری است";
+                    //    err.Visible = true;
+                    //}
+                    //else
+                    //{
                         TblDoctor _TblDoctor = new TblDoctor();
                         _TblDoctor.DName = TxtName.Text;
                         _TblDoctor.DBranchFk = int.Parse(DrdGrp.SelectedValue);
@@ -120,13 +118,13 @@ namespace pezeshkaneSalamat_wf.Admin
                         DrdGrp.ClearSelection();
                         DrdStatus.ClearSelection();
                         DrdCity.ClearSelection();
-                    }
-                }
-                else
-                {
-                    err.InnerText = "نام کاربری تکراری است";
-                    err.Visible = true;
-                }
+                    //}
+                //}
+                //else
+                //{
+                //    err.InnerText = "نام کاربری تکراری است";
+                //    err.Visible = true;
+                //}
             }
             catch (Exception)
             {

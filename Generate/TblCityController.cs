@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string CName,bool? CIsDeleted,int? CStateFk,string CEnName,string CArName)
+	    public void Insert(string CName,bool? CIsDeleted,int? CStateFk)
 	    {
 		    TblCity item = new TblCity();
 		    
@@ -91,10 +91,6 @@ namespace DalWebSite
             
             item.CStateFk = CStateFk;
             
-            item.CEnName = CEnName;
-            
-            item.CArName = CArName;
-            
 	    
 		    item.Save(UserName);
 	    }
@@ -103,7 +99,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string CName,bool? CIsDeleted,int? CStateFk,string CEnName,string CArName)
+	    public void Update(int Id,string CName,bool? CIsDeleted,int? CStateFk)
 	    {
 		    TblCity item = new TblCity();
 	        item.MarkOld();
@@ -116,10 +112,6 @@ namespace DalWebSite
 			item.CIsDeleted = CIsDeleted;
 				
 			item.CStateFk = CStateFk;
-				
-			item.CEnName = CEnName;
-				
-			item.CArName = CArName;
 				
 	        item.Save(UserName);
 	    }

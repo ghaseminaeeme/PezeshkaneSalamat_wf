@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string DName,int? DBranchFk,string DProfileImg,string DImg,string DDes,string DInstagram,string DTelegram,string DAparat,string DEmail,string DTel,string DMobile,string DVideo,string DWebsite,string DSpecialty,int? DStateFk,int? DCityFk,byte? DStatus,bool? DIsDeleted,DateTime? DSaveDate,DateTime? DEndDate,string DKeyword,string DNote,string DAddress,string DWorkTime,string DLat,string DLong,string DPassword,string DUsername,string DDes2,bool? DSpecialAd,string DWhatsapp,string DVideo2,string DVideo3,int? DOldId,string DDescription,string DUrl)
+	    public void Insert(string DName,int? DBranchFk,string DProfileImg,string DImg,string DDes,string DInstagram,string DTelegram,string DAparat,string DEmail,string DTel,string DMobile,string DVideo,string DWebsite,string DSpecialty,int? DStateFk,int? DCityFk,byte? DStatus,bool? DIsDeleted,DateTime? DSaveDate,DateTime? DEndDate,string DKeyword,string DNote,string DAddress,string DWorkTime,string DLat,string DLong,string DPassword,string DUsername,string DDes2,bool? DSpecialAd,string DWhatsapp,string DVideo2,string DVideo3,int? DOldId,string DDescription,string DUrl,string DLocation)
 	    {
 		    TblDoctor item = new TblDoctor();
 		    
@@ -157,6 +157,8 @@ namespace DalWebSite
             
             item.DUrl = DUrl;
             
+            item.DLocation = DLocation;
+            
 	    
 		    item.Save(UserName);
 	    }
@@ -165,7 +167,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string DName,int? DBranchFk,string DProfileImg,string DImg,string DDes,string DInstagram,string DTelegram,string DAparat,string DEmail,string DTel,string DMobile,string DVideo,string DWebsite,string DSpecialty,int? DStateFk,int? DCityFk,byte? DStatus,bool? DIsDeleted,DateTime? DSaveDate,DateTime? DEndDate,string DKeyword,string DNote,string DAddress,string DWorkTime,string DLat,string DLong,string DPassword,string DUsername,string DDes2,bool? DSpecialAd,string DWhatsapp,string DVideo2,string DVideo3,int? DOldId,string DDescription,string DUrl)
+	    public void Update(int Id,string DName,int? DBranchFk,string DProfileImg,string DImg,string DDes,string DInstagram,string DTelegram,string DAparat,string DEmail,string DTel,string DMobile,string DVideo,string DWebsite,string DSpecialty,int? DStateFk,int? DCityFk,byte? DStatus,bool? DIsDeleted,DateTime? DSaveDate,DateTime? DEndDate,string DKeyword,string DNote,string DAddress,string DWorkTime,string DLat,string DLong,string DPassword,string DUsername,string DDes2,bool? DSpecialAd,string DWhatsapp,string DVideo2,string DVideo3,int? DOldId,string DDescription,string DUrl,string DLocation)
 	    {
 		    TblDoctor item = new TblDoctor();
 	        item.MarkOld();
@@ -244,6 +246,8 @@ namespace DalWebSite
 			item.DDescription = DDescription;
 				
 			item.DUrl = DUrl;
+				
+			item.DLocation = DLocation;
 				
 	        item.Save(UserName);
 	    }

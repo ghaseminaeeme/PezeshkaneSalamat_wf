@@ -184,32 +184,6 @@ namespace DalWebSite
 				colvarCStateFk.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarCStateFk);
 				
-				TableSchema.TableColumn colvarCEnName = new TableSchema.TableColumn(schema);
-				colvarCEnName.ColumnName = "cEnName";
-				colvarCEnName.DataType = DbType.String;
-				colvarCEnName.MaxLength = 50;
-				colvarCEnName.AutoIncrement = false;
-				colvarCEnName.IsNullable = true;
-				colvarCEnName.IsPrimaryKey = false;
-				colvarCEnName.IsForeignKey = false;
-				colvarCEnName.IsReadOnly = false;
-				colvarCEnName.DefaultSetting = @"";
-				colvarCEnName.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarCEnName);
-				
-				TableSchema.TableColumn colvarCArName = new TableSchema.TableColumn(schema);
-				colvarCArName.ColumnName = "cArName";
-				colvarCArName.DataType = DbType.String;
-				colvarCArName.MaxLength = 50;
-				colvarCArName.AutoIncrement = false;
-				colvarCArName.IsNullable = true;
-				colvarCArName.IsPrimaryKey = false;
-				colvarCArName.IsForeignKey = false;
-				colvarCArName.IsReadOnly = false;
-				colvarCArName.DefaultSetting = @"";
-				colvarCArName.ForeignKeyTableName = "";
-				schema.Columns.Add(colvarCArName);
-				
 				BaseSchema = schema;
 				//add this schema to the provider
 				//so we can query it later
@@ -255,24 +229,6 @@ namespace DalWebSite
 			get { return GetColumnValue<int?>(Columns.CStateFk); }
 			set { SetColumnValue(Columns.CStateFk, value); }
 		}
-		  
-		[XmlAttribute("CEnName")]
-		[Bindable(true)]
-        [DataMember]
-		public string CEnName 
-		{
-			get { return GetColumnValue<string>(Columns.CEnName); }
-			set { SetColumnValue(Columns.CEnName, value); }
-		}
-		  
-		[XmlAttribute("CArName")]
-		[Bindable(true)]
-        [DataMember]
-		public string CArName 
-		{
-			get { return GetColumnValue<string>(Columns.CArName); }
-			set { SetColumnValue(Columns.CArName, value); }
-		}
 		
 		#endregion
 		
@@ -293,7 +249,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varCName,bool? varCIsDeleted,int? varCStateFk,string varCEnName,string varCArName)
+		public static void Insert(string varCName,bool? varCIsDeleted,int? varCStateFk)
 		{
 			TblCity item = new TblCity();
 			
@@ -302,10 +258,6 @@ namespace DalWebSite
 			item.CIsDeleted = varCIsDeleted;
 			
 			item.CStateFk = varCStateFk;
-			
-			item.CEnName = varCEnName;
-			
-			item.CArName = varCArName;
 			
 		
 			if (System.Web.HttpContext.Current != null)
@@ -317,7 +269,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varCName,bool? varCIsDeleted,int? varCStateFk,string varCEnName,string varCArName)
+		public static void Update(int varId,string varCName,bool? varCIsDeleted,int? varCStateFk)
 		{
 			TblCity item = new TblCity();
 			
@@ -328,10 +280,6 @@ namespace DalWebSite
 				item.CIsDeleted = varCIsDeleted;
 			
 				item.CStateFk = varCStateFk;
-			
-				item.CEnName = varCEnName;
-			
-				item.CArName = varCArName;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -374,20 +322,6 @@ namespace DalWebSite
         
         
         
-        public static TableSchema.TableColumn CEnNameColumn
-        {
-            get { return Schema.Columns[4]; }
-        }
-        
-        
-        
-        public static TableSchema.TableColumn CArNameColumn
-        {
-            get { return Schema.Columns[5]; }
-        }
-        
-        
-        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -396,8 +330,6 @@ namespace DalWebSite
 			 public static string CName = @"cName";
 			 public static string CIsDeleted = @"cIsDeleted";
 			 public static string CStateFk = @"cStateFk";
-			 public static string CEnName = @"cEnName";
-			 public static string CArName = @"cArName";
 						
 		}
 		#endregion
