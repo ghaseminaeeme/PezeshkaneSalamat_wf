@@ -1,6 +1,24 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="pezeshkaneSalamat_wf.Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!-- Select2 -->
+<%--        <link href="/assets/css/select2.min.css" rel="stylesheet">
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/select2.min.js"></script>--%>
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".searchable-dropdown").select2({
+                placeholder: "جستجو کنید...",
+                allowClear: true
+            });
+        });
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -85,7 +103,7 @@
                     <div class="search-fields">
                         <%-- <asp:Panel ID="Panel1" runat="server" DefaultButton="btnSearch" CssClass="w-100">--%>
                         <!-- City Dropdown -->
-                        <asp:DropDownList ID="drdCity" runat="server" class="search-dropdown" AppendDataBoundItems="true" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id">
+                        <asp:DropDownList ID="drdCity" runat="server" class="search-dropdown searchable-dropdown" AppendDataBoundItems="true" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id">
                             <asp:ListItem Value="0" Text="شهر"></asp:ListItem>
                         </asp:DropDownList>
                         <asp:SqlDataSource ID="SqlCity" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [cName] FROM [TblCity] WHERE ([cIsDeleted] &lt;&gt; @cIsDeleted) ORDER BY [cName]">
@@ -96,10 +114,13 @@
 
                         <!-- Category Dropdown -->
 
-                        <asp:DropDownList ID="drdBranch" runat="server" AppendDataBoundItems="True" DataSourceID="SqlBranch" DataTextField="bSubject" DataValueField="id" CssClass="search-dropdown">
+                        <asp:DropDownList ID="drdBranch" runat="server" AppendDataBoundItems="True" DataSourceID="SqlBranch" DataTextField="bSubject" DataValueField="id"
+                            CssClass="search-dropdown searchable-dropdown" TabIndex="-1" aria-hidden="true">
                             <asp:ListItem Value="0" Text="انتخاب تخصص"></asp:ListItem>
                         </asp:DropDownList>
-                        <asp:SqlDataSource ID="SqlBranch" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" SelectCommand="SELECT [id], [bSubject] FROM [TblBranch] WHERE ([bIsDeleted] &lt;&gt; @bIsDeleted) ORDER BY [bSubject]">
+
+                        <asp:SqlDataSource ID="SqlBranch" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
+                            SelectCommand="SELECT [id], [bSubject] FROM [TblBranch] WHERE ([bIsDeleted] &lt;&gt; @bIsDeleted) ORDER BY [bSubject]">
                             <SelectParameters>
                                 <asp:Parameter DefaultValue="true" Name="bIsDeleted" Type="Boolean" />
                             </SelectParameters>
@@ -132,7 +153,7 @@
                 <div class="elementor-element elementor-element-f6e7b9b e-con-full pzy-position-relative e-flex e-con e-child" data-id="f6e7b9b" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-element elementor-element-6ac79a4 elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="6ac79a4" data-element_type="widget" data-widget_type="icon-box.default">
                         <div class="elementor-widget-container">
-                            <div class="elementor-icon-box-wrapper">
+                            <div class="elementor-icon-box-wrapper home-contact-info">
 
                                 <div class="elementor-icon-box-icon">
                                     <span class="elementor-icon">
@@ -143,10 +164,10 @@
                                     </span>
                                 </div>
 
-                                <div class="elementor-icon-box-content">
+                                <div class="elementor-icon-box-content txt-center">
 
                                     <h3 class="elementor-icon-box-title">
-                                        <span> برای ثبت در سامانه پزشکان سلامت با شماره <a href="tel:+989106340472">  09106340472 </a> تماس بگیرید </span>
+                                        <span>برای ثبت در سامانه پزشکان سلامت با شماره <a href="tel:+989106340472">09106340472 </a>تماس بگیرید </span>
                                     </h3>
 
 
@@ -366,6 +387,9 @@
 
     <script data-optimized="1" type="text/javascript" src="assets/js/slider1.js" id="elementor-webpack-runtime-js"></script>
     <script data-optimized="1" type="text/javascript" src="assets/js/slider2.js" id="elementor-frontend-modules-js"></script>
+
+
+
     <script data-optimized="1" type="text/javascript" id="elementor-frontend-js-before">
         var elementorFrontendConfig = {
             "environmentMode": { "edit": !1, "wpPreview": !1, "isScriptDebug": !1 },
@@ -409,4 +433,6 @@
         }</script>
     <script data-optimized="1" type="text/javascript" src="assets/js/slider3.js" id="elementor-frontend-js"></script>
 
+
 </asp:Content>
+        

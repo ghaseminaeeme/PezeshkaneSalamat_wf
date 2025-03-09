@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="DoctorDetail.aspx.cs" Inherits="pezeshkaneSalamat_wf.DoctorDetail" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link rel='stylesheet' id='rate-my-post-css' href='https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.5' type='text/css' media='all' />
+
+
+<%--    <link rel='stylesheet' id='rate-my-post-css' href='https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/css/rate-my-post.min.css?ver=4.2.5' type='text/css' media='all' />--%>
+        <link rel='stylesheet' id='rate-my-post-css' href='/assets/css/rate-my-post.min.css?ver=4.2.5' type='text/css' media='all' />
+
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -160,11 +164,12 @@
                                     <div class="elementor-element elementor-element-3d35925 elementor-widget elementor-widget-pzy_staff_consultation" data-id="3d35925" data-element_type="widget" data-widget_type="pzy_staff_consultation.default">
                                         <div class="elementor-widget-container">
 
-                                             <button class="pzy-staff-consultation-request" data-staff-name="<%#Eval("dName") %>"
-                                                data-staff="131">
+                                            <button class="pzy-staff-consultation-request" data-staff-name="<%#Eval("dName") %>">
                                                 <i data-feather="message-square"></i>
                                                 <span class="pzy-staff-consultation-request-title">درخواست رزرو</span>
                                             </button>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -251,8 +256,61 @@
                         </div>
                     </div>
 
+
+                    <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent" data-id="fc524b8" data-element_type="container">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">
+                                <div class="elementor-widget-container">
+
+                                    <div id="comments" class="comments-area">
+
+
+                                        <div id="respond" class="comment-respond">
+                                            <h3 id="reply-title" class="comment-reply-title">رزرو نوبت
+                                    <small></small>
+                                            <p class="title_reply_after"></p>
+                                            <span></span>
+                                            <div id="commentform" class="comment-form">
+                                                <p class="comment-notes"><span id="email-notes">نشانی ایمیل شما منتشر نخواهد شد.</span> <span class="required-field-message">بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></span></p>
+                                                <div class="comment-form-row comment-form-author">
+                                                    <div class="input-append">
+                                                        <input placeholder="نام:" id="author" name="author" type="text" value="" size="30" aria-required="true" required /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#5C91C7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-form-row comment-form-email">
+                                                    <div class="input-append">
+                                                        <input placeholder="آدرس ایمیل:" id="email" name="email" type="text" value="" size="30" aria-required="true" required /><i data-feather="mail"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-form-comment">
+                                                    <textarea id="comment" name="comment" class="span12" rows="5" aria-required="true"></textarea>
+                                                </div>
+                                                <p class="comment-form-cookies-consent">
+                                                    <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
+                                                    <div class="comment-form-submit-box">
+
+                                                        <p class="form-submit">
+                                                            <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه" />
+                                                            <input type='hidden' name='comment_post_ID' value='131' id='comment_post_ID' />
+                                                            <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                                                        </p>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <!-- #respond -->
+
+                                    </div>
+                                    <!-- #comments -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </ItemTemplate>
             </asp:FormView>
+
 
 
             <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
@@ -327,7 +385,7 @@
             <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
-                        <div class="elementor-widget-container">
+                        <div class="elementor-widget-container related-list">
                             <asp:ListView ID="ListRelatedDoctors" runat="server" DataSourceID="SqlRelatedDoctors">
                                 <ItemTemplate>
                                     <article class="pzy-staff-card">
@@ -448,6 +506,8 @@
             </div>
         </div>
 
+
+        <!-- ========== Appointment Modal ========== -->
 
     </main>
 

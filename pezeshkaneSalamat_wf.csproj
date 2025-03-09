@@ -450,6 +450,7 @@
     <Content Include="Admin\images.aspx" />
     <Content Include="Admin\password.aspx" />
     <Content Include="Admin\smallBanner.aspx" />
+    <Content Include="Admin\test.aspx" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\calendar\aqua\active-bg.gif" />
     <Content Include="assets\css\calendar\aqua\dark-bg.gif" />
@@ -499,6 +500,7 @@
     <Content Include="assets\css\pzy-staffs-slider-main.css" />
     <Content Include="assets\css\rate-my-post.min.css" />
     <Content Include="assets\css\root.css" />
+    <Content Include="assets\css\select2.min.css" />
     <Content Include="assets\css\singlePost.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\css\swiper-bundle.min.css" />
@@ -2261,10 +2263,12 @@
     <Content Include="bin\SubSonic.dll" />
     <Content Include="bin\System.Runtime.Serialization.dll" />
     <Content Include="blog.aspx" />
+    <Content Include="Category\default.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="TempFiles\doctoryar.html" />
     <Content Include="TempFiles\home.html" />
     <Content Include="TempFiles\HtmlPage1.html" />
     <Content Include="assets\js\add-to-cart.min.js" />
@@ -2430,12 +2434,26 @@
     <Compile Include="Admin\smallBanner.aspx.designer.cs">
       <DependentUpon>smallBanner.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
     <Compile Include="blog.aspx.cs">
       <DependentUpon>blog.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="blog.aspx.designer.cs">
       <DependentUpon>blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Category\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Category\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="ClassControl.cs">
       <SubType>ASPXCodeBehind</SubType>

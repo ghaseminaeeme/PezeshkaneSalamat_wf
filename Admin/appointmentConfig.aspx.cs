@@ -16,28 +16,28 @@ namespace pezeshkaneSalamat_wf.Admin
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["usr"] == null || (Session["usr"]).ToString() == "")
-            {
-                Response.Redirect("/Admin/Default.aspx");
-            }
-            else
-            {
-                TblUser _TblUser = new TblUser(TblUser.Columns.Username, Session["usr"]);
-                if (_TblUser.IsLoaded)
-                {
-                    LbUser.Text = _TblUser.Name;
+            //if (Session["usr"] == null || (Session["usr"]).ToString() == "")
+            //{
+            //    Response.Redirect("/Admin/Default.aspx");
+            //}
+            //else
+            //{
+            //    TblUser _TblUser = new TblUser(TblUser.Columns.Username, Session["usr"]);
+            //    if (_TblUser.IsLoaded)
+            //    {
+            //        LbUser.Text = _TblUser.Name;
 
-                    if (Request.QueryString["did"].ToString() != "")
-                    {
-                        TblDoctor _TblDoctor = new TblDoctor(int.Parse(Request.QueryString["did"]));
-                        LbSubject.Text = _TblDoctor.DName;
-                    }
-                    else
-                    {
-                        Response.Redirect("doctors.aspx");
-                    }
-                }
-            }
+            //        if (Request.QueryString["did"].ToString() != "")
+            //        {
+            //            TblDoctor _TblDoctor = new TblDoctor(int.Parse(Request.QueryString["did"]));
+            //            LbSubject.Text = _TblDoctor.DName;
+            //        }
+            //        else
+            //        {
+            //            Response.Redirect("doctors.aspx");
+            //        }
+            //    }
+            //}
 
         }
 

@@ -1,16 +1,31 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminSite1.Master" AutoEventWireup="true" CodeBehind="addDoctor.aspx.cs" Inherits="pezeshkaneSalamat_wf.Admin.addDoctor" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-        <script src="Admin/tiny_mce/tiny_mce_src.js" type="text/javascript"></script>
+    <script src="Admin/tiny_mce/tiny_mce_src.js" type="text/javascript"></script>
     <script src="Admin/tiny_mce/Full.js" type="text/javascript"></script>
     <!-- for datepicker -->
     <script src="assets/js/PersianDatePicker.js"></script>
     <link href="assets/css/PersianDatePicker.css" rel="stylesheet" />
 
 
+    <!-- Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".searchable-dropdown").select2({
+                placeholder: "جستجو کنید...",
+                allowClear: true
+            });
+        });
+    </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-        <div class="row">
+    <div class="row">
         <div class="col-md-12">
             <h1 class="page-head-line">ثبت پزشک جدید</h1>
         </div>
@@ -27,26 +42,31 @@
                 </div>
                 <div class="form-group col-md-6 col-xs-12 pull-right">
                     <label>گروه تخصصی</label>
-                    <asp:DropDownList ID="DrdGrp" runat="server" class="form-control" DataSourceID="SqlDataSource1" DataTextField="bSubject" DataValueField="id"></asp:DropDownList>
+                    <asp:DropDownList ID="DrdGrp" runat="server" class="searchable-dropdown form-control" DataSourceID="SqlDataSource1"
+                        DataTextField="bSubject" DataValueField="id" AppendDataBoundItems="true">
+                    </asp:DropDownList>
                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                         SelectCommand="SELECT [id], [bSubject] FROM [TblBranch] where [bIsDeleted] &lt;&gt; 1"></asp:SqlDataSource>
                 </div>
+
                 <div class="form-group col-md-6 col-xs-12 pull-right">
-                     <label>تاریخ انقضا</label>
+                    <label>تاریخ انقضا</label>
                     <%--<asp:RequiredFieldValidator ID="v2" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtDate" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
-                   <%-- <ir:PDatePicker ID="TxtDate" FormatDate="YYYY/MM/DD" class="datepicker form-control" runat="server" Theme="dark"></ir:PDatePicker>--%>
-                    <asp:TextBox runat="server" ID="TxtDate" onclick="PersianDatePicker.Show(this);" class="form-control"></asp:TextBox>                   
+                    <%-- <ir:PDatePicker ID="TxtDate" FormatDate="YYYY/MM/DD" class="datepicker form-control" runat="server" Theme="dark"></ir:PDatePicker>--%>
+                    <asp:TextBox runat="server" ID="TxtDate" onclick="PersianDatePicker.Show(this);" class="form-control"></asp:TextBox>
                 </div>
                 <hr>
-                
-               
+
+
+
+
                 <div class="form-group col-md-4 col-xs-12 pull-right">
                     <label>نام و نام خانوادگی</label>
-                    <asp:RequiredFieldValidator ID="v1" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtName" CssClass="errormsg"  ValidationGroup="save"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="v1" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtName" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>
                     <asp:TextBox ID="TxtName" class="form-control" runat="server"></asp:TextBox>
-                </div> 
+                </div>
 
-                 <div class="form-group col-md-4 col-xs-12 pull-right">
+                <div class="form-group col-md-4 col-xs-12 pull-right">
                     <label>تخصص</label>
                     <asp:TextBox ID="TxtSpe" class="form-control" runat="server"></asp:TextBox>
                 </div>
@@ -100,17 +120,17 @@
 
                 <div class="form-group col-md-4 col-xs-12 pull-right">
                     <label>نام کاربری</label>
-<%--                    <asp:RequiredFieldValidator ID="v3" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtUser" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
+                    <%--                    <asp:RequiredFieldValidator ID="v3" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtUser" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
                     <asp:TextBox ID="TxtUser" class="form-control" runat="server" MaxLength="30"></asp:TextBox>
-<%--                    <asp:RegularExpressionValidator ID="v4" CssClass="errormsg" runat="server" ControlToValidate="TxtUser" ValidationGroup="save" ValidationExpression="[a-zA-Z0-9!@&*_.,]{3,30}$"
+                    <%--                    <asp:RegularExpressionValidator ID="v4" CssClass="errormsg" runat="server" ControlToValidate="TxtUser" ValidationGroup="save" ValidationExpression="[a-zA-Z0-9!@&*_.,]{3,30}$"
                         ErrorMessage=" حداقل 6 کاراکتر و فقط شامل اعداد ، حروف انگلیسی و علائم (!@&*_.,) "></asp:RegularExpressionValidator>--%>
                 </div>
 
                 <div class="form-group col-md-4 col-xs-12 pull-right">
                     <label>رمز عبور</label>
-<%--                    <asp:RequiredFieldValidator ID="v6" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtPass" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
+                    <%--                    <asp:RequiredFieldValidator ID="v6" runat="server" ErrorMessage="فیلد ضروری" ControlToValidate="TxtPass" CssClass="errormsg" ValidationGroup="save"></asp:RequiredFieldValidator>--%>
                     <asp:TextBox ID="TxtPass" class="form-control" runat="server" MaxLength="15"></asp:TextBox>
-<%--                    <asp:RegularExpressionValidator ID="v5" CssClass="errormsg" runat="server" ControlToValidate="TxtPass" ValidationGroup="save" ValidationExpression="[a-zA-Z0-9!@&*_.,]{1,15}"
+                    <%--                    <asp:RegularExpressionValidator ID="v5" CssClass="errormsg" runat="server" ControlToValidate="TxtPass" ValidationGroup="save" ValidationExpression="[a-zA-Z0-9!@&*_.,]{1,15}"
                         ErrorMessage=" فقط اعداد ، حروف انگلیسی و علائم (!@&*_.,) "></asp:RegularExpressionValidator>--%>
                 </div>
 
@@ -125,8 +145,8 @@
 
                 <div class="form-group col-md-6 col-xs-12 pull-right">
                     <label>شهر</label>
-                    <asp:DropDownList ID="DrdCity" runat="server" class="form-control" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id"></asp:DropDownList>
-                    <asp:SqlDataSource ID="SqlCity" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>" 
+                    <asp:DropDownList ID="DrdCity" runat="server" class="form-control searchable-dropdown" DataSourceID="SqlCity" DataTextField="cName" DataValueField="id"></asp:DropDownList>
+                    <asp:SqlDataSource ID="SqlCity" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                         SelectCommand="SELECT [id], [cName] FROM [TblCity] WHERE ([cIsDeleted] &lt;&gt; @cIsDeleted) ORDER BY [cName]">
                         <SelectParameters>
                             <asp:Parameter DefaultValue="true" Name="cIsDeleted" Type="Boolean" />
@@ -147,7 +167,7 @@
                     <asp:TextBox ID="TxtLong" class="form-control" runat="server"></asp:TextBox>
                 </div>
                 <hr>
-                 <div class="form-group col-md-12 col-xs-12 pull-right">
+                <div class="form-group col-md-12 col-xs-12 pull-right">
                     <label>توضیحات</label>
                     <asp:TextBox ID="TxtDes" class="form-control" runat="server" TextMode="MultiLine"></asp:TextBox>
                 </div>
@@ -159,7 +179,7 @@
                     <span class="help-block">سایز عکس باید 330 در 330 پیکسل و با رزولوشن 72 باشد</span>
                 </div>
                 <hr>
-               <%-- <div class="form-group">
+                <%-- <div class="form-group">
                     <label>آدرس ویدئو</label>
                     <asp:TextBox ID="TxtVideo" class="form-control" runat="server"></asp:TextBox>
                 </div>

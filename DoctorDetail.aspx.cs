@@ -7,6 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DalWebSite;
 
+
 namespace pezeshkaneSalamat_wf
 {
     public partial class DoctorDetail : System.Web.UI.Page
@@ -40,6 +41,31 @@ namespace pezeshkaneSalamat_wf
 
                         SqlRelatedDoctors.SelectParameters["doctorId"].DefaultValue = doctorID.ToString();
                         SqlRelatedDoctors.DataBind();
+
+
+                        // title and  graph tags
+                        TblDoctor _TblDoctor = new TblDoctor(doctorID);
+                        Literal litTitle = (Literal)Master.FindControl("litTitle");
+                        Literal litMetaTags = (Literal)Master.FindControl("litMetaTags");
+
+                      //  string doctorUrl = "https://pezeshkanesalamat.ir/job/" + _TblDoctor.DUrl.ToString(); 
+
+                        if (litTitle != null)
+                            litTitle.Text = _TblDoctor.DName + " | پزشکان سلامت";
+
+                        if (litMetaTags != null)
+                        {
+                            litMetaTags.Text = $@"
+                             <meta property='og:url' content='{_TblDoctor.DUrl}' />
+                             <meta property='og:type' content='website' />
+                             <meta property='og:title' content='{_TblDoctor.DName} | پزشکان سلامت' />
+                             <meta property='og:description' content='{_TblDoctor.DDescription}' />
+                             <meta property='og:image' content='{_TblDoctor.DImg}' />
+                             <meta property='og:locale' content='fa_IR' />";
+                        }
+
+
+                        // end of graph tags
 
                     }
                     else
