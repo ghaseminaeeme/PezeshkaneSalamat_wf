@@ -341,3 +341,30 @@
         margin-bottom: 10px;
     }
 }
+.pzy-pagination-links a {
+    font-size: 16px;
+    padding: 8px;
+    color: #00dca7;
+    border: solid 1px #00dca7;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.pzy-pagination-links span.active {
+    font-size: 16px;
+    padding: 8px;
+    color: #fff;
+    border: solid 1px #0052a8;
+    border-radius: 6px;
+    margin-left: 5px;
+    background: #0052a8;
+}
+.pzy-pagination-links a:hover {
+    color: #0052a8;
+    border: solid 1px #0052a8;
+    box-shadow:3px 3px rgb(201 225 219 / 72%);
+}
+.special-ads {
+    display:inline-block;
+    font-size: 11px;
+    padding: 5px;
+}

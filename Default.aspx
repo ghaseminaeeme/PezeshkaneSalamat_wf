@@ -275,9 +275,14 @@
                                     </defs>
                                 </svg>
                             </div>
-
+                             <a class="pzy-request-staff-button special-ads" data-staff="131" href=''>
+                                    آگهی ویژه                        
+                                </a>
                             <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
                                 style="background: #77df9b">
+
+                               
+
                                 <a href='/job/<%#Eval("dUrl") %>'
                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                     <img class="pzy-staff-card-avatar"

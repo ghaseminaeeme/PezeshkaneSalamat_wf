@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string ADescription,string ATel,string AMobile,string AEmail,string ATelegram,string AInstagram,string AAparat,string AImg1,string AImg2,string AWhatsapp,byte? LastDoctorType,string AFooterText,string AAddress,string AArDescription,string AEnDescription,string AArAddress,string AEnAddress,string AArFooterText,string AEnFooterText)
+	    public void Insert(string ADescription,string ATel,string AMobile,string AEmail,string ATelegram,string AInstagram,string AAparat,string AImg1,string AImg2,string AWhatsapp,byte? LastDoctorType,string AFooterText,string AAddress,string AArDescription,string AEnDescription,string AArAddress,string AEnAddress,string AArFooterText,string AEnFooterText,string AWorkTime)
 	    {
 		    TblAbout item = new TblAbout();
 		    
@@ -123,6 +123,8 @@ namespace DalWebSite
             
             item.AEnFooterText = AEnFooterText;
             
+            item.AWorkTime = AWorkTime;
+            
 	    
 		    item.Save(UserName);
 	    }
@@ -131,7 +133,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string ADescription,string ATel,string AMobile,string AEmail,string ATelegram,string AInstagram,string AAparat,string AImg1,string AImg2,string AWhatsapp,byte? LastDoctorType,string AFooterText,string AAddress,string AArDescription,string AEnDescription,string AArAddress,string AEnAddress,string AArFooterText,string AEnFooterText)
+	    public void Update(int Id,string ADescription,string ATel,string AMobile,string AEmail,string ATelegram,string AInstagram,string AAparat,string AImg1,string AImg2,string AWhatsapp,byte? LastDoctorType,string AFooterText,string AAddress,string AArDescription,string AEnDescription,string AArAddress,string AEnAddress,string AArFooterText,string AEnFooterText,string AWorkTime)
 	    {
 		    TblAbout item = new TblAbout();
 	        item.MarkOld();
@@ -176,6 +178,8 @@ namespace DalWebSite
 			item.AArFooterText = AArFooterText;
 				
 			item.AEnFooterText = AEnFooterText;
+				
+			item.AWorkTime = AWorkTime;
 				
 	        item.Save(UserName);
 	    }

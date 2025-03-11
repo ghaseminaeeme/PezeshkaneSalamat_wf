@@ -626,6 +626,19 @@ namespace DalWebSite
 				colvarDLocation.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarDLocation);
 				
+				TableSchema.TableColumn colvarDEditDate = new TableSchema.TableColumn(schema);
+				colvarDEditDate.ColumnName = "dEditDate";
+				colvarDEditDate.DataType = DbType.DateTime;
+				colvarDEditDate.MaxLength = 0;
+				colvarDEditDate.AutoIncrement = false;
+				colvarDEditDate.IsNullable = true;
+				colvarDEditDate.IsPrimaryKey = false;
+				colvarDEditDate.IsForeignKey = false;
+				colvarDEditDate.IsReadOnly = false;
+				colvarDEditDate.DefaultSetting = @"";
+				colvarDEditDate.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarDEditDate);
+				
 				BaseSchema = schema;
 				//add this schema to the provider
 				//so we can query it later
@@ -977,6 +990,15 @@ namespace DalWebSite
 			get { return GetColumnValue<string>(Columns.DLocation); }
 			set { SetColumnValue(Columns.DLocation, value); }
 		}
+		  
+		[XmlAttribute("DEditDate")]
+		[Bindable(true)]
+        [DataMember]
+		public DateTime? DEditDate 
+		{
+			get { return GetColumnValue<DateTime?>(Columns.DEditDate); }
+			set { SetColumnValue(Columns.DEditDate, value); }
+		}
 		
 		#endregion
 		
@@ -997,7 +1019,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation)
+		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
 		{
 			TblDoctor item = new TblDoctor();
 			
@@ -1075,6 +1097,8 @@ namespace DalWebSite
 			
 			item.DLocation = varDLocation;
 			
+			item.DEditDate = varDEditDate;
+			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -1085,7 +1109,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation)
+		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
 		{
 			TblDoctor item = new TblDoctor();
 			
@@ -1164,6 +1188,8 @@ namespace DalWebSite
 				item.DUrl = varDUrl;
 			
 				item.DLocation = varDLocation;
+			
+				item.DEditDate = varDEditDate;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -1444,6 +1470,13 @@ namespace DalWebSite
         
         
         
+        public static TableSchema.TableColumn DEditDateColumn
+        {
+            get { return Schema.Columns[38]; }
+        }
+        
+        
+        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -1486,6 +1519,7 @@ namespace DalWebSite
 			 public static string DDescription = @"dDescription";
 			 public static string DUrl = @"dUrl";
 			 public static string DLocation = @"dLocation";
+			 public static string DEditDate = @"dEditDate";
 						
 		}
 		#endregion

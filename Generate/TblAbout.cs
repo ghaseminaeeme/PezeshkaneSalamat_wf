@@ -392,6 +392,19 @@ namespace DalWebSite
 				colvarAEnFooterText.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarAEnFooterText);
 				
+				TableSchema.TableColumn colvarAWorkTime = new TableSchema.TableColumn(schema);
+				colvarAWorkTime.ColumnName = "aWorkTime";
+				colvarAWorkTime.DataType = DbType.String;
+				colvarAWorkTime.MaxLength = 200;
+				colvarAWorkTime.AutoIncrement = false;
+				colvarAWorkTime.IsNullable = true;
+				colvarAWorkTime.IsPrimaryKey = false;
+				colvarAWorkTime.IsForeignKey = false;
+				colvarAWorkTime.IsReadOnly = false;
+				colvarAWorkTime.DefaultSetting = @"";
+				colvarAWorkTime.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarAWorkTime);
+				
 				BaseSchema = schema;
 				//add this schema to the provider
 				//so we can query it later
@@ -581,6 +594,15 @@ namespace DalWebSite
 			get { return GetColumnValue<string>(Columns.AEnFooterText); }
 			set { SetColumnValue(Columns.AEnFooterText, value); }
 		}
+		  
+		[XmlAttribute("AWorkTime")]
+		[Bindable(true)]
+        [DataMember]
+		public string AWorkTime 
+		{
+			get { return GetColumnValue<string>(Columns.AWorkTime); }
+			set { SetColumnValue(Columns.AWorkTime, value); }
+		}
 		
 		#endregion
 		
@@ -601,7 +623,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varADescription,string varATel,string varAMobile,string varAEmail,string varATelegram,string varAInstagram,string varAAparat,string varAImg1,string varAImg2,string varAWhatsapp,byte? varLastDoctorType,string varAFooterText,string varAAddress,string varAArDescription,string varAEnDescription,string varAArAddress,string varAEnAddress,string varAArFooterText,string varAEnFooterText)
+		public static void Insert(string varADescription,string varATel,string varAMobile,string varAEmail,string varATelegram,string varAInstagram,string varAAparat,string varAImg1,string varAImg2,string varAWhatsapp,byte? varLastDoctorType,string varAFooterText,string varAAddress,string varAArDescription,string varAEnDescription,string varAArAddress,string varAEnAddress,string varAArFooterText,string varAEnFooterText,string varAWorkTime)
 		{
 			TblAbout item = new TblAbout();
 			
@@ -643,6 +665,8 @@ namespace DalWebSite
 			
 			item.AEnFooterText = varAEnFooterText;
 			
+			item.AWorkTime = varAWorkTime;
+			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -653,7 +677,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varADescription,string varATel,string varAMobile,string varAEmail,string varATelegram,string varAInstagram,string varAAparat,string varAImg1,string varAImg2,string varAWhatsapp,byte? varLastDoctorType,string varAFooterText,string varAAddress,string varAArDescription,string varAEnDescription,string varAArAddress,string varAEnAddress,string varAArFooterText,string varAEnFooterText)
+		public static void Update(int varId,string varADescription,string varATel,string varAMobile,string varAEmail,string varATelegram,string varAInstagram,string varAAparat,string varAImg1,string varAImg2,string varAWhatsapp,byte? varLastDoctorType,string varAFooterText,string varAAddress,string varAArDescription,string varAEnDescription,string varAArAddress,string varAEnAddress,string varAArFooterText,string varAEnFooterText,string varAWorkTime)
 		{
 			TblAbout item = new TblAbout();
 			
@@ -696,6 +720,8 @@ namespace DalWebSite
 				item.AArFooterText = varAArFooterText;
 			
 				item.AEnFooterText = varAEnFooterText;
+			
+				item.AWorkTime = varAWorkTime;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -850,6 +876,13 @@ namespace DalWebSite
         
         
         
+        public static TableSchema.TableColumn AWorkTimeColumn
+        {
+            get { return Schema.Columns[20]; }
+        }
+        
+        
+        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -874,6 +907,7 @@ namespace DalWebSite
 			 public static string AEnAddress = @"aEnAddress";
 			 public static string AArFooterText = @"aArFooterText";
 			 public static string AEnFooterText = @"aEnFooterText";
+			 public static string AWorkTime = @"aWorkTime";
 						
 		}
 		#endregion

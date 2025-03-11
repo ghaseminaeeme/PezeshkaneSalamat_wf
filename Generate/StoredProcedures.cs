@@ -39,6 +39,18 @@ namespace DalWebSite{
         }
         
         /// <summary>
+        /// Creates an object wrapper for the GetDoctorAppointments Procedure
+        /// </summary>
+        public static StoredProcedure GetDoctorAppointments(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("GetDoctorAppointments", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
         /// Creates an object wrapper for the insertApointment Procedure
         /// </summary>
         public static StoredProcedure InsertApointment(int? doctorId, int? num, int? shift, string startTime, int? time, string dateX)
@@ -116,6 +128,18 @@ namespace DalWebSite{
         public static StoredProcedure SelectAppointment(int? doctorId)
         {
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectAppointment", DataService.GetInstance("DbWebSiteConnectionString"), "pezeshk2_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the SelectAppointmentDays Procedure
+        /// </summary>
+        public static StoredProcedure SelectAppointmentDays(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("SelectAppointmentDays", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
         	
             sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
         	
@@ -210,6 +234,18 @@ namespace DalWebSite{
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectDoctorDetail", DataService.GetInstance("DbWebSiteConnectionString"), "dbo");
         	
             sp.Command.AddParameter("@id", id, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the selectDoctorImages Procedure
+        /// </summary>
+        public static StoredProcedure SelectDoctorImages(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectDoctorImages", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
         	
             return sp;
         }

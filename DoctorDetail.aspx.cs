@@ -48,7 +48,7 @@ namespace pezeshkaneSalamat_wf
                         Literal litTitle = (Literal)Master.FindControl("litTitle");
                         Literal litMetaTags = (Literal)Master.FindControl("litMetaTags");
 
-                      //  string doctorUrl = "https://pezeshkanesalamat.ir/job/" + _TblDoctor.DUrl.ToString(); 
+                        string doctorUrl = "https://pezeshkanesalamat.ir/job/" + decodedSlug; 
 
                         if (litTitle != null)
                             litTitle.Text = _TblDoctor.DName + " | پزشکان سلامت";
@@ -56,10 +56,10 @@ namespace pezeshkaneSalamat_wf
                         if (litMetaTags != null)
                         {
                             litMetaTags.Text = $@"
-                             <meta property='og:url' content='{_TblDoctor.DUrl}' />
+                             <meta property='og:url' content='{doctorUrl}' />
                              <meta property='og:type' content='website' />
                              <meta property='og:title' content='{_TblDoctor.DName} | پزشکان سلامت' />
-                             <meta property='og:description' content='{_TblDoctor.DDescription}' />
+                             <meta property='og:description' content='{_TblDoctor.DSpecialty}' />
                              <meta property='og:image' content='{_TblDoctor.DImg}' />
                              <meta property='og:locale' content='fa_IR' />";
                         }
