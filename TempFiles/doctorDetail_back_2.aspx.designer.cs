@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace pezeshkaneSalamat_wf
+namespace pezeshkaneSalamat_wf.TempFiles
 {
 
 
-    public partial class DoctorDetail
+    public partial class doctorDetail_back_2
     {
 
         /// <summary>
@@ -60,15 +60,6 @@ namespace pezeshkaneSalamat_wf
         protected global::System.Web.UI.WebControls.FormView FormView1;
 
         /// <summary>
-        /// Button3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
-
-        /// <summary>
         /// UpdatePanelAppointment control.
         /// </summary>
         /// <remarks>
@@ -76,15 +67,6 @@ namespace pezeshkaneSalamat_wf
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.UpdatePanel UpdatePanelAppointment;
-
-        /// <summary>
-        /// lblNoDatesMessage control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNoDatesMessage;
 
         /// <summary>
         /// Repeater1 control.

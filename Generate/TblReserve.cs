@@ -236,6 +236,19 @@ namespace DalWebSite
 				colvarRPhonenumber.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarRPhonenumber);
 				
+				TableSchema.TableColumn colvarRSaveDate = new TableSchema.TableColumn(schema);
+				colvarRSaveDate.ColumnName = "rSaveDate";
+				colvarRSaveDate.DataType = DbType.DateTime;
+				colvarRSaveDate.MaxLength = 0;
+				colvarRSaveDate.AutoIncrement = false;
+				colvarRSaveDate.IsNullable = true;
+				colvarRSaveDate.IsPrimaryKey = false;
+				colvarRSaveDate.IsForeignKey = false;
+				colvarRSaveDate.IsReadOnly = false;
+				colvarRSaveDate.DefaultSetting = @"";
+				colvarRSaveDate.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarRSaveDate);
+				
 				BaseSchema = schema;
 				//add this schema to the provider
 				//so we can query it later
@@ -317,6 +330,15 @@ namespace DalWebSite
 			get { return GetColumnValue<string>(Columns.RPhonenumber); }
 			set { SetColumnValue(Columns.RPhonenumber, value); }
 		}
+		  
+		[XmlAttribute("RSaveDate")]
+		[Bindable(true)]
+        [DataMember]
+		public DateTime? RSaveDate 
+		{
+			get { return GetColumnValue<DateTime?>(Columns.RSaveDate); }
+			set { SetColumnValue(Columns.RSaveDate, value); }
+		}
 		
 		#endregion
 		
@@ -337,7 +359,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(int? varRDoctorId,string varRTrackingCode,string varRTime,string varRPhonenumber1,string varRName,DateTime? varRDatetime,string varRPhonenumber)
+		public static void Insert(int? varRDoctorId,string varRTrackingCode,string varRTime,string varRPhonenumber1,string varRName,DateTime? varRDatetime,string varRPhonenumber,DateTime? varRSaveDate)
 		{
 			TblReserve item = new TblReserve();
 			
@@ -355,6 +377,8 @@ namespace DalWebSite
 			
 			item.RPhonenumber = varRPhonenumber;
 			
+			item.RSaveDate = varRSaveDate;
+			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -365,7 +389,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,int? varRDoctorId,string varRTrackingCode,string varRTime,string varRPhonenumber1,string varRName,DateTime? varRDatetime,string varRPhonenumber)
+		public static void Update(int varId,int? varRDoctorId,string varRTrackingCode,string varRTime,string varRPhonenumber1,string varRName,DateTime? varRDatetime,string varRPhonenumber,DateTime? varRSaveDate)
 		{
 			TblReserve item = new TblReserve();
 			
@@ -384,6 +408,8 @@ namespace DalWebSite
 				item.RDatetime = varRDatetime;
 			
 				item.RPhonenumber = varRPhonenumber;
+			
+				item.RSaveDate = varRSaveDate;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -454,6 +480,13 @@ namespace DalWebSite
         
         
         
+        public static TableSchema.TableColumn RSaveDateColumn
+        {
+            get { return Schema.Columns[8]; }
+        }
+        
+        
+        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -466,6 +499,7 @@ namespace DalWebSite
 			 public static string RName = @"rName";
 			 public static string RDatetime = @"rDatetime";
 			 public static string RPhonenumber = @"rPhonenumber";
+			 public static string RSaveDate = @"rSaveDate";
 						
 		}
 		#endregion

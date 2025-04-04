@@ -84,7 +84,7 @@ namespace pezeshkaneSalamat_wf.Admin
 
                         if (Fu1.FileName != "")
                         {
-                            _TblDoctor.DImg = UploadFiles("330", "330", "../upload/doctors/" + Id.ToString() + ".jpg", 0);
+                            _TblDoctor.DImg = UploadFiles("", "", "../upload/doctors/" + Id.ToString() + ".jpg", 0);
                         }
                         //if (FileUpload1.FileName != "")
                         //{

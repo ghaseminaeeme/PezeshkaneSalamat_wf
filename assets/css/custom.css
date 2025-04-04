@@ -187,7 +187,8 @@
     display:inline-block;
 }
     .pzy-request-staff-button:hover {
-        background: #0052a8;
+        /*background: #0052a8;*/
+        background: var(--secondary-500, #00DCA7);
     }
 
 .w-100 {
@@ -313,7 +314,7 @@
 }
 .home-contact-info {
     text-align: center;
-
+    background: #00dca7;
 }
     .home-contact-info a {
         display: inline-block;
@@ -364,7 +365,46 @@
     box-shadow:3px 3px rgb(201 225 219 / 72%);
 }
 .special-ads {
-    display:inline-block;
-    font-size: 11px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 7px;
+    width: 70px;
+    height: 30px;
+    background: var(--secondary-500, #00DCA7);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    margin-bottom: 10px;
+}
+.pzy-staff-avatar-box.pzy-circle-avatar-box {
+    top: 20px;
+}
+#UpdatePanelAppointment {
+    width:100% !important;
+}
+.pzy-request-staff-button.disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.selected-date {
+    background-color: #007bff !important; /* Blue background */
+    color: white !important; /* White text */
+    border: solid 1px rgb(0 220 167);
+}
+@media(max-width: 920px) {
+    .pzy-staffs-schedules-categories .pzy-staffs-schedules-category-button:after {
+        display:none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .pzy-staffs-schedules-categories .pzy-services {
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }
+}
+.no-dates-message {
+    font-size:14px;
     padding: 5px;
+    line-height: 1.7;
 }

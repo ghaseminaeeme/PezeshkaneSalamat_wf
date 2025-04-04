@@ -366,13 +366,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:8px;
+    gap: 8px;
     height: 39px;
     width: 100%;
     border: none;
     border-radius: 19.5px;
-    background: var(--secondary-500, #00DCA7);
-
+    /*background: var(--secondary-500, #00DCA7);*/
+    background: var(--e-global-color-46c853a);
+    ;
     color: var(--gray-100, #F5F6F7);
     /* P/16-bold */
     /*font-family: "Yekan Bakh FaNum";*/

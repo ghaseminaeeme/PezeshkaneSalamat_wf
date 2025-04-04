@@ -1,5 +1,4 @@
-﻿using SubSonic;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,10 +10,11 @@ using System.Globalization;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
+using SubSonic;
 
-namespace pezeshkaneSalamat_wf
+namespace pezeshkaneSalamat_wf.TempFiles
 {
-    public partial class DoctorDetail : System.Web.UI.Page
+    public partial class doctorDetail_back_2 : System.Web.UI.Page
     {
         ClassControl cc = new ClassControl();
         private int doctorID;
@@ -79,7 +79,8 @@ namespace pezeshkaneSalamat_wf
                         Response.Redirect("~/404.aspx");
                     }
                 }
-            } else
+            }
+            else
             {
                 // Retrieve doctorID from ViewState on postbacks
                 if (ViewState["DoctorID"] != null)
@@ -131,16 +132,6 @@ namespace pezeshkaneSalamat_wf
                 string firstDate = ds.Tables[0].Rows[0]["AppointmentDate"].ToString();
                 HiddenSelectedDate.Value = firstDate;
                 LoadAppointmentTimes(firstDate);
-                lblNoDatesMessage.Visible = false;
-                Button3.Visible = true;
-            }
-
-            else
-            {
-                lblNoDatesMessage.Visible = true;
-                RepeaterTimes.DataSource = null;
-                RepeaterTimes.DataBind();
-                Button3.Visible = false;
             }
         }
 
@@ -167,7 +158,7 @@ namespace pezeshkaneSalamat_wf
                 string selectedDate = e.CommandArgument.ToString();
                 HiddenSelectedDate.Value = selectedDate;
                 LoadAppointmentTimes(selectedDate);
-               // Repeater1.DataBind();
+                // Repeater1.DataBind();
             }
         }
 
@@ -203,8 +194,7 @@ namespace pezeshkaneSalamat_wf
                 string persianDate = ToPersianDate(appointmentDate);
 
                 // Find the LinkButton and update its text
-                // LinkButton btn = (LinkButton)e.Item.FindControl("LinkButton1");
-                Button btn = (Button)e.Item.FindControl("Button2");
+                LinkButton btn = (LinkButton)e.Item.FindControl("LinkButton1");
                 if (btn != null)
                 {
                     btn.Text = persianDate;

@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="DoctorDetail.aspx.cs" Inherits="pezeshkaneSalamat_wf.DoctorDetail" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="doctorDetail_back_2.aspx.cs" Inherits="pezeshkaneSalamat_wf.TempFiles.doctorDetail_back_2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <main>
 
         <div data-elementor-type="single-post" data-elementor-id="1215" class="elementor elementor-1215 pzy-loop-item post-131 pzy_staff type-pzy_staff status-publish has-post-thumbnail hentry pzy_service-31 pzy_service-25 pzy_service-24 pzy_service-22 pzy_service-28" data-elementor-post-type="elementor_library">
@@ -276,8 +276,7 @@
                                         </div>
                                         <div class="pzy-staffs-schedules-actions">
                                             <div class="pzy-select-date">
-                                                <asp:Button ID="Button3" runat="server" Text="انتخاب تاریخ" class="pzy-select-date-button" />
-                                                <%--<button class="pzy-select-date-button">انتخاب تاریخ </button>--%>
+                                                <button class="pzy-select-date-button">انتخاب تاریخ </button>
                                             </div>
                                         </div>
                                     </div>
@@ -304,24 +303,11 @@
                                     <asp:UpdatePanel ID="UpdatePanelAppointment" runat="server">
                                         <ContentTemplate>
                                             <div class="pzy-staffs-schedules-categories w-100">
-                                                 <asp:Label ID="lblNoDatesMessage" runat="server"
-                                                        Text="برای این پزشک هنوز زمان‌بندی نوبت ثبت نشده است."
-                                                        CssClass="no-dates-message"
-                                                        Visible="false" />
                                                 <div class='pzy-services'>
 
                                                     <asp:Repeater ID="Repeater1" runat="server" OnItemDataBound="Repeater1_ItemDataBound" OnItemCommand="Repeater1_ItemCommand">
                                                         <ItemTemplate>
-                                                            <asp:Button ID="Button2" runat="server" Text=' <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>'
-                                                                CssClass='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") == HiddenSelectedDate.Value ? 
-                                                            "h3-20-bold pzy-staffs-schedules-category-button selected-date" : 
-                                                            "h3-20-bold pzy-staffs-schedules-category-button"  %> '
-                                                                CommandName="SelectDate"
-                                                                CommandArgument='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>'
-                                                                CausesValidation="false"
-                                                                UseSubmitBehavior="false" />
-
-                                                            <%-- <asp:LinkButton ID="LinkButton1" runat="server"
+                                                            <asp:LinkButton ID="LinkButton1" runat="server"
                                                                 CssClass='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") == HiddenSelectedDate.Value ? 
                                                             "h3-20-bold pzy-staffs-schedules-category-button selected-date" : 
                                                             "h3-20-bold pzy-staffs-schedules-category-button"  %> '
@@ -330,15 +316,13 @@
                                                                 CausesValidation="false"
                                                                 UseSubmitBehavior="false">
                                                             <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>
-                                                            </asp:LinkButton>--%>
-
+                                                            </asp:LinkButton>
                                                             <asp:HiddenField ID="HiddenField1" runat="server" Value='<%# HiddenSelectedDate.Value %>' />
-
                                                         </ItemTemplate>
-
                                                     </asp:Repeater>
 
-                                                   
+
+
                                                     <asp:HiddenField ID="HiddenSelectedDate" runat="server" />
 
                                                 </div>
@@ -558,7 +542,7 @@
                                     <div class="elementor-icon-box-wrapper">
 
                                         <div class="elementor-icon-box-icon">
-                                            <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
+                                            <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/" class="elementor-icon elementor-animation-" tabindex="-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                     <g id="chevron-left">
                                                         <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -672,8 +656,13 @@
                                     <span></span>
                                     <div id="commentform" class="comment-form">
                                         <p class="comment-notes"><span id="email-notes">اطلاعات شما منتشر نخواهد شد.</span> <span class="required-field-message">بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></span></p>
-
-                                  
+                                       
+                                         <div class="comment-form-row comment-form-author">
+                                            <div class="input-append">
+                                               
+                                            </div>
+                                        </div>
+                                        
                                         <div class="comment-form-row comment-form-author">
                                             <div class="input-append">
                                                 <input placeholder="نام و نام خانوادگی:" id="author" name="author" type="text" value="" size="30" aria-required="true" required /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -689,7 +678,7 @@
 
                                         <div class="comment-form-cookies-consent">
                                             <div class="comment-form-submit-box">
-                                                <asp:Button ID="Button1" runat="server" Text="ثبت" class="submit" ValidationGroup="reserve" OnClick="Button1_Click" Enabled="false" />
+                                                <asp:Button ID="Button1" runat="server" Text="ثبت" class="submit" ValidationGroup="reserve" OnClick="Button1_Click" />
                                                 <%--   <p class="form-submit">
 
                                                <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه" />
@@ -766,7 +755,6 @@
 
             <!-- ========== Appointment Modal ========== -->
     </main>
-
 
 
 </asp:Content>

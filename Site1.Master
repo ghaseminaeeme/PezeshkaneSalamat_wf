@@ -27,8 +27,8 @@
     <link href="assets/css/e-swiper.min.css" rel="stylesheet" />
     <link href="assets/css/e83d8ce6e6861e08c80b8d8f594938b7.css" rel="stylesheet" />
     <link href="assets/css/f41e8f7385693749b718b4f40443b506.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/fonts.css" rel="stylesheet" />
+<%--    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/fonts.css" rel="stylesheet" />--%>
     <link href="assets/css/jquery.selectBox.css" rel="stylesheet" />
     <link href="assets/css/main.css" rel="stylesheet" />
     <link href="assets/css/mainStyle.css" rel="stylesheet" />
@@ -45,9 +45,9 @@
     <link href="assets/css/post-2566.css?786543" rel="stylesheet" />
     <link href="assets/css/post-1215.css?060030" rel="stylesheet" />
     <link href="assets/css/prettyPhoto-rtl.css" rel="stylesheet" />
-    <link href="assets/css/pzy-services-list-main.css" rel="stylesheet" />
-    <link href="assets/css/pzy-staffs-schedule-main.css?567465152" rel="stylesheet" />
-    <link href="assets/css/pzy-staffs-slider-main.css" rel="stylesheet" />
+    <link href="assets/css/pzy-services-list-main.css?567654" rel="stylesheet" />
+    <link href="assets/css/pzy-staffs-schedule-main.css?8732210" rel="stylesheet" />
+    <link href="assets/css/pzy-staffs-slider-main.css?012315" rel="stylesheet" />
     <link href="assets/css/rate-my-post.min.css" rel="stylesheet" />
     <link href="assets/css/root.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet" />
@@ -68,7 +68,7 @@
     <link href="assets/css/InlineStyle.css?876545" rel="stylesheet" />
     <link href="assets/css/inlineStyle2.css?645654" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
-    <link href="assets/css/custom.css?98745341" rel="stylesheet" />
+    <link href="assets/css/custom.css?3565988665" rel="stylesheet" />
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -587,7 +587,7 @@
                                             <div class="newsletter-widget">
                                                 <form class="newsletter-form">
                                                     <div class="pzy-content-area pzy-d-flex pzy-flex-row-wrap">
-                                                        <input class="pzy-flex-1" type="text" name="contact" required placeholder="شماره تماس یا ایمیل خود را وارد کنید">
+                                                        <input class="pzy-flex-1" type="text" name="contact"  placeholder="شماره تماس یا ایمیل خود را وارد کنید">
                                                         <button class="pzy-d-flex pzy-flex-row-wrap pzy-align-items-center">
                                                             ثبت                       
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
@@ -876,10 +876,10 @@
                                                             <h3 class="elementor-icon-box-title">
                                                                 <span>آدرس: 
                                                                      <asp:FormView ID="FormView3" runat="server" DataSourceID="SqlAbout">
-                                                                        <ItemTemplate>
-                                                                            <%#Eval("aAddress") %>
-                                                                        </ItemTemplate>
-                                                                    </asp:FormView>
+                                                                         <ItemTemplate>
+                                                                             <%#Eval("aAddress") %>
+                                                                         </ItemTemplate>
+                                                                     </asp:FormView>
                                                                 </span>
                                                             </h3>
 
@@ -913,7 +913,7 @@
 
                                                             <h3 class="elementor-icon-box-title">
                                                                 <span>
-                                                                     <asp:FormView ID="FormView4" runat="server" DataSourceID="SqlAbout">
+                                                                    <asp:FormView ID="FormView4" runat="server" DataSourceID="SqlAbout">
                                                                         <ItemTemplate>
                                                                             <%#Eval("aWorkTime") %>
                                                                         </ItemTemplate>
@@ -1038,268 +1038,15 @@
 
 
 
-
-
-        <%--          <script>
-            (function () {
-                const calculateParentDistance = (child, parent) => {
-                    let count = 0;
-                    let currentElement = child;
-
-                    // Traverse up the DOM tree until we reach parent or the top of the DOM
-                    while (currentElement && currentElement !== parent) {
-                        currentElement = currentElement.parentNode;
-                        count++;
-                    }
-
-                    // If parent was not found in the hierarchy, return -1
-                    if (!currentElement) {
-                        return -1; // Indicates parent is not an ancestor of element
-                    }
-
-                    return count; // Number of layers between element and parent
-                }
-                const isMatchingClass = (linkRule, href, classes) => {
-                    return classes.includes(linkRule.value)
-                }
-                const isMatchingDomain = (linkRule, href, classes) => {
-                    if (!URL.canParse(href)) {
-                        return false
-                    }
-
-                    const url = new URL(href)
-
-                    return linkRule.value === url.host
-                }
-                const isMatchingExtension = (linkRule, href, classes) => {
-                    if (!URL.canParse(href)) {
-                        return false
-                    }
-
-                    const url = new URL(href)
-
-                    return url.pathname.endsWith('.' + linkRule.value)
-                }
-                const isMatchingSubdirectory = (linkRule, href, classes) => {
-                    if (!URL.canParse(href)) {
-                        return false
-                    }
-
-                    const url = new URL(href)
-
-                    return url.pathname.startsWith('/' + linkRule.value + '/')
-                }
-                const isMatchingProtocol = (linkRule, href, classes) => {
-                    if (!URL.canParse(href)) {
-                        return false
-                    }
-
-                    const url = new URL(href)
-
-                    return url.protocol === linkRule.value + ':'
-                }
-                const isMatch = (linkRule, href, classes) => {
-                    switch (linkRule.type) {
-                        case 'class':
-                            return isMatchingClass(linkRule, href, classes)
-                        case 'domain':
-                            return isMatchingDomain(linkRule, href, classes)
-                        case 'extension':
-                            return isMatchingExtension(linkRule, href, classes)
-                        case 'subdirectory':
-                            return isMatchingSubdirectory(linkRule, href, classes)
-                        case 'protocol':
-                            return isMatchingProtocol(linkRule, href, classes)
-                        default:
-                            return false;
-                    }
-                }
-                const track = (element) => {
-                    const href = element.href ?? null
-                    const classes = Array.from(element.classList)
-                    const linkRules = [{ "type": "extension", "value": "pdf" }, { "type": "extension", "value": "zip" }, { "type": "protocol", "value": "mailto" }, { "type": "protocol", "value": "tel" }]
-                    if (linkRules.length === 0) {
-                        return
-                    }
-
-                    // For link rules that target a class, we need to allow that class to appear
-                    // in any ancestor up to the 7th ancestor. This loop looks for those matches
-                    // and counts them.
-                    linkRules.forEach((linkRule) => {
-                        if (linkRule.type !== 'class') {
-                            return;
-                        }
-
-                        const matchingAncestor = element.closest('.' + linkRule.value)
-
-                        if (!matchingAncestor || matchingAncestor.matches('html, body')) {
-                            return;
-                        }
-
-                        const depth = calculateParentDistance(element, matchingAncestor)
-
-                        if (depth < 7) {
-                            classes.push(linkRule.value)
-                        }
-                    });
-
-                    const hasMatch = linkRules.some((linkRule) => {
-                        return isMatch(linkRule, href, classes)
-                    })
-
-                    if (!hasMatch) {
-                        return
-                    }
-
-                    const url = "https://pezeshk-yar.ir/wp-content/plugins/independent-analytics/iawp-click-endpoint.php";
-                    const body = {
-                        href: href,
-                        classes: classes.join(' '),
-                        ...{ "payload": { "resource": "singular", "singular_id": 131, "page": 1 }, "signature": "f43071a06a48aeeb19bd1c8f66c38420" }
-                    };
-
-                    if (navigator.sendBeacon) {
-                        let blob = new Blob([JSON.stringify(body)], {
-                            type: "application/json"
-                        });
-                        navigator.sendBeacon(url, blob);
-                    } else {
-                        const xhr = new XMLHttpRequest();
-                        xhr.open("POST", url, true);
-                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-                        xhr.send(JSON.stringify(body))
-                    }
-                }
-                document.addEventListener('mousedown', function (event) {
-                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
-                        return;
-                    }
-
-                    const element = event.target.closest('a')
-
-                    if (!element) {
-                        return
-                    }
-
-                    const isPro = false
-                    if (!isPro) {
-                        return
-                    }
-
-                    // Don't track left clicks with this event. The click event is used for that.
-                    if (event.button === 0) {
-                        return
-                    }
-
-                    track(element)
-                })
-                document.addEventListener('click', function (event) {
-                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
-                        return;
-                    }
-
-                    const element = event.target.closest('a, button, input[type="submit"], input[type="button"]')
-
-                    if (!element) {
-                        return
-                    }
-
-                    const isPro = false
-                    if (!isPro) {
-                        return
-                    }
-
-                    track(element)
-                })
-                document.addEventListener("DOMContentLoaded", function (e) {
-                    if (document.hasOwnProperty("visibilityState") && document.visibilityState === "prerender") {
-                        return;
-                    }
-
-                    if (navigator.webdriver || /bot|crawler|spider|crawling|semrushbot|chrome-lighthouse/i.test(navigator.userAgent)) {
-                        return;
-                    }
-
-                    let referrer_url = null;
-
-                    if (typeof document.referrer === 'string' && document.referrer.length > 0) {
-                        referrer_url = document.referrer;
-                    }
-
-                    const params = location.search.slice(1).split('&').reduce((acc, s) => {
-                        const [k, v] = s.split('=');
-                        return Object.assign(acc, { [k]: v });
-                    }, {});
-
-                    const url = "https://pezeshk-yar.ir/wp-json/iawp/search";
-                    const body = {
-                        referrer_url,
-                        utm_source: params.utm_source,
-                        utm_medium: params.utm_medium,
-                        utm_campaign: params.utm_campaign,
-                        utm_term: params.utm_term,
-                        utm_content: params.utm_content,
-                        gclid: params.gclid,
-                        ...{ "payload": { "resource": "singular", "singular_id": 131, "page": 1 }, "signature": "f43071a06a48aeeb19bd1c8f66c38420" }
-                    };
-
-                    if (navigator.sendBeacon) {
-                        let blob = new Blob([JSON.stringify(body)], {
-                            type: "application/json"
-                        });
-                        navigator.sendBeacon(url, blob);
-                    } else {
-                        const xhr = new XMLHttpRequest();
-                        xhr.open("POST", url, true);
-                        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-                        xhr.send(JSON.stringify(body))
-                    }
-                });
-            })();
-        </script>
-        <script type='text/javascript'>
-            const lazyloadRunObserver = () => {
-                const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
-                const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
-                    entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                            let lazyloadBackground = entry.target;
-                            if (lazyloadBackground) {
-                                lazyloadBackground.classList.add('e-lazyloaded');
-                            }
-                            lazyloadBackgroundObserver.unobserve(entry.target);
-                        }
-                    });
-                }, { rootMargin: '200px 0px 200px 0px' });
-                lazyloadBackgrounds.forEach((lazyloadBackground) => {
-                    lazyloadBackgroundObserver.observe(lazyloadBackground);
-                });
-            };
-            const events = [
-                'DOMContentLoaded',
-                'elementor/lazyload/observe',
-            ];
-            events.forEach((event) => {
-                document.addEventListener(event, lazyloadRunObserver);
-            });
-        </script>
-        <script type='text/javascript'>
-            (function () {
-                var c = document.body.className;
-                c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-                document.body.className = c;
-            })();
-        </script>--%>
-
-
-
         <link rel='stylesheet' id='wc-blocks-style-rtl-css' href='https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-rtl.css?ver=wc-9.5.1' type='text/css' media='all' />
         <link rel='stylesheet' id='elementor-frontend-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-frontend-rtl.min.css?ver=1733764179' type='text/css' media='all' />
         <link rel='stylesheet' id='elementor-post-4497-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-4497.css?ver=1735312204' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-image-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-image-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
         <link rel='stylesheet' id='pzy-otp-button-css' href='https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-otp-button/main.css?ver=6.7.1' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-divider-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-divider-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
+
         <%--        <link rel='stylesheet' id='elementor-post-1215-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/post-1215.css?ver=1733770366' type='text/css' media='all' />--%>
+
         <link rel='stylesheet' id='widget-heading-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/css/widget-heading-rtl.min.css?ver=3.25.10' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-post-info-css' href='https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/css/widget-post-info-rtl.min.css?ver=3.25.4' type='text/css' media='all' />
         <link rel='stylesheet' id='widget-icon-list-css' href='https://pezeshk-yar.ir/wp-content/uploads/elementor/css/custom-widget-icon-list-rtl.min.css?ver=1733764179' type='text/css' media='all' />
@@ -1337,65 +1084,16 @@
         </script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
-        <script type="text/javascript" id="rate-my-post-js-extra">
+      <%--  <script type="text/javascript" id="rate-my-post-js-extra">
             /* <![CDATA[ */
             var rmp_frontend = { "admin_ajax": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "postID": "131", "noVotes": "\u0647\u0646\u0648\u0632 \u0627\u0645\u062a\u06cc\u0627\u0632\u06cc \u062b\u0628\u062a \u0646\u0634\u062f\u0647! \u0627\u0648\u0644\u06cc\u0646 \u0646\u0641\u0631\u06cc \u0628\u0627\u0634\u06cc\u062f \u06a9\u0647 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u0645\u06cc \u062f\u0647\u06cc\u062f.", "cookie": "\u0634\u0645\u0627 \u0642\u0628\u0644\u0627 \u0631\u0627\u06cc \u062f\u0627\u062f\u0647 \u0627\u06cc\u062f! \u0627\u06cc\u0646 \u0631\u0627\u06cc \u0628\u0647 \u062d\u0633\u0627\u0628 \u0646\u0645\u06cc \u0622\u06cc\u062f!", "afterVote": "\u0628\u0627\u0628\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u062f\u0627\u062f\u0646 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0645\u062a\u0634\u06a9\u0631\u06cc\u0645.", "notShowRating": "1", "social": "1", "feedback": "1", "cookieDisable": "1", "emptyFeedback": "Please insert your feedback in the box above!", "hoverTexts": "2", "preventAccidental": "1", "grecaptcha": "1", "siteKey": "", "votingPriv": "1", "loggedIn": "", "positiveThreshold": "2", "ajaxLoad": "1", "disableClearCache": "1", "nonce": "0c60ac4ea7" };
         /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.2.5" id="rate-my-post-js"></script>
+        </script>--%>
+        <%--<script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.2.5" id="rate-my-post-js"></script>--%>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-feather.js" id="init-feather-js"></script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-        <script type="text/javascript" id="pzy-newsletter-js-extra">
-            /* <![CDATA[ */
-            var pzy_newsletter_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "e3a4f789ec" };
-        /* ]]> */
-        </script>
+       
 
-
-
-
-        <%--        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-newsletter/main.js" id="pzy-newsletter-js"></script>
-        <script type="text/javascript" id="pzy-minicart-js-extra">
-            /* <![CDATA[ */
-            var pzy_mini_crt_obj = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "d9aab493ec" };
-        /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/elementor/assets/pzy-minicart/main.js" id="pzy-minicart-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.5.1" id="sourcebuster-js-js"></script>
-        <script type="text/javascript" id="wc-order-attribution-js-extra">
-            /* <![CDATA[ */
-            var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
-        /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.5.1" id="wc-order-attribution-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.25.4" id="elementor-pro-webpack-runtime-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.25.10" id="elementor-webpack-runtime-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.25.10" id="elementor-frontend-modules-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
-        <script type="text/javascript" id="wp-i18n-js-after">
-            /* <![CDATA[ */
-            wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['rtl'] });
-        /* ]]> */
-        </script>
-        <script type="text/javascript" id="elementor-pro-frontend-js-before">
-            /* <![CDATA[ */
-            var ElementorProFrontendConfig = { "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "nonce": "76c808b3d3", "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/assets\/", "rest": "https:\/\/pezeshk-yar.ir\/wp-json\/" }, "settings": { "lazy_load_background_images": true }, "popup": { "hasPopUps": false }, "shareButtonsNetworks": { "facebook": { "title": "Facebook", "has_counter": true }, "twitter": { "title": "Twitter" }, "linkedin": { "title": "LinkedIn", "has_counter": true }, "pinterest": { "title": "Pinterest", "has_counter": true }, "reddit": { "title": "Reddit", "has_counter": true }, "vk": { "title": "VK", "has_counter": true }, "odnoklassniki": { "title": "OK", "has_counter": true }, "tumblr": { "title": "Tumblr" }, "digg": { "title": "Digg" }, "skype": { "title": "Skype" }, "stumbleupon": { "title": "StumbleUpon", "has_counter": true }, "mix": { "title": "Mix" }, "telegram": { "title": "Telegram" }, "pocket": { "title": "Pocket", "has_counter": true }, "xing": { "title": "XING", "has_counter": true }, "whatsapp": { "title": "WhatsApp" }, "email": { "title": "Email" }, "print": { "title": "Print" }, "x-twitter": { "title": "X" }, "threads": { "title": "Threads" } }, "woocommerce": { "menu_cart": { "cart_page_url": "https:\/\/pezeshk-yar.ir\/cart\/", "checkout_page_url": "https:\/\/pezeshk-yar.ir\/checkout\/", "fragments_nonce": "5f19eb3e94" } }, "facebook_sdk": { "lang": "fa_IR", "app_id": "" }, "lottie": { "defaultAnimationUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json" } };
-        /* ]]> */
-        </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.25.4" id="elementor-pro-frontend-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
-        <script type="text/javascript" id="elementor-frontend-js-before">
-            /* <![CDATA[ */
-            var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Facebook", "shareOnTwitter": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc \u062f\u0631 Twitter", "pinIt": "\u067e\u06cc\u0646 \u06a9\u0646\u06cc\u062f", "download": "\u062f\u0627\u0646\u0644\u0648\u062f", "downloadImage": "\u062f\u0627\u0646\u0644\u0648\u062f \u062a\u0635\u0648\u06cc\u0631", "fullscreen": "\u062a\u0645\u0627\u0645\u200c\u0635\u0641\u062d\u0647", "zoom": "\u0628\u0632\u0631\u06af\u0646\u0645\u0627\u06cc\u06cc", "share": "\u0627\u0634\u062a\u0631\u0627\u06a9 \u06af\u0630\u0627\u0631\u06cc", "playVideo": "\u067e\u062e\u0634 \u0648\u06cc\u062f\u06cc\u0648", "previous": "\u0642\u0628\u0644\u06cc", "next": "\u0628\u0639\u062f\u06cc", "close": "\u0628\u0633\u062a\u0646", "a11yCarouselWrapperAriaLabel": "\u0686\u0631\u062e \u0641\u0644\u06a9 | \u067e\u06cc\u0645\u0627\u06cc\u0634 \u0627\u0641\u0642\u06cc: \u0641\u0644\u0634 \u0686\u067e \u0648 \u0631\u0627\u0633\u062a", "a11yCarouselPrevSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0642\u0628\u0644\u06cc", "a11yCarouselNextSlideMessage": "\u0627\u0633\u0644\u0627\u06cc\u062f \u0628\u0639\u062f\u06cc", "a11yCarouselFirstSlideMessage": "\u0627\u06cc\u0646 \u0627\u0648\u0644\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselLastSlideMessage": "\u0627\u06cc\u0646 \u0622\u062e\u0631\u06cc\u0646 \u0627\u0633\u0644\u0627\u06cc\u062f \u0627\u0633\u062a", "a11yCarouselPaginationBulletMessage": "\u0631\u0641\u062a\u0646 \u0628\u0647 \u0627\u0633\u0644\u0627\u06cc\u062f" }, "is_rtl": true, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644", "value": 880, "default_value": 880, "direction": "max", "is_enabled": true }, "tablet": { "label": "\u062d\u0627\u0644\u062a \u0639\u0645\u0648\u062f\u06cc \u062a\u0628\u0644\u062a", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "\u062d\u0627\u0644\u062a \u0627\u0641\u0642\u06cc \u062a\u0628\u0644\u062a", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "\u0644\u067e \u062a\u0627\u067e", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "\u0635\u0641\u062d\u0647 \u0639\u0631\u06cc\u0636 (Widescreen)", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } }, "hasCustomBreakpoints": true }, "version": "3.25.10", "is_static": false, "experimentalFeatures": { "e_font_icon_svg": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "e_nested_atomic_repeaters": true, "e_optimized_control_loading": true, "e_onboarding": true, "e_css_smooth_scroll": true, "theme_builder_v2": true, "home_screen": true, "nested-elements": true, "editor_v2": true, "link-in-bio": true, "floating-buttons": true, "mega-menu": true }, "urls": { "assets": "https:\/\/pezeshk-yar.ir\/wp-content\/plugins\/elementor\/assets\/", "ajaxurl": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "uploadUrl": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads" }, "nonces": { "floatingButtonsClickTracking": "a12b686f5f" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "woocommerce_notices_elements": ["wc_info"], "active_breakpoints": ["viewport_mobile", "viewport_mobile_extra", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 131, "title": "%D8%AF%DA%A9%D8%AA%D8%B1%20%D9%85%D8%A8%DB%8C%D9%86%20%D8%A7%D9%85%DB%8C%D9%86%20%E2%80%93%20%D9%BE%D8%B2%D8%B4%DA%A9%20%DB%8C%D8%A7%D8%B1", "excerpt": "", "featuredImage": "https:\/\/pezeshk-yar.ir\/wp-content\/uploads\/2024\/07\/505bf06b8a869cce52904994307143db.png" } };
-/* ]]> */
-        </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.25.10" id="elementor-frontend-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.25.4" id="pro-elements-handlers-js"></script>--%>
-
-
-
-        <%--        <script type="text/javascript" src="assets/js/swiper-bundle.min.js" id="swiper.js-js"></script>--%>
     </form>
 </body>
 </html>

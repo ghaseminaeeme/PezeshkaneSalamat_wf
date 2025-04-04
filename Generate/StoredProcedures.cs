@@ -51,6 +51,18 @@ namespace DalWebSite{
         }
         
         /// <summary>
+        /// Creates an object wrapper for the GetDoctorAppointments_old Procedure
+        /// </summary>
+        public static StoredProcedure GetDoctorAppointmentsOld(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("GetDoctorAppointments_old", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
         /// Creates an object wrapper for the insertApointment Procedure
         /// </summary>
         public static StoredProcedure InsertApointment(int? doctorId, int? num, int? shift, string startTime, int? time, string dateX)

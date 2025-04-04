@@ -79,7 +79,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     _TblDoctor.DEmail = TxtEmail.Text;
                     _TblDoctor.DAparat = TxtAparat.Text;
                     _TblDoctor.DInstagram = TxtIns.Text;
-                   // _TblDoctor.DEndDate = _ClassControl.convertPersianDateToGregorian(TxtDate.Text);
+                    _TblDoctor.DEndDate = _ClassControl.convertPersianDateToGregorian2(TxtDate.Text);
                     _TblDoctor.DStatus = Byte.Parse(DrdStatus.SelectedValue);
                     _TblDoctor.DWebsite = TxtWeb.Text;
                     _TblDoctor.DMobile = TxtMobile.Text;
@@ -89,7 +89,8 @@ namespace pezeshkaneSalamat_wf.Admin
                     _TblDoctor.DWorkTime = TxtTime.Text;
                     _TblDoctor.DUsername = TxtUser.Text;
                     _TblDoctor.DVideo = TxtVideo.Text;
-                    if (CheckBox1.Checked == true)
+                    _TblDoctor.DEditDate = DateTime.Today;
+                if (CheckBox1.Checked == true)
                         _TblDoctor.DSpecialAd = true;
                     else
                         _TblDoctor.DSpecialAd = false;
@@ -99,7 +100,7 @@ namespace pezeshkaneSalamat_wf.Admin
 
                     if (Fu1.FileName != "")
                     {
-                        _TblDoctor.DImg = UploadFiles("330", "330", "../upload/doctors/" + Request.QueryString["did"] + ".jpg", 0);
+                        _TblDoctor.DImg = UploadFiles("", "", "../upload/doctors/" + Request.QueryString["did"] + ".jpg", 0);
                     }
                     //if (FileUpload1.FileName != "")
                     //{
@@ -114,8 +115,9 @@ namespace pezeshkaneSalamat_wf.Admin
             }
             catch (Exception ex)
             {
+
                 string errMsg = ex.Message;
-                err.InnerText = "متاسفانه خطایی رخ داده است! لطفا مجددا سعی نمایید.";
+                 err.InnerText = "متاسفانه خطایی رخ داده است! لطفا مجددا سعی نمایید. " + errMsg;
                 err.Visible = true;
             }
         }

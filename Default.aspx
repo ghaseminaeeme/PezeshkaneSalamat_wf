@@ -259,7 +259,7 @@
                 <asp:ListView ID="ListSpecialDoctors" runat="server" DataSourceID="SqlSpecialDoctors">
                     <ItemTemplate>
                         <article class="pzy-staff-card">
-                            <div class="pzy-staff-special">
+                          <%--  <div class="pzy-staff-special">
 
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -274,12 +274,12 @@
                                         <rect width="16" height="16" fill="white" />
                                     </defs>
                                 </svg>
-                            </div>
+                            </div>--%>
                              <a class="pzy-request-staff-button special-ads" data-staff="131" href=''>
                                     آگهی ویژه                        
                                 </a>
                             <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
-                                style="background: #77df9b">
+                                style="background: #00dca7">
 
                                
 

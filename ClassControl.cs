@@ -612,13 +612,25 @@ namespace website
         }
 
 
-        public  DateTime convertPersianDateToGregorian2(string dateVal)
+        public DateTime convertPersianDateToGregorian2(string dateVal)
         {
+            if (string.IsNullOrWhiteSpace(dateVal))
+                throw new ArgumentException("Date value cannot be empty.");
+
             // Convert Persian digits to English digits
             string date2 = Regex.Replace(dateVal, "[۰-۹]", x => ((char)(x.Value[0] - '۰' + '0')).ToString());
 
-            // Parse the date with hours and minutes
-            DateTime dt = DateTime.ParseExact(date2, "yyyy/M/d H:m", CultureInfo.InvariantCulture);
+            DateTime dt;
+
+            // Try parsing with time first
+            if (!DateTime.TryParseExact(date2, "yyyy/M/d H:m", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt))
+            {
+                // If it fails, try without time
+                if (!DateTime.TryParseExact(date2, "yyyy/M/d", CultureInfo.InvariantCulture, DateTimeStyles.None, out dt))
+                {
+                    throw new FormatException("Invalid Persian date format.");
+                }
+            }
 
             // Convert to Gregorian using PersianCalendar
             PersianCalendar pc = new PersianCalendar();
@@ -626,6 +638,22 @@ namespace website
 
             return dt2;
         }
+
+
+        public string ToPersianDate(DateTime date)
+        {
+            PersianCalendar persianCalendar = new PersianCalendar();
+            int year = persianCalendar.GetYear(date);
+            int month = persianCalendar.GetMonth(date);
+            int day = persianCalendar.GetDayOfMonth(date);
+            DayOfWeek dayOfWeek = persianCalendar.GetDayOfWeek(date);
+
+            string[] persianMonths = { "فروردین", "اردیبهشت", "خرداد", "تیر", "مرداد", "شهریور", "مهر", "آبان", "آذر", "دی", "بهمن", "اسفند" };
+            string[] persianDays = { "یکشنبه", "دوشنبه", "سه‌شنبه", "چهارشنبه", "پنج‌شنبه", "جمعه", "شنبه" };
+
+            return $"{persianDays[(int)dayOfWeek]} {day} {persianMonths[month - 1]}";
+        }
+
     }
 
 }
