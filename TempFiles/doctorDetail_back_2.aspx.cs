@@ -132,6 +132,16 @@ namespace pezeshkaneSalamat_wf.TempFiles
                 string firstDate = ds.Tables[0].Rows[0]["AppointmentDate"].ToString();
                 HiddenSelectedDate.Value = firstDate;
                 LoadAppointmentTimes(firstDate);
+                lblNoDatesMessage.Visible = false;
+                Button3.Visible = true;
+            }
+
+            else
+            {
+                lblNoDatesMessage.Visible = true;
+                RepeaterTimes.DataSource = null;
+                RepeaterTimes.DataBind();
+                Button3.Visible = false;
             }
         }
 
@@ -194,7 +204,8 @@ namespace pezeshkaneSalamat_wf.TempFiles
                 string persianDate = ToPersianDate(appointmentDate);
 
                 // Find the LinkButton and update its text
-                LinkButton btn = (LinkButton)e.Item.FindControl("LinkButton1");
+                // LinkButton btn = (LinkButton)e.Item.FindControl("LinkButton1");
+                Button btn = (Button)e.Item.FindControl("Button2");
                 if (btn != null)
                 {
                     btn.Text = persianDate;

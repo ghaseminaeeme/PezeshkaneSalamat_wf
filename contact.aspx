@@ -7,7 +7,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <ul id="breadcrumbs" class="pzy-breadcrumb-list">
-        <li class="pzy-breadcrumb-list-item"><a href="/default.aspx">صفحه اصلی</a></li>
+        <li class="pzy-breadcrumb-list-item"><a href="/default.aspx"> خانه </a></li>
         <li class="pzy-breadcrumb-separator">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left">
                 <polyline points="15 18 9 12 15 6"></polyline></svg></li>

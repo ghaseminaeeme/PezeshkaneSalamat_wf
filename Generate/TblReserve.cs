@@ -174,7 +174,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarRTime = new TableSchema.TableColumn(schema);
 				colvarRTime.ColumnName = "rTime";
 				colvarRTime.DataType = DbType.AnsiString;
-				colvarRTime.MaxLength = 50;
+				colvarRTime.MaxLength = 10;
 				colvarRTime.AutoIncrement = false;
 				colvarRTime.IsNullable = true;
 				colvarRTime.IsPrimaryKey = false;

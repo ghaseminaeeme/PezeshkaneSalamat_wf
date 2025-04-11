@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Select2 -->
-<%--        <link href="/assets/css/select2.min.css" rel="stylesheet">
+    <%--        <link href="/assets/css/select2.min.css" rel="stylesheet">
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/select2.min.js"></script>--%>
 
@@ -259,7 +259,7 @@
                 <asp:ListView ID="ListSpecialDoctors" runat="server" DataSourceID="SqlSpecialDoctors">
                     <ItemTemplate>
                         <article class="pzy-staff-card">
-                          <%--  <div class="pzy-staff-special">
+                            <%--  <div class="pzy-staff-special">
 
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -275,13 +275,9 @@
                                     </defs>
                                 </svg>
                             </div>--%>
-                             <a class="pzy-request-staff-button special-ads" data-staff="131" href=''>
-                                    آگهی ویژه                        
-                                </a>
-                            <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
-                                style="background: #00dca7">
-
-                               
+                            <a class="pzy-request-staff-button special-ads" data-staff="131" href=''>آگهی ویژه                        
+                            </a>
+                            <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative">
 
                                 <a href='/job/<%#Eval("dUrl") %>'
                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
@@ -353,6 +349,15 @@
                     </SelectParameters>
                 </asp:SqlDataSource>
 
+                <div class="pzy-pagination-links">
+
+                    <asp:DataPager ID="DataPager1" runat="server" PagedControlID="ListSpecialDoctors" PageSize="30" class="pagination">
+                        <Fields>
+                            <asp:NumericPagerField ButtonCount="10" CurrentPageLabelCssClass="active" ButtonType="Link" />
+                        </Fields>
+                    </asp:DataPager>
+
+                </div>
 
             </div>
 
@@ -440,4 +445,3 @@
 
 
 </asp:Content>
-        

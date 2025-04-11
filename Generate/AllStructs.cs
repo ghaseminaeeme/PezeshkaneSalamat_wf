@@ -83,6 +83,8 @@ namespace DalWebSite
         
 		public static readonly string TblState = @"TblState";
         
+		public static readonly string TblTemp = @"TblTemp";
+        
 		public static readonly string TblUser = @"TblUser";
         
 		public static readonly string TblVideo = @"TblVideo";
@@ -252,6 +254,11 @@ namespace DalWebSite
 		public static TableSchema.Table TblState
 		{
             get { return DataService.GetSchema("TblState", "DbWebSiteConnectionString"); }
+		}
+        
+		public static TableSchema.Table TblTemp
+		{
+            get { return DataService.GetSchema("TblTemp", "DbWebSiteConnectionString"); }
 		}
         
 		public static TableSchema.Table TblUser

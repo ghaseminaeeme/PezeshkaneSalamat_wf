@@ -2,8 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <main>
 
         <div data-elementor-type="single-post" data-elementor-id="1215" class="elementor elementor-1215 pzy-loop-item post-131 pzy_staff type-pzy_staff status-publish has-post-thumbnail hentry pzy_service-31 pzy_service-25 pzy_service-24 pzy_service-22 pzy_service-28" data-elementor-post-type="elementor_library">
@@ -41,7 +40,7 @@
                                     <div class='swiper custom-init swiper-container'>
                                         <div class='swiper-wrapper'>
 
-                                            <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlImages">
+                                            <asp:Repeater ID="RepeaterGallery" runat="server" DataSourceID="SqlImages">
                                                 <ItemTemplate>
                                                     <div class="swiper-slide dr-img-list">
                                                         <div class="pzy-slide-content">
@@ -88,12 +87,68 @@
                             <div class="elementor-element elementor-element-92a6065 e-con-full e-flex e-con e-child" data-id="92a6065" data-element_type="container">
                                 <div class="elementor-widget-container">
                                     <div class='pzy-gallery pzy-staff-gallery pzy-d-flex pzy-flex-column-reverse-nowrap'>
-                                        <div class="progile-img">
+                                        <%-- <div class="progile-img">
                                             <img src='<%#Eval("dImg") %>' alt='<%#Eval("dName") %>' loading='lazy' />
+                                        </div>--%>
+
+
+                                        <div id="imageSlider" class="slider-wrapper">
+                                            <asp:Repeater ID="RepeaterGallery" runat="server" DataSourceID="SqlImages">
+                                                <ItemTemplate>
+                                                    <div class="slide">
+                                                        <img src='<%# Eval("pic") %>' alt='<%# Eval("title") %>' loading='lazy' />
+                                                    </div>
+                                                </ItemTemplate>
+                                            </asp:Repeater>
                                         </div>
+
+                                        <!-- Slider controls -->
+                                        <div class="slider-controls">
+                                            <a onclick="prevSlide()">&#10094;</a>
+                                            <a onclick="nextSlide()">&#10095;</a>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
+
+
+                            <script>
+                                let currentSlide = 0;
+                                let slides;
+
+                                function showSlide(index) {
+                                    slides = document.querySelectorAll('.slide');
+                                    if (index >= slides.length) currentSlide = 0;
+                                    else if (index < 0) currentSlide = slides.length - 1;
+                                    else currentSlide = index;
+
+                                    slides.forEach((slide, i) => {
+                                        slide.style.display = (i === currentSlide) ? 'block' : 'none';
+                                    });
+                                }
+
+                                function nextSlide() {
+                                    showSlide(currentSlide + 1);
+                                }
+
+                                function prevSlide() {
+                                    showSlide(currentSlide - 1);
+                                }
+
+                                // Auto slide every 4 seconds
+                                setInterval(() => {
+                                    nextSlide();
+                                }, 4000);
+
+                                // Initialize after page load
+                                window.onload = function () {
+                                    showSlide(0);
+                                };
+                            </script>
+
+
 
                             <!-- ============ Description ==========  -->
                             <div class="elementor-element elementor-element-d900330 e-con-full pzy-staffs-consultation e-flex e-con e-child" data-id="d900330" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -276,7 +331,8 @@
                                         </div>
                                         <div class="pzy-staffs-schedules-actions">
                                             <div class="pzy-select-date">
-                                                <button class="pzy-select-date-button">انتخاب تاریخ </button>
+                                                <asp:Button ID="Button3" runat="server" Text="انتخاب تاریخ" class="pzy-select-date-button" />
+                                                <%--<button class="pzy-select-date-button">انتخاب تاریخ </button>--%>
                                             </div>
                                         </div>
                                     </div>
@@ -303,11 +359,24 @@
                                     <asp:UpdatePanel ID="UpdatePanelAppointment" runat="server">
                                         <ContentTemplate>
                                             <div class="pzy-staffs-schedules-categories w-100">
+                                                <asp:Label ID="lblNoDatesMessage" runat="server"
+                                                    Text="برای این پزشک هنوز زمان‌بندی نوبت ثبت نشده است."
+                                                    CssClass="no-dates-message"
+                                                    Visible="false" />
                                                 <div class='pzy-services'>
 
                                                     <asp:Repeater ID="Repeater1" runat="server" OnItemDataBound="Repeater1_ItemDataBound" OnItemCommand="Repeater1_ItemCommand">
                                                         <ItemTemplate>
-                                                            <asp:LinkButton ID="LinkButton1" runat="server"
+                                                            <asp:Button ID="Button2" runat="server" Text=' <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>'
+                                                                CssClass='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") == HiddenSelectedDate.Value ? 
+                                                            "h3-20-bold pzy-staffs-schedules-category-button selected-date" : 
+                                                            "h3-20-bold pzy-staffs-schedules-category-button"  %> '
+                                                                CommandName="SelectDate"
+                                                                CommandArgument='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>'
+                                                                CausesValidation="false"
+                                                                UseSubmitBehavior="false" />
+
+                                                            <%-- <asp:LinkButton ID="LinkButton1" runat="server"
                                                                 CssClass='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") == HiddenSelectedDate.Value ? 
                                                             "h3-20-bold pzy-staffs-schedules-category-button selected-date" : 
                                                             "h3-20-bold pzy-staffs-schedules-category-button"  %> '
@@ -316,11 +385,13 @@
                                                                 CausesValidation="false"
                                                                 UseSubmitBehavior="false">
                                                             <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>
-                                                            </asp:LinkButton>
-                                                            <asp:HiddenField ID="HiddenField1" runat="server" Value='<%# HiddenSelectedDate.Value %>' />
-                                                        </ItemTemplate>
-                                                    </asp:Repeater>
+                                                            </asp:LinkButton>--%>
 
+                                                            <asp:HiddenField ID="HiddenField1" runat="server" Value='<%# HiddenSelectedDate.Value %>' />
+
+                                                        </ItemTemplate>
+
+                                                    </asp:Repeater>
 
 
                                                     <asp:HiddenField ID="HiddenSelectedDate" runat="server" />
@@ -542,7 +613,7 @@
                                     <div class="elementor-icon-box-wrapper">
 
                                         <div class="elementor-icon-box-icon">
-                                            <a href="https://pezeshk-yar.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa/" class="elementor-icon elementor-animation-" tabindex="-1">
+                                            <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                     <g id="chevron-left">
                                                         <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -656,13 +727,8 @@
                                     <span></span>
                                     <div id="commentform" class="comment-form">
                                         <p class="comment-notes"><span id="email-notes">اطلاعات شما منتشر نخواهد شد.</span> <span class="required-field-message">بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></span></p>
-                                       
-                                         <div class="comment-form-row comment-form-author">
-                                            <div class="input-append">
-                                               
-                                            </div>
-                                        </div>
-                                        
+
+
                                         <div class="comment-form-row comment-form-author">
                                             <div class="input-append">
                                                 <input placeholder="نام و نام خانوادگی:" id="author" name="author" type="text" value="" size="30" aria-required="true" required /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -678,7 +744,7 @@
 
                                         <div class="comment-form-cookies-consent">
                                             <div class="comment-form-submit-box">
-                                                <asp:Button ID="Button1" runat="server" Text="ثبت" class="submit" ValidationGroup="reserve" OnClick="Button1_Click" />
+                                                <asp:Button ID="Button1" runat="server" Text="ثبت" class="submit" ValidationGroup="reserve" OnClick="Button1_Click" Enabled="false" />
                                                 <%--   <p class="form-submit">
 
                                                <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه" />
@@ -755,6 +821,5 @@
 
             <!-- ========== Appointment Modal ========== -->
     </main>
-
 
 </asp:Content>

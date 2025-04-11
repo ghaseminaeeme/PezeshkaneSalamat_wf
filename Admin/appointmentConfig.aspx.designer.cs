@@ -132,6 +132,15 @@ namespace pezeshkaneSalamat_wf.Admin
         protected global::System.Web.UI.WebControls.TextBox TxtTime;
 
         /// <summary>
+        /// DrdState control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DrdState;
+
+        /// <summary>
         /// btnSave control.
         /// </summary>
         /// <remarks>

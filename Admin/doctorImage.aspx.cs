@@ -37,7 +37,12 @@ namespace pezeshkaneSalamat_wf.Admin
                     TblDoctorImage _TblDoctorImage = new TblDoctorImage();
                     if (Fu1.FileName != "")
                     {
-                        _TblDoctorImage.DPicture = UploadFiles("", "", "../Upload/doctors/dr-" + Id.ToString() + ".jpg", 0);
+                       // _TblDoctorImage.DPicture = UploadFiles("", "", "../Upload/doctors/dr-" + Id.ToString() + ".jpg", 0);
+
+                        string filename = Fu1.FileName;
+                        string ext = Path.GetExtension(Fu1.PostedFile.FileName);
+                        Fu1.SaveAs(Server.MapPath("../Upload/doctors/dr-" + Id + ext));
+                        _TblDoctorImage.DPicture = ("/Upload/doctors/dr-" + Id + ext);
                     }
                     _TblDoctorImage.DDoctorFk = int.Parse(Request.QueryString["did"]);
                     _TblDoctorImage.Save();
@@ -50,7 +55,12 @@ namespace pezeshkaneSalamat_wf.Admin
                     TblDoctorImage _TblDoctorImage = new TblDoctorImage(Request.Cookies["Editid"].Value);
                     if (Fu1.FileName != "")
                     {
-                        _TblDoctorImage.DPicture = UploadFiles("", "", "../Upload/doctors/dr-" + Request.Cookies["Editid"].Value + ".jpg", 0);
+                        // _TblDoctorImage.DPicture = UploadFiles("", "", "../Upload/doctors/dr-" + Request.Cookies["Editid"].Value + ".jpg", 0);
+
+                        string filename = Fu1.FileName;
+                        string ext = Path.GetExtension(Fu1.PostedFile.FileName);
+                        Fu1.SaveAs(Server.MapPath("../Upload/doctors/dr-" + Request.Cookies["Editid"].Value + ext));
+                        _TblDoctorImage.DPicture = ("/Upload/doctors/dr-" + Request.Cookies["Editid"].Value + ext);
                     }
                     _TblDoctorImage.DDoctorFk = int.Parse(Request.QueryString["did"]);
                     _TblDoctorImage.Save();

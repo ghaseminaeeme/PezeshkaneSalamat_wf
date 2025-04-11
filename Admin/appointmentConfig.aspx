@@ -152,15 +152,15 @@
                                     عملیات با موفقیت انجام شد.
                                 </div>
 
-                                <div class="form-group col-md-6 col-xs-12 pull-right">
+                                <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>انتخاب شیفت</label>
                                     <asp:DropDownList ID="DrdShift" runat="server" class="form-control form-control-md">
                                         <asp:ListItem Value="1" Text="شیفت اول"></asp:ListItem>
                                         <asp:ListItem Value="2" Text="شیفت دوم"></asp:ListItem>
                                     </asp:DropDownList>
                                 </div>
-                                <hr>
-                                <div class="form-group col-md-6 col-xs-12 pull-right">
+                                <hr />
+                                <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>تاریخ و ساعت شروع نوبت</label>
 
                                     <asp:TextBox ID="TxtDate" runat="server" class="form-control farsi-input farsi-font" placeholder="تاریخ شمسی و ساعت قالب ۲۴ ساعته"></asp:TextBox>
@@ -171,14 +171,22 @@
                                     </div>
                                 </div>
                                 <hr>
-                                <div class="form-group col-md-6 col-xs-12 pull-right">
+                                <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>تعداد</label>
                                     <asp:TextBox ID="TxtNum" class="form-control" runat="server"></asp:TextBox>
                                 </div>
                                 <hr>
-                                <div class="form-group col-md-12 col-xs-12 pull-right">
+                                <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>زمان هر ملاقات به دقیقه</label>
                                     <asp:TextBox ID="TxtTime" class="form-control" runat="server" MaxLength="300"></asp:TextBox>
+                                </div>
+                                <hr />
+                                <div class="form-group col-md-4 col-xs-12 pull-right">
+                                    <label>وضعیت</label>
+                                    <asp:DropDownList ID="DrdState" runat="server" class="form-control form-control-md">
+                                        <asp:ListItem Value="1" Text="فعال"></asp:ListItem>
+                                        <asp:ListItem Value="0" Text="غیر فعال"></asp:ListItem>
+                                    </asp:DropDownList>
                                 </div>
                                 <hr />
                                 <div class="form-group col-md-12">
@@ -205,24 +213,26 @@
                     <!-- CUSTOM SCRIPTS -->
                     <script src="assets/js/custom.js"></script>
 
+                </div>
+            </div>
 
+            <script type="text/javascript">
+                Calendar.setup({
+                    inputField: "TxtDate",   // id of the input field
+                    button: "date_btn_two",   // trigger for the calendar (button ID)
+                   // ifFormat: "%Y/%m/%d %H:%M",       // format of the input field
+                    ifFormat: "%H:%M",
+                    showsTime: true,
+                    dateType: 'jalali',
+                    timeFormat: "24",
+                    weekNumbers: false
+                });
+            </script>
 
-                    <script type="text/javascript">
-                        Calendar.setup({
-                            inputField: "TxtDate",   // id of the input field
-                            button: "date_btn_two",   // trigger for the calendar (button ID)
-                            ifFormat: "%Y/%m/%d %H:%M",       // format of the input field
-                            showsTime: true,
-                            dateType: 'jalali',
-                            timeFormat: "24",
-                            weekNumbers: false
-                        });
-                    </script>
-
-                    <script src="assets/DateTimePicker/jquery.min.js"></script>
-                    <script src="assets/DateTimePicker/swiper-bundle.min.js"></script>
-                    <script src="assets/DateTimePicker/jquery.magnific-popup.min.js"></script>
-                    <script src="assets/DateTimePicker/main.min.js"></script>
+            <script src="assets/DateTimePicker/jquery.min.js"></script>
+            <script src="assets/DateTimePicker/swiper-bundle.min.js"></script>
+            <script src="assets/DateTimePicker/jquery.magnific-popup.min.js"></script>
+            <script src="assets/DateTimePicker/main.min.js"></script>
     </form>
 </body>
 </html>
