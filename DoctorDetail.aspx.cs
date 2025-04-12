@@ -264,9 +264,13 @@ namespace pezeshkaneSalamat_wf
                     _TblReserve.RSaveDate = DateTime.Today;
                     _TblReserve.RTime = selectedTime;
                     _TblReserve.RTrackingCode = trackingCode;
+                    _TblReserve.RStatus = 0;
                     _TblReserve.Save();
                     Request.Cookies["trackingCode"].Value = trackingCode;
-                    Response.Redirect("Reserve.aspx");
+
+                    // ✅ Safe redirect without thread abort
+                    Response.Redirect("/Reserve.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
                 }
             }
             catch (Exception ex)

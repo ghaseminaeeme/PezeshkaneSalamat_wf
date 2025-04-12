@@ -5,16 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace pezeshkaneSalamat_wf
+namespace pezeshkaneSalamat_wf.panel
 {
-    public partial class Reserve : System.Web.UI.Page
+    public partial class reserveList : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
-            {
-                Label1.Text = Request.Cookies["trackingCode"].Value;
-            }
+
         }
     }
 }

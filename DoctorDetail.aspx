@@ -17,22 +17,22 @@
                     <div class="elementor-element elementor-element-9c7195c elementor-widget elementor-widget-pzy_breadcrumb" data-id="9c7195c" data-element_type="widget" data-widget_type="pzy_breadcrumb.default">
                         <div class="elementor-widget-container">
                             <asp:FormView ID="FormView2" runat="server" DataSourceID="SqlDoctor" CssClass="w-100">
-                                <ItemTemplate>
+                                <itemtemplate>
                                     <ul id="breadcrumbs" class="pzy-breadcrumb-list">
-                                        <li class="pzy-breadcrumb-list-item"><a href="/"> خانه </a></li>
-                                        <li class='pzy-breadcrumb-separator'><i data-feather="chevron-left"></i></li>
+                                        <li class="pzy-breadcrumb-list-item"><a href="/">خانه </a></li>
+                                        <li class='pzy-breadcrumb-separator'><i data-feather="chevron-left"></i><i class="fa fa-angle-left"></i></li>
                                         <li class="pzy-breadcrumb-list-item"><span class="pzy-breadcrumb-current-item">
                                             <h3><%#Eval("dName") %></h3>
                                         </span></li>
                                     </ul>
-                                </ItemTemplate>
+                                </itemtemplate>
                             </asp:FormView>
 
                             <asp:SqlDataSource ID="SqlDoctor" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                                 SelectCommand="selectDoctorDetail" SelectCommandType="StoredProcedure">
-                                <SelectParameters>
+                                <selectparameters>
                                     <asp:QueryStringParameter DefaultValue="0" Name="id" QueryStringField="did" Type="Int32" />
-                                </SelectParameters>
+                                </selectparameters>
                             </asp:SqlDataSource>
 
                         </div>
@@ -77,14 +77,14 @@
 
             <asp:SqlDataSource ID="SqlImages" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                 SelectCommand="selectDoctorImages" SelectCommandType="StoredProcedure">
-                <SelectParameters>
+                <selectparameters>
                     <asp:QueryStringParameter Name="doctorId" QueryStringField="did" Type="Int32" />
-                </SelectParameters>
+                </selectparameters>
             </asp:SqlDataSource>
 
 
             <asp:FormView ID="FormView1" runat="server" DataSourceID="SqlDoctor" CssClass="w-100">
-                <ItemTemplate>
+                <itemtemplate>
                     <div class="elementor-element elementor-element-c810fdf e-flex e-con-boxed e-con e-parent" data-id="c810fdf" data-element_type="container">
                         <div class="e-con-inner">
 
@@ -100,11 +100,11 @@
 
                                         <div id="imageSlider" class="slider-wrapper">
                                             <asp:Repeater ID="RepeaterGallery" runat="server" DataSourceID="SqlImages">
-                                                <ItemTemplate>
+                                                <itemtemplate>
                                                     <div class="slide">
                                                         <img src='<%# Eval("pic") %>' alt='<%# Eval("title") %>' loading='lazy' />
                                                     </div>
-                                                </ItemTemplate>
+                                                </itemtemplate>
                                             </asp:Repeater>
                                         </div>
 
@@ -314,10 +314,7 @@
                         </div>
                     </div>
 
-
-
-
-                </ItemTemplate>
+                </itemtemplate>
             </asp:FormView>
 
 
@@ -349,7 +346,7 @@
                                     <div class="elementor-element elementor-element-955b188 elementor-widget__width-initial elementor-widget elementor-widget-pzy_links_slider">
                                         <div class="elementor-widget-container">
                                             <asp:UpdatePanel ID="UpdatePanelAppointment" runat="server">
-                                                <ContentTemplate>
+                                                <contenttemplate>
 
                                                     <div class="pzy-links-slider">
                                                         <div class="slider-wrapper" style="height: 100%">
@@ -357,17 +354,19 @@
                                                             <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-rtl swiper-backface-hidden swiper-pagination-disabled">
                                                                 <div class="swiper-wrapper">
                                                                     <asp:Repeater ID="Repeater1" runat="server" OnItemDataBound="Repeater1_ItemDataBound" OnItemCommand="Repeater1_ItemCommand">
-                                                                        <ItemTemplate>
+                                                                        <itemtemplate>
                                                                             <div class="swiper-slide pzy-auto-width">
                                                                                 <asp:LinkButton ID="btnDate" runat="server" CssClass="pzy-service-name"
                                                                                     CommandName="SelectDate"
                                                                                     CommandArgument='<%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>'
                                                                                     CausesValidation="false"
-                                                                                    UseSubmitBehavior="false"> <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %> </asp:LinkButton>
+                                                                                    UseSubmitBehavior="false">
+                                                                                    <%# Eval("AppointmentDate", "{0:yyyy-MM-dd}") %>
+                                                                                </asp:LinkButton>
                                                                             </div>
                                                                             <asp:HiddenField ID="HiddenField1" runat="server" Value='<%# HiddenSelectedDate.Value %>' />
 
-                                                                        </ItemTemplate>
+                                                                        </itemtemplate>
 
                                                                     </asp:Repeater>
 
@@ -391,34 +390,35 @@
                                                     <div class="pzy-staffs-schedule-staffs-list">
 
                                                         <asp:Repeater ID="RepeaterTimes" runat="server">
-                                                            <ItemTemplate>
-
+                                                            <itemtemplate>
                                                                 <div class="pzy-staffs-schedule-staffs-list-item">
-                                                                    <div class="pzy-staffs-schedule-staffs-list-item-content">
+                                                                    <div class='pzy-staffs-schedule-staffs-list-item-content <%# Convert.ToBoolean(Eval("IsReserved")) ? " disabled gray" : "" %>'>
                                                                         <div class="pzy-staff-introduction">
                                                                             <%-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
                                                                                 <h4 class='<%# Convert.ToBoolean(Eval("IsReserved")) ? "pzy-staff-title disabled gray" : "pzy-staff-title" %>'>
                                                                                     <%# Eval("AppointmentTime", "{0:HH:mm}") %>  </h4>
                                                                             </button>--%>
-                                                                            <asp:LinkButton ID="btnTime" runat="server" CssClass="open-modal"
-                                                                                data-toggle="modal" data-target="#myModal"
+                                                                            <asp:LinkButton ID="btnTime" runat="server"
+                                                                                CssClass='<%# Convert.ToBoolean(Eval("IsReserved")) ? "" : "open-modal" %>'
+                                                                                data-toggle='<%# Convert.ToBoolean(Eval("IsReserved")) ? "" : "modal" %>'
+                                                                                data-target='<%# Convert.ToBoolean(Eval("IsReserved")) ? "" : "#myModal" %>'
                                                                                 data-time='<%# Eval("AppointmentTime") %>'
                                                                                 Enabled='<%# !Convert.ToBoolean(Eval("IsReserved")) %>'>
                                                                                 <h4 class='<%# Convert.ToBoolean(Eval("IsReserved")) ? "pzy-staff-title disabled gray" : "pzy-staff-title" %>'>
-                                                                                    <%# Eval("AppointmentTime", "{0:HH:mm}") %>  </h4>
+                                                                                    <%# Eval("AppointmentTime", "{0:HH:mm}") %> </h4>
                                                                             </asp:LinkButton>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </ItemTemplate>
+                                                            </itemtemplate>
                                                         </asp:Repeater>
 
                                                     </div>
-                                                </ContentTemplate>
+                                                </contenttemplate>
 
-                                                <Triggers>
+                                                <triggers>
                                                     <asp:AsyncPostBackTrigger ControlID="Repeater1" EventName="ItemCommand" />
-                                                </Triggers>
+                                                </triggers>
                                             </asp:UpdatePanel>
                                         </div>
                                     </div>
@@ -443,16 +443,6 @@
                 </div>
 
                 <!-- The Modal -->
-                <%-- <script>
-                    $(document).ready(function () {
-                        $(document).on("click", ".open-modal", function () {
-                            var time = $(this).data("time");
-                            $("#lbTime").text(time);
-                            $("#hfSelectedTime").val(time);
-                        });
-                    });      
-                </script>--%>
-
                 <script>
                     $(document).ready(function () {
                         $(document).on("click", ".open-modal", function () {
@@ -484,51 +474,56 @@
                                 <asp:HiddenField ID="hfSelectedTime" runat="server" />
 
                                 <asp:UpdatePanel ID="UpdatePanel1" runat="server">
-                                    <ContentTemplate>
+                                    <contenttemplate>
                                         <div>
                                             <asp:Label ID="err" runat="server" CssClass="alert error" Text="متاسفانه خطایی پیش آمد، لطفا مجددا سعی نمایید." Visible="false"></asp:Label>
                                         </div>
 
                                         <div class="pzy-input-append-icon form-input">
-                                            <p class="pzy-input-title">نام و نام خانوادگی  <span class="pzy-required">*</span> </p>
+                                            <%--<p class="pzy-input-title">نام و نام خانوادگی  <span class="pzy-required">نام و نام خانوادگی  *</span> </p>--%>
+                                            <p class="pzy-required">نام و نام خانوادگی  *</p>
                                             <asp:TextBox ID="txtName" runat="server" TabIndex="1" MaxLength="20"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="validator1" runat="server" ErrorMessage="نام خود را وارد کنید." CssClass="validator"
-                                                ControlToValidate="txtName" ValidationGroup="reserve"></asp:RequiredFieldValidator>
+
                                         </div>
+                                        <asp:RequiredFieldValidator ID="validator1" runat="server" ErrorMessage="نام خود را وارد کنید." CssClass="validator"
+                                            ControlToValidate="txtName" ValidationGroup="reserve">
+                                        </asp:RequiredFieldValidator>
 
                                         <div class="pzy-input-append-icon form-input">
-                                            <p class="pzy-input-title">شماره موبایل  <span class="pzy-required">*</span> </p>
+                                            <%--<p class="pzy-input-title">شماره موبایل  <span class="pzy-required">*</span> </p>--%>
+                                            <p class="pzy-required">شماره موبایل  *</p>
                                             <asp:TextBox ID="txtTel" runat="server" TabIndex="2" MaxLength="11"></asp:TextBox>
-                                            <asp:RequiredFieldValidator ID="validator2" runat="server" ErrorMessage="تلفن خود را وارد کنید." CssClass="validator"
-                                                ControlToValidate="txtTel" ValidationGroup="reserve"></asp:RequiredFieldValidator>
-
-                                            <asp:RegularExpressionValidator ID="validator3" runat="server" ErrorMessage="موبایل صحیح وارد کنید" CssClass="validator"
-                                                ControlToValidate="txtTel" ValidationGroup="reserve" ValidationExpression="^09\d{9}$"></asp:RegularExpressionValidator>
-                                        </div>
-
 
                                         </div>
+                                        <asp:RequiredFieldValidator ID="validator2" runat="server" ErrorMessage="تلفن خود را وارد کنید." CssClass="validator"
+                                            ControlToValidate="txtTel" ValidationGroup="reserve">
+                                        </asp:RequiredFieldValidator>
+
+                                        <asp:RegularExpressionValidator ID="validator3" runat="server" ErrorMessage="موبایل صحیح وارد کنید" CssClass="validator"
+                                            ControlToValidate="txtTel" ValidationGroup="reserve" ValidationExpression="^09\d{9}$">
+                                        </asp:RegularExpressionValidator>
+                            </div>
 
 
-                                    </ContentTemplate>
-                                    <Triggers>
+                            </ContentTemplate>
+                                    <triggers>
                                         <asp:AsyncPostBackTrigger ControlID="btnReserve" EventName="click" />
-                                    </Triggers>
-                                </asp:UpdatePanel>
+                                    </triggers>
+                            </asp:UpdatePanel>
 
                                 <div class="modal-footer">
                                     <div class="form-input">
                                         <asp:LinkButton ID="btnReserve" runat="server" TabIndex="3" CssClass="btn btn-default" OnClick="btnReserve_Click1" ValidationGroup="reserve">ثبت نوبت</asp:LinkButton>
                                     </div>
                                 </div>
-                            </div>
-
                         </div>
+
                     </div>
+                </div>
 
 
 
-                    <%--                <div id="myModal" class="modal fade">
+                <%--                <div id="myModal" class="modal fade">
                     <span class="close">&times;</span>
 
                     <div class="pzy-reserve-modal pzy-modal-wrapper pzy-hide">
@@ -617,206 +612,152 @@
 
 
 
-                    <!-- ========= End Appointment ======== -->
-                    <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-ac1f44a e-con-full e-flex e-con e-child" data-id="ac1f44a" data-element_type="container">
-                                <div class="elementor-element elementor-element-b426d4c elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="b426d4c" data-element_type="widget" data-widget_type="icon-box.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-icon-box-wrapper">
+                <!-- ========= End Appointment ======== -->
+                <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-ac1f44a e-con-full e-flex e-con e-child" data-id="ac1f44a" data-element_type="container">
+                            <div class="elementor-element elementor-element-b426d4c elementor-position-right elementor-vertical-align-middle elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="b426d4c" data-element_type="widget" data-widget_type="icon-box.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-icon-box-wrapper">
 
-                                            <div class="elementor-icon-box-icon">
-                                                <span class="elementor-icon elementor-animation-">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                        <g id="user">
-                                                            <path id="Icon" d="M16.6668 17.5V15.8333C16.6668 14.9493 16.3156 14.1014 15.6905 13.4763C15.0654 12.8512 14.2176 12.5 13.3335 12.5H6.66683C5.78277 12.5 4.93493 12.8512 4.30981 13.4763C3.68469 14.1014 3.3335 14.9493 3.3335 15.8333V17.5M13.3335 5.83333C13.3335 7.67428 11.8411 9.16667 10.0002 9.16667C8.15921 9.16667 6.66683 7.67428 6.66683 5.83333C6.66683 3.99238 8.15921 2.5 10.0002 2.5C11.8411 2.5 13.3335 3.99238 13.3335 5.83333Z" stroke="#0052A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </g></svg>
+                                        <div class="elementor-icon-box-icon">
+                                            <span class="elementor-icon elementor-animation-">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <g id="user">
+                                                        <path id="Icon" d="M16.6668 17.5V15.8333C16.6668 14.9493 16.3156 14.1014 15.6905 13.4763C15.0654 12.8512 14.2176 12.5 13.3335 12.5H6.66683C5.78277 12.5 4.93493 12.8512 4.30981 13.4763C3.68469 14.1014 3.3335 14.9493 3.3335 15.8333V17.5M13.3335 5.83333C13.3335 7.67428 11.8411 9.16667 10.0002 9.16667C8.15921 9.16667 6.66683 7.67428 6.66683 5.83333C6.66683 3.99238 8.15921 2.5 10.0002 2.5C11.8411 2.5 13.3335 3.99238 13.3335 5.83333Z" stroke="#0052A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </g></svg>
+                                            </span>
+                                        </div>
+
+                                        <div class="elementor-icon-box-content">
+
+                                            <h2 class="elementor-icon-box-title">
+                                                <span>متخصصین مشابه
                                                 </span>
-                                            </div>
+                                            </h2>
 
-                                            <div class="elementor-icon-box-content">
-
-                                                <h2 class="elementor-icon-box-title">
-                                                    <span>متخصصین مشابه
-                                                    </span>
-                                                </h2>
-
-
-                                            </div>
 
                                         </div>
+
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-1540d61 elementor-hidden-mobile elementor-widget elementor-widget-pzy_divider" data-id="1540d61" data-element_type="widget" data-widget_type="pzy_divider.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="pzy-divider-widget-layout pzy-d-flex pzy-justify-content-center pzy-align-items-center">
-                                            <div class="pzy-divider-widget-before"></div>
-                                            <div class="pzy-divider-widget pzy-flex-1"></div>
-                                            <div class="pzy-divider-widget-after"></div>
+                            </div>
+                            <div class="elementor-element elementor-element-1540d61 elementor-hidden-mobile elementor-widget elementor-widget-pzy_divider" data-id="1540d61" data-element_type="widget" data-widget_type="pzy_divider.default">
+                                <div class="elementor-widget-container">
+                                    <div class="pzy-divider-widget-layout pzy-d-flex pzy-justify-content-center pzy-align-items-center">
+                                        <div class="pzy-divider-widget-before"></div>
+                                        <div class="pzy-divider-widget pzy-flex-1"></div>
+                                        <div class="pzy-divider-widget-after"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-457f6dc elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="457f6dc" data-element_type="widget" data-widget_type="icon-box.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-icon-box-wrapper">
+
+                                        <div class="elementor-icon-box-icon">
+                                            <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <g id="chevron-left">
+                                                        <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </g></svg>
+                                            </a>
+                                        </div>
+
+                                        <div class="elementor-icon-box-content">
+
+                                            <span class="elementor-icon-box-title">
+                                                <a href="">مشاهده همه
+                                                </a>
+                                            </span>
+
 
                                         </div>
+
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-457f6dc elementor-position-left elementor-vertical-align-middle elementor-mobile-position-left elementor-view-default elementor-widget elementor-widget-icon-box" data-id="457f6dc" data-element_type="widget" data-widget_type="icon-box.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-icon-box-wrapper">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                                            <div class="elementor-icon-box-icon">
-                                                <a href="#" class="elementor-icon elementor-animation-" tabindex="-1">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                        <g id="chevron-left">
-                                                            <path id="Icon" d="M12.5 15L7.5 10L12.5 5" stroke="#A6AFB8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                        </g></svg>
+                <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
+                            <div class="elementor-widget-container related-list">
+                                <asp:ListView ID="ListRelatedDoctors" runat="server" DataSourceID="SqlRelatedDoctors">
+                                    <itemtemplate>
+                                        <article class="pzy-staff-card">
+                                            <div class="pzy-staff-special">
+
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="Icon" clip-path="url(#clip0_2884_3321)">
+                                                        <path id="path961"
+                                                            d="M16 8C15.9851 7.44966 15.8173 6.91432 15.5155 6.45392C15.2136 5.99352 14.7895 5.62623 14.2907 5.39317C14.4798 4.87606 14.5208 4.31645 14.4091 3.77731C14.2974 3.23817 14.0375 2.7409 13.6585 2.34146C13.2591 1.96252 12.7618 1.70257 12.2227 1.59088C11.6835 1.47919 11.1239 1.52019 10.6068 1.70927C10.3745 1.20993 10.0074 0.785371 9.54684 0.483387C9.08628 0.181403 8.55056 0.0139906 8 0C7.45035 0.0136319 6.91552 0.180992 6.45615 0.483103C5.99677 0.785214 5.63123 1.20999 5.40098 1.70927C4.88269 1.51953 4.32174 1.47818 3.78123 1.58987C3.24072 1.70155 2.7421 1.96185 2.34146 2.34146C1.97043 2.74578 1.71917 3.24533 1.6158 3.78426C1.51242 4.3232 1.561 4.88026 1.7561 5.39317C1.2491 5.62027 0.815861 5.98486 0.50548 6.4456C0.195099 6.90635 0.0199899 7.44482 0 8C0.0199899 8.55518 0.195099 9.09365 0.50548 9.5544C0.815861 10.0151 1.2491 10.3797 1.7561 10.6068C1.56602 11.1232 1.52376 11.6824 1.63407 12.2215C1.74437 12.7606 2.00286 13.2583 2.38049 13.6585C2.78088 14.0359 3.27812 14.2948 3.81689 14.4064C4.35566 14.5181 4.91483 14.478 5.4322 14.2907C5.66226 14.7838 6.0235 15.204 6.4764 15.5055C6.92929 15.8069 7.45639 15.978 8 16C8.55056 15.986 9.08628 15.8186 9.54684 15.5166C10.0074 15.2146 10.3745 14.7901 10.6068 14.2907C11.1217 14.4933 11.6845 14.5411 12.2261 14.4284C12.7678 14.3156 13.2647 14.0471 13.6559 13.6559C14.0471 13.2647 14.3156 12.7678 14.4284 12.2261C14.5411 11.6845 14.4933 11.1217 14.2907 10.6068C14.7895 10.3738 15.2136 10.0065 15.5155 9.54608C15.8173 9.08568 15.9851 8.55034 16 8ZM6.86049 11.278L3.94146 8.35902L5.04195 7.21951L6.80585 8.98341L10.5522 4.90146L11.6995 5.96293L6.86049 11.278Z"
+                                                            fill="#1D9BF0" />
+                                                    </g>
+                                                    <defs>
+                                                        <clippath id="clip0_2884_3321">
+                                                        </clippath>
+                                                        <rect width="16" height="16" fill="white" />
+                                                    </defs>
+                                                </svg>
+                                            </div>
+
+                                            <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
+                                                style="background: #77df9b">
+                                                <a href='/job/<%#Eval("dUrl") %>'
+                                                    class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
+                                                    <img class="pzy-staff-card-avatar"
+                                                        src='<%#Eval("dImg") %>' alt="<%#Eval("dName") %>" />
                                                 </a>
                                             </div>
 
-                                            <div class="elementor-icon-box-content">
 
-                                                <span class="elementor-icon-box-title">
-                                                    <a href="">مشاهده همه
-                                                    </a>
-                                                </span>
+                                            <h3 class="pzy-staff-title p-16-bold">
+                                                <a href='/job/<%#Eval("dUrl") %>'><%#Eval("dName") %> </a>
+                                            </h3>
+                                            <h4 class="pzy-staff-subtitle"><%#Eval("cName") %></h4>
 
-
+                                            <h4 class="pzy-staff-subtitle"><%#Eval("bSubject") %></h4>
+                                            <div class="pzy-staff-point">
                                             </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                            <div class="pzy-request-staff-button-box">
+                                                <a class="pzy-request-staff-button" data-staff="131" href='/job/<%#Eval("dUrl") %>'>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                                    ثبت نوبت                           
+                                                </a>
+                                            </div>
+                                        </article>
 
-                    <div class="elementor-element elementor-element-e6056f7 sticky-left-container e-flex e-con-boxed e-con e-parent" data-id="e6056f7" data-element_type="container">
-                        <div class="e-con-inner">
-                            <div class="elementor-element elementor-element-e5ab0e3 elementor-widget__width-inherit elementor-widget elementor-widget-pzy_staffs_slider" data-id="e5ab0e3" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:1.5,&quot;space_between&quot;:24,&quot;customize_slides_per_view&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;no&quot;,&quot;loop_slider&quot;:&quot;no&quot;,&quot;hide_next_button&quot;:&quot;no&quot;,&quot;hide_prev_button&quot;:&quot;no&quot;}" data-widget_type="pzy_staffs_slider.default">
-                                <div class="elementor-widget-container related-list">
-                                    <asp:ListView ID="ListRelatedDoctors" runat="server" DataSourceID="SqlRelatedDoctors">
-                                        <ItemTemplate>
-                                            <article class="pzy-staff-card">
-                                                <div class="pzy-staff-special">
-
-                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <g id="Icon" clip-path="url(#clip0_2884_3321)">
-                                                            <path id="path961"
-                                                                d="M16 8C15.9851 7.44966 15.8173 6.91432 15.5155 6.45392C15.2136 5.99352 14.7895 5.62623 14.2907 5.39317C14.4798 4.87606 14.5208 4.31645 14.4091 3.77731C14.2974 3.23817 14.0375 2.7409 13.6585 2.34146C13.2591 1.96252 12.7618 1.70257 12.2227 1.59088C11.6835 1.47919 11.1239 1.52019 10.6068 1.70927C10.3745 1.20993 10.0074 0.785371 9.54684 0.483387C9.08628 0.181403 8.55056 0.0139906 8 0C7.45035 0.0136319 6.91552 0.180992 6.45615 0.483103C5.99677 0.785214 5.63123 1.20999 5.40098 1.70927C4.88269 1.51953 4.32174 1.47818 3.78123 1.58987C3.24072 1.70155 2.7421 1.96185 2.34146 2.34146C1.97043 2.74578 1.71917 3.24533 1.6158 3.78426C1.51242 4.3232 1.561 4.88026 1.7561 5.39317C1.2491 5.62027 0.815861 5.98486 0.50548 6.4456C0.195099 6.90635 0.0199899 7.44482 0 8C0.0199899 8.55518 0.195099 9.09365 0.50548 9.5544C0.815861 10.0151 1.2491 10.3797 1.7561 10.6068C1.56602 11.1232 1.52376 11.6824 1.63407 12.2215C1.74437 12.7606 2.00286 13.2583 2.38049 13.6585C2.78088 14.0359 3.27812 14.2948 3.81689 14.4064C4.35566 14.5181 4.91483 14.478 5.4322 14.2907C5.66226 14.7838 6.0235 15.204 6.4764 15.5055C6.92929 15.8069 7.45639 15.978 8 16C8.55056 15.986 9.08628 15.8186 9.54684 15.5166C10.0074 15.2146 10.3745 14.7901 10.6068 14.2907C11.1217 14.4933 11.6845 14.5411 12.2261 14.4284C12.7678 14.3156 13.2647 14.0471 13.6559 13.6559C14.0471 13.2647 14.3156 12.7678 14.4284 12.2261C14.5411 11.6845 14.4933 11.1217 14.2907 10.6068C14.7895 10.3738 15.2136 10.0065 15.5155 9.54608C15.8173 9.08568 15.9851 8.55034 16 8ZM6.86049 11.278L3.94146 8.35902L5.04195 7.21951L6.80585 8.98341L10.5522 4.90146L11.6995 5.96293L6.86049 11.278Z"
-                                                                fill="#1D9BF0" />
-                                                        </g>
-                                                        <defs>
-                                                            <clippath id="clip0_2884_3321">
-                                                            </clippath>
-                                                            <rect width="16" height="16" fill="white" />
-                                                        </defs>
-                                                    </svg>
-                                                </div>
-
-                                                <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
-                                                    style="background: #77df9b">
-                                                    <a href='/job/<%#Eval("dUrl") %>'
-                                                        class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
-                                                        <img class="pzy-staff-card-avatar"
-                                                            src='<%#Eval("dImg") %>' alt="<%#Eval("dName") %>" />
-                                                    </a>
-                                                </div>
+                                    </itemtemplate>
+                                    <emptydatatemplate>
+                                        <p>هیچ موردی یافت نشد</p>
+                                    </emptydatatemplate>
+                                </asp:ListView>
 
 
-                                                <h3 class="pzy-staff-title p-16-bold">
-                                                    <a href='/job/<%#Eval("dUrl") %>'><%#Eval("dName") %> </a>
-                                                </h3>
-                                                <h4 class="pzy-staff-subtitle"><%#Eval("cName") %></h4>
+                                <asp:SqlDataSource ID="SqlRelatedDoctors" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
+                                    SelectCommand="selectRelatedDoctors" SelectCommandType="StoredProcedure">
+                                    <selectparameters>
+                                        <asp:QueryStringParameter DefaultValue="0" Name="doctorId" QueryStringField="did" Type="Int32" />
+                                    </selectparameters>
+                                </asp:SqlDataSource>
 
-                                                <h4 class="pzy-staff-subtitle"><%#Eval("bSubject") %></h4>
-                                                <div class="pzy-staff-point">
-                                                </div>
-
-                                                <div class="pzy-request-staff-button-box">
-                                                    <a class="pzy-request-staff-button" data-staff="131" href='/job/<%#Eval("dUrl") %>'>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-                                                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                                                        ثبت نوبت                           
-                                                    </a>
-                                                </div>
-                                            </article>
-
-                                        </ItemTemplate>
-                                        <EmptyDataTemplate>
-                                            <p>هیچ موردی یافت نشد</p>
-                                        </EmptyDataTemplate>
-                                    </asp:ListView>
-
-
-                                    <asp:SqlDataSource ID="SqlRelatedDoctors" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
-                                        SelectCommand="selectRelatedDoctors" SelectCommandType="StoredProcedure">
-                                        <SelectParameters>
-                                            <asp:QueryStringParameter DefaultValue="0" Name="doctorId" QueryStringField="did" Type="Int32" />
-                                        </SelectParameters>
-                                    </asp:SqlDataSource>
-
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-                <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent">
-                    <div class="e-con-inner">
-                        <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">
-                            <div class="elementor-widget-container">
-
-                                <div id="comments" class="comments-area">
-
-
-                                    <div id="respond" class="comment-respond">
-                                        <h3 id="reply-title" class="comment-reply-title">رزرو نوبت 
-                                    <small></small>
-                                        <p class="title_reply_after"></p>
-                                        <span></span>
-                                        <div id="commentform" class="comment-form">
-                                            <p class="comment-notes"><span id="email-notes">اطلاعات شما منتشر نخواهد شد.</span> <span class="required-field-message">بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></span></p>
-
-
-                                            <div class="comment-form-row comment-form-author">
-                                                <div class="input-append">
-                                                    <input placeholder="نام و نام خانوادگی:" id="author" name="author" type="text" value="" size="30" aria-required="true" required /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                        <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#5C91C7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <div class="comment-form-row comment-form-email">
-                                                <div class="input-append">
-                                                    <input placeholder="شماره موبایل:" id="mobile" name="mobile" type="text" value="" size="30" aria-required="true" required /><i data-feather="phone"></i>
-                                                </div>
-                                            </div>
-
-                                            <div class="comment-form-cookies-consent">
-                                                <div class="comment-form-submit-box">
-                                                    <asp:Button ID="Button1" runat="server" Text="ثبت" class="submit" ValidationGroup="reserve" Enabled="false" />
-                                                    <%--   <p class="form-submit">
-
-                                               <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه" />
-                                              
-                                            </p>--%>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- #respond -->
-
-                                </div>
-                                <!-- #comments -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            </div>
 
 
 
 
-
-                <%--            <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent">
+            <%--            <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent">
                 <div class="e-con-inner">
                     <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">
                         <div class="elementor-widget-container">
@@ -868,7 +809,8 @@
             </div>--%>
 
 
-                <!-- ========== Appointment Modal ========== -->
+            <!-- ========== Appointment Modal ========== -->
+        </div>
     </main>
 
     <!-- Swiper script -->

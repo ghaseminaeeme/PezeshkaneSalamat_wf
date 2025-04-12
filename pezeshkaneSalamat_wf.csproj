@@ -482,6 +482,7 @@
     <Content Include="assets\css\inlineStyle2.css" />
     <Content Include="assets\css\jquery.selectBox.css" />
     <Content Include="assets\css\list.css" />
+    <Content Include="assets\css\login.css" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\css\mainStyle.css" />
     <Content Include="assets\css\mapp.min.css" />
@@ -2268,6 +2269,8 @@
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="panel\default.aspx" />
+    <Content Include="panel\reserveList.aspx" />
     <Content Include="Reserve.aspx" />
     <Content Include="TempFiles\doctorDetail_back_2.aspx" />
     <Content Include="TempFiles\doctoryar.html" />
@@ -2566,6 +2569,27 @@
     </Compile>
     <Compile Include="jobs\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="panel\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="panel\panelMaster.Master.cs">
+      <DependentUpon>panelMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\panelMaster.Master.designer.cs">
+      <DependentUpon>panelMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="panel\reserveList.aspx.cs">
+      <DependentUpon>reserveList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\reserveList.aspx.designer.cs">
+      <DependentUpon>reserveList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reserve.aspx.cs">
@@ -2907,6 +2931,7 @@
     <Content Include="upload\slider\96.webp" />
     <Content Include="upload\slider\97.webp" />
     <Content Include="upload\slider\98.webp" />
+    <Content Include="panel\panelMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
