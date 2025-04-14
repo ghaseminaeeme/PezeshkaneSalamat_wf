@@ -254,7 +254,6 @@ namespace pezeshkaneSalamat_wf
                 }
                 else
                 {
-                    //    4/11/2025 5:30:00 PM
                     string trackingCode = doctorID.ToString() + cc.RandomNumber(4).ToString();
                     TblReserve _TblReserve = new TblReserve();
                     _TblReserve.RDatetime = DateTime.Parse(hfSelectedTime.Value);
@@ -266,7 +265,7 @@ namespace pezeshkaneSalamat_wf
                     _TblReserve.RTrackingCode = trackingCode;
                     _TblReserve.RStatus = 0;
                     _TblReserve.Save();
-                    Request.Cookies["trackingCode"].Value = trackingCode;
+                    Response.Cookies["trackingCode"].Value = trackingCode;
 
                     // ✅ Safe redirect without thread abort
                     Response.Redirect("/Reserve.aspx", false);

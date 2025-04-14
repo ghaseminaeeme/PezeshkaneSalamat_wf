@@ -60,14 +60,19 @@ namespace pezeshkaneSalamat_wf.Admin
             try
             {
                 TblDoctor _TblDoctor = new TblDoctor(Convert.ToInt32(Request.QueryString["did"]));
-                //TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
-                //if (checkUser.IsLoaded && checkUser.Id != _TblDoctor.Id)
-                //{
-                //    err.InnerText = "نام کاربری تکراری است";
-                //    err.Visible = true;
-                //}
-                //else
-                //{
+                bool canSave = true;
+                if (!string.IsNullOrWhiteSpace(TxtUser.Text))
+                {
+                    TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
+                    if (checkUser.IsLoaded && checkUser.Id != _TblDoctor.Id)
+                    {
+                        err.InnerText = "نام کاربری تکراری است";
+                        err.Visible = true;
+                        canSave = false;
+                    }
+                }
+                if (canSave)
+                {
                     _TblDoctor.DName = TxtName.Text;
                     _TblDoctor.DBranchFk = int.Parse(DrdGrp.SelectedValue);
                     _TblDoctor.DTel = TxtTel.Text;
@@ -96,7 +101,8 @@ namespace pezeshkaneSalamat_wf.Admin
                         _TblDoctor.DSpecialAd = false;
 
                     if (TxtPass.Text != "")
-                        _TblDoctor.DPassword = ClassControl.encryptString(TxtPass.Text);
+                        //_TblDoctor.DPassword = ClassControl.encryptString(TxtPass.Text);
+                        _TblDoctor.DPassword = TxtPass.Text;
 
                     if (Fu1.FileName != "")
                     {
@@ -111,7 +117,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     //}
                     _TblDoctor.Save();
                     suc.Visible = true;
-              //  }
+                }
             }
             catch (Exception ex)
             {

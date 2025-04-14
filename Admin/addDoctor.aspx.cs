@@ -40,15 +40,32 @@ namespace pezeshkaneSalamat_wf.Admin
 
                 //if (!checkUser.IsLoaded)
                 //{
-                    string slug = GenerateSlug(TxtName.Text);
-                    TblDoctor checkUrl = new TblDoctor(TblDoctor.Columns.DUrl, slug);
-                    //if (checkUser.IsLoaded)
-                    //{
-                    //    err.InnerText = "نام تکراری است";
-                    //    err.Visible = true;
-                    //}
-                    //else
-                    //{
+                string slug = GenerateSlug(TxtName.Text);
+                TblDoctor checkUrl = new TblDoctor(TblDoctor.Columns.DUrl, slug);
+
+                if (checkUrl.IsLoaded)
+                {
+                    err.InnerText = "نام تکراری است";
+                    err.Visible = true;
+                }
+
+                else
+                {
+
+                    bool canSave = true;
+                    if (!string.IsNullOrWhiteSpace(TxtUser.Text))
+                    {
+                        TblDoctor checkUser = new TblDoctor(TblDoctor.Columns.DUsername, TxtUser.Text);
+                        if (checkUser.IsLoaded)
+                        {
+                            err.InnerText = "نام کاربری تکراری است";
+                            err.Visible = true;
+                            canSave = false;
+                        }
+                    }
+                    if (canSave)
+                    {
+
                         TblDoctor _TblDoctor = new TblDoctor();
                         _TblDoctor.DName = TxtName.Text;
                         _TblDoctor.DBranchFk = int.Parse(DrdGrp.SelectedValue);
@@ -71,7 +88,8 @@ namespace pezeshkaneSalamat_wf.Admin
                         _TblDoctor.DLat = TxtLat.Text;
                         _TblDoctor.DWorkTime = TxtTime.Text;
                         _TblDoctor.DUsername = TxtUser.Text;
-                        _TblDoctor.DPassword = ClassControl.encryptString(TxtPass.Text);
+                        //_TblDoctor.DPassword = ClassControl.encryptString(TxtPass.Text);
+                        _TblDoctor.DPassword = TxtPass.Text;
                         _TblDoctor.DEndDate = _ClassControl.convertPersianDateToGregorian(TxtDate.Text);
                         // _TblDoctor.DVideo = TxtVideo.Text;
                         _TblDoctor.DWhatsapp = TxtWts.Text;
@@ -118,8 +136,8 @@ namespace pezeshkaneSalamat_wf.Admin
                         DrdGrp.ClearSelection();
                         DrdStatus.ClearSelection();
                         DrdCity.ClearSelection();
-                    //}
-                //}
+                    }
+                }
                 //else
                 //{
                 //    err.InnerText = "نام کاربری تکراری است";

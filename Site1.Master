@@ -68,7 +68,7 @@
     <link href="assets/css/InlineStyle.css?876545" rel="stylesheet" />
     <link href="assets/css/inlineStyle2.css?645654" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
-    <link href="assets/css/custom.css?9887978" rel="stylesheet" />
+    <link href="assets/css/custom.css?10102121" rel="stylesheet" />
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -584,7 +584,7 @@
                                             <div class="newsletter-widget">
                                                 <form class="newsletter-form">
                                                     <div class="pzy-content-area pzy-d-flex pzy-flex-row-wrap">
-                                                        <input class="pzy-flex-1" type="text" name="contact"  placeholder="شماره تماس یا ایمیل خود را وارد کنید">
+                                                        <input class="pzy-flex-1" type="text" name="contact" placeholder="شماره تماس یا ایمیل خود را وارد کنید">
                                                         <button class="pzy-d-flex pzy-flex-row-wrap pzy-align-items-center">
                                                             ثبت                       
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none">
@@ -1081,7 +1081,7 @@
         </script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
-      <%--  <script type="text/javascript" id="rate-my-post-js-extra">
+        <%--  <script type="text/javascript" id="rate-my-post-js-extra">
             /* <![CDATA[ */
             var rmp_frontend = { "admin_ajax": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "postID": "131", "noVotes": "\u0647\u0646\u0648\u0632 \u0627\u0645\u062a\u06cc\u0627\u0632\u06cc \u062b\u0628\u062a \u0646\u0634\u062f\u0647! \u0627\u0648\u0644\u06cc\u0646 \u0646\u0641\u0631\u06cc \u0628\u0627\u0634\u06cc\u062f \u06a9\u0647 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u0645\u06cc \u062f\u0647\u06cc\u062f.", "cookie": "\u0634\u0645\u0627 \u0642\u0628\u0644\u0627 \u0631\u0627\u06cc \u062f\u0627\u062f\u0647 \u0627\u06cc\u062f! \u0627\u06cc\u0646 \u0631\u0627\u06cc \u0628\u0647 \u062d\u0633\u0627\u0628 \u0646\u0645\u06cc \u0622\u06cc\u062f!", "afterVote": "\u0628\u0627\u0628\u062a \u0627\u0645\u062a\u06cc\u0627\u0632 \u062f\u0627\u062f\u0646 \u0628\u0647 \u0627\u06cc\u0646 \u067e\u0633\u062a \u0645\u062a\u0634\u06a9\u0631\u06cc\u0645.", "notShowRating": "1", "social": "1", "feedback": "1", "cookieDisable": "1", "emptyFeedback": "Please insert your feedback in the box above!", "hoverTexts": "2", "preventAccidental": "1", "grecaptcha": "1", "siteKey": "", "votingPriv": "1", "loggedIn": "", "positiveThreshold": "2", "ajaxLoad": "1", "disableClearCache": "1", "nonce": "0c60ac4ea7" };
         /* ]]> */
@@ -1089,7 +1089,7 @@
         <%--<script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.2.5" id="rate-my-post-js"></script>--%>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-feather.js" id="init-feather-js"></script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
-       
+
 
     </form>
 </body>

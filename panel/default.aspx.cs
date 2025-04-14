@@ -32,11 +32,13 @@ namespace pezeshkaneSalamat_wf.panel
                     }
                     else
                     {
+                        err.Text = "نام کاربری یا رمز عبور اشتباه است.";
                         err.Visible = true;
                     }
                 }
                 else
                 {
+                    err.Text = "نام کاربری یا رمز عبور اشتباه است.";
                     err.Visible = true;
                 }
             }

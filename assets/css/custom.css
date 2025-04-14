@@ -473,7 +473,7 @@
 }
 @media screen and (max-width: 768px) {
     .pzy-staffs-schedule-staffs-list-item {
-        width:22%;
+        width:23.5%;
     }
 }
 .pzy-links-slider {
@@ -537,4 +537,14 @@
         .reserve {
         padding: 10px 10px;
     }
+}
+.breadcrumbs {
+    font-family: 'Vazirmatn';
+}
+.breadcrumbs li {
+    font-size: 12px;
+}
+.breadcrumbs i {
+    padding-top: 15px;
+    font-size: 18px;
 }
