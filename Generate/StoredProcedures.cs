@@ -111,6 +111,42 @@ namespace DalWebSite{
         }
         
         /// <summary>
+        /// Creates an object wrapper for the panel_getAppointment Procedure
+        /// </summary>
+        public static StoredProcedure PanelGetAppointment(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("panel_getAppointment", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the panel_getNewReserveNumber Procedure
+        /// </summary>
+        public static StoredProcedure PanelGetNewReserveNumber(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("panel_getNewReserveNumber", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the panel_getReserves Procedure
+        /// </summary>
+        public static StoredProcedure PanelGetReserves(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("panel_getReserves", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
+        	
+            return sp;
+        }
+        
+        /// <summary>
         /// Creates an object wrapper for the panel_selectAppointment Procedure
         /// </summary>
         public static StoredProcedure PanelSelectAppointment(int? doctorId)

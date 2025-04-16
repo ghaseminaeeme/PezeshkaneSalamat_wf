@@ -260,7 +260,7 @@ namespace pezeshkaneSalamat_wf
                     _TblReserve.RDoctorId = doctorID;
                     _TblReserve.RName = txtName.Text;
                     _TblReserve.RPhonenumber = txtTel.Text;
-                    _TblReserve.RSaveDate = DateTime.Today;
+                    _TblReserve.RSaveDate = DateTime.Now;
                     _TblReserve.RTime = selectedTime;
                     _TblReserve.RTrackingCode = trackingCode;
                     _TblReserve.RStatus = 0;

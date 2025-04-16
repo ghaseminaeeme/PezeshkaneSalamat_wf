@@ -138,7 +138,9 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="page-head-line">تنظیمات نوبت دهی پزشک: 
-                <asp:Label ID="LbSubject" runat="server" Text="Label"></asp:Label></h1>
+                <asp:Label ID="LbSubject" runat="server" Text="Label"></asp:Label>
+
+                            </h1>
                         </div>
                     </div>
 
@@ -161,21 +163,23 @@
                                 </div>
                                 <hr />
                                 <div class="form-group col-md-4 col-xs-12 pull-right">
-                                    <label>تاریخ و ساعت شروع نوبت</label>
+                                    <label> ساعت شروع نوبت</label>
 
-                                    <asp:TextBox ID="TxtDate" runat="server" class="form-control farsi-input farsi-font" placeholder="تاریخ شمسی و ساعت قالب ۲۴ ساعته"></asp:TextBox>
+                                    <asp:TextBox ID="TxtDate" runat="server" class="form-control" placeholder="ساعت قالب ۲۴ ساعته" TextMode="Time"></asp:TextBox>
+
+                                   <%-- <asp:TextBox ID="TxtDate" runat="server" class="form-control farsi-input farsi-font" placeholder="تاریخ شمسی و ساعت قالب ۲۴ ساعته"></asp:TextBox>
                                     <div class="input-group-btn">
                                         <button id="date_btn_two" class="btn btn-info" type="submit">
                                             <i class="fa fa-calendar"></i>
                                         </button>
-                                    </div>
+                                    </div>--%>
                                 </div>
-                                <hr>
+                                 <hr/>
                                 <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>تعداد</label>
                                     <asp:TextBox ID="TxtNum" class="form-control" runat="server"></asp:TextBox>
                                 </div>
-                                <hr>
+                                 <hr/>
                                 <div class="form-group col-md-4 col-xs-12 pull-right">
                                     <label>زمان هر ملاقات به دقیقه</label>
                                     <asp:TextBox ID="TxtTime" class="form-control" runat="server" MaxLength="300"></asp:TextBox>
@@ -192,12 +196,29 @@
                                 <div class="form-group col-md-12">
                                     <asp:Button ID="btnSave" runat="server" Text="ذخـــیره" class="btn btn-info pull-right" OnClick="btnSave_Click" />
                                 </div>
-                                <hr>
+                                 <hr/>
                             </div>
                             <!-- /. PAGE INNER  -->
                         </div>
                         <!-- /. PAGE WRAPPER  -->
                     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <!-- /. WRAPPER  -->
                     <div id="footer-sec">
                         &copy; پزشکان سلامت
@@ -216,18 +237,18 @@
                 </div>
             </div>
 
-            <script type="text/javascript">
+<%--            <script type="text/javascript">
                 Calendar.setup({
                     inputField: "TxtDate",   // id of the input field
                     button: "date_btn_two",   // trigger for the calendar (button ID)
-                   // ifFormat: "%Y/%m/%d %H:%M",       // format of the input field
+                    // ifFormat: "%Y/%m/%d %H:%M",       // format of the input field
                     ifFormat: "%H:%M",
                     showsTime: true,
                     dateType: 'jalali',
                     timeFormat: "24",
                     weekNumbers: false
                 });
-            </script>
+            </script>--%>
 
             <script src="assets/DateTimePicker/jquery.min.js"></script>
             <script src="assets/DateTimePicker/swiper-bundle.min.js"></script>

@@ -25,10 +25,19 @@ namespace pezeshkaneSalamat_wf.panel
                 if (_TblDoctor.IsLoaded)
                 {
                     //if (_TblDoctor.Password == ClassControl.encryptString(TxtPass.Text))
-                    if (_TblDoctor.DPassword == TxtPass.Text)
+                    if (_TblDoctor.DPassword == TxtPass.Text )
                     {
-                        Session["doctorUser"] = _TblDoctor.DUsername.ToString();
-                        Response.Redirect("reserveList.aspx");
+                        if (_TblDoctor.DStatus == 1)
+                        {
+                         //   Session["doctorUser"] = _TblDoctor.DUsername.ToString();
+                            Session["doctorId"] = _TblDoctor.Id.ToString();
+                            Response.Redirect("reserveList.aspx");
+                        }
+                        else
+                        {
+                            err.Text = "اکانت شما غیرفعال است. لطفا با مدیر سایت تماس بگیرید.";
+                            err.Visible = true;
+                        }
                     }
                     else
                     {

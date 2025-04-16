@@ -6,12 +6,12 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدیریت پزشکان سلامت </title>
+    <title> پنل پزشکان | پزشکان سلامت </title>
 
     <!-- BOOTSTRAP STYLES-->
     <link href="/Admin/assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLES-->
-    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="/Admin/assets/css/font-awesome.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <link href="/fonts/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet" />
     <link href="/fonts/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" />
@@ -20,13 +20,13 @@
     <link href="/fonts/web-fonts-with-css/css/fa-brands.min.css" rel="stylesheet" />
     <link rel='stylesheet' href='/css/icons.css' type='text/css' media='all' />
     <!--CUSTOM BASIC STYLES-->
-    <link href="assets/css/basic.css" rel="stylesheet" />
+    <link href="/Admin/assets/css/basic.css" rel="stylesheet" />
 
     <!--CUSTOM MAIN STYLES-->
-    <link href="/Admin/assets/assets/css/custom.css" rel="stylesheet" />
+    <link href="/Admin/assets/css/custom.css" rel="stylesheet" />
     <!-- GOOGLE FONTS-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link href="/Admin/assets/assets/css/persian.css?new11" rel="stylesheet" />
+    <link href="/Admin/assets/css/persian.css?new11" rel="stylesheet" />
         <!-- Select2 -->
     <link href="/assets/css/select2.min.css" rel="stylesheet">
 
@@ -35,10 +35,109 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+          <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="wrapper">
+            <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="header-right">
+                    <asp:FormView ID="FormView1" runat="server" DataSourceID="SqlDataSource1" CssClass="msg-count">
+                        <ItemTemplate>
+                            <a href="#" class="btn btn-info" title="رزروهای جدید"><b><%#Eval("newReserve") %> </b>
+                                <i class="fa fa-envelope fa-2x"></i></a>
+                        </ItemTemplate>
+                    </asp:FormView>
+                    <%-- <a href="message-task.html" class="btn btn-primary" title="New Task"><b>40 </b><i
+                        class="fa fa-bars fa-2x"></i></a>--%>
+                    <asp:LinkButton ID="LinkButton1" runat="server" class="btn btn-danger" title="خروج" OnClick="LbSignOut_Click"><i class="fa fa-arrow-right fa-2x"></i></asp:LinkButton>
+                    <asp:Label ID="LbUser" runat="server" Text=""></asp:Label>
+                </div>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
+                    SelectCommand="panel_getNewReserveNumber" SelectCommandType="StoredProcedure">
+                      <SelectParameters>
+                            <asp:SessionParameter Name="doctorId" SessionField="doctorUser" Type="Int32" DefaultValue="2085" />
+                        </SelectParameters>
+                </asp:SqlDataSource>
+            </nav>
+            <!-- /. NAV TOP  -->
+            <nav class="navbar-default navbar-side" role="navigation">
+                <div class="sidebar-collapse">
+                    <ul class="nav" id="main-menu">
+                        <li>
+                            <div class="user-img-div">
+
+                                <div class="inner-text nav-title">
+                                    <a href="/Default.aspx" target="_blank"> <i class="fa fa-home"> </i> صفحه اصلی پزشکان سلامت </a>
+                                    <br>
+                                </div>
+                            </div>
+                        </li>
+                       
+                        <li>
+                            <a href="reserveList.aspx"><i class="fa fa-calendar"></i> رزرو ها</a>
+                        </li>
+                      <%--  <li>
+                            <a href="#.aspx" aria-disabled><i class="fa fa-edit"></i> تنظیمات نوبت دهی</a>
+                        </li>  --%>
+                         <li>
+                            <a href="appointments.aspx"><i class="fa fa-calendar"></i> لیست نوبت ها </a>
+                        </li>
+                       <%-- <li>
+                            <a href="password.aspx"><i class="fa fa-key"></i>تغییر رمز</a>
+                        </li>--%>
+                    </ul>
+
+                </div>
+
+            </nav>
+
+
+
+            <div id="page-wrapper">
+                <div id="page-inner">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+                <!-- /. PAGE INNER  -->
+            </div>
+            <!-- /. PAGE WRAPPER  -->
+
+
         </div>
+        <!-- /. WRAPPER  -->
+        <div id="footer-sec">
+            &copy; پزشکان سلامت
+        </div>
+        <!-- /. FOOTER  -->
+        <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+        <!-- JQUERY SCRIPTS -->
+        <script src="/admin/assets/js/jquery-1.10.2.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="/admin/assets/js/bootstrap.js"></script>
+        <!-- METISMENU SCRIPTS -->
+        <script src="/admin/assets/js/jquery.metisMenu.js"></script>
+        <!-- CUSTOM SCRIPTS -->
+        <script src="/admin/assets/js/custom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $(".searchable-dropdown").select2({
+                    placeholder: "جستجو کنید...",
+                    allowClear: true
+                });
+            });
+        </script>
+
     </form>
 </body>
 </html>

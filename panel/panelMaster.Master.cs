@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DalWebSite;
 
 namespace pezeshkaneSalamat_wf.panel
 {
@@ -11,18 +12,18 @@ namespace pezeshkaneSalamat_wf.panel
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (Session["usr"] == null || (Session["usr"]).ToString() == "")
-            //{
-            //    Response.Redirect("/Admin/Default.aspx");
-            //}
-            //else
-            //{
-            //    TblUser _TblUser = new TblUser(TblUser.Columns.Username, Session["usr"]);
-            //    if (_TblUser.IsLoaded)
-            //    {
-            //        LbUser.Text = _TblUser.Name;
-            //    }
-            //}
+            if (Session["doctorId"] == null || (Session["doctorId"]).ToString() == "")
+            {
+                Response.Redirect("default.aspx");
+            }
+            else
+            {
+                TblDoctor _TblDoctor = new TblDoctor(Convert.ToInt32( Session["doctorId"]));
+                if (_TblDoctor.IsLoaded)
+                {
+                    LbUser.Text = _TblDoctor.DName;
+                }
+            }
 
         }
 

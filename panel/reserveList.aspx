@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/panel/panelMaster.Master" AutoEventWireup="true" CodeBehind="reserveList.aspx.cs" Inherits="pezeshkaneSalamat_wf.panel.reserveList" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-        <div class="row">
+    <div class="row">
         <div class="col-md-12">
-            <h1 class="page-head-line">لیست پزشکان</h1>
+            <h1 class="page-head-line">لیست رزروها</h1>
         </div>
     </div>
 
@@ -17,13 +18,13 @@
                 <div class="alert alert-success" runat="server" id="suc" visible="false">
                     عملیات با موفقیت انجام شد.
                 </div>
-              
+
 
                 <!--*****************************************-->
-                <div class="grid-list">
+                <div class="grid-list reserve-list">
                     <!---------------------------------------------- -->
-                  <%--  <asp:Button ID="BtnDel" runat="server" CssClass="btn btn-theme BtnDel" Text="حذف ردیفهای انتخاب شده" OnClick="BtnDel_Click"
-                        OnClientClick="return confirm('آیا از حذف موارد انتخابی مطمئن هستید؟');" />--%>
+                     <%-- <asp:Button ID="BtnDel" runat="server" CssClass="btn btn-theme BtnDel" Text="ابطال نوبتهای انتخاب شده" OnClick="BtnDel_Click"
+                        OnClientClick="return confirm('آیا از ابطال موارد انتخابی اطمینان دارید؟');" />--%>
                     <!------------------------------------------------  -->
                     <asp:GridView ID="GV" runat="server"
                         AutoGenerateColumns="False" DataKeyNames="id"
@@ -34,7 +35,7 @@
                             <asp:BoundField DataField="rPhonenumber" HeaderText="موبایل" SortExpression="rPhonenumber"></asp:BoundField>
                             <asp:BoundField DataField="rTrackingCode" HeaderText="کد پیگیری" SortExpression="rTrackingCode"></asp:BoundField>
                             <asp:BoundField DataField="persianDate" HeaderText="تاریخ و ساعت" SortExpression="persianDate"></asp:BoundField>
-                            
+                            <%--<asp:BoundField DataField="rTime" HeaderText="مدت" SortExpression="rTime"></asp:BoundField>--%>
                         </Columns>
 
                         <EmptyDataTemplate>
@@ -48,7 +49,7 @@
                     <asp:SqlDataSource ID="SqlAll" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                         SelectCommand="panel_getReserves" SelectCommandType="StoredProcedure">
                         <SelectParameters>
-                            <asp:SessionParameter Name="doctorId" SessionField="doctorUser" Type="Int32" DefaultValue="2085" />
+                            <asp:SessionParameter Name="doctorId" SessionField="doctorId" Type="Int32"  />
                         </SelectParameters>
                     </asp:SqlDataSource>
                 </div>

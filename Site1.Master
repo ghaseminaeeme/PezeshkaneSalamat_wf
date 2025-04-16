@@ -68,11 +68,11 @@
     <link href="assets/css/InlineStyle.css?876545" rel="stylesheet" />
     <link href="assets/css/inlineStyle2.css?645654" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
-    <link href="assets/css/custom.css?10102121" rel="stylesheet" />
+    <link href="assets/css/custom.css?65524" rel="stylesheet" />
 
     <script src="assets/js/jquery.min.js"></script>
 
-
+    <meta name="enamad" content="21429500" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -116,6 +116,7 @@
                                                             <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='layers'></i>عضو پزشکان سلامت شوید</span></a></li>
                                                             <li><a href='/blog.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت </span></a></li>
                                                             <li><a href='/contact.aspx'><span class='pzy-link-text'><i data-feather='phone'></i>تماس با ما  </span></a></li>
+                                                            <li><a href='/About.aspx'><span class='pzy-link-text'><i data-feather='info'></i>درباره پزشکان سلامت </span></a></li>
                                                         </ul>
 
                                                         <%--  <p class="categories-list-title"><a href='Doctors.aspx?city=0&branch=0'>متخصصین پزشکان سلامت </a></p>
@@ -138,6 +139,9 @@
                                                     <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='book-open'></i>مجله پزشکان سلامت</span></a></li>
                                                     <li class=''><a class='' href='/default.aspx'><span class='pzy-link-text'><i data-feather='box'></i>تماس با ما </span></a></li>
                                                     <li class=''><a class='' href='/jobs?filter-title=&filter-location=0&filter-category=0'><span class='pzy-link-text'><i data-feather='box'></i>لیست متخصصین </span></a></li>
+                                                    <%--<li class=''><a class='' href='/contact.aspx'><span class='pzy-link-text'><i data-feather='box'></i>تماس با ما </span></a></li>--%>
+                                                    <li class=''><a class='' href='/About.aspx'><span class='pzy-link-text'><i data-feather='box'></i>درباره پزشکان سلامت </span></a></li>
+
 
                                                     <%-- <li class='pzy-mega-menu'>
                                                         <a class='' href='#'><span class='pzy-link-text'><i data-feather='shopping-bag'></i> لیست متخصصین </span></a>
@@ -502,40 +506,18 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <%--  <div class="elementor-element elementor-element-5f66c71f e-flex e-con-boxed e-con e-child" data-id="5f66c71f" data-element_type="container">
+                                    <div class="elementor-element elementor-element-5f66c71f e-flex e-con-boxed e-con e-child" data-id="5f66c71f" data-element_type="container">
                                         <div class="e-con-inner">
                                             <div class="elementor-element elementor-element-53be2ec3 elementor-widget elementor-widget-image" data-id="53be2ec3" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="73" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-21-at-14.31.png" class="attachment-full size-full wp-image-156" alt="" />
+                                                <div class="elementor-widget-container enamad">
+                                                    <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=195437&Code=prHfqnbQMFEPEvAXrMUP'>
+                                                        <img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=195437&Code=prHfqnbQMFEPEvAXrMUP' alt='' style='cursor: pointer' code='prHfqnbQMFEPEvAXrMUP'></a>
+
                                                 </div>
                                             </div>
-                                            <div class="elementor-element elementor-element-6a5ca68c elementor-widget elementor-widget-image" data-id="6a5ca68c" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="51" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-20-at-11.47.png" class="attachment-full size-full wp-image-155" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-684c6319 elementor-widget elementor-widget-image" data-id="684c6319" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="52" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-20-at-11.46.png" class="attachment-full size-full wp-image-154" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-7950cb45 elementor-widget elementor-widget-image" data-id="7950cb45" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="73" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-21-at-14.31.png" class="attachment-full size-full wp-image-156" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-2bcbddcf elementor-widget elementor-widget-image" data-id="2bcbddcf" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="51" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-20-at-11.47.png" class="attachment-full size-full wp-image-155" alt="" />
-                                                </div>
-                                            </div>
-                                            <div class="elementor-element elementor-element-734713c5 elementor-widget elementor-widget-image" data-id="734713c5" data-element_type="widget" data-widget_type="image.default">
-                                                <div class="elementor-widget-container">
-                                                    <img width="52" height="50" src="https://pezeshk-yar.ir/wp-content/uploads/2024/07/Screenshot-1401-09-20-at-11.46.png" class="attachment-full size-full wp-image-154" alt="" />
-                                                </div>
-                                            </div>
+
                                         </div>
-                                    </div>--%>
+                                    </div>
                                     <div class="elementor-element elementor-element-a8f5c8d e-con-full e-flex e-con e-child" data-id="a8f5c8d" data-element_type="container">
                                         <div class="elementor-element elementor-element-be5bb6c elementor-position-right elementor-vertical-align-middle elementor-widget__width-initial elementor-mobile-position-right elementor-view-default elementor-widget elementor-widget-icon-box" data-id="be5bb6c" data-element_type="widget" data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
@@ -553,7 +535,7 @@
                                                     <div class="elementor-icon-box-content">
 
                                                         <h3 class="elementor-icon-box-title">
-                                                            <span>درخواست ثبت آگهی در سایت
+                                                            <span><a href="contact.aspx">درخواست ثبت آگهی در سایت</a>
                                                             </span>
                                                         </h3>
 
@@ -582,7 +564,7 @@
                                     <div class="elementor-element elementor-element-516903d elementor-widget elementor-widget-pzy_newsletter_widget" data-id="516903d" data-element_type="widget" data-widget_type="pzy_newsletter_widget.default">
                                         <div class="elementor-widget-container">
                                             <div class="newsletter-widget">
-                                                <form class="newsletter-form">
+                                                <div class="newsletter-form">
                                                     <div class="pzy-content-area pzy-d-flex pzy-flex-row-wrap">
                                                         <input class="pzy-flex-1" type="text" name="contact" placeholder="شماره تماس یا ایمیل خود را وارد کنید">
                                                         <button class="pzy-d-flex pzy-flex-row-wrap pzy-align-items-center">
@@ -596,7 +578,7 @@
                                                         </button>
                                                     </div>
                                                     <div class="pzy-newsletter-message pzy-hide"></div>
-                                                </form>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -762,6 +744,8 @@
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div class="elementor-element elementor-element-374f805c e-con-full e-flex e-con e-child" data-id="374f805c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-element elementor-element-60b9ad7 e-flex e-con-boxed e-con e-child" data-id="60b9ad7" data-element_type="container">
                                         <div class="e-con-inner">
@@ -926,6 +910,8 @@
                                             </div>
                                         </div>
                                     </div>
+
+
                                     <div class="elementor-element elementor-element-3e734981 e-flex e-con-boxed e-con e-child" data-id="3e734981" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                         <div class="e-con-inner">
                                             <div class="elementor-element elementor-element-6ea577aa elementor-view-default elementor-widget elementor-widget-icon" data-id="6ea577aa" data-element_type="widget" data-widget_type="icon.default">
@@ -978,11 +964,15 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+
                         <div class="elementor-element elementor-element-7060e693 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7060e693" data-element_type="widget" data-widget_type="divider.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-divider">
@@ -1033,6 +1023,7 @@
 
         </div>
 
+        <%--                                                                                    <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=195437&Code=prHfqnbQMFEPEvAXrMUP'><img referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=195437&Code=prHfqnbQMFEPEvAXrMUP' alt='' style='cursor:pointer' code='prHfqnbQMFEPEvAXrMUP'></a>--%>
 
 
         <link rel='stylesheet' id='wc-blocks-style-rtl-css' href='https://pezeshk-yar.ir/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks-rtl.css?ver=wc-9.5.1' type='text/css' media='all' />

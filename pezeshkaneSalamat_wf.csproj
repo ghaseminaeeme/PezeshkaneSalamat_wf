@@ -81,6 +81,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="404.aspx" />
+    <Content Include="About.aspx" />
     <Content Include="Admin\about.aspx" />
     <Content Include="Admin\addDoctor.aspx" />
     <Content Include="Admin\Admin\tiny_mce\Full.js" />
@@ -2269,7 +2270,9 @@
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="panel\appointments.aspx" />
     <Content Include="panel\default.aspx" />
+    <Content Include="panel\password.aspx" />
     <Content Include="panel\reserveList.aspx" />
     <Content Include="Reserve.aspx" />
     <Content Include="TempFiles\doctorDetail_back_2.aspx" />
@@ -2328,6 +2331,13 @@
     </Compile>
     <Compile Include="404.aspx.designer.cs">
       <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\about.aspx.cs">
       <DependentUpon>about.aspx</DependentUpon>
@@ -2570,6 +2580,13 @@
     <Compile Include="jobs\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="panel\appointments.aspx.cs">
+      <DependentUpon>appointments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\appointments.aspx.designer.cs">
+      <DependentUpon>appointments.aspx</DependentUpon>
+    </Compile>
     <Compile Include="panel\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2583,6 +2600,13 @@
     </Compile>
     <Compile Include="panel\panelMaster.Master.designer.cs">
       <DependentUpon>panelMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="panel\password.aspx.cs">
+      <DependentUpon>password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panel\password.aspx.designer.cs">
+      <DependentUpon>password.aspx</DependentUpon>
     </Compile>
     <Compile Include="panel\reserveList.aspx.cs">
       <DependentUpon>reserveList.aspx</DependentUpon>

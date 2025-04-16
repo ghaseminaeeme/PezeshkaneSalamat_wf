@@ -276,3 +276,23 @@ ul#filters {
         width: 100%;
     }
 }
+.panel-appointment input[type="checkbox"]  {
+    width:20px;
+    height:20px;
+}
+.panel-appointment .BtnDel {
+    margin: 10px 0;
+    background: #4380b8;
+    border: solid 1px #4380b8;
+    color: #fff;
+}
+.reserve-list {
+    width: 100%;
+    overflow: scroll;
+}
+@media(max-width: 768px) {
+    .reserve-list {
+        width:100%;
+        overflow:scroll;
+    }
+}
