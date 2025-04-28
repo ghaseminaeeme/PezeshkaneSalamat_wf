@@ -67,6 +67,7 @@
                             </asp:HyperLinkField>
                             <asp:HyperLinkField Text="تصاویر بیشتر" DataNavigateUrlFields="id" HeaderText="تصاویر بیشتر" DataNavigateUrlFormatString="doctorImage.aspx?did={0}"></asp:HyperLinkField>
                             <asp:HyperLinkField Text="نوبت دهی" DataNavigateUrlFields="id" HeaderText="نوبت دهی" DataNavigateUrlFormatString="appointment.aspx?did={0}"></asp:HyperLinkField>
+                            <asp:HyperLinkField Text="نقشه" DataNavigateUrlFields="id" HeaderText="نقشه" DataNavigateUrlFormatString="map.aspx?did={0}"></asp:HyperLinkField>
                             <asp:TemplateField>
                                 <HeaderTemplate>
                                     <asp:CheckBox ID="ChkDelAll" runat="server" OnCheckedChanged="ChkDelAll_CheckedChanged" />

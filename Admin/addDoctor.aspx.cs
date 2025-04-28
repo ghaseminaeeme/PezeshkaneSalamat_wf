@@ -84,8 +84,8 @@ namespace pezeshkaneSalamat_wf.Admin
                         _TblDoctor.DWebsite = TxtWeb.Text;
                         _TblDoctor.DMobile = TxtMobile.Text;
                         _TblDoctor.DSpecialty = TxtSpe.Text;
-                        _TblDoctor.DLong = TxtLong.Text;
-                        _TblDoctor.DLat = TxtLat.Text;
+                        //_TblDoctor.DLong = TxtLong.Text;
+                        //_TblDoctor.DLat = TxtLat.Text;
                         _TblDoctor.DWorkTime = TxtTime.Text;
                         _TblDoctor.DUsername = TxtUser.Text;
                         //_TblDoctor.DPassword = ClassControl.encryptString(TxtPass.Text);
@@ -126,8 +126,8 @@ namespace pezeshkaneSalamat_wf.Admin
                         TxtEmail.Text = "";
                         TxtDes.Text = "";
                         TxtSpe.Text = "";
-                        TxtLat.Text = "";
-                        TxtLong.Text = "";
+                        //TxtLat.Text = "";
+                        //TxtLong.Text = "";
                         TxtPass.Text = "";
                         TxtTime.Text = "";
                         TxtUser.Text = "";

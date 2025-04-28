@@ -11,8 +11,17 @@ namespace pezeshkaneSalamat_wf.Admin
 {
 
 
-    public partial class test
+    public partial class map
     {
+
+        /// <summary>
+        /// LbDoctorName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LbDoctorName;
 
         /// <summary>
         /// err control.
@@ -58,5 +67,14 @@ namespace pezeshkaneSalamat_wf.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSaveLocation;
+
+        /// <summary>
+        /// btnDel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDel;
     }
 }

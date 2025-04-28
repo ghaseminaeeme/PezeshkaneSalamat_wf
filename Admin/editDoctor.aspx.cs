@@ -42,8 +42,8 @@ namespace pezeshkaneSalamat_wf.Admin
                 //LbVideo.Text = _TblDoctor.DVideo;
                 // LbVideo.PostBackUrl = _TblDoctor.DVideo;
                 TxtSpe.Text = _TblDoctor.DSpecialty;
-                TxtLat.Text = _TblDoctor.DLat;
-                TxtLong.Text = _TblDoctor.DLong;
+                //TxtLat.Text = _TblDoctor.DLat;
+                //TxtLong.Text = _TblDoctor.DLong;
                 TxtTime.Text = _TblDoctor.DWorkTime;
                 TxtUser.Text = _TblDoctor.DUsername;
                 TxtWts.Text = _TblDoctor.DWhatsapp;
@@ -89,8 +89,8 @@ namespace pezeshkaneSalamat_wf.Admin
                     _TblDoctor.DWebsite = TxtWeb.Text;
                     _TblDoctor.DMobile = TxtMobile.Text;
                     _TblDoctor.DSpecialty = TxtSpe.Text;
-                    _TblDoctor.DLong = TxtLong.Text;
-                    _TblDoctor.DLat = TxtLat.Text;
+                    //_TblDoctor.DLong = TxtLong.Text;
+                    //_TblDoctor.DLat = TxtLat.Text;
                     _TblDoctor.DWorkTime = TxtTime.Text;
                     _TblDoctor.DUsername = TxtUser.Text;
                     _TblDoctor.DVideo = TxtVideo.Text;

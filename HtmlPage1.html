@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Simple Map Test</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" crossorigin="" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="doctorMap" style="height: 400px;"></div>
+
+        <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" crossorigin=""></script>
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var map = L.map('doctorMap').setView([35.6892, 51.3890], 13);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+            L.marker([35.6892, 51.3890]).addTo(map);
+        });
+        </script>
+    </form>
+</body>
+</html>

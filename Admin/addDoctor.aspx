@@ -158,14 +158,14 @@
                     <label>آدرس</label>
                     <asp:TextBox ID="TxtAdrs" class="form-control" runat="server"></asp:TextBox>
                 </div>
-                <div class="form-group col-md-3 col-xs-12 pull-right">
+               <%-- <div class="form-group col-md-3 col-xs-12 pull-right">
                     <label>Lat</label>
                     <asp:TextBox ID="TxtLat" class="form-control" runat="server"></asp:TextBox>
                 </div>
                 <div class="form-group col-md-3 col-xs-12 pull-right">
                     <label>Long</label>
                     <asp:TextBox ID="TxtLong" class="form-control" runat="server"></asp:TextBox>
-                </div>
+                </div>--%>
                 <hr>
                 <div class="form-group col-md-12 col-xs-12 pull-right">
                     <label>توضیحات</label>

@@ -336,10 +336,12 @@
     <Content Include="Admin\assets\css\bootstrap-fileupload.min.css" />
     <Content Include="Admin\assets\css\bootstrap-social.css" />
     <Content Include="Admin\assets\css\bootstrap.css" />
+    <Content Include="Admin\assets\css\Control.Geocoder.css" />
     <Content Include="Admin\assets\css\custom.css" />
     <Content Include="Admin\assets\css\error.css" />
     <Content Include="Admin\assets\css\font-awesome.css" />
     <Content Include="Admin\assets\css\invoice.css" />
+    <Content Include="Admin\assets\css\leaflet.css" />
     <Content Include="Admin\assets\css\login.css" />
     <Content Include="Admin\assets\css\persian.css" />
     <Content Include="Admin\assets\css\PersianDatePicker.css" />
@@ -427,6 +429,7 @@
     <Content Include="Admin\assets\img\user.png" />
     <Content Include="Admin\assets\js\bootstrap-fileupload.js" />
     <Content Include="Admin\assets\js\bootstrap.js" />
+    <Content Include="Admin\assets\js\Control.Geocoder.js" />
     <Content Include="Admin\assets\js\custom.js" />
     <Content Include="Admin\assets\js\galleryCustom.js" />
     <Content Include="Admin\assets\js\jquery-1.10.2.js" />
@@ -449,9 +452,9 @@
     <Content Include="Admin\doctors.aspx" />
     <Content Include="Admin\editDoctor.aspx" />
     <Content Include="Admin\images.aspx" />
+    <Content Include="Admin\map.aspx" />
     <Content Include="Admin\password.aspx" />
     <Content Include="Admin\smallBanner.aspx" />
-    <Content Include="Admin\test.aspx" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\calendar\aqua\active-bg.gif" />
     <Content Include="assets\css\calendar\aqua\dark-bg.gif" />
@@ -2270,6 +2273,7 @@
     <Content Include="DoctorDetail.aspx" />
     <Content Include="Doctors.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="panel\appointments.aspx" />
     <Content Include="panel\default.aspx" />
     <Content Include="panel\password.aspx" />
@@ -2437,6 +2441,13 @@
     <Compile Include="Admin\images.aspx.designer.cs">
       <DependentUpon>images.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\map.aspx.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\map.aspx.designer.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\password.aspx.cs">
       <DependentUpon>password.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2450,13 +2461,6 @@
     </Compile>
     <Compile Include="Admin\smallBanner.aspx.designer.cs">
       <DependentUpon>smallBanner.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Admin\test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Admin\test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
     <Compile Include="blog.aspx.cs">
       <DependentUpon>blog.aspx</DependentUpon>

@@ -296,3 +296,9 @@ ul#filters {
         overflow:scroll;
     }
 }
+.leaflet-control-geocoder-form input {
+    font-size: 16px !important;
+}
+.leaflet-control-geocoder-alternatives li {
+    font-size:15px !important;
+}

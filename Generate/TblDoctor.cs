@@ -459,8 +459,8 @@ namespace DalWebSite
 				
 				TableSchema.TableColumn colvarDLat = new TableSchema.TableColumn(schema);
 				colvarDLat.ColumnName = "dLat";
-				colvarDLat.DataType = DbType.String;
-				colvarDLat.MaxLength = 10;
+				colvarDLat.DataType = DbType.Double;
+				colvarDLat.MaxLength = 0;
 				colvarDLat.AutoIncrement = false;
 				colvarDLat.IsNullable = true;
 				colvarDLat.IsPrimaryKey = false;
@@ -472,8 +472,8 @@ namespace DalWebSite
 				
 				TableSchema.TableColumn colvarDLong = new TableSchema.TableColumn(schema);
 				colvarDLong.ColumnName = "dLong";
-				colvarDLong.DataType = DbType.String;
-				colvarDLong.MaxLength = 10;
+				colvarDLong.DataType = DbType.Double;
+				colvarDLong.MaxLength = 0;
 				colvarDLong.AutoIncrement = false;
 				colvarDLong.IsNullable = true;
 				colvarDLong.IsPrimaryKey = false;
@@ -486,7 +486,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarDPassword = new TableSchema.TableColumn(schema);
 				colvarDPassword.ColumnName = "dPassword";
 				colvarDPassword.DataType = DbType.String;
-				colvarDPassword.MaxLength = 500;
+				colvarDPassword.MaxLength = 50;
 				colvarDPassword.AutoIncrement = false;
 				colvarDPassword.IsNullable = true;
 				colvarDPassword.IsPrimaryKey = false;
@@ -877,18 +877,18 @@ namespace DalWebSite
 		[XmlAttribute("DLat")]
 		[Bindable(true)]
         [DataMember]
-		public string DLat 
+		public double? DLat 
 		{
-			get { return GetColumnValue<string>(Columns.DLat); }
+			get { return GetColumnValue<double?>(Columns.DLat); }
 			set { SetColumnValue(Columns.DLat, value); }
 		}
 		  
 		[XmlAttribute("DLong")]
 		[Bindable(true)]
         [DataMember]
-		public string DLong 
+		public double? DLong 
 		{
-			get { return GetColumnValue<string>(Columns.DLong); }
+			get { return GetColumnValue<double?>(Columns.DLong); }
 			set { SetColumnValue(Columns.DLong, value); }
 		}
 		  
@@ -1019,7 +1019,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
+		public static void Insert(string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,double? varDLat,double? varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
 		{
 			TblDoctor item = new TblDoctor();
 			
@@ -1109,7 +1109,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,string varDLat,string varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
+		public static void Update(int varId,string varDName,int? varDBranchFk,string varDProfileImg,string varDImg,string varDDes,string varDInstagram,string varDTelegram,string varDAparat,string varDEmail,string varDTel,string varDMobile,string varDVideo,string varDWebsite,string varDSpecialty,int? varDStateFk,int? varDCityFk,byte? varDStatus,bool? varDIsDeleted,DateTime? varDSaveDate,DateTime? varDEndDate,string varDKeyword,string varDNote,string varDAddress,string varDWorkTime,double? varDLat,double? varDLong,string varDPassword,string varDUsername,string varDDes2,bool? varDSpecialAd,string varDWhatsapp,string varDVideo2,string varDVideo3,int? varDOldId,string varDDescription,string varDUrl,string varDLocation,DateTime? varDEditDate)
 		{
 			TblDoctor item = new TblDoctor();
 			

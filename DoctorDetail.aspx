@@ -5,6 +5,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -301,21 +303,46 @@
                                             </div>
 
                                             <div class="py-staff-template-information-card pzy-d-flex pzy-justify-content-between pzy-align-items-center pzy-position-relative">
-
                                                 <div class="doctor-map">
-                                                    <%# Eval("dLocation").ToString() != "" ? Eval("dLocation")  :  
-                                                                "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6477.8791369933215!2d51.0939571452297!3d35.72770472393541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8ded0ab06bfd8b%3A0x5e01d33197dbe3af!2z2K_Yp9ix2YjYrtin2YbZhyDYr9mD2KrYsSDZhdmH2K_ZiiDZhti42LHZig!5e0!3m2!1sen!2sfr!4v1705747127499!5m2!1sen!2sfr' width='100%' height='300' style='border: 0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>" %>
+                                                    <div id="doctorMap" style="width:100%; height: 300px; margin-bottom: 10px;"></div>
+                                                    <div class="text-muted small">
+                                                        موقعیت: <%# Eval("dLat") %>, <%# Eval("dLong") %>
+                                                    </div>
+
+                                                    <script>
+                                                        document.addEventListener("DOMContentLoaded", function () {
+                                                            var lat = <%# Eval("dLat") != DBNull.Value ? Eval("dLat") : "null" %>;
+                                                            var lng = <%# Eval("dLong") != DBNull.Value ? Eval("dLong") : "null" %>;
+                                                            if (!lat || !lng) {
+                                                                lat = 35.6892;
+                                                                lng = 51.3890;
+                                                            }
+
+                                                            var map = L.map('doctorMap').setView([lat, lng], 14);
+                                                            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                                attribution: '&copy; OpenStreetMap contributors'
+                                                            }).addTo(map);
+
+                                                            L.marker([lat, lng]).addTo(map);
+                                                          
+                                                        });
+                                                    </script>
+
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    </div>
 
                 </ItemTemplate>
             </asp:FormView>
+
+
 
 
             <div class="elementor-element elementor-element-9593b8b mobile-full-container e-flex e-con-boxed e-con e-parent" id="reserve">
@@ -453,19 +480,19 @@
 
                             // Set hidden field value
                             var hfId = "<%= hfSelectedTime.ClientID %>";
-                          $("#" + hfId).val(time);
+                            $("#" + hfId).val(time);
 
-                          // Hide error label
-                          var errId = "<%= err.ClientID %>";
-                          $("#" + errId).hide();
+                            // Hide error label
+                            var errId = "<%= err.ClientID %>";
+                            $("#" + errId).hide();
 
-                          // Clear input values
-                          var nameId = "<%= txtName.ClientID %>";
-                          var telId = "<%= txtTel.ClientID %>";
-                          $("#" + nameId).val("");
-                          $("#" + telId).val("");
-                      });
-                  });
+                            // Clear input values
+                            var nameId = "<%= txtName.ClientID %>";
+                            var telId = "<%= txtTel.ClientID %>";
+                            $("#" + nameId).val("");
+                            $("#" + telId).val("");
+                        });
+                    });
                 </script>
 
 
@@ -508,7 +535,7 @@
                                         <asp:RequiredFieldValidator ID="validator2" runat="server" ErrorMessage="تلفن خود را وارد کنید." CssClass="validator"
                                             ControlToValidate="txtTel" ValidationGroup="reserve">
                                         </asp:RequiredFieldValidator>
-                                       
+
                                         </div>
 
 
@@ -831,5 +858,6 @@
             grabCursor: true,       // Shows hand cursor
         });
     </script>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
 </asp:Content>

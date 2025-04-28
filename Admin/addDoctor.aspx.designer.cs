@@ -222,24 +222,6 @@ namespace pezeshkaneSalamat_wf.Admin
         protected global::System.Web.UI.WebControls.TextBox TxtAdrs;
 
         /// <summary>
-        /// TxtLat control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtLat;
-
-        /// <summary>
-        /// TxtLong control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtLong;
-
-        /// <summary>
         /// TxtDes control.
         /// </summary>
         /// <remarks>
