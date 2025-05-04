@@ -106,7 +106,7 @@
                                                 </svg>
                                             </div>
 
-                                            <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative" style="background: #77df9b">
+                                            <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative" style="">
                                                 <a href='DoctorDetail.aspx?did=<%#Eval("id") %>'
                                                     class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                                     <img class="pzy-staff-card-avatar"

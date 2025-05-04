@@ -2271,7 +2271,7 @@
     <Content Include="Category\default.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="DoctorDetail.aspx" />
-    <Content Include="Doctors.aspx" />
+    <Content Include="TempFiles\Doctors.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />
     <Content Include="panel\appointments.aspx" />
@@ -2281,6 +2281,7 @@
     <Content Include="Reserve.aspx" />
     <Content Include="TempFiles\doctorDetail_back_2.aspx" />
     <Content Include="TempFiles\doctoryar.html" />
+    <Content Include="TempFiles\home.html" />
     <Content Include="TempFiles\HtmlPage1.html" />
     <Content Include="assets\js\add-to-cart.min.js" />
     <Content Include="assets\js\core.min.js" />
@@ -2500,11 +2501,11 @@
     <Compile Include="DoctorDetail.aspx.designer.cs">
       <DependentUpon>DoctorDetail.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Doctors.aspx.cs">
+    <Compile Include="TempFiles\Doctors.aspx.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Doctors.aspx.designer.cs">
+    <Compile Include="TempFiles\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generate\AllStructs.cs" />

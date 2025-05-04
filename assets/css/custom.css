@@ -557,3 +557,21 @@
     height: 100px !important;
     background: #fff;
 }
+.doctor-map {
+    width: 100%;
+}
+.pzy-pagination-links {
+    margin : 30px auto;
+}
+.pagination {
+    direction: rtl;
+}
+    .pagination a, .pagination span {
+        direction: rtl;
+    }
+.btn-register-ads {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Yekan Bakh FaNum';
+    margin: 0;
+}

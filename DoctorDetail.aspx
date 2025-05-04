@@ -741,7 +741,7 @@
                                                 </div>
 
                                                 <div class="pzy-staff-avatar-box pzy-circle-avatar-box pzy-position-relative"
-                                                    style="background: #77df9b">
+                                                    style="">
                                                     <a href='/job/<%#Eval("dUrl") %>'
                                                         class="pzy-d-block pzy-position-absolute pzy-staff-avatar-link">
                                                         <img class="pzy-staff-card-avatar"

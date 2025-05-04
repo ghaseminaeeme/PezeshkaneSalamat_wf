@@ -441,6 +441,7 @@
             },
             "post": { "id": 2566, "title": "%D9%BE%D8%B2%D8%B4%DA%A9%20%DB%8C%D8%A7%D8%B1", "excerpt": "", "featuredImage": !1 }
         }</script>
+
     <script data-optimized="1" type="text/javascript" src="assets/js/slider3.js" id="elementor-frontend-js"></script>
 
 
