@@ -2271,6 +2271,7 @@
     <Content Include="Category\default.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="DoctorDetail.aspx" />
+    <Content Include="TempFiles\BlogView.html" />
     <Content Include="TempFiles\Doctors.aspx" />
     <Content Include="Global.asax" />
     <Content Include="HtmlPage1.html" />

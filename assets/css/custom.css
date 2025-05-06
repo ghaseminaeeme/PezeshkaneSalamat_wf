@@ -436,7 +436,7 @@
 
 .slider-controls {
     position: absolute;
-    top: 50%;
+   /* top: 50%;*/
     left: 0;
     width: 100%;
     display: flex;
@@ -574,4 +574,13 @@
     font-weight: bold;
     font-family: 'Yekan Bakh FaNum';
     margin: 0;
+}
+.pzy-share-article-networks.transparent a {
+    border: 0.5px solid var(--secondary-500, #00dca7) ;
+}
+.pzy-share-article-networks.transparent svg {
+    stroke: #00dca7;
+}
+.pzy-staff-template-information-card-title {
+    font-family: 'Yekan Bakh FaNum';
 }
