@@ -193,7 +193,8 @@ namespace DalWebSite
 				colvarDisplayStatus.IsPrimaryKey = false;
 				colvarDisplayStatus.IsForeignKey = false;
 				colvarDisplayStatus.IsReadOnly = false;
-				colvarDisplayStatus.DefaultSetting = @"";
+				
+						colvarDisplayStatus.DefaultSetting = @"((0))";
 				colvarDisplayStatus.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarDisplayStatus);
 				
@@ -206,9 +207,23 @@ namespace DalWebSite
 				colvarStatus.IsPrimaryKey = false;
 				colvarStatus.IsForeignKey = false;
 				colvarStatus.IsReadOnly = false;
-				colvarStatus.DefaultSetting = @"";
+				
+						colvarStatus.DefaultSetting = @"((0))";
 				colvarStatus.ForeignKeyTableName = "";
 				schema.Columns.Add(colvarStatus);
+				
+				TableSchema.TableColumn colvarComment = new TableSchema.TableColumn(schema);
+				colvarComment.ColumnName = "comment";
+				colvarComment.DataType = DbType.AnsiString;
+				colvarComment.MaxLength = -1;
+				colvarComment.AutoIncrement = false;
+				colvarComment.IsNullable = true;
+				colvarComment.IsPrimaryKey = false;
+				colvarComment.IsForeignKey = false;
+				colvarComment.IsReadOnly = false;
+				colvarComment.DefaultSetting = @"";
+				colvarComment.ForeignKeyTableName = "";
+				schema.Columns.Add(colvarComment);
 				
 				BaseSchema = schema;
 				//add this schema to the provider
@@ -273,6 +288,15 @@ namespace DalWebSite
 			get { return GetColumnValue<byte?>(Columns.Status); }
 			set { SetColumnValue(Columns.Status, value); }
 		}
+		  
+		[XmlAttribute("Comment")]
+		[Bindable(true)]
+        [DataMember]
+		public string Comment 
+		{
+			get { return GetColumnValue<string>(Columns.Comment); }
+			set { SetColumnValue(Columns.Comment, value); }
+		}
 		
 		#endregion
 		
@@ -293,7 +317,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Inserts a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Insert(string varName,DateTime? varSaveDate,int? varDoctorId,byte? varDisplayStatus,byte? varStatus)
+		public static void Insert(string varName,DateTime? varSaveDate,int? varDoctorId,byte? varDisplayStatus,byte? varStatus,string varComment)
 		{
 			TblComment item = new TblComment();
 			
@@ -307,6 +331,8 @@ namespace DalWebSite
 			
 			item.Status = varStatus;
 			
+			item.Comment = varComment;
+			
 		
 			if (System.Web.HttpContext.Current != null)
 				item.Save(System.Web.HttpContext.Current.User.Identity.Name);
@@ -317,7 +343,7 @@ namespace DalWebSite
 		/// <summary>
 		/// Updates a record, can be used with the Object Data Source
 		/// </summary>
-		public static void Update(int varId,string varName,DateTime? varSaveDate,int? varDoctorId,byte? varDisplayStatus,byte? varStatus)
+		public static void Update(int varId,string varName,DateTime? varSaveDate,int? varDoctorId,byte? varDisplayStatus,byte? varStatus,string varComment)
 		{
 			TblComment item = new TblComment();
 			
@@ -332,6 +358,8 @@ namespace DalWebSite
 				item.DisplayStatus = varDisplayStatus;
 			
 				item.Status = varStatus;
+			
+				item.Comment = varComment;
 			
 			item.IsNew = false;
 			if (System.Web.HttpContext.Current != null)
@@ -388,6 +416,13 @@ namespace DalWebSite
         
         
         
+        public static TableSchema.TableColumn CommentColumn
+        {
+            get { return Schema.Columns[6]; }
+        }
+        
+        
+        
         #endregion
 		#region Columns Struct
 		public struct Columns
@@ -398,6 +433,7 @@ namespace DalWebSite
 			 public static string DoctorId = @"doctorId";
 			 public static string DisplayStatus = @"displayStatus";
 			 public static string Status = @"status";
+			 public static string Comment = @"comment";
 						
 		}
 		#endregion

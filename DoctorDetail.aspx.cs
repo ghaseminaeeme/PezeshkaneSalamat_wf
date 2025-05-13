@@ -48,6 +48,9 @@ namespace pezeshkaneSalamat_wf
                         SqlRelatedDoctors.SelectParameters["doctorId"].DefaultValue = doctorID.ToString();
                         SqlRelatedDoctors.DataBind();
 
+                        SqlComments.SelectParameters["doctorId"].DefaultValue = doctorID.ToString();
+                        SqlComments.DataBind();
+
 
                         // title and  graph tags
                         TblDoctor _TblDoctor = new TblDoctor(doctorID);
@@ -278,6 +281,53 @@ namespace pezeshkaneSalamat_wf
                 err.Text = "متاسفانه خطایی پیش آمد، لطفا دوباره سعی کنید.";
                 err.Visible = true;
             }
+        }
+
+        protected void btnSendComment_Click(object sender, EventArgs e)
+        {
+            errComment.Visible = false;
+            try
+            {
+                int doctorId = ViewState["DoctorID"] != null ? (int)ViewState["DoctorID"] : 0;
+                if (doctorId > 0)
+                {
+                    if (CheekTxt(txtComment.Text))
+                    {
+                        TblComment _TblComment = new TblComment();
+                        _TblComment.Name = txtName.Text;
+                        _TblComment.Comment = txtComment.Text;
+                        _TblComment.SaveDate = DateTime.Now;
+                        _TblComment.DoctorId = doctorId;
+                        _TblComment.Save();
+                        sucComment.Visible = true;
+                    }
+                    else
+                    {
+                        errComment.Text = "استفاده از حروف غیر مجاز!";
+                        errComment.Visible = true;
+                    }
+                }
+                else
+                {
+                    errComment.Text = "اطلاعات پزشک دریافت نشد لطفا صفحه رو رفرش کرده و دوباره تلاش کنید.";
+                    errComment.Visible = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                string error = ex.Message;
+                errComment.Text = "متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید.";
+                errComment.Visible = true;
+            }
+        }
+
+        private bool CheekTxt(string txt)
+        {
+            if (ClassControl.checkChar(txt))
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

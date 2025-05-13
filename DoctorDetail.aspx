@@ -307,7 +307,7 @@
                                                     <div class="pzy-staff-template-information-card-description">
                                                         <div class="pzy-share-article-social">
                                                             <div class='pzy-share-article-networks transparent'>
-                                                                <a class="pzy-share-article-link pzy-share-article-whatsapp" target="_blank" href='https://web.whatsapp.com/<%#Eval("dWhatsapp") %>'>
+                                                                <a class="pzy-share-article-link pzy-share-article-whatsapp" target="_blank" href='https://web.whatsapp.com/<%#Eval("dWhatsapp") %>' title="واتساپ">
                                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <g id="vuesax/bold/whatsapp">
                                                                             <g id="whatsapp">
@@ -318,7 +318,7 @@
                                                                         </g>
                                                                     </svg>
                                                                 </a>
-                                                                <a class="pzy-share-article-link pzy-share-article-google_plus" target="_blank" href='https://t.me/<%#Eval("dTelegram") %>'>
+                                                                <a class="pzy-share-article-link pzy-share-article-google_plus" target="_blank" href='https://t.me/<%#Eval("dTelegram") %>' title="تلگرام">
                                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <g id="vuesax/bold/telegram">
                                                                             <g id="telegram">
@@ -327,22 +327,12 @@
                                                                         </g>
                                                                     </svg>
                                                                 </a>
-                                                                <a class="pzy-share-article-link pzy-share-article-facebook" target="_blank" href='https://www.aparat.com/<%#Eval("dAparat") %>'>
-
+                                                                <a class="pzy-share-article-link pzy-share-article-facebook" target="_blank" href='https://www.aparat.com/<%#Eval("dAparat") %>' title="آپارات">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                                                                         <path d="M 15.173828 2.609375 C 11.917119 2.5264688 8.94875 4.7335781 8.1875 8.0332031 L 7.078125 12.837891 C 10.172125 7.7938906 15.497719 4.4664844 21.386719 3.8964844 L 16.582031 2.7871094 C 16.110656 2.6782344 15.639072 2.6212187 15.173828 2.609375 z M 24 7 C 14.628921 7 7 14.628928 7 24 C 7 33.371072 14.628921 41 24 41 C 33.371079 41 41 33.371072 41 24 C 41 14.628928 33.371079 7 24 7 z M 35.162109 7.078125 C 40.206109 10.172125 43.533516 15.497719 44.103516 21.386719 L 45.212891 16.582031 C 46.083891 12.811031 43.737797 9.0575 39.966797 8.1875 L 35.162109 7.078125 z M 24 10 C 31.74976 10 38 16.250245 38 24 C 38 31.749755 31.74976 38 24 38 C 16.25024 38 10 31.749755 10 24 C 10 16.250245 16.25024 10 24 10 z M 20.228516 13.697266 A 3.5 3.5 0 1 0 20.228516 20.697266 A 3.5 3.5 0 1 0 20.228516 13.697266 z M 30.802734 16.728516 A 3.5 3.5 0 1 0 30.802734 23.728516 A 3.5 3.5 0 1 0 30.802734 16.728516 z M 24 22.001953 A 1.999 1.999 0 1 0 24 25.998047 A 1.999 1.999 0 1 0 24 22.001953 z M 17.197266 24.271484 A 3.5 3.5 0 1 0 17.197266 31.271484 A 3.5 3.5 0 1 0 17.197266 24.271484 z M 3.8964844 26.615234 L 2.7871094 31.419922 C 1.9171094 35.190922 4.2622031 38.943453 8.0332031 39.814453 L 12.837891 40.923828 C 7.7948906 37.829828 4.4664844 32.504234 3.8964844 26.615234 z M 27.771484 27.302734 A 3.5 3.5 0 1 0 27.771484 34.302734 A 3.5 3.5 0 1 0 27.771484 27.302734 z M 40.923828 35.162109 C 37.829828 40.205109 32.504234 43.533516 26.615234 44.103516 L 31.419922 45.212891 C 35.190922 46.082891 38.943453 43.737797 39.814453 39.966797 L 40.923828 35.162109 z"></path>
                                                                     </svg>
-
-                                                                    <%--  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                                        <g id="vuesax/bold/facebook">
-                                                                            <g id="facebook">
-                                                                                <path d="M 15.173828 2.609375 C 11.917119 2.5264688 8.94875 4.7335781 8.1875 8.0332031 L 7.078125 12.837891 C 10.172125 7.7938906 15.497719 4.4664844 21.386719 3.8964844 L 16.582031 2.7871094 C 16.110656 2.6782344 15.639072 2.6212187 15.173828 2.609375 z M 24 7 C 14.628921 7 7 14.628928 7 24 C 7 33.371072 14.628921 41 24 41 C 33.371079 41 41 33.371072 41 24 C 41 14.628928 33.371079 7 24 7 z M 35.162109 7.078125 C 40.206109 10.172125 43.533516 15.497719 44.103516 21.386719 L 45.212891 16.582031 C 46.083891 12.811031 43.737797 9.0575 39.966797 8.1875 L 35.162109 7.078125 z M 24 10 C 31.74976 10 38 16.250245 38 24 C 38 31.749755 31.74976 38 24 38 C 16.25024 38 10 31.749755 10 24 C 10 16.250245 16.25024 10 24 10 z M 20.228516 13.697266 A 3.5 3.5 0 1 0 20.228516 20.697266 A 3.5 3.5 0 1 0 20.228516 13.697266 z M 30.802734 16.728516 A 3.5 3.5 0 1 0 30.802734 23.728516 A 3.5 3.5 0 1 0 30.802734 16.728516 z M 24 22.001953 A 1.999 1.999 0 1 0 24 25.998047 A 1.999 1.999 0 1 0 24 22.001953 z M 17.197266 24.271484 A 3.5 3.5 0 1 0 17.197266 31.271484 A 3.5 3.5 0 1 0 17.197266 24.271484 z M 3.8964844 26.615234 L 2.7871094 31.419922 C 1.9171094 35.190922 4.2622031 38.943453 8.0332031 39.814453 L 12.837891 40.923828 C 7.7948906 37.829828 4.4664844 32.504234 3.8964844 26.615234 z M 27.771484 27.302734 A 3.5 3.5 0 1 0 27.771484 34.302734 A 3.5 3.5 0 1 0 27.771484 27.302734 z M 40.923828 35.162109 C 37.829828 40.205109 32.504234 43.533516 26.615234 44.103516 L 31.419922 45.212891 C 35.190922 46.082891 38.943453 43.737797 39.814453 39.966797 L 40.923828 35.162109 z"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </svg>--%>
-                                                                   
                                                                 </a>
-                                                                <a class="pzy-share-article-link pzy-share-article-instagram" target="_blank" href='https://instagram.com/<%#Eval("dInstagram") %>'>
+                                                                <a class="pzy-share-article-link pzy-share-article-instagram" target="_blank" href='https://instagram.com/<%#Eval("dInstagram") %>' title="اینستاگرام">
                                                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <g id="vuesax/bold/instagram">
                                                                             <g id="instagram">
@@ -615,96 +605,6 @@
                     </div>
 
 
-
-                    <%--                <div id="myModal" class="modal fade">
-                    <span class="close">&times;</span>
-
-                    <div class="pzy-reserve-modal pzy-modal-wrapper pzy-hide">
-                        <div class="pzy-modal-content">
-                            <div class="pzy-modal pzy-staffs-schedule-categories-modal">
-                                <div class="pzy-modal-header">
-                                    <p class="pzy-modal-title">
-                                        ثبت نوبت
-                                    </p>
-                                    <button class="pzy-modal-close-button">
-                                        <svg class="pzy-input-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none">
-                                            <path d="M9.16986 15.5801C8.97986 15.5801 8.78986 15.5101 8.63986 15.3601C8.34986 15.0701 8.34986 14.5901 8.63986 14.3001L14.2999 8.64011C14.5899 8.35011 15.0699 8.35011 15.3599 8.64011C15.6499 8.93011 15.6499 9.41011 15.3599 9.70011L9.69986 15.3601C9.55986 15.5101 9.35986 15.5801 9.16986 15.5801Z"
-                                                fill="#A6AFB8" />
-                                            <path d="M14.8299 15.5801C14.6399 15.5801 14.4499 15.5101 14.2999 15.3601L8.63986 9.70011C8.34986 9.41011 8.34986 8.93011 8.63986 8.64011C8.92986 8.35011 9.40986 8.35011 9.69986 8.64011L15.3599 14.3001C15.6499 14.5901 15.6499 15.0701 15.3599 15.3601C15.2099 15.5101 15.0199 15.5801 14.8299 15.5801Z"
-                                                fill="#A6AFB8" />
-                                            <path d="M15 22.75H9C3.57 22.75 1.25 20.43 1.25 15V9C1.25 3.57 3.57 1.25 9 1.25H15C20.43 1.25 22.75 3.57 22.75 9V15C22.75 20.43 20.43 22.75 15 22.75ZM9 2.75C4.39 2.75 2.75 4.39 2.75 9V15C2.75 19.61 4.39 21.25 9 21.25H15C19.61 21.25 21.25 19.61 21.25 15V9C21.25 4.39 19.61 2.75 15 2.75H9Z"
-                                                fill="#A6AFB8" />
-                                        </svg>
-                                    </button>
-                                </div>
-                                <div class="pzy-modal-body">
-                                    <div class="pzy-reserve-form">
-                                        <div class="pzy-modal-reserve-form pzy-d-flex pzy-flex-column-nowrap">
-                                            <label class="pzy-input-label">
-                                                <p class="pzy-input-title">
-                                                    نام و نام خانوادگی                              
-                                                                        <span class="pzy-required">*</span>
-                                                </p>
-                                                <div class="pzy-input-append-icon">
-                                                    <input type="text" name="full_name">
-                                                    <i class="pzy-input-icon" data-feather="user"></i>
-                                                </div>
-                                            </label>
-                                            <label class="pzy-input-label">
-                                                <p class="pzy-input-title">
-                                                    شماره تماس                              
-                                                                        <span class="pzy-required">*</span>
-                                                </p>
-                                                <div class="pzy-input-append-icon">
-                                                    <input type="text" name="contact_phone">
-                                                    <i class="pzy-input-icon" data-feather="smartphone"></i>
-                                                </div>
-                                            </label>
-                                            <label class="pzy-input-label">
-                                                <p class="pzy-input-title">
-                                                    نوع بیمه درمانی                                
-                                                                        <span class="pzy-required">*</span>
-                                                </p>
-                                                <div class="pzy-input-append-icon">
-                                                    <input type="text" name="insurance_type">
-                                                    <i class="pzy-input-icon" data-feather="clipboard"></i>
-                                                </div>
-                                            </label>
-
-                                            <input type="hidden" class="pzy-form-service-date" name="service_date">
-                                            <input type="hidden" class="pzy-form-service-type" name="service_type">
-                                            <input type="hidden" class="pzy-form-staff-id" name="staff">
-
-                                            <div class="pzy-input-append-icon pzy-position-relative">
-                                                <input class="pzy-form-service-human-date" type="text" value="1403/05/08" disabled>
-                                                <i class="pzy-input-icon" data-feather="file-text"></i>
-                                            </div>
-                                            <div class="pzy-input-append-icon">
-                                                <input class="pzy-form-staff-name" type="text" value="نام متخصص" disabled>
-                                                <i class="pzy-input-icon" data-feather="user"></i>
-                                            </div>
-
-                                            <p class="pzy-radio-group-label">انتخاب زمان مراجعه به دکتر :</p>
-
-                                            <div class="pzy-time-slots pzy-radio-group"></div>
-
-                                            <button class="pzy-modal-reserve-submit pzy-button pzy-button-primary">
-                                                <i data-feather="message-square"></i>
-                                                ثبت نوبت شما
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>--%>
-
-
-
                     <!-- ========= End Appointment ======== -->
                     <div class="elementor-element elementor-element-7f6c8e5 e-flex e-con-boxed e-con e-parent" data-id="7f6c8e5" data-element_type="container">
                         <div class="e-con-inner">
@@ -849,60 +749,110 @@
 
 
 
-
-                <%--            <div class="elementor-element elementor-element-fc524b8 e-flex e-con-boxed e-con e-parent">
-                <div class="e-con-inner">
-                    <div class="elementor-element elementor-element-8a0444c elementor-widget elementor-widget-post-comments" data-id="8a0444c" data-element_type="widget" data-widget_type="post-comments.theme_comments">
+                <div class="elementor-element elementor-element-b62dbac e-con-full e-flex e-con e-child" data-id="b62dbac" data-element_type="container">
+                    <div class="elementor-element elementor-element-ad0ca70 elementor-widget elementor-widget-post-comments" data-id="ad0ca70" data-element_type="widget" data-widget_type="post-comments.theme_comments">
                         <div class="elementor-widget-container">
 
                             <div id="comments" class="comments-area">
 
+                                <div class="pzy-section">
+                                    <header>
+                                        <div class="pzy-header-title">
+                                        </div>
+                                        <div class="pzy-header-divider"></div>
+                                    </header>
+                                    <div class="pzy-section-content">
+                                        <ol class="comment-list">
+                                            <asp:ListView ID="ListViewComment" runat="server" DataSourceID="SqlComments">
+                                                <ItemTemplate>
+
+                                                    <li class="comment even thread-even depth-1" id="comment-107">
+                                                        <div id="div-comment-107" class="comment-body">
+                                                            <div class="pzy-comment-image-info">
+                                                                <div class="comment-author vcard">
+                                                                    <img alt='' src='https://secure.gravatar.com/avatar/04c495cd0eb85216236bd095a0dde1731a60a466867681d64ae2698da4447def?s=75&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/04c495cd0eb85216236bd095a0dde1731a60a466867681d64ae2698da4447def?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' decoding='async' />
+                                                                </div>
+                                                                <div class="pzy-comment-info">
+
+                                                                    <cite class="fn"><%#Eval("name") %></cite>
+                                                                    <div class="comment-meta commentmetadata">
+                                                                        تاریخ:          
+                                                                        <a href="#"><%#Eval("PersianDateTime") %> </a>
+                                                                    </div>
+
+                                                                    <div class="pzy-comment-text">
+                                                                        <%#Eval("comment") %>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </li>
+                                                </ItemTemplate>
+                                            </asp:ListView>
+                                            <asp:SqlDataSource ID="SqlComments" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
+                                                SelectCommand="selectComment" SelectCommandType="StoredProcedure">
+                                                <SelectParameters>
+                                                    <asp:QueryStringParameter DefaultValue="0" Name="doctorId" QueryStringField="did" Type="Int32" />
+                                                </SelectParameters>
+                                            </asp:SqlDataSource>
+                                            <!-- #comment-## -->
+                                        </ol>
+
+
+
+
+                                    </div>
+                                </div>
+
 
                                 <div id="respond" class="comment-respond">
-                                    <h3 id="reply-title" class="comment-reply-title">دیدگاه شما 
-                                    <small></small>
-                                    <p class="title_reply_after"></p>
-                                    <span></span>
-                                    <div id="commentform" class="comment-form">
-                                        <p class="comment-notes"><span id="email-notes">نشانی ایمیل شما منتشر نخواهد شد.</span> <span class="required-field-message">بخش‌های موردنیاز علامت‌گذاری شده‌اند <span class="required">*</span></span></p>
-                                        <div class="comment-form-row comment-form-author">
-                                            <div class="input-append">
-                                                <input placeholder="نام:" id="author" name="author" type="text" value="" size="30" aria-required="true" required /><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#5C91C7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div class="comment-form-row comment-form-email">
-                                            <div class="input-append">
-                                                <input placeholder="آدرس ایمیل:" id="email" name="email" type="text" value="" size="30" aria-required="true" required /><i data-feather="mail"></i>
-                                            </div>
-                                        </div>
-                                        <div class="comment-form-comment">
-                                            <textarea id="comment" name="comment" class="span12" rows="5" aria-required="true"></textarea>
-                                        </div>
-                                        <p class="comment-form-cookies-consent">
-                                            <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" />
-                                            <div class="comment-form-submit-box">
+                                    <h3 id="reply-title" class="comment-reply-title">دیدگاه شما </h3>
+                                    <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+                                        <ContentTemplate>
 
-                                               <!--  <p class="form-submit">
+                                            <div class="comment-form">
+                                                <p class="comment-notes">
+                                                    <span id="email-notes">پیام شما پس از تایید مدیر سایت، نمایش داده می شود.</span>
+                                                    <asp:Label ID="errComment" runat="server" Text="پیام شما با موفقیت ارسال شد" CssClass="alert success"></asp:Label>
+                                                    <asp:Label ID="sucComment" runat="server" Text="متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید." CssClass="alert error"></asp:Label>
+                                                </p>
+                                                <div class="comment-form-row comment-form-author">
 
-                                               <input name="submit" type="submit" id="submit" class="submit" value="فرستادن دیدگاه" />
-                                              
-                                            </p> -->
-        </div>
-        </div>
+                                                    <div class="input-append">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                            <path d="M5 21C5 17.134 8.13401 14 12 14C15.866 14 19 17.134 19 21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ED6BAD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                        </svg>
+                                                        <asp:TextBox ID="txtAuthor" runat="server" placeholder="نام:"></asp:TextBox>
+                                                    </div>
+                                                </div>
+
+                                                <div class="comment-form-comment">
+                                                    <asp:TextBox ID="txtComment" runat="server" TextMode="MultiLine" CssClass="span12"></asp:TextBox>
+                                                </div>
+
+
+                                                <div class="comment-form-submit-box">
+                                                    <asp:Button ID="btnSendComment" runat="server" Text="فرستادن دیدگاه" class="submit" OnClick="btnSendComment_Click" />
+                                                </div>
+                                            </div>
+                                        </ContentTemplate>
+                                        <Triggers>
+                                            <asp:AsyncPostBackTrigger ControlID="btnSendComment" EventName="Click" />
+                                        </Triggers>
+                                    </asp:UpdatePanel>
                                 </div>
                                 <!-- #respond -->
 
-        </div>
+                            </div>
                             <!-- #comments -->
-        </div>
+                        </div>
                     </div>
                 </div>
-            </div>--%>
 
 
-                <!-- ========== Appointment Modal ========== -->
+
             </div>
     </main>
 
@@ -918,5 +868,4 @@
         });
     </script>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
-
 </asp:Content>

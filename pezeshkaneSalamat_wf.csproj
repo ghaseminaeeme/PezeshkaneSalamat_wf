@@ -446,6 +446,7 @@
     <Content Include="Admin\banner.aspx" />
     <Content Include="Admin\branch.aspx" />
     <Content Include="Admin\city.aspx" />
+    <Content Include="Admin\comments.aspx" />
     <Content Include="Admin\dashboard.aspx" />
     <Content Include="Admin\default.aspx" />
     <Content Include="Admin\doctorImage.aspx" />
@@ -2401,6 +2402,13 @@
     <Compile Include="Admin\city.aspx.designer.cs">
       <DependentUpon>city.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\comments.aspx.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\comments.aspx.designer.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2502,6 +2510,8 @@
     <Compile Include="DoctorDetail.aspx.designer.cs">
       <DependentUpon>DoctorDetail.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Generate\TblComment.cs" />
+    <Compile Include="Generate\TblCommentController.cs" />
     <Compile Include="TempFiles\Doctors.aspx.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

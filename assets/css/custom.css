@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Vazirmatn';
+}
 .elementor *, .elementor :after, .elementor :before {
     box-sizing: border-box;
 }
@@ -583,4 +585,7 @@
 }
 .pzy-staff-template-information-card-title {
     font-family: 'Yekan Bakh FaNum';
+}
+.comments-area {
+    font-family: 'Vazirmatn';
 }

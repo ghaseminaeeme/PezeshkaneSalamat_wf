@@ -81,7 +81,7 @@ namespace DalWebSite
 	    /// Inserts a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Insert, true)]
-	    public void Insert(string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status)
+	    public void Insert(string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status,string Comment)
 	    {
 		    TblComment item = new TblComment();
 		    
@@ -95,6 +95,8 @@ namespace DalWebSite
             
             item.Status = Status;
             
+            item.Comment = Comment;
+            
 	    
 		    item.Save(UserName);
 	    }
@@ -103,7 +105,7 @@ namespace DalWebSite
 	    /// Updates a record, can be used with the Object Data Source
 	    /// </summary>
         [DataObjectMethod(DataObjectMethodType.Update, true)]
-	    public void Update(int Id,string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status)
+	    public void Update(int Id,string Name,DateTime? SaveDate,int? DoctorId,byte? DisplayStatus,byte? Status,string Comment)
 	    {
 		    TblComment item = new TblComment();
 	        item.MarkOld();
@@ -120,6 +122,8 @@ namespace DalWebSite
 			item.DisplayStatus = DisplayStatus;
 				
 			item.Status = Status;
+				
+			item.Comment = Comment;
 				
 	        item.Save(UserName);
 	    }
