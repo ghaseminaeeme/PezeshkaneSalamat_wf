@@ -286,6 +286,7 @@ namespace pezeshkaneSalamat_wf
         protected void btnSendComment_Click(object sender, EventArgs e)
         {
             errComment.Visible = false;
+            sucComment.Visible = false;
             try
             {
                 int doctorId = ViewState["DoctorID"] != null ? (int)ViewState["DoctorID"] : 0;
@@ -294,12 +295,15 @@ namespace pezeshkaneSalamat_wf
                     if (CheekTxt(txtComment.Text))
                     {
                         TblComment _TblComment = new TblComment();
-                        _TblComment.Name = txtName.Text;
+                        _TblComment.Name = txtAuthor.Text;
                         _TblComment.Comment = txtComment.Text;
                         _TblComment.SaveDate = DateTime.Now;
                         _TblComment.DoctorId = doctorId;
+                        _TblComment.Status = 0;
                         _TblComment.Save();
                         sucComment.Visible = true;
+                        txtAuthor.Text = "";
+                        txtComment.Text = "";
                     }
                     else
                     {
@@ -316,7 +320,7 @@ namespace pezeshkaneSalamat_wf
             catch (Exception ex)
             {
                 string error = ex.Message;
-                errComment.Text = "متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید.";
+                errComment.Text = "متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید. " + error;
                 errComment.Visible = true;
             }
         }

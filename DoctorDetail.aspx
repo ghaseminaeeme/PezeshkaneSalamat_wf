@@ -790,6 +790,9 @@
                                                         </div>
                                                     </li>
                                                 </ItemTemplate>
+                                                <EmptyDataTemplate>
+                                                    هنوز نظری در مورد این پزشک ثبت نشده است
+                                                </EmptyDataTemplate>
                                             </asp:ListView>
                                             <asp:SqlDataSource ID="SqlComments" runat="server" ConnectionString="<%$ ConnectionStrings:DbWebSiteConnectionString %>"
                                                 SelectCommand="selectComment" SelectCommandType="StoredProcedure">
@@ -814,9 +817,9 @@
 
                                             <div class="comment-form">
                                                 <p class="comment-notes">
-                                                    <span id="email-notes">پیام شما پس از تایید مدیر سایت، نمایش داده می شود.</span>
-                                                    <asp:Label ID="errComment" runat="server" Text="پیام شما با موفقیت ارسال شد" CssClass="alert success"></asp:Label>
-                                                    <asp:Label ID="sucComment" runat="server" Text="متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید." CssClass="alert error"></asp:Label>
+                                                    <span id="email-notes col-xs-12">پیام شما پس از تایید مدیر سایت، نمایش داده می شود.</span>
+                                                    <asp:Label ID="sucComment" runat="server" Text="پیام شما با موفقیت ارسال شد" CssClass="alert success col-xs-12" Visible="false"></asp:Label>
+                                                    <asp:Label ID="errComment" runat="server" Text="متاسفیم! مشکلی پیش آمد، بعدا دوباره سعی کنید." CssClass="alert error col-xs-12" Visible="false"></asp:Label>
                                                 </p>
                                                 <div class="comment-form-row comment-form-author">
 

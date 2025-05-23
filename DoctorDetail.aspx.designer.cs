@@ -222,15 +222,6 @@ namespace pezeshkaneSalamat_wf
         protected global::System.Web.UI.UpdatePanel UpdatePanel2;
 
         /// <summary>
-        /// errComment control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label errComment;
-
-        /// <summary>
         /// sucComment control.
         /// </summary>
         /// <remarks>
@@ -238,6 +229,15 @@ namespace pezeshkaneSalamat_wf
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label sucComment;
+
+        /// <summary>
+        /// errComment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label errComment;
 
         /// <summary>
         /// txtAuthor control.

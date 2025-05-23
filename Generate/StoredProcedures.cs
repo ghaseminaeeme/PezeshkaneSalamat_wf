@@ -17,6 +17,16 @@ namespace DalWebSite{
     public partial class SPs{
         
         /// <summary>
+        /// Creates an object wrapper for the admin_getComment Procedure
+        /// </summary>
+        public static StoredProcedure AdminGetComment()
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("admin_getComment", DataService.GetInstance("DbWebSiteConnectionString"), "");
+        	
+            return sp;
+        }
+        
+        /// <summary>
         /// Creates an object wrapper for the admin_selectCity Procedure
         /// </summary>
         public static StoredProcedure AdminSelectCity()
@@ -44,18 +54,6 @@ namespace DalWebSite{
         public static StoredProcedure GetDoctorAppointments(int? doctorId)
         {
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("GetDoctorAppointments", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
-        	
-            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
-        	
-            return sp;
-        }
-        
-        /// <summary>
-        /// Creates an object wrapper for the GetDoctorAppointments_old Procedure
-        /// </summary>
-        public static StoredProcedure GetDoctorAppointmentsOld(int? doctorId)
-        {
-            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("GetDoctorAppointments_old", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
         	
             sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
         	
@@ -254,6 +252,18 @@ namespace DalWebSite{
         public static StoredProcedure SelectCity()
         {
             SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectCity", DataService.GetInstance("DbWebSiteConnectionString"), "");
+        	
+            return sp;
+        }
+        
+        /// <summary>
+        /// Creates an object wrapper for the selectComment Procedure
+        /// </summary>
+        public static StoredProcedure SelectComment(int? doctorId)
+        {
+            SubSonic.StoredProcedure sp = new SubSonic.StoredProcedure("selectComment", DataService.GetInstance("DbWebSiteConnectionString"), "psDb_user");
+        	
+            sp.Command.AddParameter("@doctorId", doctorId, DbType.Int32, 0, 10);
         	
             return sp;
         }

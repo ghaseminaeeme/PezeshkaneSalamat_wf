@@ -25,34 +25,21 @@ namespace pezeshkaneSalamat_wf.Admin
             err.Visible = false;
             try
             {
-                if (btnSave.Text == "ذخـــیره")
-                {
-                    TblCity _TblCity = new TblCity();
-                    _TblCity.CName = TxtName.Text;
-                    _TblCity.CIsDeleted = false;
-                    //_TblCity.CStateFk = int.Parse(DrdState.SelectedValue);
-                    _TblCity.Save();
+                TblComment _TblComment = new TblComment(Request.Cookies["Editid"].Value);
 
-                    //StoredProcedure sp = SPs.InsertCity(TxtName.Text);
-                    //sp.Execute();
-                    GV.DataBind();
-                    suc.Visible = true;
+                _TblComment.DisplayStatus = byte.Parse(DrdDisplayStatus.SelectedValue);
+                _TblComment.Comment = TxtComment.Text;
+                _TblComment.Save();
+                GV.DataBind();
+                suc.Visible = true;
+                btnSave.Text = "ذخـــیره";
 
-                }
-                else
-                {
-                    TblCity _TblCity = new TblCity(Request.Cookies["Editid"].Value);
-                    //StoredProcedure sp = SPs.UpdateCity(int.Parse(Request.Cookies["Editid"].Value),TxtName.Text);
-                    //sp.Execute();
-                    _TblCity.CName = TxtName.Text;
-                    //_TblCity.CStateFk = int.Parse(DrdState.SelectedValue);
-                    _TblCity.Save();
-                    GV.DataBind();
-                    suc.Visible = true;
-                    btnSave.Text = "ذخـــیره";
-
-                }
-                TxtName.Text = "";
+                lbDate.Text = "";
+                lbName.Text = "";
+                lbStatus.Text = "";
+                lbDoctor.Text = "";
+                lbDate.Text = "";
+                TxtComment.Text = "";
             }
             catch (Exception)
             {
@@ -64,20 +51,20 @@ namespace pezeshkaneSalamat_wf.Admin
         protected void GV_SelectedIndexChanged(object sender, EventArgs e)
         {
             Response.Cookies["Editid"].Value = GV.SelectedDataKey.Value.ToString();
-            TblCity _TblCity = new TblCity(GV.SelectedDataKey.Value.ToString());
-            // DrdState.SelectedValue = _TblCity.CStateFk.ToString();
-            TxtName.Text = _TblCity.CName;
-            btnSave.Text = "ویرایش";
+            TblComment _TblComment = new TblComment(GV.SelectedDataKey.Value.ToString());
+            TblDoctor _TblDoctor = new TblDoctor(_TblComment.DoctorId);
+            lbStatus.Text = _TblComment.Status == 1 ? "دیده شده" : "جدید";
+            lbStatus.Text = _TblComment.Status == 1 ? "تایید شده" : "تایید نشده";
+            lbDate.Text = _TblComment.SaveDate.ToString();
+            lbName.Text = _TblComment.Name;
+            lbDoctor.Text = _TblDoctor.DName;
+            TxtComment.Text = _TblComment.Comment;
+            DrdDisplayStatus.SelectedValue = _TblComment.DisplayStatus.ToString();
+
+            _TblComment.Status = 1;
             suc.Visible = false;
             err.Visible = false;
         }
-
-        //protected void GV_RowDataBound(object sender, GridViewRowEventArgs e)
-        //{
-        //    suc.Visible = false;
-        //    err.Visible = false;
-        //    _ClassControl.delRowGV(1, 2, e);
-        //}
 
         protected void ChkDelAll_CheckedChanged(object sender, EventArgs e)
         {

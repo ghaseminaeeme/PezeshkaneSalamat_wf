@@ -129,7 +129,7 @@ namespace DalWebSite
 				//Schema declaration
 				TableSchema.Table schema = new TableSchema.Table("TblComment", TableType.Table, DataService.GetInstance("DbWebSiteConnectionString"));
 				schema.Columns = new TableSchema.TableColumnCollection();
-				schema.SchemaName = @"psDb_user";
+				schema.SchemaName = @"dbo";
 				//columns
 				
 				TableSchema.TableColumn colvarId = new TableSchema.TableColumn(schema);
@@ -214,7 +214,7 @@ namespace DalWebSite
 				
 				TableSchema.TableColumn colvarComment = new TableSchema.TableColumn(schema);
 				colvarComment.ColumnName = "comment";
-				colvarComment.DataType = DbType.AnsiString;
+				colvarComment.DataType = DbType.String;
 				colvarComment.MaxLength = -1;
 				colvarComment.AutoIncrement = false;
 				colvarComment.IsNullable = true;
