@@ -353,7 +353,7 @@
 
                     <asp:DataPager ID="DataPager1" runat="server" PagedControlID="ListSpecialDoctors" PageSize="30" class="pagination">
                         <Fields>
-                            <asp:NumericPagerField ButtonCount="10" CurrentPageLabelCssClass="active" ButtonType="Link" />
+                            <asp:NumericPagerField ButtonCount="6" CurrentPageLabelCssClass="active" ButtonType="Link" />
                         </Fields>
                     </asp:DataPager>
 
