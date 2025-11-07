@@ -200,7 +200,7 @@ namespace DalWebSite
 				TableSchema.TableColumn colvarDDes = new TableSchema.TableColumn(schema);
 				colvarDDes.ColumnName = "dDes";
 				colvarDDes.DataType = DbType.String;
-				colvarDDes.MaxLength = -1;
+				colvarDDes.MaxLength = 1073741823;
 				colvarDDes.AutoIncrement = false;
 				colvarDDes.IsNullable = true;
 				colvarDDes.IsPrimaryKey = false;

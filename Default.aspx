@@ -54,6 +54,7 @@
                                                                         <div class="elementor-element elementor-element-1bc5ab2 e-con-full e-flex e-con e-child" data-id="1bc5ab2" data-element_type="container">
                                                                             <div class="elementor-element elementor-element-6ae606d elementor-widget-mobile__width-inherit elementor-widget elementor-widget-image" data-id="6ae606d" data-element_type="widget" data-widget_type="image.default">
                                                                                 <div class="elementor-widget-container">
+
                                                                                     <img loading="lazy" decoding="async" src='<%#Eval("bImage") %>'
                                                                                         class="attachment-full size-full wp-image-1420" alt="" width="256" height="324" sizes="(max-width: 256px) 100vw, 256px" srcset='<%#Eval("bImage") %>' />
                                                                                 </div>

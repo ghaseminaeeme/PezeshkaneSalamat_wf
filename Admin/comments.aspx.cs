@@ -88,7 +88,7 @@ namespace pezeshkaneSalamat_wf.Admin
                 foreach (GridViewRow item in GV.Rows)
                 {
                     CodingHorror horror = new CodingHorror();
-                    string SQL = "update TblCity set cIsDeleted = 1 where id=" + GV.DataKeys[item.RowIndex].Value.ToString();
+                    string SQL = "delete from TblComment where id  = 1 where id=" + GV.DataKeys[item.RowIndex].Value.ToString();
                     horror.ExecuteScalar<string>(SQL);
                 }
             }
@@ -97,7 +97,7 @@ namespace pezeshkaneSalamat_wf.Admin
                     if ((item.FindControl("chkDelete") as CheckBox).Checked)
                     {
                         CodingHorror horror = new CodingHorror();
-                        string SQL = "update TblCity set cIsDeleted = 1 where id=" + GV.DataKeys[item.RowIndex].Value.ToString();
+                        string SQL = "delete from TblComment where id  = 1 where id=" + GV.DataKeys[item.RowIndex].Value.ToString();
                         horror.ExecuteScalar<string>(SQL);
                     }
             GV.DataBind();
