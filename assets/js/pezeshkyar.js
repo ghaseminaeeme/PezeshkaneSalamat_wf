@@ -1,5 +1,150 @@
+document.addEventListener("wheel", function (event) {
+    if (document.body.classList.contains("pzy-overflow-hidden")) {
+        const modalWrapper = document.querySelector(".pzy-modal-wrapper");
+
+        if (modalWrapper && modalWrapper.contains(event.target)) {
+
+            modalWrapper.scrollTop += event.deltaY;
+
+            // Prevent body scroll
+            event.preventDefault();
+            event.stopPropagation();
+        }
+
+    }
+}, { passive: false });
+
+
+
 jQuery(document).ready(function ($) {
+    $(document).on('click','.mobile-menu-list > li.menu-item-has-children a',function (event) {
+        let el = $(this);
+        if (!$(event.target).closest('.pzy-link-text').length) {
+            event.preventDefault();
+            el.next('.mobile-categories-list').toggleClass('pzy-shown-submenu');
+            el.find('.toggle-menu-item').toggleClass('open-mode');
+        }
+    })
+
+    $(document).on('change','.mgs-staff-schedule-day input.mgs-break-checkbox[type="checkbox"]',function(){
+		let day_box = $(this).closest('.mgs-staff-schedule-day')
+		day_box.find('.mgs-time-range.mgs-breeak-time-range').toggleClass('mgs-hide')
+		day_box.find('.mgs-time-range.mgs-breeak-time-range select').each(function(){
+			$(this).prop('disabled', function (_, val) { return ! val; })
+		})
+    })
+    $(document).on('change','.mgs-checkbox-label input[type="checkbox"]',function(){
+        $(this).closest('.mgs-checkbox-label').toggleClass('checked')
+    })
+
+    $(document).on('change','input.mgs-img-field-input[type="file"]',function(){
+		var input = this;
+		var url = $(this).val();
+		var preview_items = $(this).closest('.mgs-img-field-preview').find('.mgs-img-field-preview-items');
+		var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+		if (preview_items && input.files && input.files[0]&& (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg"))
+		 {
+			var reader = new FileReader();
+
+			reader.onload = function (e) {
+
+				remove_text = pgw_main_ajax_object.translations.remove_text;
+				remove_text = remove_text.replace("%s", abstractFilename(input.files[0].name));
+
+				var preview_items_html = preview_items.html();
+				preview_items_html = `<div class="mgs-img-field-preview-item"><img src="${e.target.result}"/><button class="mgs-img-field-remove-button">${remove_text}</button></div>`;
+				preview_items.html(preview_items_html);
+
+			//    $('#img').attr('src', e.target.result);
+			}
+		   reader.readAsDataURL(input.files[0]);
+
+		   $(this).closest('.mgs-img-field-preview').find('input[name="keep_avatar"]').prop('checked',false);
+		   $(this).closest('.mgs-img-field-preview').find('input[name="use_default_avatar"]').prop('checked',false);
+		}
+		else
+		{
+		//   $('#img').attr('src', '/assets/no_preview.png');
+		}
+	});
+
+	$(document).on('click','.mgs-img-field-remove-button',function(e){
+		e.preventDefault();
+		var preview_field = $(this).closest('.mgs-img-field-preview');
+		var file_input = preview_field.find('.mgs-img-field-input');
+		if(preview_field){
+			var preview_items = preview_field.find('.mgs-img-field-preview-items');
+			if(preview_items)
+				preview_items.html(`<div class="mgs-img-field-upload-button"><h3 class="mgs-upload-main-text">${pgw_main_ajax_object.translations.upload_main_text}</h3><h4 class="mgs-upload-avatar-condition">${pgw_main_ajax_object.translations.upload_avatar_condition}</h4></div>`);
+			if(file_input)
+				file_input.val('');
+
+			preview_field.find('input[name="keep_avatar"]').prop('checked',false);
+			preview_field.find('input[name="use_default_avatar"]').prop('checked',true);
+
+
+		}
+	})
+
+    $('body').append('<div id="cart-popup" style="display:none"></div>');
+    
+    $(document.body).on('added_to_cart', function(event, fragments, cart_hash, button) {        
+        $('.pzy-minicart').each(function(){
+            let card_count = $(this).parent().find('.card-count');
+            let form = $(this).find('form');
+            if (card_count){
+                card_count.html(fragments['mgs-minicart-item-count']);
+            }
+            if(form.length){
+                form.replaceWith(fragments['mgs-minicart-content']);
+            }else{
+                let empty_cart = $(this).find('.pzy-mini-cart__empty-message');                
+                if(empty_cart.length){
+                    empty_cart.replaceWith(fragments['mgs-minicart-content']);
+                }
+            }
+        });
+
+		var message = 'محصول به سبد خرید افزوده شد.';
+
+		$('#cart-popup').html(message).fadeIn();
+
+		setTimeout(function() {
+			$('#cart-popup').fadeOut();
+		}, 3000); // Hide after 3 seconds
+	});
+
+    $(document).on('click', '.pzy-minicart .remove_from_cart_button', function (e) {
+        $('.pzy-minicart:not(".pzy-loading-box")').addClass('pzy-loading-box');
+
+        $(document).ajaxComplete(function (event, xhr, settings) {
+            if (settings.url.includes('wc-ajax=remove_from_cart')) {
+                // Remove loading class and re-enable the button
+                $('.pzy-minicart').removeClass('pzy-loading-box');
+            }
+        });
+    });
+
+    $( 'body' ).on( 'removed_from_cart', function( e, fragments, cart_hash, button ) {
+        $('.pzy-minicart form').each(function(){
+            let form = $(this);
+            let card_count = form.parent().parent().find('.card-count');
+            form.replaceWith(fragments['mgs-minicart-content']);
+            if (card_count){
+                card_count.html(fragments['mgs-minicart-item-count']);
+            }
+        });
+      });
+
+
     $('#preloader').hide();
+    const postType = pgw_main_ajax_object.post_type;
+    if (postType) {
+        // Target the search widget form and append the hidden input
+        $('.widget_search form').append(
+            `<input type="hidden" name="post_type" value="${postType}">`
+        );
+    }
     /* Start Features */
     /* Modal */
     $('.pzy-open-modal[data-target]').click(function () {
@@ -26,6 +171,8 @@ jQuery(document).ready(function ($) {
         event.preventDefault();
         let el = $(this);
         el.closest('.pzy-modal-wrapper').addClass('pzy-hide');
+        $('body,.pzy-main-layout').removeClass('pzy-overflow-hidden');
+
     })
 
     /* Radio Group Set Active Item */
@@ -93,11 +240,11 @@ jQuery(document).ready(function ($) {
         }
     })
 
-    $('#mobile-menu-wrapper').click(function (event) {
+    $('.mobile-menu-wrapper').click(function (event) {
         // Check if the clicked element is not within the mobile menu or its wrapper
-        if (!$(event.target).closest('#mobile-menu-wrapper .mobile-menu').length) {
+        if (!$(event.target).closest('.mobile-menu-wrapper .mobile-menu').length) {
             $('body').removeClass('pzy-overflow-hidden');
-            $('#mobile-menu-wrapper').addClass('pzy-hide');
+            $(this).addClass('pzy-hide');
         }
     });
 
@@ -383,7 +530,8 @@ jQuery(document).ready(function ($) {
     $('.pzy-close-navigation-modal').click(function (e) {
         e.preventDefault();
         let el = $(this);
-        el.closest('.woocommerce').removeClass('pzy-show-navigation')
+        el.closest('.woocommerce').removeClass('pzy-show-navigation');
+        $('body,.pzy-main-layout').removeClass('pzy-overflow-hidden');
     })
 
     // $('.pzy-switch-register').click(function (e) {
@@ -494,7 +642,235 @@ jQuery(document).ready(function ($) {
         }
     })
 
+    /* otp */
+    $(document).on('submit','.pzy-otp-form-step-1',function(e){
+		e.preventDefault();
+		let form = $(this);
+        let data = $(this).serialize();
+		let wrapper = form.closest('.pzy-otp-wrapper');
+
+		if(form.is('.pzy-loading-form')){
+			return;
+		}
+
+		data += "&action=pzy_request_otp_token&security=" + pgw_main_ajax_object.security;
+		form.addClass('pzy-loading-form');
+		$.ajax({
+			type:'post',
+            url:pgw_main_ajax_object.ajax_url,
+            dataType:'json',
+			data:data,
+			success:function(response){
+				if(!response.success){
+					let errors_box = form.find('.pzy-otp-form-errors');
+					if(response.data){
+
+						let errors_html = `<div class='pzy-otp-form-error'>${response.data}</div>`;
+						if(!errors_box.length){
+
+							let title_elm = form.find('.pzy-otp-form-title');
+							if(title_elm.length){
+								errors_html = `<div class='pzy-otp-form-errors'>${errors_html}</div>`;
+								$(errors_html).insertAfter(title_elm);
+							}
+						}else{
+							errors_box.html(errors_html);
+						}
+					}
+
+				}else if(response.success && response?.data?.verify_code){
+					form.replaceWith(response.data.verify_code);
+					if(wrapper){
+						let timerElement = wrapper.find('.pzy-form-otp-timer[data-remain]');
+						startTimer(timerElement);
+					}
+				}
+			},
+			complete: function(){
+				form.removeClass('pzy-loading-form');
+			}
+		});
+	});
+
+	$('.pzy-otp-wrapper').on('click','.pzy-otp-form-resend-button',function(e){
+		e.preventDefault();
+
+		let resend_button = $(this);
+		if(resend_button.is('.pzy-loading-button')){
+			return;
+		}
+
+		let form = $(this).closest('.pzy-otp-form-step-2');
+		let wrapper = form.closest('.pzy-otp-wrapper');
+		if(form){
+			let otp_input = form.find('input[name="otp_input"]');
+			if(otp_input){
+				form.find('input[name="otp_verification_code"]').val('');
+				data = "otp_input=" + otp_input.val() + "&action=pzy_request_resend_otp_token&security=" + pgw_main_ajax_object.security;
+				resend_button.addClass('pzy-loading-button');
+				$.ajax({
+					type:'post',
+					url:pgw_main_ajax_object.ajax_url,
+					dataType:'json',
+					data:data,
+					success:function(response){
+						if(response.success && response?.data?.verify_code){
+							form.replaceWith(response.data.verify_code);
+							if(wrapper){
+								let timerElement = wrapper.find('.pzy-form-otp-timer[data-remain]');
+								startTimer(timerElement);
+							}
+						}
+					},
+					complete:function(){
+						resend_button.removeClass('pzy-loading-button');
+					}
+				})
+
+			}
+		}
+	});
+
+	$(document).on('submit','.pzy-otp-form-step-2',function(e){
+		e.preventDefault();
+		let form = $(this);
+        let data = $(this).serialize();
+		let wrapper = form.closest('.pzy-otp-wrapper');
+
+		if(form.is('.pzy-loading-form')){
+			return;
+		}
+
+
+		data += "&action=pzy_verify_otp_token&security=" + pgw_main_ajax_object.security;
+		form.addClass('pzy-loading-form');
+		$.ajax({
+			type:'post',
+            url:pgw_main_ajax_object.ajax_url,
+            dataType:'json',
+			data:data,
+			success:function(response){
+				if(response.success){
+					window.location.reload(true);
+				}else{
+					let errors_box = form.find('.pzy-otp-form-errors');
+					if(response.data){
+
+						let errors_html = `<div class='pzy-otp-form-error'>${response.data}</div>`;
+						if(!errors_box.length){
+
+							let title_elm = form.find('.pzy-otp-form-title');
+							if(title_elm.length){
+								errors_html = `<div class='pzy-otp-form-errors'>${errors_html}</div>`;
+								$(errors_html).insertAfter(title_elm);
+							}
+						}else{
+							errors_box.html(errors_html);
+						}
+					}
+				}
+			},
+			complete: function(){
+				form.removeClass('pzy-loading-form');
+			}
+		});
+	})
+
+	$(document).on('click','.pzy-open-otp-modal[data-otp]',function(e){
+		e.preventDefault();
+		$('#pzy-otp-modal').removeClass('pzy-hide');
+	});
+
+	$(document).on('click','.pzy-otp-modal-close-button',function(e){
+		e.preventDefault();
+		let modal = $(this).closest('.pzy-otp-modal');
+		if(modal && !modal.is('.pzy-hide')){
+			modal.addClass('pzy-hide');
+		}
+	});
+
+    $(document).on('click','button.pzy-staff-cancel-reserve[data-id]:not(.loading)',function(){
+		let button = $(this);
+		let id = parseInt(button.attr('data-id'));
+		button.addClass('loading');
+		$.ajax({
+			type:'POST',
+			url:pgw_main_ajax_object.ajax_url,
+			data: {
+				reservation_id: id,
+				action: 'pzy_staff_cancel_my_reservation'
+			},
+			dataType:'json',
+			success:function(response){
+				window.location.reload();
+			},
+			complete:function(){
+				button.removeClass('loading');
+			}
+		})
+	})
+
+    $(document).on('click','button.pzy-customer-cancel-reserve[data-id]:not(.loading)',function(){
+		let button = $(this);
+		let id = parseInt(button.attr('data-id'));
+		button.addClass('loading');
+		$.ajax({
+			type:'POST',
+			url:pgw_main_ajax_object.ajax_url,
+			data: {
+				reservation_id: id,
+				action: 'pzy_customer_cancel_my_reservation'
+			},
+			dataType:'json',
+			success:function(response){
+				window.location.reload();
+			},
+			complete:function(){
+				button.removeClass('loading');
+			}
+		})
+	})
+
+    function abstractFilename(filename, maxLength = 15) {
+		if (filename.length <= maxLength) return filename;
+
+		const extIndex = filename.lastIndexOf(".");
+		const namePart = filename.slice(0, extIndex);
+		const extension = filename.slice(extIndex);
+
+		const visibleChars = Math.floor((maxLength - 3) / 2);
+		return `${namePart.slice(0, visibleChars)}...${namePart.slice(-visibleChars)}${extension}`;
+	}
+
 })
+
+function startTimer(timerElement) {
+    let remainingTime = parseInt(timerElement.attr('data-remain'));
+
+
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${minutes < 10 ? '0' : ''}${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+    }
+
+    function updateTimer() {
+        if (remainingTime > 0) {
+            remainingTime--;
+            timerElement.html(formatTime(remainingTime));
+        } else {
+            clearInterval(timerInterval);
+			let resend = '<button type="button" class="pzy-otp-form-resend-button">ارسال مجدد کد برای شما</button>';
+            timerElement.closest('.pzy-otp-form-time-box').html(resend);
+        }
+    }
+
+    // Initial display of the timer
+    timerElement.textContent = formatTime(remainingTime);
+
+    // Update the timer every second
+    const timerInterval = setInterval(updateTimer, 1000);
+}
 
 jQuery(window).on('elementor/frontend/init', function () {
     function load_swiper($scope) {
@@ -536,7 +912,7 @@ jQuery(window).on('elementor/frontend/init', function () {
                 elementor.channels.editor.trigger('render:css');
             }, 500); // 500ms delay, adjust as needed
         } else {
-            console.log('edit mode isn\'t active');
+            // console.log('edit mode isn\'t active');
         }
     });
     elementorFrontend.hooks.addAction('frontend/element_ready/pzy_reviews_slider.default', function ($scope) {
@@ -602,9 +978,7 @@ jQuery(window).on('elementor/frontend/init', function () {
 
     elementorFrontend.hooks.addAction('frontend/element_ready/pzy_product_information.default',function ($scope){
         $scope.find('.variations_form:not(.form-handled)').each(function (i,form){
-            console.log($(form).classList)
             $(form).on('show_variation', function (event, variation) {
-                console.log(variation);
                 let el = $(this);
                 if (variation.price_html) {
                     el.parent().parent().find('.pzy_product_after_introduction .pzy-variation-price').html(variation.price_html);

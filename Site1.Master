@@ -68,7 +68,7 @@
     <link href="assets/css/InlineStyle.css?876545" rel="stylesheet" />
     <link href="assets/css/inlineStyle2.css?645654" rel="stylesheet" />
     <link href="assets/css/list.css" rel="stylesheet" />
-    <link href="assets/css/custom.css?64564" rel="stylesheet" />
+    <link href="assets/css/custom.css?79644" rel="stylesheet" />
 
     <script src="assets/js/jquery.min.js"></script>
 
@@ -1075,29 +1075,31 @@
             var pgw_main_ajax_object = { "ajax_url": "https:\/\/pezeshk-yar.ir\/wp-admin\/admin-ajax.php", "security": "225d026c10" };
         /* ]]> */
         </script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
-        <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
+
+ <%--         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
+      <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>--%>
+
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-content/themes/pezeshkyar/assets/js/init-feather.js" id="init-feather-js"></script>
         <script type="text/javascript" src="https://pezeshk-yar.ir/wp-includes/js/comment-reply.min.js?ver=6.7.1" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
 
 
 
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/pezeshkyar.js"></script>
 
+        <script src="assets/js/main-2.js"></script>
 
-
-
-
+        <script src="assets/js/swiper-bundle.min.js"></script>
  
 
 
-    <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/plugins/pezeshkyar-core//assets/js/main.js" id="pzy_core-js"></script>
+<%--    <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/plugins/pezeshkyar-core//assets/js/main.js" id="pzy_core-js"></script>
     <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/themes/pezeshkyar/assets/lib/swiper/swiper-bundle.min.js" id="swiper.js-js"></script>
 
 
   
     <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/themes/pezeshkyar/assets/js/pezeshkyar.js?v=20" id="theme-script.js-js"></script>
-    <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>
-   
+    <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/plugins/pezeshkyar-core//elementor/assets/pzy-staffs-slider/main.js" id="pzy-staffs_slider-js"></script>--%>
 
     <script type="text/javascript" src="https://pishehgostar.ir/pezeshkyar/wp-content/plugins/rate-my-post/public/js/rate-my-post.min.js?ver=4.3.2" id="rate-my-post-js"></script>
 
